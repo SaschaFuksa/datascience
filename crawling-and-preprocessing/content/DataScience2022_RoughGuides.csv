@@ -1,0 +1,101 @@
+number,place,country,continent,roughguide link
+1,Waikiki,USA,America,https://www.roughguides.com/usa/hawaii/waikiki/
+2,The Florida Keys,USA,America,https://www.roughguides.com/usa/florida/florida-keys/
+3,Yellowstone National Park,USA,America,https://www.roughguides.com/usa/rockies/yellowstone-national-park/
+4,The Big Island,USA,America,https://www.roughguides.com/usa/hawaii/big-island/
+5,The Great Plains,USA,America,https://www.roughguides.com/usa/great-plains/
+6,The Rockies,USA,America,https://www.roughguides.com/usa/rockies/
+7,Santa Fe,USA,America,https://www.roughguides.com/usa/southwest/santa-fe/
+8,The Capital Region,USA,America,https://www.roughguides.com/usa/capital-region/
+9,Monument Valley,USA,America,https://www.roughguides.com/usa/southwest/monument-valley/
+10,Zion National Park,USA,America,https://www.roughguides.com/usa/southwest/zion-national-park/
+11,Mexico City,Mexico,America,https://www.roughguides.com/mexico/mexico-city/
+12,Campeche,Mexico,America,https://www.roughguides.com/mexico/the-yucatan/campeche/
+13,Tulum,Mexico,America,https://www.roughguides.com/mexico/the-yucatan/tulum-around/
+14,Veracruz,Mexico,America,https://www.roughguides.com/mexico/veracruz/
+15,Chiapas,Mexico,America,https://www.roughguides.com/mexico/chiapas/
+16,Baja California,Mexico,America,https://www.roughguides.com/mexico/baja-california
+17,Real de Catorce,Mexico,America,https://www.roughguides.com/mexico/the-bajio/real-catorce/
+18,Oaxaca,Mexico,America,https://www.roughguides.com/mexico/oaxaca/
+19,Guanajuato,Mexico,America,https://www.roughguides.com/mexico/the-bajio/guanajuato-around/
+20,Zacatecas,Mexico,America,https://www.roughguides.com/mexico/the-bajio/zacatecas/
+21,CN Tower,Canada,America,https://www.roughguides.com/canada/toronto/downtown-toronto/#cn-tower
+22,Niagara Falls,Canada,America,https://www.roughguides.com/canada/ontario/niagara-falls-niagara-river/#the-falls
+23,Yoho National Park,Canada,America,https://www.roughguides.com/canada/canadian-rockies/yoho-national-park/
+24,Jasper National Park,Canada,America,https://www.roughguides.com/canada/canadian-rockies/jasper-national-park/
+25,Yaletown,Canada,America,https://www.roughguides.com/canada/vancouver/#yaletown
+26,Basilique-Cathedrale Marie-Reine-du-Monde,Canada,America,https://www.roughguides.com/canada/montreal/downtown-montreal/#basilique-cathedrale-marie-reine-du-monde
+27,Waterton Lakes National Park,Canada,America,https://www.roughguides.com/canada/canadian-rockies/waterton-lakes-national-park/
+28,Iles-de-la-Madeleine,Canada,America,https://www.roughguides.com/canada/quebec-city-and-northern-quebec/#iles-de-la-madeleine
+29,Lake Louise,Canada,America,https://www.roughguides.com/canada/canadian-rockies/banff-national-park/lake-louise/
+30,Long Beach,Canada,America,https://www.roughguides.com/canada/vancouver-island/pacific-rim-national-park/#long-beach
+31,Cotahuasi Canyon,Peru,America,https://www.roughguides.com/peru/arequipa-and-lake-titicaca/cotahuasi-canyon/
+32,Paracas National Reserve,Peru,America,https://www.roughguides.com/peru/nasca-and-the-south-coast/pisco-and-around/paracas/
+33,Choquequirao,Peru,America,https://www.roughguides.com/peru/cusco-and-around/choquequirao/
+34,Huacachina,Peru,America,https://www.roughguides.com/peru/nasca-and-the-south-coast/ica-and-around/huacachina/
+35,Plaza de Armas,Peru,America,https://www.roughguides.com/peru/cusco-and-around/plaza-de-armas/
+36,Pisac,Peru,America,https://www.roughguides.com/peru/cusco-and-around/the-sacred-valley/pisac/
+37,Chachapoyas and around,Peru,America,https://www.roughguides.com/peru/trujillo-and-the-north/chachapoyas-and-around/
+38,Chiclayo,Peru,America,https://www.roughguides.com/peru/trujillo-and-the-north/chiclayo/
+39,Piura,Peru,America,https://www.roughguides.com/peru/trujillo-and-the-north/piura/
+40,Pucallpa,Peru,America,https://www.roughguides.com/peru/the-jungle/pucallpa/
+41,Rio de Janeiro,Brazil,America,https://www.roughguides.com/brazil/rio-janeiro/
+42,The Amazon,Brazil,America,https://www.roughguides.com/brazil/amazon/
+43,Sao Paulo,Brazil,America,https://www.roughguides.com/brazil/sao-paulo/
+44,Bahia,Brazil,America,https://www.roughguides.com/brazil/bahia/
+45,Rio Grande do Sul,Brazil,America,https://www.roughguides.com/brazil/south/rio-grande-sul/
+46,Rio Grande do Norte,Brazil,America,https://www.roughguides.com/brazil/northeast/rio-grande-norte/
+47,Espirito Santo,Brazil,America,https://www.roughguides.com/brazil/minas-gerais-and-espirito-santo/espirito-santo/
+48,Belo Horizonte ,Brazil,America,https://www.roughguides.com/brazil/minas-gerais-and-espirito-santo/belo-horizonte/
+49,Cuiaba,Brazil,America,https://www.roughguides.com/brazil/mato-grosso/cuiaba/
+50,Paranagua Bay,Brazil,America,https://www.roughguides.com/brazil/south/parana/#paranagua-bay
+51,Stockholm,Schweden,Europa,https://www.roughguides.com/sweden/stockholm/
+52,Gothenburg,Schweden,Europa,https://www.roughguides.com/sweden/gothenburg/
+53,Swedish Lapland,Schweden,Europa,https://www.roughguides.com/sweden/swedish-lapland/
+54,Arvidsjaur,Schweden,Europa,https://www.roughguides.com/sweden/swedish-lapland/arvidsjaur/
+55,Dalarna,Schweden,Europa,https://www.roughguides.com/sweden/central-sweden/dalarna/
+56,Jaemtland,Schweden,Europa,https://www.roughguides.com/sweden/central-sweden/jamtland/
+57,Kristianstad,Schweden,Europa,https://www.roughguides.com/sweden/southwest/kristianstad/
+58,Malmoe,Schweden,Europa,https://www.roughguides.com/sweden/southwest/malmo/
+59,Lund,Schweden,Europa,https://www.roughguides.com/sweden/southwest/lund/
+60,Varberg,Schweden,Europa,https://www.roughguides.com/sweden/southwest/varberg/
+61,Jardin des Tuileries,Frankreich,Europa,https://www.roughguides.com/france/paris/the-champs-elysees-and-around/#jardin-des-tuileries
+62,Paris,Frankreich,Europa,https://www.roughguides.com/france/paris/
+63,Cote d Azur ,Frankreich,Europa,https://www.roughguides.com/france/the-cote-dazur/
+64,Provence,Frankreich,Europa,https://www.roughguides.com/france/provence/
+65,Musee du Louvre,Frankreich,Europa,https://www.roughguides.com/france/paris/louvre/#the-musee-du-louvre
+66,Normandy,Frankreich,Europa,https://www.roughguides.com/france/normandy/
+67,Marseille,Frankreich,Europa,https://www.roughguides.com/france/the-cote-dazur/marseille/
+68,Disneyland Paris,Frankreich,Europa,https://www.roughguides.com/france/paris/around-paris/#disneyland-paris
+69,Corsica,Frankreich,Europa,https://www.roughguides.com/france/corsica/
+70,Champagne,Frankreich,Europa,https://www.roughguides.com/france/champagne-ardennes/
+71,Freiburg,Deutschland,Europa,https://www.roughguides.com/germany/the-black-forest/freiburg/
+72,Berlin,Deutschland,Europa,https://www.roughguides.com/germany/berlin/
+73,Heidelberg,Deutschland,Europa,https://www.roughguides.com/germany/baden-wurttemberg/heidelberg/
+74,Hamburg Hafen,Deutschland,Europa,https://www.roughguides.com/germany/hamburg-and-schleswig-holstein/hamburg/#hafen-city
+75,Tegernsee,Deutschland,Europa,https://www.roughguides.com/germany/the-alps-and-eastern-bavaria/#tegernsee
+76,Koeln,Deutschland,Europa,https://www.roughguides.com/germany/north-rhine-westphalia/cologne-koln/
+77,Stuttgart,Deutschland,Europa,https://www.roughguides.com/germany/baden-wurttemberg/stuttgart/
+78,Wartburg Castle ,Deutschland,Europa,https://www.roughguides.com/germany/world-heritage-sites/palaces-castles/#wartburg-castle
+79,Schwarzwald,Deutschland,Europa,https://www.roughguides.com/germany/the-black-forest/
+80,Bodensee,Deutschland,Europa,https://www.roughguides.com/germany/baden-wurttemberg/the-bodensee/
+81,Vatican,Italien,Europa,https://www.roughguides.com/italy/rome-lazio/vatican/
+82,Capri ,Italien,Europa,https://www.roughguides.com/italy/campania/capri/
+83,Venice,Italien,Europa,https://www.roughguides.com/italy/venice-veneto/
+84,The Aeolian Islands,Italien,Europa,https://www.roughguides.com/italy/sicily/aeolian-islands/
+85,Pisa,Italien,Europa,https://www.roughguides.com/italy/tuscany/pisa-around/
+86,Lucca,Italien,Europa,https://www.roughguides.com/italy/tuscany/lucca/
+87,The Costa Smeralda,Italien,Europa,https://www.roughguides.com/italy/sardinia/costa-smeralda-around/
+88,Milan,Italien,Europa,https://www.roughguides.com/italy/lombardy-lakes/milan/
+89,Mount Etna,Italien,Europa,https://www.roughguides.com/italy/sicily/mount-etna/
+90,Lake Garda,Italien,Europa,https://www.roughguides.com/italy/lombardy-lakes/lake-garda/
+91,Barcelona,Spanien,Europa,https://www.roughguides.com/spain/barcelona/
+92,Mallorca,Spanien,Europa,https://www.roughguides.com/spain/the-balearic-islands/mallorca/
+93,White Coast,Spanien,Europa,https://www.roughguides.com/spain/valencia/the-costa-blanca/
+94,Madrid,Spanien,Europa,https://www.roughguides.com/spain/madrid/
+95,Aragon,Spanien,Europa,https://www.roughguides.com/spain/aragon/
+96,Picos de Europa,Spanien,Europa,https://www.roughguides.com/spain/cantabria-and-asturias/the-picos-de-europa/
+97,Santander,Spanien,Europa,https://www.roughguides.com/spain/cantabria-and-asturias/santander/
+98,Malaga,Spanien,Europa,https://www.roughguides.com/spain/andalucia/malaga/
+99,Ibiza,Spanien,Europa,https://www.roughguides.com/spain/the-balearic-islands/ibiza/
+100,Valencia,Spanien,Europa,https://www.roughguides.com/spain/valencia/the-costa-blanca/
