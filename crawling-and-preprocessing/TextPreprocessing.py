@@ -15,6 +15,11 @@ from nltk.corpus import stopwords
 # Stemming or Lemmatization
 # Stop word removal
 
+#How to save:
+# Into crawled csv as new columns?
+# Create new CSV with ID and new preprocessed data? -> Arrays into Columns
+# Create new CSV for each Location? -> location id as filename and each word gets a new column
+
 def tokenization(text):
     #sentence tokenization - not sure if needed
     #sentence_tokens=sent_tokenize(text)
