@@ -30,10 +30,13 @@ place_filter = FilterComponentBuilder.build_place_filter(main_file['place'])
 app.layout = html.Div(children=[
     html.H1(children='Data Science Travel Dashboard'),
     dbc.Row([
+        dbc.Col([country_filter]), dbc.Col([place_filter])
+    ]),
+    dbc.Row([
         dbc.Col([named_entity_word_cloud]), dbc.Col([activity_word_cloud])
     ]),
     dbc.Row([
-        dbc.Col([country_filter]), dbc.Col([place_filter])
+        dbc.Col(html.H2('Top 10 tourist attraction combinations')), dbc.Col(html.H2('Own idea'))
     ]),
 ])
 

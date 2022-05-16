@@ -1,4 +1,5 @@
 import dash_bootstrap_components as dbc
+from dash import html
 
 
 class FilterComponentBuilder:
@@ -17,8 +18,15 @@ class FilterComponentBuilder:
             options=[{'label': i, 'value': i} for i in sorted(countries)],
             id='country_selection',
             value='*',
+            style={
+                'overflowY': 'scroll',
+                'max-height': '120px'
+            }
         )
-        return radio
+        return html.Div([
+            html.H3('Country filter'),
+            radio
+        ])
 
     @staticmethod
     def build_place_filter(place_column):
@@ -29,6 +37,13 @@ class FilterComponentBuilder:
         check_list = dbc.Checklist(
             options=[{'label': i, 'value': i} for i in sorted(places)],
             id='place_selection',
-            value=places
+            value=places,
+            style={
+                'overflowY': 'scroll',
+                'max-height': '120px'
+            }
         )
-        return check_list
+        return html.Div([
+            html.H3('Location filter'),
+            check_list
+        ])
