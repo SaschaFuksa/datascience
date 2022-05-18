@@ -24,8 +24,9 @@ named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Wo
 activity_word_cloud = ComponentBuilder.build_word_cloud_box('Activity Word Cloud',
                                                             'image_activity_word_cloud')
 
-country_filter = FilterComponentBuilder.build_country_filter(main_file['country'])
-place_filter = FilterComponentBuilder.build_place_filter(main_file['place'])
+filter_component_builder = FilterComponentBuilder(main_file)
+country_filter = filter_component_builder.build_country_filter()
+place_filter = filter_component_builder.build_place_filter()
 
 app.layout = html.Div(children=[
     html.H1(children='Data Science Travel Dashboard'),
@@ -49,6 +50,14 @@ def make_image(b):
 @app.callback(dd.Output('image_activity_word_cloud', 'src'), [dd.Input('image_activity_word_cloud', 'id')])
 def make_image(b):
     return WordCloudBuilder().create_word_cloud(example_vegetables)
+
+
+@app.callback(
+    dd.Output('place_selection', 'options'),
+    dd.Input('country_selection', 'value')
+)
+def change_filter(value):
+    return filter_component_builder.update_place_options(value)
 
 
 if __name__ == '__main__':

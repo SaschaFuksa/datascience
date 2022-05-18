@@ -4,20 +4,18 @@ from dash import html
 
 class FilterComponentBuilder:
 
-    def __init__(self):
-        pass
+    def __init__(self, main_file):
+        self.main_file = main_file
 
-    @staticmethod
-    def build_country_filter(country_column):
+    def build_country_filter(self):
         countries = set()
-        countries.add('*')
-        for country in country_column:
+        for country in self.main_file['country']:
             if country not in countries:
                 countries.add(country)
-        radio = dbc.RadioItems(
+        radio = dbc.Checklist(
             options=[{'label': i, 'value': i} for i in sorted(countries)],
             id='country_selection',
-            value='*',
+            switch=True,
             style={
                 'overflowY': 'scroll',
                 'max-height': '120px'
@@ -25,19 +23,16 @@ class FilterComponentBuilder:
         )
         return html.Div([
             html.H3('Country filter'),
-            radio
-        ])
+            radio,
+        ],
+            id='country_filter')
 
-    @staticmethod
-    def build_place_filter(place_column):
-        places = []
-        for place in place_column:
-            if place not in places:
-                places.append(place)
+    def build_place_filter(self):
+        places_to_show = self.main_file['place'].tolist()
         check_list = dbc.Checklist(
-            options=[{'label': i, 'value': i} for i in sorted(places)],
+            options=[{'label': i, 'value': i} for i in sorted(places_to_show)],
             id='place_selection',
-            value=places,
+            switch=True,
             style={
                 'overflowY': 'scroll',
                 'max-height': '120px'
@@ -46,4 +41,12 @@ class FilterComponentBuilder:
         return html.Div([
             html.H3('Location filter'),
             check_list
-        ])
+        ],
+            id='place_filter')
+
+    def update_place_options(self, values):
+        if values:
+            places_to_show = self.main_file.loc[self.main_file['country'].isin(values), 'place'].tolist()
+        else:
+            places_to_show = self.main_file['place'].tolist()
+        return [{'label': i, 'value': i} for i in sorted(places_to_show)]
