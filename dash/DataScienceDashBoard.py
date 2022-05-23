@@ -1,3 +1,5 @@
+import base64
+import os
 from pathlib import Path
 
 import dash
@@ -28,15 +30,16 @@ filter_component_builder = FilterComponentBuilder(main_file)
 country_filter = filter_component_builder.build_country_filter()
 place_filter = filter_component_builder.build_place_filter()
 
+image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
+
 app.layout = html.Div(children=[
-    html.H1(children='Data Science Travel Dashboard'),
+    html.Img(id='traviny_logo'),
     dbc.Row([
-        dbc.Col([country_filter]), dbc.Col([place_filter])
-    ]),
-    dbc.Row([
+        dbc.Col([country_filter, place_filter]),
         dbc.Col([named_entity_word_cloud]), dbc.Col([activity_word_cloud])
     ]),
     dbc.Row([
+        dbc.Col([]),
         dbc.Col(html.H2('Top 10 tourist attraction combinations')), dbc.Col(html.H2('Own idea'))
     ]),
 ])
@@ -50,6 +53,12 @@ def make_image(b):
 @app.callback(dd.Output('image_activity_word_cloud', 'src'), [dd.Input('image_activity_word_cloud', 'id')])
 def make_image(b):
     return WordCloudBuilder().create_word_cloud(example_vegetables)
+
+
+@app.callback(dd.Output('traviny_logo', 'src'), [dd.Input('traviny_logo', 'id')])
+def make_image(b):
+    encoded = base64.b64encode(open('traviny_logo.png', 'rb').read())
+    return 'data:image/png;base64,{}'.format(encoded.decode())
 
 
 @app.callback(
