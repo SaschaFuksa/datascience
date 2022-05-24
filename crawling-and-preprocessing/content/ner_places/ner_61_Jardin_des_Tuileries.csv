@@ -1,0 +1,267 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+Synonymous,synonymous,"('synonymous', 'JJ')",synonym,synonymous,introduction,Synonymous,O,,
+Parisian,parisian,"('parisian', 'JJ')",parisian,parisian,introduction,Parisian,B,NORP,Nationalities or religious or political groups
+glamour,glamour,"('glamour', 'VBP')",glamour,glamour,introduction,glamour,O,,
+cuts,cuts,"('cuts', 'NNS')",cut,cut,introduction,cuts,O,,
+one,one,"('one', 'CD')",one,one,introduction,one,B,CARDINAL,Numerals that do not fall under another type
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+exclusive,exclusive,"('exclusive', 'JJ')",exclus,exclusive,introduction,exclusive,O,,
+districts,districts,"('districts', 'NNS')",district,district,introduction,districts,O,,
+studded,studded,"('studded', 'VBN')",stud,stud,introduction,studded,O,,
+luxury,luxury,"('luxury', 'NN')",luxuri,luxury,introduction,luxury,O,,
+hotels,hotels,"('hotels', 'NNS')",hotel,hotel,introduction,hotels,O,,
+fashion,fashion,"('fashion', 'NN')",fashion,fashion,introduction,fashion,O,,
+boutiques,boutiques,"('boutiques', 'NNS')",boutiqu,boutique,introduction,boutiques,O,,
+avenue,avenue,"('avenue', 'NN')",avenu,avenue,introduction,avenue,O,,
+forms,forms,"('forms', 'NNS')",form,form,introduction,forms,O,,
+part,part,"('part', 'NN')",part,part,introduction,part,O,,
+grand,grand,"('grand', 'JJ')",grand,grand,introduction,grand,O,,
+axis,axis,"('axis', 'NN')",axi,axis,introduction,axis,O,,
+extends,extends,"('extends', 'VBZ')",extend,extend,introduction,extends,O,,
+Louvre,louvre,"('louvre', 'NN')",louvr,louvre,introduction,Louvre,O,,
+heart,heart,"('heart', 'NN')",heart,heart,introduction,heart,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+Grande,grande,"('grande', 'NN')",grand,grande,introduction,Grande,B,ORG,"Companies, agencies, institutions, etc."
+Arche,arche,"('arche', 'NN')",arch,arche,introduction,Arche,I,ORG,"Companies, agencies, institutions, etc."
+de,de,"('de', 'IN')",de,de,introduction,de,I,ORG,"Companies, agencies, institutions, etc."
+la,la,"('la', 'FW')",la,la,introduction,la,I,ORG,"Companies, agencies, institutions, etc."
+Défense,défense,"('défense', 'NN')",défens,défense,introduction,Défense,I,ORG,"Companies, agencies, institutions, etc."
+west,west,"('west', 'NN')",west,west,introduction,west,O,,
+Referred,referred,"('referred', 'VBD')",refer,refer,introduction,Referred,B,ORG,"Companies, agencies, institutions, etc."
+Voie,voie,"('voie', 'JJ')",voie,voie,introduction,Voie,I,ORG,"Companies, agencies, institutions, etc."
+Triomphale,triomphale,"('triomphale', 'NN')",triomphal,triomphale,introduction,Triomphale,I,ORG,"Companies, agencies, institutions, etc."
+Triumphal,triumphal,"('triumphal', 'JJ')",triumphal,triumphal,introduction,Triumphal,I,ORG,"Companies, agencies, institutions, etc."
+Way,way,"('way', 'NN')",way,way,introduction,Way,O,,
+offers,offers,"('offers', 'VBZ')",offer,offer,introduction,offers,O,,
+impressive,impressive,"('impressive', 'JJ')",impress,impressive,introduction,impressive,O,,
+vistas,vistas,"('vistas', 'NNS')",vista,vista,introduction,vistas,O,,
+along,along,"('along', 'IN')",along,along,introduction,along,O,,
+length,length,"('length', 'NN')",length,length,introduction,length,O,,
+incorporates,incorporates,"('incorporates', 'VBZ')",incorpor,incorporate,introduction,incorporates,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+famous,famous,"('famous', 'JJ')",famou,famous,introduction,famous,O,,
+landmarks,landmarks,"('landmarks', 'NNS')",landmark,landmark,introduction,landmarks,O,,
+only,only,"('only', 'RB')",onli,only,introduction,only,O,,
+also,also,"('also', 'RB')",also,also,introduction,also,O,,
+Tuileries,tuileries,"('tuileries', 'NNS')",tuileri,tuileries,introduction,Tuileries,B,ORG,"Companies, agencies, institutions, etc."
+Dropdown,dropdown,"('dropdown', 'VBP')",dropdown,dropdown,introduction,Dropdown,I,ORG,"Companies, agencies, institutions, etc."
+content,content,"('content', 'NN')",content,content,introduction,content,O,,
+gardens,gardens,"('gardens', 'NNS')",garden,garden,introduction,gardens,O,,
+place,place,"('place', 'NN')",place,place,introduction,place,O,,
+de,de,"('de', 'IN')",de,de,introduction,de,B,ORG,"Companies, agencies, institutions, etc."
+la,la,"('la', 'FW')",la,la,introduction,la,I,ORG,"Companies, agencies, institutions, etc."
+Concorde,concorde,"('concorde', 'NN')",concord,concorde,introduction,Concorde,I,ORG,"Companies, agencies, institutions, etc."
+Arc,arc,"('arc', 'NN')",arc,arc,introduction,Arc,I,ORG,"Companies, agencies, institutions, etc."
+de,de,"('de', 'IN')",de,de,introduction,de,I,ORG,"Companies, agencies, institutions, etc."
+Triomphe,triomphe,"('triomphe', 'FW')",triomph,triomphe,introduction,Triomphe,I,ORG,"Companies, agencies, institutions, etc."
+Dropdown,dropdown,"('dropdown', 'JJ')",dropdown,dropdown,introduction,Dropdown,I,ORG,"Companies, agencies, institutions, etc."
+content,content,"('content', 'NN')",content,content,introduction,content,O,,
+whole,whole,"('whole', 'JJ')",whole,whole,introduction,whole,O,,
+ensemble,ensemble,"('ensemble', 'NN')",ensembl,ensemble,introduction,ensemble,O,,
+regular,regular,"('regular', 'JJ')",regular,regular,introduction,regular,O,,
+looks,looks,"('looks', 'VBZ')",look,look,introduction,looks,O,,
+though,though,"('though', 'IN')",though,though,introduction,though,O,,
+was,was,"('was', 'VBD')",wa,be,introduction,was,O,,
+laid,laid,"('laid', 'VBN')",laid,lay,introduction,laid,O,,
+single,single,"('single', 'JJ')",singl,single,introduction,single,O,,
+town,town,"('town', 'NN')",town,town,introduction,town,O,,
+planner,planner,"('planner', 'NN')",planner,planner,introduction,planner,O,,
+rather,rather,"('rather', 'RB')",rather,rather,introduction,rather,O,,
+successive,successive,"('successive', 'JJ')",success,successive,introduction,successive,O,,
+kings,kings,"('kings', 'NNS')",king,king,introduction,kings,O,,
+emperors,emperors,"('emperors', 'NNS')",emperor,emperor,introduction,emperors,O,,
+presidents,presidents,"('presidents', 'NNS')",presid,president,introduction,presidents,O,,
+keen,keen,"('keen', 'VBP')",keen,keen,introduction,keen,O,,
+add,add,"('add', 'VB')",add,add,introduction,add,O,,
+stamp,stamp,"('stamp', 'NN')",stamp,stamp,introduction,stamp,O,,
+promote,promote,"('promote', 'VB')",promot,promote,introduction,promote,O,,
+French,french,"('french', 'JJ')",french,french,introduction,French,B,NORP,Nationalities or religious or political groups
+power,power,"('power', 'NN')",power,power,introduction,power,O,,
+prestige,prestige,"('prestige', 'NN')",prestig,prestige,introduction,prestige,O,,
+Arc,arc,"('arc', 'NN')",arc,arc,description,Arc,B,PERSON,"People, including fictional"
+de,de,"('de', 'IN')",de,de,description,de,I,PERSON,"People, including fictional"
+Triomphe,triomphe,"('triomphe', 'NN')",triomph,triomphe,description,Triomphe,I,PERSON,"People, including fictional"
+towers,towers,"('towers', 'NNS')",tower,tower,description,towers,O,,
+above,above,"('above', 'IN')",abov,above,description,above,O,,
+traffic,traffic,"('traffic', 'NN')",traffic,traffic,description,traffic,O,,
+middle,middle,"('middle', 'NN')",middl,middle,description,middle,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+better,better,"('better', 'RB')",better,well,description,better,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+l,l,"('l', 'NN')",l,l,description,l,O,,
+Étoile,étoile,"('étoile', 'NNP')",étoil,étoile,description,Étoile,O,,
+star,star,"('star', 'NN')",star,star,description,star,O,,
+account,account,"('account', 'NN')",account,account,description,account,O,,
+twelve,twelve,"('twelve', 'NN')",twelv,twelve,description,twelve,B,CARDINAL,Numerals that do not fall under another type
+avenues,avenues,"('avenues', 'NNS')",avenu,avenue,description,avenues,O,,
+radiating,radiating,"('radiating', 'VBG')",radiat,radiate,description,radiating,O,,
+arch,arch,"('arch', 'NN')",arch,arch,description,arch,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+started,started,"('started', 'VBN')",start,start,description,started,O,,
+Napoleon,napoleon,"('napoleon', 'NN')",napoleon,napoleon,description,Napoleon,B,NORP,Nationalities or religious or political groups
+homage,homage,"('homage', 'NN')",homag,homage,description,homage,O,,
+armies,armies,"('armies', 'NNS')",armi,army,description,armies,O,,
+France,france,"('france', 'NN')",franc,france,description,France,B,GPE,"Countries, cities, states"
+actually,actually,"('actually', 'RB')",actual,actually,description,actually,O,,
+finished,finished,"('finished', 'VBN')",finish,finish,description,finished,O,,
+dedicated,dedicated,"('dedicated', 'VBD')",dedic,dedicate,description,dedicated,O,,
+French,french,"('french', 'JJ')",french,french,description,French,B,NORP,Nationalities or religious or political groups
+army,army,"('army', 'NN')",armi,army,description,army,O,,
+general,general,"('general', 'JJ')",gener,general,description,general,O,,
+names,names,"('names', 'NNS')",name,name,description,names,O,,
+generals,generals,"('generals', 'NNS')",gener,general,description,generals,O,,
+numerous,numerous,"('numerous', 'JJ')",numer,numerous,description,numerous,O,,
+French,french,"('french', 'JJ')",french,french,description,French,B,NORP,Nationalities or religious or political groups
+battles,battles,"('battles', 'NNS')",battl,battle,description,battles,O,,
+engraved,engraved,"('engraved', 'VBN')",engrav,engrave,description,engraved,O,,
+inside,inside,"('inside', 'NN')",insid,inside,description,inside,O,,
+arch,arch,"('arch', 'NN')",arch,arch,description,arch,O,,
+reliefs,reliefs,"('reliefs', 'VB')",relief,reliefs,description,reliefs,O,,
+adorn,adorn,"('adorn', 'VBP')",adorn,adorn,description,adorn,O,,
+exterior,exterior,"('exterior', 'JJ')",exterior,exterior,description,exterior,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+François,françois,"('françois', 'JJ')",françoi,françois,description,François,B,ORG,"Companies, agencies, institutions, etc."
+Rude,rude,"('rude', 'JJ')",rude,rude,description,Rude,I,ORG,"Companies, agencies, institutions, etc."
+extraordinarily,extraordinarily,"('extraordinarily', 'RB')",extraordinarili,extraordinarily,description,extraordinarily,O,,
+dramatic,dramatic,"('dramatic', 'JJ')",dramat,dramatic,description,dramatic,O,,
+Marseillaise,marseillaise,"('marseillaise', 'NN')",marseillais,marseillaise,description,Marseillaise,B,PERSON,"People, including fictional"
+figure,figure,"('figure', 'NN')",figur,figure,description,figure,O,,
+personifying,personifying,"('personifying', 'VBG')",personifi,personify,description,personifying,O,,
+Revolution,revolution,"('revolution', 'NN')",revolut,revolution,description,Revolution,O,,
+charges,charges,"('charges', 'VBZ')",charg,charge,description,charges,O,,
+forward,forward,"('forward', 'RB')",forward,forward,description,forward,O,,
+sword,sword,"('sword', 'NN')",sword,sword,description,sword,O,,
+face,face,"('face', 'NN')",face,face,description,face,O,,
+contorted,contorted,"('contorted', 'VBN')",contort,contort,description,contorted,O,,
+fierce,fierce,"('fierce', 'JJ')",fierc,fierce,description,fierce,O,,
+rallying,rallying,"('rallying', 'NN')",ralli,rallying,description,rallying,O,,
+cry,cry,"('cry', 'NN')",cri,cry,description,cry,O,,
+quiet,quiet,"('quiet', 'JJ')",quiet,quiet,description,quiet,O,,
+reminder,reminder,"('reminder', 'NN')",remind,reminder,description,reminder,O,,
+less,less,"('less', 'RBR')",less,less,description,less,O,,
+glorious,glorious,"('glorious', 'JJ')",gloriou,glorious,description,glorious,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+war,war,"('war', 'NN')",war,war,description,war,O,,
+tomb,tomb,"('tomb', 'NN')",tomb,tomb,description,tomb,O,,
+unknown,unknown,"('unknown', 'JJ')",unknown,unknown,description,unknown,O,,
+soldier,soldier,"('soldier', 'NN')",soldier,soldier,description,soldier,O,,
+placed,placed,"('placed', 'VBD')",place,place,description,placed,O,,
+beneath,beneath,"('beneath', 'IN')",beneath,beneath,description,beneath,O,,
+arch,arch,"('arch', 'NN')",arch,arch,description,arch,O,,
+marked,marked,"('marked', 'VBN')",mark,mark,description,marked,O,,
+eternal,eternal,"('eternal', 'JJ')",etern,eternal,description,eternal,O,,
+flame,flame,"('flame', 'NN')",flame,flame,description,flame,O,,
+stoked,stoked,"('stoked', 'VBN')",stoke,stoke,description,stoked,O,,
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+evening,evening,"('evening', 'NN')",even,evening,description,evening,O,,
+war,war,"('war', 'NN')",war,war,description,war,O,,
+veterans,veterans,"('veterans', 'NNS')",veteran,veteran,description,veterans,O,,
+Climbing,climbing,"('climbing', 'VBG')",climb,climb,description,Climbing,O,,
+steps,steps,"('steps', 'NNS')",step,step,description,steps,O,,
+top,top,"('top', 'NN')",top,top,description,top,O,,
+amply,amply,"('amply', 'RB')",ampli,amply,description,amply,O,,
+rewarded,rewarded,"('rewarded', 'VBN')",reward,reward,description,rewarded,O,,
+panoramic,panoramic,"('panoramic', 'JJ')",panoram,panoramic,description,panoramic,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+come,come,"('come', 'VB')",come,come,description,come,O,,
+towards,towards,"('towards', 'NNS')",toward,towards,description,towards,O,,
+dusk,dusk,"('dusk', 'NN')",dusk,dusk,description,dusk,O,,
+sunny,sunny,"('sunny', 'JJ')",sunni,sunny,description,sunny,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+marble,marble,"('marble', 'NN')",marbl,marble,description,marble,O,,
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,B,ORG,"Companies, agencies, institutions, etc."
+Arche,arche,"('arche', 'NN')",arch,arche,description,Arche,I,ORG,"Companies, agencies, institutions, etc."
+de,de,"('de', 'IN')",de,de,description,de,I,ORG,"Companies, agencies, institutions, etc."
+la,la,"('la', 'FW')",la,la,description,la,I,ORG,"Companies, agencies, institutions, etc."
+Défense,défense,"('défense', 'JJ')",défens,défense,description,Défense,I,ORG,"Companies, agencies, institutions, etc."
+sparkles,sparkles,"('sparkles', 'NNS')",sparkl,sparkle,description,sparkles,O,,
+setting,setting,"('setting', 'NN')",set,setting,description,setting,O,,
+sun,sun,"('sun', 'NN')",sun,sun,description,sun,O,,
+Louvre,louvre,"('louvre', 'NN')",louvr,louvre,description,Louvre,B,PERSON,"People, including fictional"
+bathed,bathed,"('bathed', 'VBN')",bath,bath,description,bathed,O,,
+warm,warm,"('warm', 'NN')",warm,warm,description,warm,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+de,de,"('de', 'IN')",de,de,description,de,B,ORG,"Companies, agencies, institutions, etc."
+la,la,"('la', 'FW')",la,la,description,la,I,ORG,"Companies, agencies, institutions, etc."
+Concorde,concorde,"('concorde', 'NN')",concord,concorde,description,Concorde,I,ORG,"Companies, agencies, institutions, etc."
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+Jardin,jardin,"('jardin', 'NN')",jardin,jardin,description,Jardin,B,ORG,"Companies, agencies, institutions, etc."
+des,des,"('des', 'VBZ')",de,des,description,des,I,ORG,"Companies, agencies, institutions, etc."
+Tuileries,tuileries,"('tuileries', 'VBZ')",tuileri,tuileries,description,Tuileries,I,ORG,"Companies, agencies, institutions, etc."
+formal,formal,"('formal', 'JJ')",formal,formal,description,formal,O,,
+French,french,"('french', 'JJ')",french,french,description,French,B,NORP,Nationalities or religious or political groups
+garden,garden,"('garden', 'NN')",garden,garden,description,garden,O,,
+par,par,"('par', 'NN')",par,par,description,par,O,,
+excellence,excellence,"('excellence', 'NN')",excel,excellence,description,excellence,O,,
+dates,dates,"('dates', 'VBZ')",date,date,description,dates,O,,
+back,back,"('back', 'RB')",back,back,description,back,O,,
+Catherine,catherine,"('catherine', 'NN')",catherin,catherine,description,Catherine,B,PERSON,"People, including fictional"
+de,de,"('de', 'IN')",de,de,description,de,I,PERSON,"People, including fictional"
+Médicis,médicis,"('médicis', 'NN')",médici,médicis,description,Médicis,I,PERSON,"People, including fictional"
+site,site,"('site', 'NN')",site,site,description,site,O,,
+cleared,cleared,"('cleared', 'VBD')",clear,clear,description,cleared,O,,
+medieval,medieval,"('medieval', 'JJ')",mediev,medieval,description,medieval,O,,
+warren,warren,"('warren', 'NN')",warren,warren,description,warren,O,,
+tilemakers,tilemakers,"('tilemakers', 'NNS')",tilemak,tilemakers,description,tilemakers,O,,
+tuileries,tuileries,"('tuileries', 'NNS')",tuileri,tuileries,description,tuileries,O,,
+make,make,"('make', 'VB')",make,make,description,make,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+grounds,grounds,"('grounds', 'VBZ')",ground,ground,description,grounds,O,,
+One,one,"('one', 'CD')",one,one,description,One,B,DATE,Absolute or relative dates or periods
+hundred,hundred,"('hundred', 'CD')",hundr,hundred,description,hundred,I,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+later,later,"('later', 'RB')",later,later,description,later,I,DATE,Absolute or relative dates or periods
+Louis,louis,"('louis', 'VBP')",loui,louis,description,Louis,B,PERSON,"People, including fictional"
+XIV,xiv,"('xiv', 'NNS')",xiv,xiv,description,XIV,I,PERSON,"People, including fictional"
+commissioned,commissioned,"('commissioned', 'VBD')",commiss,commission,description,commissioned,O,,
+renowned,renowned,"('renowned', 'JJ')",renown,renowned,description,renowned,O,,
+landscape,landscape,"('landscape', 'NN')",landscap,landscape,description,landscape,O,,
+artist,artist,"('artist', 'NN')",artist,artist,description,artist,O,,
+Le,le,"('le', 'NN')",le,le,description,Le,B,PERSON,"People, including fictional"
+Nôtre,nôtre,"('nôtre', 'NN')",nôtre,nôtre,description,Nôtre,I,PERSON,"People, including fictional"
+redesign,redesign,"('redesign', 'VB')",redesign,redesign,description,redesign,O,,
+results,results,"('results', 'NNS')",result,result,description,results,O,,
+largely,largely,"('largely', 'RB')",larg,largely,description,largely,O,,
+see,see,"('see', 'VBP')",see,see,description,see,O,,
+today,today,"('today', 'NN')",today,today,description,today,B,DATE,Absolute or relative dates or periods
+straight,straight,"('straight', 'RB')",straight,straight,description,straight,O,,
+avenues,avenues,"('avenues', 'VBZ')",avenu,avenues,description,avenues,O,,
+formal,formal,"('formal', 'JJ')",formal,formal,description,formal,O,,
+flowerbeds,flowerbeds,"('flowerbeds', 'NNS')",flowerb,flowerbed,description,flowerbeds,O,,
+splendid,splendid,"('splendid', 'JJ')",splendid,splendid,description,splendid,O,,
+vistas,vistas,"('vistas', 'NNS')",vista,vista,description,vistas,B,PERSON,"People, including fictional"
+Shady,shady,"('shady', 'JJ')",shadi,shady,description,Shady,I,PERSON,"People, including fictional"
+paths,paths,"('paths', 'NNS')",path,path,description,paths,O,,
+flank,flank,"('flank', 'VBD')",flank,flank,description,flank,O,,
+grand,grand,"('grand', 'JJ')",grand,grand,description,grand,O,,
+central,central,"('central', 'JJ')",central,central,description,central,O,,
+alley,alley,"('alley', 'NN')",alley,alley,description,alley,O,,
+ornamental,ornamental,"('ornamental', 'JJ')",ornament,ornamental,description,ornamental,O,,
+ponds,ponds,"('ponds', 'NNS')",pond,pond,description,ponds,O,,
+frame,frame,"('frame', 'VBP')",frame,frame,description,frame,O,,
+ends,ends,"('ends', 'VBZ')",end,end,description,ends,O,,
+chairs,chairs,"('chairs', 'NNS')",chair,chair,description,chairs,O,,
+strewn,strewn,"('strewn', 'VBP')",strewn,strew,description,strewn,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+ponds,ponds,"('ponds', 'NNS')",pond,pond,description,ponds,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+spot,spot,"('spot', 'NN')",spot,spot,description,spot,O,,
+admire,admire,"('admire', 'VB')",admir,admire,description,admire,O,,
+landscaped,landscaped,"('landscaped', 'JJ')",landscap,landscaped,description,landscaped,O,,
+surroundings,surroundings,"('surroundings', 'NNS')",surround,surroundings,description,surroundings,O,,
+contemplate,contemplate,"('contemplate', 'VB')",contempl,contemplate,description,contemplate,O,,
+superb,superb,"('superb', 'NN')",superb,superb,description,superb,O,,
+statues,statues,"('statues', 'NNS')",statu,statue,description,statues,O,,
+executed,executed,"('executed', 'VBN')",execut,execute,description,executed,O,,
+likes,likes,"('likes', 'NNS')",like,like,description,likes,O,,
+Coustou,coustou,"('coustou', 'NN')",coustou,coustou,description,Coustou,B,PERSON,"People, including fictional"
+Coysevox,coysevox,"('coysevox', 'VBD')",coysevox,coysevox,description,Coysevox,I,PERSON,"People, including fictional"
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+replaced,replaced,"('replaced', 'VBN')",replac,replace,description,replaced,O,,
+copies,copies,"('copies', 'NNS')",copi,copy,description,copies,O,,
+originals,originals,"('originals', 'NNS')",origin,original,description,originals,O,,
+transferred,transferred,"('transferred', 'VBD')",transfer,transfer,description,transferred,O,,
+Louvre,louvre,"('louvre', 'NN')",louvr,louvre,description,Louvre,O,,

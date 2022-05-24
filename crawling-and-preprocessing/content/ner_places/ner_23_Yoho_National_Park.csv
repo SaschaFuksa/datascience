@@ -1,0 +1,1059 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+Wholly,wholly,"('wholly', 'RB')",wholli,wholly,introduction,Wholly,O,,
+BC,bc,"('bc', 'NN')",bc,bc,introduction,BC,O,,
+western,western,"('western', 'JJ')",western,western,introduction,western,O,,
+side,side,"('side', 'NN')",side,side,introduction,side,O,,
+Continental,continental,"('continental', 'JJ')",continent,continental,introduction,Continental,B,ORG,"Companies, agencies, institutions, etc."
+Divide,divide,"('divide', 'NN')",divid,divide,introduction,Divide,I,ORG,"Companies, agencies, institutions, etc."
+Lake,lake,"('lake', 'JJ')",lake,lake,introduction,Lake,I,ORG,"Companies, agencies, institutions, etc."
+Louise,louise,"('louise', 'NN')",louis,louise,introduction,Louise,I,ORG,"Companies, agencies, institutions, etc."
+YOHO,yoho,"('yoho', 'NNP')",yoho,yoho,introduction,YOHO,O,,
+NATIONAL,national,"('national', 'JJ')",nation,national,introduction,NATIONAL,O,,
+PARK,park,"('park', 'NN')",park,park,introduction,PARK,O,,
+name,name,"('name', 'NN')",name,name,introduction,name,O,,
+derives,derives,"('derives', 'VBZ')",deriv,derive,introduction,derives,O,,
+Cree,cree,"('cree', 'JJ')",cree,cree,introduction,Cree,O,,
+word,word,"('word', 'NN')",word,word,introduction,word,O,,
+meaning,meaning,"('meaning', 'NN')",mean,meaning,introduction,meaning,O,,
+wonder,wonder,"('wonder', 'VB')",wonder,wonder,introduction,wonder,O,,
+fitting,fitting,"('fitting', 'JJ')",fit,fitting,introduction,fitting,O,,
+testament,testament,"('testament', 'NN')",testament,testament,introduction,testament,O,,
+awesome,awesome,"('awesome', 'JJ')",awesom,awesome,introduction,awesome,O,,
+grandeur,grandeur,"('grandeur', 'NN')",grandeur,grandeur,introduction,grandeur,O,,
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,introduction,mountains,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,introduction,lakes,O,,
+waterfalls,waterfalls,"('waterfalls', 'NNS')",waterfal,waterfall,introduction,waterfalls,O,,
+Yet,yet,"('yet', 'RB')",yet,yet,introduction,Yet,O,,
+small,small,"('small', 'JJ')",small,small,introduction,small,O,,
+park,park,"('park', 'NN')",park,park,introduction,park,O,,
+whose,whose,"('whose', 'WP$')",whose,whose,introduction,whose,O,,
+intimate,intimate,"('intimate', 'JJ')",intim,intimate,introduction,intimate,O,,
+scale,scale,"('scale', 'NN')",scale,scale,introduction,scale,O,,
+makes,makes,"('makes', 'VBZ')",make,make,introduction,makes,O,,
+one,one,"('one', 'CD')",one,one,introduction,one,O,,
+favoured,favoured,"('favoured', 'VBN')",favour,favour,introduction,favoured,O,,
+Rockies,rockies,"('rockies', 'NNS')",rocki,rockies,introduction,Rockies,B,ORG,"Companies, agencies, institutions, etc."
+connoisseurs,connoisseurs,"('connoisseurs', 'NNS')",connoisseur,connoisseur,introduction,connoisseurs,O,,
+national,national,"('national', 'JJ')",nation,national,introduction,national,O,,
+parks,parks,"('parks', 'NNS')",park,park,introduction,parks,O,,
+was,was,"('was', 'VBD')",wa,be,introduction,was,O,,
+railway,railway,"('railway', 'NN')",railway,railway,introduction,railway,O,,
+spawned,spawned,"('spawned', 'VBD')",spawn,spawn,introduction,spawned,O,,
+tourism,tourism,"('tourism', 'NN')",tourism,tourism,introduction,tourism,O,,
+area,area,"('area', 'NN')",area,area,introduction,area,O,,
+first,first,"('first', 'JJ')",first,first,introduction,first,B,ORDINAL,"""first"", ""second"", etc."
+hotel,hotel,"('hotel', 'NN')",hotel,hotel,introduction,hotel,O,,
+Field,field,"('field', 'NN')",field,field,introduction,Field,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,introduction,was,O,,
+built,built,"('built', 'VBN')",built,build,introduction,built,O,,
+Canadian,canadian,"('canadian', 'JJ')",canadian,canadian,introduction,Canadian,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Pacific,pacific,"('pacific', 'NN')",pacif,pacific,introduction,Pacific,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Railway,railway,"('railway', 'NN')",railway,railway,introduction,Railway,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+within,within,"('within', 'IN')",within,within,introduction,within,O,,
+months,months,"('months', 'NNS')",month,month,introduction,months,B,TIME,Times smaller than a day
+sixteen,sixteen,"('sixteen', 'JJ')",sixteen,sixteen,introduction,sixteen,I,TIME,Times smaller than a day
+square,square,"('square', 'JJ')",squar,square,introduction,square,I,TIME,Times smaller than a day
+kilometres,kilometres,"('kilometres', 'NNS')",kilometr,kilometre,introduction,kilometres,I,TIME,Times smaller than a day
+foot,foot,"('foot', 'NN')",foot,foot,introduction,foot,I,TIME,Times smaller than a day
+Mount,mount,"('mount', 'NN')",mount,mount,introduction,Mount,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Stephen,stephen,"('stephen', 'VBP')",stephen,stephen,introduction,Stephen,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+peak,peak,"('peak', 'NN')",peak,peak,introduction,peak,O,,
+Field,field,"('field', 'NN')",field,field,introduction,Field,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+east,east,"('east', 'NN')",east,east,introduction,east,O,,
+set,set,"('set', 'VBN')",set,set,introduction,set,O,,
+aside,aside,"('aside', 'RB')",asid,aside,introduction,aside,O,,
+special,special,"('special', 'JJ')",special,special,introduction,special,O,,
+reserve,reserve,"('reserve', 'NN')",reserv,reserve,introduction,reserve,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,introduction,Yoho,B,PERSON,"People, including fictional"
+become,become,"('become', 'VBN')",becom,become,introduction,become,O,,
+Canada,canada,"('canada', 'JJ')",canada,canada,introduction,Canada,B,GPE,"Countries, cities, states"
+second,second,"('second', 'JJ')",second,second,introduction,second,B,ORDINAL,"""first"", ""second"", etc."
+national,national,"('national', 'JJ')",nation,national,introduction,national,O,,
+park,park,"('park', 'NN')",park,park,introduction,park,O,,
+Hwy,hwy,"('hwy', 'NN')",hwi,hwy,description,Hwy,O,,
+divides,divides,"('divides', 'VBZ')",divid,divide,description,divides,O,,
+Yoho,yoho,"('yoho', 'RB')",yoho,yoho,description,Yoho,O,,
+neatly,neatly,"('neatly', 'RB')",neatli,neatly,description,neatly,O,,
+half,half,"('half', 'JJ')",half,half,description,half,B,CARDINAL,Numerals that do not fall under another type
+climbing,climbing,"('climbing', 'VBG')",climb,climb,description,climbing,O,,
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,B,ORG,"Companies, agencies, institutions, etc."
+Louise,louise,"('louise', 'NN')",louis,louise,description,Louise,I,ORG,"Companies, agencies, institutions, etc."
+Kicking,kicking,"('kicking', 'JJ')",kick,kicking,description,Kicking,I,ORG,"Companies, agencies, institutions, etc."
+Horse,horse,"('horse', 'NN')",hors,horse,description,Horse,I,ORG,"Companies, agencies, institutions, etc."
+Pass,pass,"('pass', 'NN')",pass,pas,description,Pass,I,ORG,"Companies, agencies, institutions, etc."
+share,share,"('share', 'NN')",share,share,description,share,O,,
+broad,broad,"('broad', 'JJ')",broad,broad,description,broad,O,,
+glaciated,glaciated,"('glaciated', 'JJ')",glaciat,glaciated,description,glaciated,O,,
+valley,valley,"('valley', 'NN')",valley,valley,description,valley,O,,
+bottom,bottom,"('bottom', 'NN')",bottom,bottom,description,bottom,O,,
+Kicking,kicking,"('kicking', 'VBG')",kick,kick,description,Kicking,B,ORG,"Companies, agencies, institutions, etc."
+Horse,horse,"('horse', 'NN')",hors,horse,description,Horse,I,ORG,"Companies, agencies, institutions, etc."
+River,river,"('river', 'NN')",river,river,description,River,I,ORG,"Companies, agencies, institutions, etc."
+old,old,"('old', 'JJ')",old,old,description,old,I,ORG,"Companies, agencies, institutions, etc."
+Canadian,canadian,"('canadian', 'JJ')",canadian,canadian,description,Canadian,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Pacific,pacific,"('pacific', 'NN')",pacif,pacific,description,Pacific,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Railway,railway,"('railway', 'NN')",railway,railway,description,Railway,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+only,only,"('only', 'JJ')",onli,only,description,only,O,,
+settlement,settlement,"('settlement', 'NN')",settlement,settlement,description,settlement,O,,
+Field,field,"('field', 'NN')",field,field,description,Field,B,GPE,"Countries, cities, states"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+visitor,visitor,"('visitor', 'NN')",visitor,visitor,description,visitor,O,,
+centre,centre,"('centre', 'VBP')",centr,centre,description,centre,O,,
+services,services,"('services', 'NNS')",servic,service,description,services,O,,
+limited,limited,"('limited', 'JJ')",limit,limited,description,limited,O,,
+accommodation,accommodation,"('accommodation', 'NN')",accommod,accommodation,description,accommodation,O,,
+nearest,nearest,"('nearest', 'JJS')",nearest,near,description,nearest,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Louise,louise,"('louise', 'NN')",louis,louise,description,Louise,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+east,east,"('east', 'NN')",east,east,description,east,O,,
+Golden,golden,"('golden', 'JJ')",golden,golden,description,Golden,B,GPE,"Countries, cities, states"
+west,west,"('west', 'NN')",west,west,description,west,O,,
+accommodation,accommodation,"('accommodation', 'NN')",accommod,accommodation,description,accommodation,O,,
+available,available,"('available', 'JJ')",avail,available,description,available,O,,
+trail,trail,"('trail', 'NN')",trail,trail,description,trail,O,,
+hubs,hubs,"('hubs', 'NNS')",hub,hub,description,hubs,O,,
+Lake,lake,"('lake', 'VBP')",lake,lake,description,Lake,B,FAC,"Buildings, airports, highways, bridges, etc."
+Hara,hara,"('hara', 'PDT')",hara,hara,description,Hara,I,FAC,"Buildings, airports, highways, bridges, etc."
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,I,FAC,"Buildings, airports, highways, bridges, etc."
+Valley,valley,"('valley', 'NN')",valley,valley,description,Valley,I,FAC,"Buildings, airports, highways, bridges, etc."
+Emerald,emerald,"('emerald', 'JJ')",emerald,emerald,description,Emerald,I,FAC,"Buildings, airports, highways, bridges, etc."
+Lake,lake,"('lake', 'VB')",lake,lake,description,Lake,I,FAC,"Buildings, airports, highways, bridges, etc."
+start,start,"('start', 'NN')",start,start,description,start,O,,
+stunning,stunning,"('stunning', 'JJ')",stun,stunning,description,stunning,O,,
+hiking,hiking,"('hiking', 'VBG')",hike,hike,description,hiking,O,,
+routes,routes,"('routes', 'NNS')",rout,route,description,routes,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+focal,focal,"('focal', 'JJ')",focal,focal,description,focal,O,,
+points,points,"('points', 'NNS')",point,point,description,points,O,,
+passenger,passenger,"('passenger', 'NN')",passeng,passenger,description,passenger,O,,
+services,services,"('services', 'NNS')",servic,service,description,services,O,,
+longer,longer,"('longer', 'RBR')",longer,longer,description,longer,O,,
+come,come,"('come', 'VB')",come,come,description,come,O,,
+Field,field,"('field', 'NN')",field,field,description,Field,B,ORG,"Companies, agencies, institutions, etc."
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+park,park,"('park', 'NN')",park,park,description,park,O,,
+sights,sights,"('sights', 'NNS')",sight,sight,description,sights,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+things,things,"('things', 'NNS')",thing,thing,description,things,O,,
+see,see,"('see', 'VBP')",see,see,description,see,O,,
+whether,whether,"('whether', 'IN')",whether,whether,description,whether,O,,
+enter,enter,"('enter', 'VBP')",enter,enter,description,enter,O,,
+east,east,"('east', 'NN')",east,east,description,east,O,,
+west,west,"('west', 'JJS')",west,west,description,west,O,,
+came,came,"('came', 'VBD')",came,come,description,came,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+result,result,"('result', 'NN')",result,result,description,result,O,,
+desperate,desperate,"('desperate', 'JJ')",desper,desperate,description,desperate,O,,
+political,political,"('political', 'JJ')",polit,political,description,political,O,,
+economic,economic,"('economic', 'JJ')",econom,economic,description,economic,O,,
+horse,horse,"('horse', 'NN')",hors,horse,description,horse,O,,
+trading,trading,"('trading', 'VBG')",trade,trade,description,trading,O,,
+Canadian,canadian,"('canadian', 'JJ')",canadian,canadian,description,Canadian,B,ORG,"Companies, agencies, institutions, etc."
+Pacific,pacific,"('pacific', 'NN')",pacif,pacific,description,Pacific,I,ORG,"Companies, agencies, institutions, etc."
+chief,chief,"('chief', 'JJ')",chief,chief,description,chief,O,,
+surveyor,surveyor,"('surveyor', 'NN')",surveyor,surveyor,description,surveyor,O,,
+Sandford,sandford,"('sandford', 'NN')",sandford,sandford,description,Sandford,B,ORG,"Companies, agencies, institutions, etc."
+Fleming,fleming,"('fleming', 'VBG')",fleme,fleming,description,Fleming,I,ORG,"Companies, agencies, institutions, etc."
+wrote,wrote,"('wrote', 'VBD')",wrote,write,description,wrote,O,,
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+journey,journey,"('journey', 'NN')",journey,journey,description,journey,O,,
+proposed,proposed,"('proposed', 'VBN')",propos,propose,description,proposed,O,,
+Kicking,kicking,"('kicking', 'NN')",kick,kicking,description,Kicking,B,WORK_OF_ART,"Titles of books, songs, etc."
+Horse,horse,"('horse', 'NN')",hors,horse,description,Horse,I,WORK_OF_ART,"Titles of books, songs, etc."
+Pass,pass,"('pass', 'NN')",pass,pas,description,Pass,I,WORK_OF_ART,"Titles of books, songs, etc."
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+think,think,"('think', 'VB')",think,think,description,think,O,,
+forget,forget,"('forget', 'VB')",forget,forget,description,forget,O,,
+terrible,terrible,"('terrible', 'JJ')",terribl,terrible,description,terrible,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+greatest,greatest,"('greatest', 'JJS')",greatest,great,description,greatest,O,,
+trial,trial,"('trial', 'NN')",trial,trial,description,trial,O,,
+ever,ever,"('ever', 'RB')",ever,ever,description,ever,O,,
+Like,like,"('like', 'IN')",like,like,description,Like,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+company,company,"('company', 'NN')",compani,company,description,company,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+convinced,convinced,"('convinced', 'VBN')",convinc,convince,description,convinced,O,,
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+much,much,"('much', 'RB')",much,much,description,much,O,,
+lower,lower,"('lower', 'JJR')",lower,low,description,lower,O,,
+amenable,amenable,"('amenable', 'JJ')",amen,amenable,description,amenable,O,,
+Yellowhead,yellowhead,"('yellowhead', 'JJ')",yellowhead,yellowhead,description,Yellowhead,O,,
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+much,much,"('much', 'JJ')",much,much,description,much,O,,
+political,political,"('political', 'JJ')",polit,political,description,political,O,,
+transportation,transportation,"('transportation', 'NN')",transport,transportation,description,transportation,O,,
+tool,tool,"('tool', 'NN')",tool,tool,description,tool,O,,
+designed,designed,"('designed', 'VBN')",design,design,description,designed,O,,
+unite,unite,"('unite', 'VB')",unit,unite,description,unite,O,,
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+encourage,encourage,"('encourage', 'VB')",encourag,encourage,description,encourage,O,,
+settlement,settlement,"('settlement', 'NN')",settlement,settlement,description,settlement,O,,
+northerly,northerly,"('northerly', 'JJ')",northerli,northerly,description,northerly,O,,
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+would,would,"('would', 'MD')",would,would,description,would,O,,
+ignored,ignored,"('ignored', 'VBN')",ignor,ignore,description,ignored,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+tracts,tracts,"('tracts', 'NNS')",tract,tract,description,tracts,O,,
+valuable,valuable,"('valuable', 'JJ')",valuabl,valuable,description,valuable,O,,
+prairie,prairie,"('prairie', 'NN')",prairi,prairie,description,prairie,O,,
+near,near,"('near', 'IN')",near,near,description,near,O,,
+US,us,"('us', 'PRP')",us,u,description,US,B,GPE,"Countries, cities, states"
+border,border,"('border', 'VBP')",border,border,description,border,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+Calgary,calgary,"('calgary', 'JJ')",calgari,calgary,description,Calgary,B,GPE,"Countries, cities, states"
+allowed,allowed,"('allowed', 'VBD')",allow,allow,description,allowed,O,,
+much,much,"('much', 'RB')",much,much,description,much,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+resources,resources,"('resources', 'NNS')",resourc,resource,description,resources,O,,
+slip,slip,"('slip', 'VB')",slip,slip,description,slip,O,,
+hands,hands,"('hands', 'NNS')",hand,hand,description,hands,O,,
+US,us,"('us', 'PRP')",us,u,description,US,B,GPE,"Countries, cities, states"
+engineering,engineering,"('engineering', 'NN')",engin,engineering,description,engineering,O,,
+advice,advice,"('advice', 'NN')",advic,advice,description,advice,O,,
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+cajoled,cajoled,"('cajoled', 'VBN')",cajol,cajole,description,cajoled,O,,
+taking,taking,"('taking', 'VBG')",take,take,description,taking,O,,
+Kicking,kicking,"('kicking', 'VBG')",kick,kick,description,Kicking,B,ORG,"Companies, agencies, institutions, etc."
+Horse,horse,"('horse', 'NN')",hors,horse,description,Horse,I,ORG,"Companies, agencies, institutions, etc."
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+thus,thus,"('thus', 'RB')",thu,thus,description,thus,O,,
+obliged,obliged,"('obliged', 'VBN')",oblig,oblige,description,obliged,O,,
+negotiate,negotiate,"('negotiate', 'VB')",negoti,negotiate,description,negotiate,O,,
+grades,grades,"('grades', 'NNS')",grade,grade,description,grades,O,,
+greatest,greatest,"('greatest', 'JJS')",greatest,great,description,greatest,O,,
+any,any,"('any', 'DT')",ani,any,description,any,O,,
+commercial,commercial,"('commercial', 'JJ')",commerci,commercial,description,commercial,O,,
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+result,result,"('result', 'NN')",result,result,description,result,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+famed,famed,"('famed', 'JJ')",fame,famed,description,famed,O,,
+Spiral,spiral,"('spiral', 'JJ')",spiral,spiral,description,Spiral,O,,
+Tunnels,tunnels,"('tunnels', 'NNS')",tunnel,tunnel,description,Tunnels,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+vast,vast,"('vast', 'JJ')",vast,vast,description,vast,O,,
+galleries,galleries,"('galleries', 'NNS')",galleri,gallery,description,galleries,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,mountains,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+viewpoint,viewpoint,"('viewpoint', 'NN')",viewpoint,viewpoint,description,viewpoint,O,,
+east,east,"('east', 'NN')",east,east,description,east,O,,
+Field,field,"('field', 'NN')",field,field,description,Field,O,,
+watch,watch,"('watch', 'VB')",watch,watch,description,watch,O,,
+front,front,"('front', 'NN')",front,front,description,front,O,,
+goods,goods,"('goods', 'NNS')",good,good,description,goods,O,,
+trains,trains,"('trains', 'NNS')",train,train,description,trains,O,,
+emerge,emerge,"('emerge', 'VBP')",emerg,emerge,description,emerge,O,,
+tunnels,tunnels,"('tunnels', 'NNS')",tunnel,tunnel,description,tunnels,O,,
+before,before,"('before', 'IN')",befor,before,description,before,O,,
+rear,rear,"('rear', 'NN')",rear,rear,description,rear,O,,
+wagons,wagons,"('wagons', 'NNS')",wagon,wagon,description,wagons,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+entered,entered,"('entered', 'VBN')",enter,enter,description,entered,O,,
+notorious,notorious,"('notorious', 'JJ')",notori,notorious,description,notorious,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+Big,big,"('big', 'JJ')",big,big,description,Big,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Hill,hill,"('hill', 'NN')",hill,hill,description,Hill,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+line,line,"('line', 'NN')",line,line,description,line,O,,
+drops,drops,"('drops', 'VBZ')",drop,drop,description,drops,O,,
+Wapta,wapta,"('wapta', 'JJ')",wapta,wapta,description,Wapta,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+flats,flats,"('flats', 'NNS')",flat,flat,description,flats,O,,
+east,east,"('east', 'VBP')",east,east,description,east,O,,
+Field,field,"('field', 'NN')",field,field,description,Field,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+train,train,"('train', 'NN')",train,train,description,train,O,,
+attempt,attempt,"('attempt', 'VB')",attempt,attempt,description,attempt,O,,
+descent,descent,"('descent', 'NN')",descent,descent,description,descent,O,,
+plunged,plunged,"('plunged', 'VBD')",plung,plunge,description,plunged,O,,
+canyon,canyon,"('canyon', 'NN')",canyon,canyon,description,canyon,O,,
+killing,killing,"('killing', 'VBG')",kill,kill,description,killing,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+workers,workers,"('workers', 'NNS')",worker,worker,description,workers,O,,
+Runaways,runaways,"('runaways', 'VBP')",runaway,runaways,description,Runaways,O,,
+became,became,"('became', 'VBD')",becam,become,description,became,O,,
+common,common,"('common', 'JJ')",common,common,description,common,O,,
+four,four,"('four', 'CD')",four,four,description,four,B,CARDINAL,Numerals that do not fall under another type
+blasts,blasts,"('blasts', 'NNS')",blast,blast,description,blasts,O,,
+whistle,whistle,"('whistle', 'NN')",whistl,whistle,description,whistle,O,,
+became,became,"('became', 'VBD')",becam,become,description,became,O,,
+standard,standard,"('standard', 'NN')",standard,standard,description,standard,O,,
+warning,warning,"('warning', 'NN')",warn,warning,description,warning,O,,
+trains,trains,"('trains', 'NNS')",train,train,description,trains,O,,
+careering,careering,"('careering', 'VBG')",career,career,description,careering,O,,
+control,control,"('control', 'NN')",control,control,description,control,O,,
+wreck,wreck,"('wreck', 'NN')",wreck,wreck,description,wreck,O,,
+engine,engine,"('engine', 'NN')",engin,engine,description,engine,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+seen,seen,"('seen', 'VBN')",seen,see,description,seen,O,,
+near,near,"('near', 'IN')",near,near,description,near,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+Kicking,kicking,"('kicking', 'NN')",kick,kicking,description,Kicking,B,ORG,"Companies, agencies, institutions, etc."
+Horse,horse,"('horse', 'NN')",hors,horse,description,Horse,I,ORG,"Companies, agencies, institutions, etc."
+Park,park,"('park', 'NN')",park,park,description,Park,I,ORG,"Companies, agencies, institutions, etc."
+campground,campground,"('campground', 'NN')",campground,campground,description,campground,O,,
+Lady,lady,"('lady', 'NN')",ladi,lady,description,Lady,O,,
+Agnes,agnes,"('agnes', 'NNS')",agn,agnes,description,Agnes,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Macdonald,macdonald,"('macdonald', 'VBP')",macdonald,macdonald,description,Macdonald,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+wife,wife,"('wife', 'NN')",wife,wife,description,wife,O,,
+Canadian,canadian,"('canadian', 'JJ')",canadian,canadian,description,Canadian,B,NORP,Nationalities or religious or political groups
+prime,prime,"('prime', 'JJ')",prime,prime,description,prime,O,,
+minister,minister,"('minister', 'NN')",minist,minister,description,minister,O,,
+rode,rode,"('rode', 'VBD')",rode,ride,description,rode,O,,
+Big,big,"('big', 'JJ')",big,big,description,Big,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Hill,hill,"('hill', 'NN')",hill,hill,description,Hill,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+cowcatcher,cowcatcher,"('cowcatcher', 'NN')",cowcatch,cowcatcher,description,cowcatcher,O,,
+metal,metal,"('metal', 'NN')",metal,metal,description,metal,O,,
+frame,frame,"('frame', 'NN')",frame,frame,description,frame,O,,
+front,front,"('front', 'NN')",front,front,description,front,O,,
+locomotive,locomotive,"('locomotive', 'JJ')",locomot,locomotive,description,locomotive,O,,
+scoop,scoop,"('scoop', 'VB')",scoop,scoop,description,scoop,O,,
+animals,animals,"('animals', 'NNS')",anim,animal,description,animals,O,,
+track,track,"('track', 'NN')",track,track,description,track,O,,
+remarking,remarking,"('remarking', 'VBG')",remark,remark,description,remarking,O,,
+presented,presented,"('presented', 'VBD')",present,present,description,presented,O,,
+delightful,delightful,"('delightful', 'JJ')",delight,delightful,description,delightful,O,,
+opportunity,opportunity,"('opportunity', 'NN')",opportun,opportunity,description,opportunity,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+sensation,sensation,"('sensation', 'NN')",sensat,sensation,description,sensation,O,,
+already,already,"('already', 'RB')",alreadi,already,description,already,O,,
+travelled,travelled,"('travelled', 'VBN')",travel,travel,description,travelled,O,,
+around,around,"('around', 'RP')",around,around,description,around,O,,
+unusual,unusual,"('unusual', 'JJ')",unusu,unusual,description,unusual,O,,
+perch,perch,"('perch', 'NN')",perch,perch,description,perch,O,,
+husband,husband,"('husband', 'NN')",husband,husband,description,husband,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+sharing,sharing,"('sharing', 'VBG')",share,share,description,sharing,O,,
+symbolic,symbolic,"('symbolic', 'JJ')",symbol,symbolic,description,symbolic,O,,
+journey,journey,"('journey', 'NN')",journey,journey,description,journey,O,,
+commemorate,commemorate,"('commemorate', 'VB')",commemor,commemorate,description,commemorate,O,,
+opening,opening,"('opening', 'NN')",open,opening,description,opening,O,,
+railway,railway,"('railway', 'NN')",railway,railway,description,railway,O,,
+managed,managed,"('managed', 'VBD')",manag,manage,description,managed,O,,
+cowcatcher,cowcatcher,"('cowcatcher', 'NN')",cowcatch,cowcatcher,description,cowcatcher,O,,
+Trains,trains,"('trains', 'VBZ')",train,train,description,Trains,B,PERSON,"People, including fictional"
+climbing,climbing,"('climbing', 'VBG')",climb,climb,description,climbing,O,,
+hill,hill,"('hill', 'NN')",hill,hill,description,hill,O,,
+required,required,"('required', 'VBN')",requir,require,description,required,O,,
+four,four,"('four', 'CD')",four,four,description,four,B,CARDINAL,Numerals that do not fall under another type
+locomotives,locomotives,"('locomotives', 'NNS')",locomot,locomotive,description,locomotives,I,CARDINAL,Numerals that do not fall under another type
+pull,pull,"('pull', 'VB')",pull,pull,description,pull,O,,
+fifteen,fifteen,"('fifteen', 'JJ')",fifteen,fifteen,description,fifteen,B,CARDINAL,Numerals that do not fall under another type
+coaches,coaches,"('coaches', 'NNS')",coach,coach,description,coaches,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+took,took,"('took', 'VBD')",took,take,description,took,O,,
+hour,hour,"('hour', 'NN')",hour,hour,description,hour,O,,
+exploding,exploding,"('exploding', 'VBG')",explod,explode,description,exploding,O,,
+boilers,boilers,"('boilers', 'NNS')",boiler,boiler,description,boilers,O,,
+resulting,resulting,"('resulting', 'VBG')",result,result,description,resulting,O,,
+deaths,deaths,"('deaths', 'NNS')",death,death,description,deaths,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,O,,
+magnificent,magnificent,"('magnificent', 'JJ')",magnific,magnificent,description,magnificent,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+single,single,"('single', 'JJ')",singl,single,description,single,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+walk,walk,"('walk', 'VBP')",walk,walk,description,walk,O,,
+make,make,"('make', 'VB')",make,make,description,make,O,,
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,B,FAC,"Buildings, airports, highways, bridges, etc."
+Trail,trail,"('trail', 'VBP')",trail,trail,description,Trail,I,FAC,"Buildings, airports, highways, bridges, etc."
+rated,rated,"('rated', 'VBN')",rate,rat,description,rated,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+top,top,"('top', 'JJ')",top,top,description,top,O,,
+five,five,"('five', 'CD')",five,five,description,five,B,CARDINAL,Numerals that do not fall under another type
+Rockies,rockies,"('rockies', 'NNS')",rocki,rockies,description,Rockies,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+really,really,"('really', 'RB')",realli,really,description,really,O,,
+short,short,"('short', 'VB')",short,short,description,short,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+get,get,"('get', 'VB')",get,get,description,get,O,,
+quick,quick,"('quick', 'JJ')",quick,quick,description,quick,O,,
+taste,taste,"('taste', 'NN')",tast,taste,description,taste,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+roads,roads,"('roads', 'VBZ')",road,roads,description,roads,O,,
+Emerald,emerald,"('emerald', 'VB')",emerald,emerald,description,Emerald,B,FAC,"Buildings, airports, highways, bridges, etc."
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,FAC,"Buildings, airports, highways, bridges, etc."
+Yoho,yoho,"('yoho', 'JJ')",yoho,yoho,description,Yoho,I,FAC,"Buildings, airports, highways, bridges, etc."
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,FAC,"Buildings, airports, highways, bridges, etc."
+Hara,hara,"('hara', 'NN')",hara,hara,description,Hara,I,FAC,"Buildings, airports, highways, bridges, etc."
+region,region,"('region', 'NN')",region,region,description,region,O,,
+divides,divides,"('divides', 'VBZ')",divid,divide,description,divides,O,,
+five,five,"('five', 'CD')",five,five,description,five,B,CARDINAL,Numerals that do not fall under another type
+basic,basic,"('basic', 'JJ')",basic,basic,description,basic,O,,
+zones,zones,"('zones', 'NNS')",zone,zone,description,zones,O,,
+deserves,deserves,"('deserves', 'VBZ')",deserv,deserve,description,deserves,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+exploration,exploration,"('exploration', 'NN')",explor,exploration,description,exploration,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Oesa,oesa,"('oesa', 'IN')",oesa,oesa,description,Oesa,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Opabin,opabin,"('opabin', 'NN')",opabin,opabin,description,Opabin,B,PERSON,"People, including fictional"
+Plateau,plateau,"('plateau', 'NN')",plateau,plateau,description,Plateau,I,PERSON,"People, including fictional"
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+often,often,"('often', 'RB')",often,often,description,often,O,,
+closed,closed,"('closed', 'VBN')",close,close,description,closed,O,,
+protect,protect,"('protect', 'VB')",protect,protect,description,protect,O,,
+grizzlies,grizzlies,"('grizzlies', 'NNS')",grizzli,grizzly,description,grizzlies,O,,
+Lake,lake,"('lake', 'VBP')",lake,lake,description,Lake,B,FAC,"Buildings, airports, highways, bridges, etc."
+McArthur,mcarthur,"('mcarthur', 'PDT')",mcarthur,mcarthur,description,McArthur,I,FAC,"Buildings, airports, highways, bridges, etc."
+Odaray,odaray,"('odaray', 'NN')",odaray,odaray,description,Odaray,I,FAC,"Buildings, airports, highways, bridges, etc."
+Plateau,plateau,"('plateau', 'NN')",plateau,plateau,description,Plateau,I,FAC,"Buildings, airports, highways, bridges, etc."
+Duchesnay,duchesnay,"('duchesnay', 'NN')",duchesnay,duchesnay,description,Duchesnay,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+classic,classic,"('classic', 'JJ')",classic,classic,description,classic,O,,
+trails,trails,"('trails', 'NNS')",trail,trail,description,trails,O,,
+Wiwaxy,wiwaxy,"('wiwaxy', 'JJ')",wiwaxi,wiwaxy,description,Wiwaxy,O,,
+Gap,gap,"('gap', 'NN')",gap,gap,description,Gap,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+Opabin,opabin,"('opabin', 'JJ')",opabin,opabin,description,Opabin,B,PERSON,"People, including fictional"
+Plateau,plateau,"('plateau', 'NN')",plateau,plateau,description,Plateau,I,PERSON,"People, including fictional"
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,PERSON,"People, including fictional"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,PERSON,"People, including fictional"
+Hara,hara,"('hara', 'NN')",hara,hara,description,Hara,I,PERSON,"People, including fictional"
+Lodge,lodge,"('lodge', 'NN')",lodg,lodge,description,Lodge,I,PERSON,"People, including fictional"
+Opabin,opabin,"('opabin', 'VB')",opabin,opabin,description,Opabin,B,PERSON,"People, including fictional"
+Lake,lake,"('lake', 'VB')",lake,lake,description,Lake,I,PERSON,"People, including fictional"
+Despite,despite,"('despite', 'IN')",despit,despite,description,Despite,O,,
+latter,latter,"('latter', 'JJ')",latter,latter,description,latter,O,,
+brevity,brevity,"('brevity', 'NN')",breviti,brevity,description,brevity,O,,
+could,could,"('could', 'MD')",could,could,description,could,O,,
+spend,spend,"('spend', 'VB')",spend,spend,description,spend,O,,
+hours,hours,"('hours', 'NNS')",hour,hour,description,hours,O,,
+wandering,wandering,"('wandering', 'VBG')",wander,wander,description,wandering,O,,
+plateau,plateau,"('plateau', 'NN')",plateau,plateau,description,plateau,O,,
+tiny,tiny,"('tiny', 'JJ')",tini,tiny,description,tiny,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,description,lakes,O,,
+alpine,alpine,"('alpine', 'JJ')",alpin,alpine,description,alpine,O,,
+meadows,meadows,"('meadows', 'NNS')",meadow,meadow,description,meadows,O,,
+secondary,secondary,"('secondary', 'JJ')",secondari,secondary,description,secondary,O,,
+trails,trails,"('trails', 'NNS')",trail,trail,description,trails,O,,
+crisscross,crisscross,"('crisscross', 'VBP')",crisscross,crisscross,description,crisscross,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+return,return,"('return', 'VBP')",return,return,description,return,O,,
+Lake,lake,"('lake', 'VB')",lake,lake,description,Lake,B,PERSON,"People, including fictional"
+Hara,hara,"('hara', 'NN')",hara,hara,description,Hara,I,PERSON,"People, including fictional"
+via,via,"('via', 'IN')",via,via,description,via,O,,
+East,east,"('east', 'JJ')",east,east,description,East,B,ORG,"Companies, agencies, institutions, etc."
+Circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,Circuit,I,ORG,"Companies, agencies, institutions, etc."
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,ORG,"Companies, agencies, institutions, etc."
+still,still,"('still', 'RB')",still,still,description,still,O,,
+exhilarating,exhilarating,"('exhilarating', 'JJ')",exhilar,exhilarating,description,exhilarating,O,,
+hike,hike,"('hike', 'NN')",hike,hike,description,hike,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+outing,outing,"('outing', 'NN')",outing,outing,description,outing,O,,
+walk,walk,"('walk', 'VB')",walk,walk,description,walk,O,,
+Yukness,yukness,"('yukness', 'NN')",yuk,yukness,description,Yukness,B,ORG,"Companies, agencies, institutions, etc."
+Ledge,ledge,"('ledge', 'VBZ')",ledg,ledge,description,Ledge,I,ORG,"Companies, agencies, institutions, etc."
+section,section,"('section', 'NN')",section,section,description,section,O,,
+Alpine,alpine,"('alpine', 'NN')",alpin,alpine,description,Alpine,B,ORG,"Companies, agencies, institutions, etc."
+Circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,Circuit,I,ORG,"Companies, agencies, institutions, etc."
+cuts,cuts,"('cuts', 'VBZ')",cut,cut,description,cuts,O,,
+East,east,"('east', 'JJ')",east,east,description,East,B,ORG,"Companies, agencies, institutions, etc."
+Circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,Circuit,I,ORG,"Companies, agencies, institutions, etc."
+leaving,leaving,"('leaving', 'VBG')",leav,leave,description,leaving,O,,
+Opabin,opabin,"('opabin', 'JJ')",opabin,opabin,description,Opabin,B,PERSON,"People, including fictional"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,PERSON,"People, including fictional"
+This,this,"('this', 'DT')",thi,this,description,This,O,,
+spectacular,spectacular,"('spectacular', 'JJ')",spectacular,spectacular,description,spectacular,O,,
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+leads,leads,"('leads', 'VBZ')",lead,lead,description,leads,O,,
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,description,beautiful,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Oesa,oesa,"('oesa', 'NN')",oesa,oesa,description,Oesa,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lake,lake,"('lake', 'VB')",lake,lake,description,Lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Hara,hara,"('hara', 'NN')",hara,hara,description,Hara,B,PERSON,"People, including fictional"
+Oesa,oesa,"('oesa', 'NN')",oesa,oesa,description,Oesa,I,PERSON,"People, including fictional"
+one,one,"('one', 'CD')",one,one,description,one,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,description,beautiful,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,description,lakes,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Oesa,oesa,"('oesa', 'NN')",oesa,oesa,description,Oesa,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Hara,hara,"('hara', 'NN')",hara,hara,description,Hara,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+single,single,"('single', 'JJ')",singl,single,description,single,O,,
+walked,walked,"('walked', 'JJ')",walk,walked,description,walked,O,,
+path,path,"('path', 'NN')",path,path,description,path,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Hara,hara,"('hara', 'NN')",hara,hara,description,Hara,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Close,close,"('close', 'RB')",close,close,description,Close,O,,
+behind,behind,"('behind', 'IN')",behind,behind,description,behind,O,,
+comes,comes,"('comes', 'VBZ')",come,come,description,comes,O,,
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,B,FAC,"Buildings, airports, highways, bridges, etc."
+McArthur,mcarthur,"('mcarthur', 'NN')",mcarthur,mcarthur,description,McArthur,I,FAC,"Buildings, airports, highways, bridges, etc."
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,FAC,"Buildings, airports, highways, bridges, etc."
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+leading,leading,"('leading', 'VBG')",lead,lead,description,leading,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+photographed,photographed,"('photographed', 'NNS')",photograph,photographed,description,photographed,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,description,lakes,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Odaray,odaray,"('odaray', 'NN')",odaray,odaray,description,Odaray,B,ORG,"Companies, agencies, institutions, etc."
+Plateau,plateau,"('plateau', 'NN')",plateau,plateau,description,Plateau,I,ORG,"Companies, agencies, institutions, etc."
+Trail,trail,"('trail', 'VBP')",trail,trail,description,Trail,I,ORG,"Companies, agencies, institutions, etc."
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+another,another,"('another', 'DT')",anoth,another,description,another,O,,
+highly,highly,"('highly', 'RB')",highli,highly,description,highly,O,,
+rated,rated,"('rated', 'VBN')",rate,rat,description,rated,O,,
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+longest,longest,"('longest', 'JJS')",longest,long,description,longest,O,,
+path,path,"('path', 'NN')",path,path,description,path,O,,
+Linda,linda,"('linda', 'NN')",linda,linda,description,Linda,B,PERSON,"People, including fictional"
+Basin,basin,"('basin', 'NN')",basin,basin,description,Basin,I,PERSON,"People, including fictional"
+trip,trip,"('trip', 'NN')",trip,trip,description,trip,O,,
+past,past,"('past', 'IN')",past,past,description,past,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,description,lakes,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+viewpoint,viewpoint,"('viewpoint', 'NN')",viewpoint,viewpoint,description,viewpoint,O,,
+Cathedral,cathedral,"('cathedral', 'JJ')",cathedr,cathedral,description,Cathedral,B,WORK_OF_ART,"Titles of books, songs, etc."
+Platform,platform,"('platform', 'NN')",platform,platform,description,Platform,I,WORK_OF_ART,"Titles of books, songs, etc."
+Prospect,prospect,"('prospect', 'VBP')",prospect,prospect,description,Prospect,I,WORK_OF_ART,"Titles of books, songs, etc."
+one,one,"('one', 'CD')",one,one,description,one,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'VBD')",ascent,ascent,description,ascent,O,,
+challenging,challenging,"('challenging', 'JJ')",challeng,challenging,description,challenging,O,,
+hike,hike,"('hike', 'NN')",hike,hike,description,hike,O,,
+Alpine,alpine,"('alpine', 'JJ')",alpin,alpine,description,Alpine,B,ORG,"Companies, agencies, institutions, etc."
+Circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,Circuit,I,ORG,"Companies, agencies, institutions, etc."
+taking,taking,"('taking', 'VBG')",take,take,description,taking,O,,
+Oesa,oesa,"('oesa', 'JJ')",oesa,oesa,description,Oesa,O,,
+Opabin,opabin,"('opabin', 'NN')",opabin,opabin,description,Opabin,B,PERSON,"People, including fictional"
+Schaffer,schaffer,"('schaffer', 'NN')",schaffer,schaffer,description,Schaffer,I,PERSON,"People, including fictional"
+lakes,lakes,"('lakes', 'NNS')",lake,lake,description,lakes,O,,
+This,this,"('this', 'DT')",thi,this,description,This,O,,
+straightforward,straightforward,"('straightforward', 'VBN')",straightforward,straightforward,description,straightforward,O,,
+fine,fine,"('fine', 'JJ')",fine,fine,description,fine,O,,
+weather,weather,"('weather', 'NN')",weather,weather,description,weather,O,,
+snow,snow,"('snow', 'NN')",snow,snow,description,snow,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+melted,melted,"('melted', 'VBN')",melt,melt,description,melted,O,,
+very,very,"('very', 'RB')",veri,very,description,very,O,,
+fit,fit,"('fit', 'JJ')",fit,fit,description,fit,O,,
+experienced,experienced,"('experienced', 'JJ')",experienc,experienced,description,experienced,O,,
+walkers,walkers,"('walkers', 'NNS')",walker,walker,description,walkers,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+trouble,trouble,"('trouble', 'NN')",troubl,trouble,description,trouble,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+considerable,considerable,"('considerable', 'JJ')",consider,considerable,description,considerable,O,,
+exposure,exposure,"('exposure', 'NN')",exposur,exposure,description,exposure,O,,
+scrambling,scrambling,"('scrambling', 'NN')",scrambl,scrambling,description,scrambling,O,,
+times,times,"('times', 'NNS')",time,time,description,times,O,,
+best,best,"('best', 'RBS')",best,best,description,best,O,,
+left,left,"('left', 'VBD')",left,leave,description,left,O,,
+climbers,climbers,"('climbers', 'NNS')",climber,climber,description,climbers,O,,
+left,left,"('left', 'VBD')",left,leave,description,left,O,,
+alone,alone,"('alone', 'RB')",alon,alone,description,alone,O,,
+trails,trails,"('trails', 'NNS')",trail,trail,description,trails,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Valley,valley,"('valley', 'NNP')",valley,valley,description,Valley,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+area,area,"('area', 'NN')",area,area,description,area,O,,
+start,start,"('start', 'NN')",start,start,description,start,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+Yoho,yoho,"('yoho', 'JJ')",yoho,yoho,description,Yoho,B,FAC,"Buildings, airports, highways, bridges, etc."
+Valley,valley,"('valley', 'NN')",valley,valley,description,Valley,I,FAC,"Buildings, airports, highways, bridges, etc."
+Road,road,"('road', 'NN')",road,road,description,Road,I,FAC,"Buildings, airports, highways, bridges, etc."
+Takakkaw,takakkaw,"('takakkaw', 'NN')",takakkaw,takakkaw,description,Takakkaw,I,FAC,"Buildings, airports, highways, bridges, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,FAC,"Buildings, airports, highways, bridges, etc."
+Campground,campground,"('campground', 'NN')",campground,campground,description,Campground,I,FAC,"Buildings, airports, highways, bridges, etc."
+Whiskey,whiskey,"('whiskey', 'JJ')",whiskey,whiskey,description,Whiskey,I,FAC,"Buildings, airports, highways, bridges, etc."
+Jack,jack,"('jack', 'NN')",jack,jack,description,Jack,I,FAC,"Buildings, airports, highways, bridges, etc."
+Hostel,hostel,"('hostel', 'NN')",hostel,hostel,description,Hostel,I,FAC,"Buildings, airports, highways, bridges, etc."
+road,road,"('road', 'NN')",road,road,description,road,O,,
+leaves,leaves,"('leaves', 'VBZ')",leav,leave,description,leaves,O,,
+east,east,"('east', 'NN')",east,east,description,east,O,,
+Field,field,"('field', 'NN')",field,field,description,Field,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,description,narrow,O,,
+switchbacking,switchbacking,"('switchbacking', 'NN')",switchback,switchbacking,description,switchbacking,O,,
+affair,affair,"('affair', 'NN')",affair,affair,description,affair,O,,
+unsuitable,unsuitable,"('unsuitable', 'JJ')",unsuit,unsuitable,description,unsuitable,O,,
+trailers,trailers,"('trailers', 'NNS')",trailer,trailer,description,trailers,O,,
+shortest,shortest,"('shortest', 'JJS')",shortest,short,description,shortest,O,,
+hikes,hikes,"('hikes', 'NNS')",hike,hike,description,hikes,O,,
+valley,valley,"('valley', 'NN')",valley,valley,description,valley,O,,
+strike,strike,"('strike', 'NN')",strike,strike,description,strike,O,,
+waterfalls,waterfalls,"('waterfalls', 'NNS')",waterfal,waterfall,description,waterfalls,O,,
+Takakkaw,takakkaw,"('takakkaw', 'JJ')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+lie,lie,"('lie', 'VBP')",lie,lie,description,lie,O,,
+easy,easy,"('easy', 'JJ')",easi,easy,description,easy,O,,
+hike,hike,"('hike', 'NN')",hike,hike,description,hike,O,,
+away,away,"('away', 'RB')",away,away,description,away,O,,
+drop,drop,"('drop', 'VB')",drop,drop,description,drop,O,,
+making,making,"('making', 'VBG')",make,make,description,making,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+spectacular,spectacular,"('spectacular', 'JJ')",spectacular,spectacular,description,spectacular,O,,
+falls,falls,"('falls', 'NNS')",fall,fall,description,falls,O,,
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,mountains,O,,
+less,less,"('less', 'JJR')",less,less,description,less,O,,
+busy,busy,"('busy', 'JJ')",busi,busy,description,busy,O,,
+options,options,"('options', 'NNS')",option,option,description,options,O,,
+Point,point,"('point', 'JJ')",point,point,description,Point,B,FAC,"Buildings, airports, highways, bridges, etc."
+Lace,lace,"('lace', 'NN')",lace,lace,description,Lace,I,FAC,"Buildings, airports, highways, bridges, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,FAC,"Buildings, airports, highways, bridges, etc."
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+minimum,minimum,"('minimum', 'JJ')",minimum,minimum,description,minimum,O,,
+ascent,ascent,"('ascent', 'JJ')",ascent,ascent,description,ascent,O,,
+return,return,"('return', 'NN')",return,return,description,return,O,,
+Laughing,laughing,"('laughing', 'VBG')",laugh,laugh,description,Laughing,B,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+gain,gain,"('gain', 'NN')",gain,gain,description,gain,O,,
+shortish,shortish,"('shortish', 'JJ')",shortish,shortish,description,shortish,O,,
+extremely,extremely,"('extremely', 'RB')",extrem,extremely,description,extremely,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+Yoho,yoho,"('yoho', 'JJ')",yoho,yoho,description,Yoho,O,,
+Pass,pass,"('pass', 'NN')",pass,pas,description,Pass,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'JJ')",ascent,ascent,description,ascent,O,,
+height,height,"('height', 'NN')",height,height,description,height,O,,
+loss,loss,"('loss', 'NN')",loss,loss,description,loss,O,,
+links,links,"('links', 'VBZ')",link,link,description,links,O,,
+Emerald,emerald,"('emerald', 'VB')",emerald,emerald,description,Emerald,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+eponymous,eponymous,"('eponymous', 'JJ')",eponym,eponymous,description,eponymous,O,,
+lodge,lodge,"('lodge', 'NN')",lodg,lodge,description,lodge,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+need,need,"('need', 'VB')",need,need,description,need,O,,
+transport,transport,"('transport', 'NN')",transport,transport,description,transport,O,,
+arranged,arranged,"('arranged', 'VBN')",arrang,arrange,description,arranged,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+southern,southern,"('southern', 'JJ')",southern,southern,description,southern,O,,
+branch,branch,"('branch', 'NN')",branch,branch,description,branch,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+hike,hike,"('hike', 'NN')",hike,hike,description,hike,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+Burgess,burgess,"('burgess', 'NN')",burgess,burgess,description,Burgess,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Pass,pass,"('pass', 'NN')",pass,pas,description,Pass,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Field,field,"('field', 'NN')",field,field,description,Field,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+another,another,"('another', 'DT')",anoth,another,description,another,O,,
+manageable,manageable,"('manageable', 'JJ')",manag,manageable,description,manageable,O,,
+fine,fine,"('fine', 'JJ')",fine,fine,description,fine,O,,
+overviews,overviews,"('overviews', 'NNS')",overview,overview,description,overviews,O,,
+entire,entire,"('entire', 'JJ')",entir,entire,description,entire,O,,
+tramped,tramped,"('tramped', 'JJ')",tramp,tramped,description,tramped,O,,
+path,path,"('path', 'NN')",path,path,description,path,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,B,ORG,"Companies, agencies, institutions, etc."
+Valley,valley,"('valley', 'NN')",valley,valley,description,Valley,I,ORG,"Companies, agencies, institutions, etc."
+Twin,twin,"('twin', 'NN')",twin,twin,description,Twin,I,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+Trail,trail,"('trail', 'JJ')",trail,trail,description,Trail,I,ORG,"Companies, agencies, institutions, etc."
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+Takakkaw,takakkaw,"('takakkaw', 'NN')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+This,this,"('this', 'DT')",thi,this,description,This,O,,
+easy,easy,"('easy', 'JJ')",easi,easy,description,easy,O,,
+return,return,"('return', 'NN')",return,return,description,return,O,,
+journey,journey,"('journey', 'NN')",journey,journey,description,journey,O,,
+passes,passes,"('passes', 'VBZ')",pass,pass,description,passes,O,,
+Laughing,laughing,"('laughing', 'NN')",laugh,laughing,description,Laughing,B,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+reward,reward,"('reward', 'NN')",reward,reward,description,reward,O,,
+Twin,twin,"('twin', 'NN')",twin,twin,description,Twin,B,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+cataract,cataract,"('cataract', 'NN')",cataract,cataract,description,cataract,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+plus,plus,"('plus', 'CC')",plu,plus,description,plus,O,,
+fine,fine,"('fine', 'JJ')",fine,fine,description,fine,O,,
+scenery,scenery,"('scenery', 'NN')",sceneri,scenery,description,scenery,O,,
+lesser,lesser,"('lesser', 'JJR')",lesser,less,description,lesser,O,,
+waterfalls,waterfalls,"('waterfalls', 'NNS')",waterfal,waterfall,description,waterfalls,O,,
+en,en,"('en', 'IN')",en,en,description,en,O,,
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+Stronger,stronger,"('stronger', 'JJR')",stronger,strong,description,Stronger,O,,
+walkers,walkers,"('walkers', 'NNS')",walker,walker,description,walkers,O,,
+could,could,"('could', 'MD')",could,could,description,could,O,,
+continue,continue,"('continue', 'VB')",continu,continue,description,continue,O,,
+highly,highly,"('highly', 'RB')",highli,highly,description,highly,O,,
+recommended,recommended,"('recommended', 'JJ')",recommend,recommended,description,recommended,O,,
+Whaleback,whaleback,"('whaleback', 'NN')",whaleback,whaleback,description,Whaleback,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+incredible,incredible,"('incredible', 'JJ')",incred,incredible,description,incredible,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+glaciers,glaciers,"('glaciers', 'NNS')",glacier,glacier,description,glaciers,O,,
+valley,valley,"('valley', 'NN')",valley,valley,description,valley,O,,
+head,head,"('head', 'NN')",head,head,description,head,O,,
+complete,complete,"('complete', 'JJ')",complet,complete,description,complete,O,,
+circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,circuit,O,,
+returning,returning,"('returning', 'VBG')",return,return,description,returning,O,,
+Takakkaw,takakkaw,"('takakkaw', 'VB')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+Whaleback,whaleback,"('whaleback', 'NN')",whaleback,whaleback,description,Whaleback,I,ORG,"Companies, agencies, institutions, etc."
+allowing,allowing,"('allowing', 'VBG')",allow,allow,description,allowing,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+big,big,"('big', 'JJ')",big,big,description,big,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,O,,
+hard,hard,"('hard', 'JJ')",hard,hard,description,hard,O,,
+choice,choice,"('choice', 'NN')",choic,choice,description,choice,O,,
+Takakkaw,takakkaw,"('takakkaw', 'NN')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,ORG,"Companies, agencies, institutions, etc."
+above,above,"('above', 'IN')",abov,above,description,above,O,,
+Yoho,yoho,"('yoho', 'JJ')",yoho,yoho,description,Yoho,B,PERSON,"People, including fictional"
+Whaleback,whaleback,"('whaleback', 'NN')",whaleback,whaleback,description,Whaleback,I,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+combination,combination,"('combination', 'NN')",combin,combination,description,combination,O,,
+Iceline,iceline,"('iceline', 'JJ')",icelin,iceline,description,Iceline,O,,
+vertical,vertical,"('vertical', 'JJ')",vertic,vertical,description,vertical,O,,
+gain,gain,"('gain', 'NN')",gain,gain,description,gain,O,,
+starts,starts,"('starts', 'VBZ')",start,start,description,starts,O,,
+close,close,"('close', 'RB')",close,close,description,close,O,,
+Takakkaw,takakkaw,"('takakkaw', 'NN')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+climbing,climbing,"('climbing', 'VBG')",climb,climb,description,climbing,O,,
+west,west,"('west', 'JJS')",west,west,description,west,O,,
+large,large,"('large', 'JJ')",larg,large,description,large,O,,
+avalanche,avalanche,"('avalanche', 'NN')",avalanch,avalanche,description,avalanche,O,,
+path,path,"('path', 'NN')",path,path,description,path,O,,
+onto,onto,"('onto', 'IN')",onto,onto,description,onto,O,,
+level,level,"('level', 'JJ')",level,level,description,level,O,,
+bench,bench,"('bench', 'NN')",bench,bench,description,bench,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+Emerald,emerald,"('emerald', 'NN')",emerald,emerald,description,Emerald,B,FAC,"Buildings, airports, highways, bridges, etc."
+Glacier,glacier,"('glacier', 'NN')",glacier,glacier,description,Glacier,I,FAC,"Buildings, airports, highways, bridges, etc."
+above,above,"('above', 'IN')",abov,above,description,above,O,,
+Daly,daly,"('daly', 'NN')",dali,daly,description,Daly,B,PERSON,"People, including fictional"
+Glacier,glacier,"('glacier', 'NN')",glacier,glacier,description,Glacier,I,PERSON,"People, including fictional"
+across,across,"('across', 'IN')",across,across,description,across,O,,
+valley,valley,"('valley', 'NN')",valley,valley,description,valley,O,,
+contours,contours,"('contours', 'VBZ')",contour,contour,description,contours,O,,
+above,above,"('above', 'IN')",abov,above,description,above,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Celeste,celeste,"('celeste', 'NN')",celest,celeste,description,Celeste,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+trail,trail,"('trail', 'NN')",trail,trail,description,trail,O,,
+drops,drops,"('drops', 'NN')",drop,drop,description,drops,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+making,making,"('making', 'VBG')",make,make,description,making,O,,
+shorter,shorter,"('shorter', 'NN')",shorter,shorter,description,shorter,O,,
+circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,circuit,O,,
+back,back,"('back', 'RB')",back,back,description,back,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+drops,drops,"('drops', 'NNS')",drop,drop,description,drops,O,,
+Little,little,"('little', 'JJ')",littl,little,description,Little,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Yoho,yoho,"('yoho', 'JJ')",yoho,yoho,description,Yoho,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Valley,valley,"('valley', 'NN')",valley,valley,description,Valley,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+back,back,"('back', 'RB')",back,back,description,back,O,,
+Takakkaw,takakkaw,"('takakkaw', 'VB')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,circuit,O,,
+very,very,"('very', 'RB')",veri,very,description,very,O,,
+fit,fit,"('fit', 'JJ')",fit,fit,description,fit,O,,
+camp,camp,"('camp', 'VB')",camp,camp,description,camp,O,,
+overnight,overnight,"('overnight', 'JJ')",overnight,overnight,description,overnight,O,,
+break,break,"('break', 'VB')",break,break,description,break,O,,
+trip,trip,"('trip', 'NN')",trip,trip,description,trip,O,,
+tagging,tagging,"('tagging', 'VBG')",tag,tag,description,tagging,O,,
+Whaleback,whaleback,"('whaleback', 'NN')",whaleback,whaleback,description,Whaleback,B,PERSON,"People, including fictional"
+before,before,"('before', 'IN')",befor,before,description,before,O,,
+returning,returning,"('returning', 'VBG')",return,return,description,returning,O,,
+Takakkaw,takakkaw,"('takakkaw', 'VB')",takakkaw,takakkaw,description,Takakkaw,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+makes,makes,"('makes', 'VBZ')",make,make,description,makes,O,,
+sensational,sensational,"('sensational', 'JJ')",sensat,sensational,description,sensational,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+choose,choose,"('choose', 'JJ')",choos,choose,description,choose,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+backcountry,backcountry,"('backcountry', 'NN')",backcountri,backcountry,description,backcountry,O,,
+hiking,hiking,"('hiking', 'VBG')",hike,hike,description,hiking,O,,
+option,option,"('option', 'NN')",option,option,description,option,O,,
+four,four,"('four', 'CD')",four,four,description,four,B,CARDINAL,Numerals that do not fall under another type
+backcountry,backcountry,"('backcountry', 'NN')",backcountri,backcountry,description,backcountry,O,,
+campgrounds,campgrounds,"('campgrounds', 'VBZ')",campground,campgrounds,description,campgrounds,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+coupled,coupled,"('coupled', 'VBN')",coupl,couple,description,coupled,O,,
+trek,trek,"('trek', 'NN')",trek,trek,description,trek,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Kiwetinok,kiwetinok,"('kiwetinok', 'NN')",kiwetinok,kiwetinok,description,Kiwetinok,B,PERSON,"People, including fictional"
+Pass,pass,"('pass', 'NN')",pass,pas,description,Pass,I,PERSON,"People, including fictional"
+also,also,"('also', 'RB')",also,also,description,also,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+lists,lists,"('lists', 'NNS')",list,list,description,lists,O,,
+top,top,"('top', 'JJ')",top,top,description,top,O,,
+five,five,"('five', 'CD')",five,five,description,five,B,CARDINAL,Numerals that do not fall under another type
+Rocky,rocky,"('rocky', 'JJ')",rocki,rocky,description,Rocky,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Mountain,mountain,"('mountain', 'NN')",mountain,mountain,description,Mountain,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+hikes,hikes,"('hikes', 'NNS')",hike,hike,description,hikes,O,,
+Juggling,juggling,"('juggling', 'VBG')",juggl,juggle,description,Juggling,O,,
+permutations,permutations,"('permutations', 'NNS')",permut,permutation,description,permutations,O,,
+brings,brings,"('brings', 'VBZ')",bring,bring,description,brings,O,,
+Whaleback,whaleback,"('whaleback', 'NN')",whaleback,whaleback,description,Whaleback,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+combination,combination,"('combination', 'NN')",combin,combination,description,combination,O,,
+make,make,"('make', 'VB')",make,make,description,make,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+backcountry,backcountry,"('backcountry', 'NN')",backcountri,backcountry,description,backcountry,O,,
+hiking,hiking,"('hiking', 'VBG')",hike,hike,description,hiking,O,,
+routes,routes,"('routes', 'NNS')",rout,route,description,routes,O,,
+Rockies,rockies,"('rockies', 'NNS')",rocki,rockies,description,Rockies,B,ORG,"Companies, agencies, institutions, etc."
+Yoho,yoho,"('yoho', 'VBP')",yoho,yoho,description,Yoho,I,ORG,"Companies, agencies, institutions, etc."
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+Rockwall,rockwall,"('rockwall', 'NN')",rockwal,rockwall,description,Rockwall,B,ORG,"Companies, agencies, institutions, etc."
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,I,ORG,"Companies, agencies, institutions, etc."
+Kootenay,kootenay,"('kootenay', 'JJ')",kootenay,kootenay,description,Kootenay,O,,
+Skyline,skyline,"('skyline', 'NN')",skylin,skyline,description,Skyline,O,,
+Jasper,jasper,"('jasper', 'NN')",jasper,jasper,description,Jasper,O,,
+Berg,berg,"('berg', 'JJ')",berg,berg,description,Berg,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,O,,
+Mount,mount,"('mount', 'NN')",mount,mount,description,Mount,O,,
+Robson,robson,"('robson', 'NN')",robson,robson,description,Robson,O,,
+Provincial,provincial,"('provincial', 'JJ')",provinci,provincial,description,Provincial,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Emerald,emerald,"('emerald', 'JJ')",emerald,emerald,description,Emerald,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Road,road,"('road', 'NN')",road,road,description,Road,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+leaves,leaves,"('leaves', 'VBZ')",leav,leave,description,leaves,O,,
+Highway,highway,"('highway', 'NN')",highway,highway,description,Highway,B,FAC,"Buildings, airports, highways, bridges, etc."
+west,west,"('west', 'NN')",west,west,description,west,I,FAC,"Buildings, airports, highways, bridges, etc."
+Field,field,"('field', 'NN')",field,field,description,Field,I,FAC,"Buildings, airports, highways, bridges, etc."
+ends,ends,"('ends', 'VBZ')",end,end,description,ends,O,,
+Emerald,emerald,"('emerald', 'JJ')",emerald,emerald,description,Emerald,B,ORG,"Companies, agencies, institutions, etc."
+Lake,lake,"('lake', 'VBP')",lake,lake,description,Lake,I,ORG,"Companies, agencies, institutions, etc."
+Lodge,lodge,"('lodge', 'NN')",lodg,lodge,description,Lodge,I,ORG,"Companies, agencies, institutions, etc."
+Like,like,"('like', 'IN')",like,like,description,Like,I,ORG,"Companies, agencies, institutions, etc."
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,I,ORG,"Companies, agencies, institutions, etc."
+Valley,valley,"('valley', 'NN')",valley,valley,description,Valley,I,ORG,"Companies, agencies, institutions, etc."
+Road,road,"('road', 'NN')",road,road,description,Road,I,ORG,"Companies, agencies, institutions, etc."
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+route,route,"('route', 'NN')",rout,route,description,route,O,,
+offers,offers,"('offers', 'VBZ')",offer,offer,description,offers,O,,
+access,access,"('access', 'NN')",access,access,description,access,O,,
+easy,easy,"('easy', 'VB')",easi,easy,description,easy,O,,
+strolls,strolls,"('strolls', 'NNS')",stroll,stroll,description,strolls,O,,
+longer,longer,"('longer', 'JJR')",longer,long,description,longer,O,,
+stroll,stroll,"('stroll', 'NN')",stroll,stroll,description,stroll,O,,
+Emerald,emerald,"('emerald', 'JJ')",emerald,emerald,description,Emerald,B,PERSON,"People, including fictional"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,PERSON,"People, including fictional"
+follow,follow,"('follow', 'VBP')",follow,follow,description,follow,O,,
+nature,nature,"('nature', 'JJ')",natur,nature,description,nature,O,,
+trail,trail,"('trail', 'NN')",trail,trail,description,trail,O,,
+circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,circuit,O,,
+minimal,minimal,"('minimal', 'JJ')",minim,minimal,description,minimal,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,bridge,O,,
+far,far,"('far', 'RB')",far,far,description,far,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+Even,even,"('even', 'RB')",even,even,description,Even,O,,
+shorter,shorter,"('shorter', 'RBR')",shorter,shorter,description,shorter,O,,
+trail,trail,"('trail', 'NN')",trail,trail,description,trail,O,,
+entrance,entrance,"('entrance', 'NN')",entranc,entrance,description,entrance,O,,
+Hamilton,hamilton,"('hamilton', 'VB')",hamilton,hamilton,description,Hamilton,B,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+return,return,"('return', 'VB')",return,return,description,return,O,,
+minimal,minimal,"('minimal', 'JJ')",minim,minimal,description,minimal,O,,
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+Hamilton,hamilton,"('hamilton', 'JJ')",hamilton,hamilton,description,Hamilton,B,PERSON,"People, including fictional"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,PERSON,"People, including fictional"
+Trail,trail,"('trail', 'NN')",trail,trail,description,Trail,B,GPE,"Countries, cities, states"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+vertical,vertical,"('vertical', 'NN')",vertic,vertical,description,vertical,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+starting,starting,"('starting', 'VBG')",start,start,description,starting,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+Emerald,emerald,"('emerald', 'JJ')",emerald,emerald,description,Emerald,B,FAC,"Buildings, airports, highways, bridges, etc."
+Lake,lake,"('lake', 'VBP')",lake,lake,description,Lake,I,FAC,"Buildings, airports, highways, bridges, etc."
+Road,road,"('road', 'NN')",road,road,description,Road,I,FAC,"Buildings, airports, highways, bridges, etc."
+demanding,demanding,"('demanding', 'VBG')",demand,demand,description,demanding,O,,
+steep,steep,"('steep', 'JJ')",steep,steep,description,steep,O,,
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+forested,forested,"('forested', 'VBN')",forest,forest,description,forested,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,TIME,Times smaller than a day
+hour,hour,"('hour', 'NN')",hour,hour,description,hour,I,TIME,Times smaller than a day
+thereafter,thereafter,"('thereafter', 'JJR')",thereaft,thereafter,description,thereafter,O,,
+magnificent,magnificent,"('magnificent', 'JJ')",magnific,magnificent,description,magnificent,O,,
+culminating,culminating,"('culminating', 'NN')",culmin,culminating,description,culminating,O,,
+classic,classic,"('classic', 'JJ')",classic,classic,description,classic,O,,
+alpine,alpine,"('alpine', 'NN')",alpin,alpine,description,alpine,O,,
+lake,lake,"('lake', 'VBP')",lake,lake,description,lake,O,,
+modest,modest,"('modest', 'JJ')",modest,modest,description,modest,O,,
+climb,climb,"('climb', 'NN')",climb,climb,description,climb,O,,
+Emerald,emerald,"('emerald', 'VB')",emerald,emerald,description,Emerald,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Basin,basin,"('basin', 'VB')",basin,basin,description,Basin,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+vertical,vertical,"('vertical', 'JJ')",vertic,vertical,description,vertical,O,,
+follows,follows,"('follows', 'VBZ')",follow,follow,description,follows,O,,
+lakeshore,lakeshore,"('lakeshore', 'NN')",lakeshor,lakeshore,description,lakeshore,O,,
+before,before,"('before', 'IN')",befor,before,description,before,O,,
+climbing,climbing,"('climbing', 'VBG')",climb,climb,description,climbing,O,,
+forest,forest,"('forest', 'JJS')",forest,forest,description,forest,O,,
+ending,ending,"('ending', 'VBG')",end,end,description,ending,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+rocky,rocky,"('rocky', 'JJ')",rocki,rocky,description,rocky,O,,
+amphitheatre,amphitheatre,"('amphitheatre', 'NN')",amphitheatr,amphitheatre,description,amphitheatre,O,,
+hanging,hanging,"('hanging', 'VBG')",hang,hang,description,hanging,O,,
+glaciers,glaciers,"('glaciers', 'NNS')",glacier,glacier,description,glaciers,O,,
+avalanche,avalanche,"('avalanche', 'NN')",avalanch,avalanche,description,avalanche,O,,
+short,short,"('short', 'JJ')",short,short,description,short,O,,
+walks,walks,"('walks', 'NNS')",walk,walk,description,walks,O,,
+accessed,accessed,"('accessed', 'VBN')",access,access,description,accessed,O,,
+Highway,highway,"('highway', 'NN')",highway,highway,description,Highway,B,ORG,"Companies, agencies, institutions, etc."
+passes,passes,"('passes', 'VBZ')",pass,pass,description,passes,O,,
+Yoho,yoho,"('yoho', 'NN')",yoho,yoho,description,Yoho,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+east,east,"('east', 'NN')",east,east,description,east,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+west,west,"('west', 'VB')",west,west,description,west,O,,
+Ross,ross,"('ross', 'NNS')",ross,ross,description,Ross,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lake,lake,"('lake', 'VB')",lake,lake,description,Lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+one,one,"('one', 'CD')",one,one,description,one,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+stunning,stunning,"('stunning', 'JJ')",stun,stunning,description,stunning,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+loveliness,loveliness,"('loveliness', 'NN')",loveli,loveliness,description,loveliness,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+ease,ease,"('ease', 'NN')",eas,ease,description,ease,O,,
+reach,reach,"('reach', 'VBP')",reach,reach,description,reach,O,,
+accessed,accessed,"('accessed', 'VBD')",access,access,description,accessed,O,,
+south,south,"('south', 'NN')",south,south,description,south,O,,
+Great,great,"('great', 'JJ')",great,great,description,Great,B,ORG,"Companies, agencies, institutions, etc."
+Divide,divide,"('divide', 'NN')",divid,divide,description,Divide,I,ORG,"Companies, agencies, institutions, etc."
+picnic,picnic,"('picnic', 'JJ')",picnic,picnic,description,picnic,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Sherbrooke,sherbrooke,"('sherbrooke', 'VBD')",sherbrook,sherbrooke,description,Sherbrooke,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lake,lake,"('lake', 'VB')",lake,lake,description,Lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+one,one,"('one', 'CD')",one,one,description,one,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+peaceful,peaceful,"('peaceful', 'JJ')",peac,peaceful,description,peaceful,O,,
+subalpine,subalpine,"('subalpine', 'NN')",subalpin,subalpine,description,subalpine,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+accessible,accessible,"('accessible', 'JJ')",access,accessible,description,accessible,O,,
+Wapta,wapta,"('wapta', 'JJ')",wapta,wapta,description,Wapta,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+picnic,picnic,"('picnic', 'JJ')",picnic,picnic,description,picnic,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Great,great,"('great', 'JJ')",great,great,description,Great,B,ORG,"Companies, agencies, institutions, etc."
+Divide,divide,"('divide', 'NN')",divid,divide,description,Divide,I,ORG,"Companies, agencies, institutions, etc."
+stronger,stronger,"('stronger', 'JJR')",stronger,strong,description,stronger,O,,
+walkers,walkers,"('walkers', 'NNS')",walker,walker,description,walkers,O,,
+peel,peel,"('peel', 'VB')",peel,peel,description,peel,O,,
+Paget,paget,"('paget', 'VB')",paget,paget,description,Paget,O,,
+Lookout,lookout,"('lookout', 'NN')",lookout,lookout,description,Lookout,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,description,huge,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+Kicking,kicking,"('kicking', 'VBG')",kick,kick,description,Kicking,B,ORG,"Companies, agencies, institutions, etc."
+Horse,horse,"('horse', 'NN')",hors,horse,description,Horse,I,ORG,"Companies, agencies, institutions, etc."
+Valley,valley,"('valley', 'NN')",valley,valley,description,Valley,I,ORG,"Companies, agencies, institutions, etc."
+ascent,ascent,"('ascent', 'NN')",ascent,ascent,description,ascent,O,,
+Hoodoo,hoodoo,"('hoodoo', 'NN')",hoodoo,hoodoo,description,Hoodoo,O,,
+Creek,creek,"('creek', 'VBP')",creek,creek,description,Creek,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+western,western,"('western', 'JJ')",western,western,description,western,O,,
+edge,edge,"('edge', 'NN')",edg,edge,description,edge,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+west,west,"('west', 'NN')",west,west,description,west,B,GPE,"Countries, cities, states"
+Field,field,"('field', 'NN')",field,field,description,Field,I,GPE,"Countries, cities, states"
+accessed,accessed,"('accessed', 'VBN')",access,access,description,accessed,O,,
+gravel,gravel,"('gravel', 'NN')",gravel,gravel,description,gravel,O,,
+road,road,"('road', 'NN')",road,road,description,road,O,,
+Hoodoo,hoodoo,"('hoodoo', 'NN')",hoodoo,hoodoo,description,Hoodoo,B,ORG,"Companies, agencies, institutions, etc."
+Creek,creek,"('creek', 'NN')",creek,creek,description,Creek,I,ORG,"Companies, agencies, institutions, etc."
+Campground,campground,"('campground', 'VBD')",campground,campground,description,Campground,I,ORG,"Companies, agencies, institutions, etc."
+steep,steep,"('steep', 'JJ')",steep,steep,description,steep,O,,
+path,path,"('path', 'NN')",path,path,description,path,O,,
+starting,starting,"('starting', 'VBG')",start,start,description,starting,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+campground,campground,"('campground', 'NN')",campground,campground,description,campground,O,,
+access,access,"('access', 'NN')",access,access,description,access,O,,
+road,road,"('road', 'NN')",road,road,description,road,O,,
+leads,leads,"('leads', 'VBZ')",lead,lead,description,leads,O,,
+weirdly,weirdly,"('weirdly', 'RB')",weirdli,weirdly,description,weirdly,O,,
+eroded,eroded,"('eroded', 'JJ')",erod,eroded,description,eroded,O,,
+hoodoos,hoodoos,"('hoodoos', 'NN')",hoodoo,hoodoo,description,hoodoos,O,,
+themselves,themselves,"('themselves', 'PRP')",themselv,themselves,description,themselves,O,,
+pillars,pillars,"('pillars', 'NNS')",pillar,pillar,description,pillars,O,,
+glacial,glacial,"('glacial', 'JJ')",glacial,glacial,description,glacial,O,,
+debris,debris,"('debris', 'NN')",debri,debris,description,debris,O,,
+topped,topped,"('topped', 'VBN')",top,top,description,topped,O,,
+protective,protective,"('protective', 'JJ')",protect,protective,description,protective,O,,
+capping,capping,"('capping', 'NN')",cap,capping,description,capping,O,,
+stones,stones,"('stones', 'NNS')",stone,stone,description,stones,O,,
+finally,finally,"('finally', 'RB')",final,finally,description,finally,O,,
+Wapta,wapta,"('wapta', 'VB')",wapta,wapta,description,Wapta,B,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+way,way,"('way', 'NN')",way,way,description,way,O,,
+excellent,excellent,"('excellent', 'NN')",excel,excellent,description,excellent,O,,
+almost,almost,"('almost', 'RB')",almost,almost,description,almost,O,,
+level,level,"('level', 'NN')",level,level,description,level,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+trail,trail,"('trail', 'NN')",trail,trail,description,trail,O,,
+Yoho,yoho,"('yoho', 'VB')",yoho,yoho,description,Yoho,B,PERSON,"People, including fictional"
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+waterfalls,waterfalls,"('waterfalls', 'NNS')",waterfal,waterfall,description,waterfalls,O,,
+volume,volume,"('volume', 'NN')",volum,volume,description,volume,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+accessed,accessed,"('accessed', 'VBN')",access,access,description,accessed,O,,
+via,via,"('via', 'IN')",via,via,description,via,O,,
+dirt,dirt,"('dirt', 'NN')",dirt,dirt,description,dirt,O,,
+road,road,"('road', 'NN')",road,road,description,road,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Field,field,"('field', 'NN')",field,field,description,Field,O,,

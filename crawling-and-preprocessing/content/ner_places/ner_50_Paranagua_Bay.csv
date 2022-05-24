@@ -1,0 +1,1737 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,introduction,Paraná,O,,
+immediately,immediately,"('immediately', 'RB')",immedi,immediately,introduction,immediately,O,,
+south,south,"('south', 'NN')",south,south,introduction,south,O,,
+São,são,"('são', 'NN')",são,são,introduction,São,B,PERSON,"People, including fictional"
+Paulo,paulo,"('paulo', 'NN')",paulo,paulo,introduction,Paulo,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,introduction,has,O,,
+become,become,"('become', 'VBN')",becom,become,introduction,become,O,,
+one,one,"('one', 'CD')",one,one,introduction,one,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,introduction,Brazil,B,GPE,"Countries, cities, states"
+wealthiest,wealthiest,"('wealthiest', 'JJS')",wealthiest,wealthy,introduction,wealthiest,O,,
+dynamic,dynamic,"('dynamic', 'JJ')",dynam,dynamic,introduction,dynamic,O,,
+states,states,"('states', 'NNS')",state,state,introduction,states,O,,
+agricultural,agricultural,"('agricultural', 'JJ')",agricultur,agricultural,introduction,agricultural,O,,
+economy,economy,"('economy', 'NN')",economi,economy,introduction,economy,O,,
+based,based,"('based', 'VBN')",base,base,introduction,based,O,,
+mix,mix,"('mix', 'NN')",mix,mix,introduction,mix,O,,
+efficient,efficient,"('efficient', 'JJ')",effici,efficient,introduction,efficient,O,,
+family,family,"('family', 'NN')",famili,family,introduction,family,O,,
+farms,farms,"('farms', 'NNS')",farm,farm,introduction,farms,O,,
+highly,highly,"('highly', 'RB')",highli,highly,introduction,highly,O,,
+capitalized,capitalized,"('capitalized', 'VBN')",capit,capitalize,introduction,capitalized,O,,
+larger,larger,"('larger', 'JJR')",larger,large,introduction,larger,O,,
+land,land,"('land', 'NN')",land,land,introduction,land,O,,
+holdings,holdings,"('holdings', 'NNS')",hold,holding,introduction,holdings,O,,
+modern,modern,"('modern', 'JJ')",modern,modern,introduction,modern,O,,
+industries,industries,"('industries', 'NNS')",industri,industry,introduction,industries,O,,
+unlike,unlike,"('unlike', 'IN')",unlik,unlike,introduction,unlike,O,,
+many,many,"('many', 'JJ')",mani,many,introduction,many,O,,
+parts,parts,"('parts', 'NNS')",part,part,introduction,parts,O,,
+country,country,"('country', 'NN')",countri,country,introduction,country,O,,
+subject,subject,"('subject', 'JJ')",subject,subject,introduction,subject,O,,
+least,least,"('least', 'JJS')",least,least,introduction,least,O,,
+limited,limited,"('limited', 'JJ')",limit,limited,introduction,limited,O,,
+planning,planning,"('planning', 'NN')",plan,planning,introduction,planning,O,,
+environmental,environmental,"('environmental', 'JJ')",environment,environmental,introduction,environmental,O,,
+controls,controls,"('controls', 'NNS')",control,control,introduction,controls,O,,
+state,state,"('state', 'NN')",state,state,introduction,state,O,,
+population,population,"('population', 'NN')",popul,population,introduction,population,O,,
+ethnically,ethnically,"('ethnically', 'RB')",ethnic,ethnically,introduction,ethnically,O,,
+extremely,extremely,"('extremely', 'RB')",extrem,extremely,introduction,extremely,O,,
+diverse,diverse,"('diverse', 'JJ')",divers,diverse,introduction,diverse,O,,
+largely,largely,"('largely', 'RB')",larg,largely,introduction,largely,O,,
+comprised,comprised,"('comprised', 'VBN')",compris,comprise,introduction,comprised,O,,
+descendants,descendants,"('descendants', 'NNS')",descend,descendant,introduction,descendants,O,,
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,introduction,immigrants,O,,
+this,this,"('this', 'DT')",thi,this,introduction,this,O,,
+combines,combines,"('combines', 'NNS')",combin,combine,introduction,combines,O,,
+give,give,"('give', 'VB')",give,give,introduction,give,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,introduction,Paraná,B,GPE,"Countries, cities, states"
+something,something,"('something', 'NN')",someth,something,introduction,something,O,,
+feel,feel,"('feel', 'NN')",feel,feel,introduction,feel,O,,
+American,american,"('american', 'JJ')",american,american,introduction,American,B,ORG,"Companies, agencies, institutions, etc."
+Midwestern,midwestern,"('midwestern', 'NN')",midwestern,midwestern,introduction,Midwestern,I,ORG,"Companies, agencies, institutions, etc."
+state,state,"('state', 'NN')",state,state,introduction,state,O,,
+transplanted,transplanted,"('transplanted', 'VBD')",transplant,transplant,introduction,transplanted,O,,
+subtropics,subtropics,"('subtropics', 'NNS')",subtrop,subtropics,introduction,subtropics,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,B,DATE,Absolute or relative dates or periods
+decades,decades,"('decades', 'NNS')",decad,decade,description,decades,I,DATE,Absolute or relative dates or periods
+breaking,breaking,"('breaking', 'VBG')",break,break,description,breaking,O,,
+away,away,"('away', 'RB')",away,away,description,away,O,,
+São,são,"('são', 'JJ')",são,são,description,São,B,PERSON,"People, including fictional"
+Paulo,paulo,"('paulo', 'NN')",paulo,paulo,description,Paulo,I,PERSON,"People, including fictional"
+Paraná,paraná,"('paraná', 'JJ')",paraná,paraná,description,Paraná,O,,
+economy,economy,"('economy', 'NN')",economi,economy,description,economy,O,,
+remained,remained,"('remained', 'VBD')",remain,remain,description,remained,O,,
+based,based,"('based', 'VBN')",base,base,description,based,O,,
+timber,timber,"('timber', 'NN')",timber,timber,description,timber,O,,
+extraction,extraction,"('extraction', 'NN')",extract,extraction,description,extraction,O,,
+erva,erva,"('erva', 'NN')",erva,erva,description,erva,B,PERSON,"People, including fictional"
+maté,maté,"('maté', 'VBP')",maté,maté,description,maté,I,PERSON,"People, including fictional"
+bush,bush,"('bush', 'NN')",bush,bush,description,bush,B,PERSON,"People, including fictional"
+whose,whose,"('whose', 'WP$')",whose,whose,description,whose,O,,
+leaves,leaves,"('leaves', 'NNS')",leav,leaf,description,leaves,O,,
+used,used,"('used', 'VBN')",use,use,description,used,O,,
+make,make,"('make', 'VB')",make,make,description,make,O,,
+beverage,beverage,"('beverage', 'NN')",beverag,beverage,description,beverage,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+province,province,"('province', 'NN')",provinc,province,description,province,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+linked,linked,"('linked', 'VBN')",link,link,description,linked,O,,
+rest,rest,"('rest', 'NN')",rest,rest,description,rest,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+network,network,"('network', 'NN')",network,network,description,network,O,,
+trails,trails,"('trails', 'NNS')",trail,trail,description,trails,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+cattle,cattle,"('cattle', 'NNS')",cattl,cattle,description,cattle,O,,
+mules,mules,"('mules', 'NNS')",mule,mule,description,mules,O,,
+passed,passed,"('passed', 'VBN')",pass,pass,description,passed,O,,
+Rio,rio,"('rio', 'NN')",rio,rio,description,Rio,B,PERSON,"People, including fictional"
+Grande,grande,"('grande', 'NNS')",grand,grande,description,Grande,I,PERSON,"People, including fictional"
+Sul,sul,"('sul', 'VB')",sul,sul,description,Sul,I,PERSON,"People, including fictional"
+grasslands,grasslands,"('grasslands', 'NNS')",grassland,grassland,description,grasslands,O,,
+mines,mines,"('mines', 'NNS')",mine,mine,description,mines,O,,
+plantations,plantations,"('plantations', 'NNS')",plantat,plantation,description,plantations,O,,
+northern,northern,"('northern', 'JJ')",northern,northern,description,northern,O,,
+provinces,provinces,"('provinces', 'NNS')",provinc,province,description,provinces,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+sparsely,sparsely,"('sparsely', 'RB')",spars,sparsely,description,sparsely,O,,
+populated,populated,"('populated', 'VBN')",popul,populate,description,populated,O,,
+Indians,indians,"('indians', 'NNS')",indian,indian,description,Indians,B,NORP,Nationalities or religious or political groups
+Portuguese,portuguese,"('portuguese', 'JJ')",portugues,portuguese,description,Portuguese,B,NORP,Nationalities or religious or political groups
+caboclos,caboclos,"('caboclos', 'NN')",caboclo,caboclos,description,caboclos,O,,
+worked,worked,"('worked', 'VBD')",work,work,description,worked,O,,
+latifúndios,latifúndios,"('latifúndios', 'NNS')",latifúndio,latifúndios,description,latifúndios,O,,
+scratched,scratched,"('scratched', 'VBD')",scratch,scratch,description,scratched,O,,
+living,living,"('living', 'NN')",live,living,description,living,O,,
+subsistence,subsistence,"('subsistence', 'NN')",subsist,subsistence,description,subsistence,O,,
+farmers,farmers,"('farmers', 'NNS')",farmer,farmer,description,farmers,O,,
+coast,coast,"('coast', 'NN')",coast,coast,description,coast,O,,
+provincial,provincial,"('provincial', 'JJ')",provinci,provincial,description,provincial,O,,
+government,government,"('government', 'NN')",govern,government,description,government,O,,
+turned,turned,"('turned', 'VBD')",turn,turn,description,turned,O,,
+immigration,immigration,"('immigration', 'NN')",immigr,immigration,description,immigration,O,,
+means,means,"('means', 'NN')",mean,mean,description,means,O,,
+expand,expand,"('expand', 'VB')",expand,expand,description,expand,O,,
+Paraná,paraná,"('paraná', 'VB')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+economy,economy,"('economy', 'NN')",economi,economy,description,economy,O,,
+open,open,"('open', 'VB')",open,open,description,open,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+settlement,settlement,"('settlement', 'NN')",settlement,settlement,description,settlement,O,,
+first,first,"('first', 'JJ')",first,first,description,first,O,,
+immigrant,immigrant,"('immigrant', 'JJ')",immigr,immigrant,description,immigrant,O,,
+colonies,colonies,"('colonies', 'NNS')",coloni,colony,description,colonies,B,GPE,"Countries, cities, states"
+British,british,"('british', 'JJ')",british,british,description,British,B,NORP,Nationalities or religious or political groups
+French,french,"('french', 'JJ')",french,french,description,French,B,NORP,Nationalities or religious or political groups
+Swiss,swiss,"('swiss', 'NN')",swiss,swiss,description,Swiss,O,,
+Icelanders,icelanders,"('icelanders', 'NNS')",iceland,icelander,description,Icelanders,O,,
+utter,utter,"('utter', 'JJ')",utter,utter,description,utter,O,,
+failures,failures,"('failures', 'NNS')",failur,failure,description,failures,O,,
+onwards,onwards,"('onwards', 'NNS')",onward,onwards,description,onwards,O,,
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+better,better,"('better', 'RB')",better,well,description,better,O,,
+mixed,mixed,"('mixed', 'JJ')",mix,mixed,description,mixed,O,,
+farmers,farmers,"('farmers', 'NNS')",farmer,farmer,description,farmers,O,,
+coffee,coffee,"('coffee', 'VBP')",coffe,coffee,description,coffee,O,,
+soya,soya,"('soya', 'JJ')",soya,soya,description,soya,O,,
+producers,producers,"('producers', 'NNS')",produc,producer,description,producers,O,,
+Germans,germans,"('germans', 'NNS')",german,german,description,Germans,B,NORP,Nationalities or religious or political groups
+moved,moved,"('moved', 'VBD')",move,move,description,moved,O,,
+northwards,northwards,"('northwards', 'NNS')",northward,northward,description,northwards,O,,
+Rio,rio,"('rio', 'NN')",rio,rio,description,Rio,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+Sul,sul,"('sul', 'NN')",sul,sul,description,Sul,I,ORG,"Companies, agencies, institutions, etc."
+Santa,santa,"('santa', 'JJ')",santa,santa,description,Santa,I,ORG,"Companies, agencies, institutions, etc."
+Catarina,catarina,"('catarina', 'NN')",catarina,catarina,description,Catarina,O,,
+Poles,poles,"('poles', 'NNS')",pole,pole,description,Poles,B,NORP,Nationalities or religious or political groups
+Italians,italians,"('italians', 'NNS')",italian,italian,description,Italians,B,NORP,Nationalities or religious or political groups
+settled,settled,"('settled', 'VBN')",settl,settle,description,settled,O,,
+near,near,"('near', 'IN')",near,near,description,near,O,,
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+Ukrainians,ukrainians,"('ukrainians', 'NNS')",ukrainian,ukrainian,description,Ukrainians,B,NORP,Nationalities or religious or political groups
+centred,centred,"('centred', 'VBD')",centr,centre,description,centred,O,,
+themselves,themselves,"('themselves', 'PRP')",themselv,themselves,description,themselves,O,,
+south,south,"('south', 'JJ')",south,south,description,south,O,,
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+Prudentópolis,prudentópolis,"('prudentópolis', 'JJ')",prudentópoli,prudentópolis,description,Prudentópolis,B,PERSON,"People, including fictional"
+Japanese,japanese,"('japanese', 'JJ')",japanes,japanese,description,Japanese,B,NORP,Nationalities or religious or political groups
+spread,spread,"('spread', 'NN')",spread,spread,description,spread,O,,
+south,south,"('south', 'VBP')",south,south,description,south,O,,
+São,são,"('são', 'NN')",são,são,description,São,B,PERSON,"People, including fictional"
+Paulo,paulo,"('paulo', 'NN')",paulo,paulo,description,Paulo,I,PERSON,"People, including fictional"
+settling,settling,"('settling', 'VBG')",settl,settle,description,settling,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+Londrina,londrina,"('londrina', 'NN')",londrina,londrina,description,Londrina,B,PERSON,"People, including fictional"
+Maringá,maringá,"('maringá', 'NN')",maringá,maringá,description,Maringá,I,PERSON,"People, including fictional"
+host,host,"('host', 'NN')",host,host,description,host,O,,
+smaller,smaller,"('smaller', 'JJR')",smaller,small,description,smaller,O,,
+groups,groups,"('groups', 'NNS')",group,group,description,groups,O,,
+including,including,"('including', 'VBG')",includ,include,description,including,O,,
+Dutch,dutch,"('dutch', 'NN')",dutch,dutch,description,Dutch,B,NORP,Nationalities or religious or political groups
+Mennonites,mennonites,"('mennonites', 'NNS')",mennonit,mennonite,description,Mennonites,B,NORP,Nationalities or religious or political groups
+Koreans,koreans,"('koreans', 'NNS')",korean,korean,description,Koreans,B,NORP,Nationalities or religious or political groups
+Russian,russian,"('russian', 'JJ')",russian,russian,description,Russian,O,,
+Old,old,"('old', 'JJ')",old,old,description,Old,O,,
+Believers,believers,"('believers', 'NNS')",believ,believer,description,Believers,O,,
+established,established,"('established', 'VBN')",establish,establish,description,established,O,,
+colonies,colonies,"('colonies', 'NNS')",coloni,colony,description,colonies,O,,
+elsewhere,elsewhere,"('elsewhere', 'RB')",elsewher,elsewhere,description,elsewhere,O,,
+varying,varying,"('varying', 'VBG')",vari,vary,description,varying,O,,
+success,success,"('success', 'NN')",success,success,description,success,O,,
+rates,rates,"('rates', 'NNS')",rate,rate,description,rates,O,,
+Thanks,thanks,"('thanks', 'NNS')",thank,thanks,description,Thanks,O,,
+isolation,isolation,"('isolation', 'NN')",isol,isolation,description,isolation,O,,
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,description,immigrants,O,,
+descendants,descendants,"('descendants', 'NNS')",descend,descendant,description,descendants,O,,
+retained,retained,"('retained', 'VBN')",retain,retain,description,retained,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+cultural,cultural,"('cultural', 'JJ')",cultur,cultural,description,cultural,O,,
+traditions,traditions,"('traditions', 'NNS')",tradit,tradition,description,traditions,O,,
+traditions,traditions,"('traditions', 'NNS')",tradit,tradition,description,traditions,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+gradually,gradually,"('gradually', 'RB')",gradual,gradually,description,gradually,O,,
+eroded,eroded,"('eroded', 'VBN')",erod,erode,description,eroded,O,,
+influences,influences,"('influences', 'NNS')",influenc,influence,description,influences,O,,
+television,television,"('television', 'NN')",televis,television,description,television,O,,
+radio,radio,"('radio', 'NN')",radio,radio,description,radio,O,,
+education,education,"('education', 'NN')",educ,education,description,education,O,,
+system,system,"('system', 'NN')",system,system,description,system,O,,
+economic,economic,"('economic', 'JJ')",econom,economic,description,economic,O,,
+pressures,pressures,"('pressures', 'NNS')",pressur,pressure,description,pressures,O,,
+force,force,"('force', 'VBP')",forc,force,description,force,O,,
+migration,migration,"('migration', 'NN')",migrat,migration,description,migration,O,,
+cities,cities,"('cities', 'NNS')",citi,city,description,cities,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+distant,distant,"('distant', 'JJ')",distant,distant,description,distant,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+Nevertheless,nevertheless,"('nevertheless', 'RB')",nevertheless,nevertheless,description,Nevertheless,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+blend,blend,"('blend', 'NN')",blend,blend,description,blend,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+lends,lends,"('lends', 'VBZ')",lend,lend,description,lends,O,,
+Paraná,paraná,"('paraná', 'VB')",paraná,paraná,description,Paraná,O,,
+distinct,distinct,"('distinct', 'JJ')",distinct,distinct,description,distinct,O,,
+character,character,"('character', 'NN')",charact,character,description,character,O,,
+special,special,"('special', 'JJ')",special,special,description,special,O,,
+heading,heading,"('heading', 'VBG')",head,head,description,heading,O,,
+straight,straight,"('straight', 'NN')",straight,straight,description,straight,O,,
+Iguaçu,iguaçu,"('iguaçu', 'NN')",iguaçu,iguaçu,description,Iguaçu,B,ORG,"Companies, agencies, institutions, etc."
+waterfalls,waterfalls,"('waterfalls', 'VBZ')",waterfal,waterfalls,description,waterfalls,O,,
+Curitiba,curitiba,"('curitiba', 'JJ')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+makes,makes,"('makes', 'VBZ')",make,make,description,makes,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+base,base,"('base', 'NN')",base,base,description,base,O,,
+start,start,"('start', 'VB')",start,start,description,start,O,,
+exploring,exploring,"('exploring', 'VBG')",explor,explore,description,exploring,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+Transport,transport,"('transport', 'NN')",transport,transport,description,Transport,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+services,services,"('services', 'NNS')",servic,service,description,services,O,,
+fan,fan,"('fan', 'NN')",fan,fan,description,fan,O,,
+directions,directions,"('directions', 'NNS')",direct,direction,description,directions,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,O,,
+plenty,plenty,"('plenty', 'NN')",plenti,plenty,description,plenty,O,,
+keep,keep,"('keep', 'VB')",keep,keep,description,keep,O,,
+occupied,occupied,"('occupied', 'VBN')",occupi,occupy,description,occupied,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+excursions,excursions,"('excursions', 'NNS')",excurs,excursion,description,excursions,O,,
+Paranaguá,paranaguá,"('paranaguá', 'VBP')",paranaguá,paranaguá,description,Paranaguá,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Bay,bay,"('bay', 'NN')",bay,bay,description,Bay,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+visited,visited,"('visited', 'VBN')",visit,visit,description,visited,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+colonial,colonial,"('colonial', 'JJ')",coloni,colonial,description,colonial,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+could,could,"('could', 'MD')",could,could,description,could,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+easily,easily,"('easily', 'RB')",easili,easily,description,easily,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+week,week,"('week', 'NN')",week,week,description,week,B,DATE,Absolute or relative dates or periods
+time,time,"('time', 'NN')",time,time,description,time,O,,
+Inland,inland,"('inland', 'VB')",inland,inland,description,Inland,B,ORG,"Companies, agencies, institutions, etc."
+strange,strange,"('strange', 'JJ')",strang,strange,description,strange,O,,
+geological,geological,"('geological', 'JJ')",geolog,geological,description,geological,O,,
+formations,formations,"('formations', 'NNS')",format,formation,description,formations,O,,
+Vila,vila,"('vila', 'NN')",vila,vila,description,Vila,B,PERSON,"People, including fictional"
+Velha,velha,"('velha', 'NNS')",velha,velha,description,Velha,I,PERSON,"People, including fictional"
+usually,usually,"('usually', 'RB')",usual,usually,description,usually,O,,
+visited,visited,"('visited', 'VBN')",visit,visit,description,visited,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+changing,changing,"('changing', 'VBG')",chang,change,description,changing,O,,
+buses,buses,"('buses', 'NNS')",buse,bus,description,buses,O,,
+Ponta,ponta,"('ponta', 'NN')",ponta,ponta,description,Ponta,O,,
+Grossa,grossa,"('grossa', 'NN')",grossa,grossa,description,Grossa,O,,
+stop,stop,"('stop', 'VB')",stop,stop,description,stop,O,,
+before,before,"('before', 'IN')",befor,before,description,before,O,,
+heading,heading,"('heading', 'VBG')",head,head,description,heading,O,,
+west,west,"('west', 'JJS')",west,west,description,west,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+Prudentópolis,prudentópolis,"('prudentópolis', 'NN')",prudentópoli,prudentópolis,description,Prudentópolis,B,PERSON,"People, including fictional"
+Irati,irati,"('irati', 'NN')",irati,irati,description,Irati,I,PERSON,"People, including fictional"
+head,head,"('head', 'NN')",head,head,description,head,O,,
+yet,yet,"('yet', 'RB')",yet,yet,description,yet,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Foz,foz,"('foz', 'VB')",foz,foz,description,Foz,O,,
+limited,limited,"('limited', 'VBN')",limit,limit,description,limited,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+excellent,excellent,"('excellent', 'JJ')",excel,excellent,description,excellent,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+view,view,"('view', 'VB')",view,view,description,view,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,description,attractions,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+tour,tour,"('tour', 'NN')",tour,tour,description,tour,O,,
+Buses,buses,"('buses', 'NNS')",buse,bus,description,Buses,B,ORG,"Companies, agencies, institutions, etc."
+Linha,linha,"('linha', 'NN')",linha,linha,description,Linha,I,ORG,"Companies, agencies, institutions, etc."
+Turismo,turismo,"('turismo', 'JJ')",turismo,turismo,description,Turismo,O,,
+depart,depart,"('depart', 'NN')",depart,depart,description,depart,O,,
+Praça,praça,"('praça', 'NN')",praça,praça,description,Praça,B,ORG,"Companies, agencies, institutions, etc."
+Tiradentes,tiradentes,"('tiradentes', 'NNS')",tiradent,tiradentes,description,Tiradentes,I,ORG,"Companies, agencies, institutions, etc."
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+leaves,leaves,"('leaves', 'VBZ')",leav,leave,description,leaves,O,,
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+R,r,"('r', 'NN')",r,r,description,R,O,,
+stop,stop,"('stop', 'NN')",stop,stop,description,stop,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,description,attractions,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+suburbs,suburbs,"('suburbs', 'VB')",suburb,suburbs,description,suburbs,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+takes,takes,"('takes', 'VBZ')",take,take,description,takes,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,TIME,Times smaller than a day
+hours,hours,"('hours', 'NNS')",hour,hour,description,hours,I,TIME,Times smaller than a day
+complete,complete,"('complete', 'VB')",complet,complete,description,complete,O,,
+itinerary,itinerary,"('itinerary', 'JJ')",itinerari,itinerary,description,itinerary,O,,
+tickets,tickets,"('tickets', 'NNS')",ticket,ticket,description,tickets,O,,
+allow,allow,"('allow', 'VBP')",allow,allow,description,allow,O,,
+passengers,passengers,"('passengers', 'NNS')",passeng,passenger,description,passengers,O,,
+get,get,"('get', 'VB')",get,get,description,get,O,,
+five,five,"('five', 'CD')",five,five,description,five,B,CARDINAL,Numerals that do not fall under another type
+stops,stops,"('stops', 'NNS')",stop,stop,description,stops,O,,
+rejoin,rejoin,"('rejoin', 'VB')",rejoin,rejoin,description,rejoin,O,,
+tour,tour,"('tour', 'NN')",tour,tour,description,tour,O,,
+later,later,"('later', 'RBR')",later,later,description,later,O,,
+easy,easy,"('easy', 'JJ')",easi,easy,description,easy,O,,
+reach,reach,"('reach', 'VB')",reach,reach,description,reach,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+once,once,"('once', 'RB')",onc,once,description,once,O,,
+find,find,"('find', 'VB')",find,find,description,find,O,,
+Brazilian,brazilian,"('brazilian', 'JJ')",brazilian,brazilian,description,Brazilian,B,NORP,Nationalities or religious or political groups
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+efficient,efficient,"('efficient', 'JJ')",effici,efficient,description,efficient,O,,
+Flights,flights,"('flights', 'NNS')",flight,flight,description,Flights,O,,
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+Brazilian,brazilian,"('brazilian', 'JJ')",brazilian,brazilian,description,Brazilian,B,NORP,Nationalities or religious or political groups
+cities,cities,"('cities', 'NNS')",citi,city,description,cities,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+Argentina,argentina,"('argentina', 'NN')",argentina,argentina,description,Argentina,B,ORG,"Companies, agencies, institutions, etc."
+Paraguay,paraguay,"('paraguay', 'JJ')",paraguay,paraguay,description,Paraguay,I,ORG,"Companies, agencies, institutions, etc."
+arrive,arrive,"('arrive', 'NN')",arriv,arrive,description,arrive,O,,
+modern,modern,"('modern', 'JJ')",modern,modern,description,modern,O,,
+airport,airport,"('airport', 'NN')",airport,airport,description,airport,O,,
+minutes,minutes,"('minutes', 'NNS')",minut,minute,description,minutes,O,,
+southeast,southeast,"('southeast', 'NN')",southeast,southeast,description,southeast,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+centre,centre,"('centre', 'VBP')",centr,centre,description,centre,O,,
+airport,airport,"('airport', 'NN')",airport,airport,description,airport,O,,
+features,features,"('features', 'VBZ')",featur,feature,description,features,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+range,range,"('range', 'NN')",rang,range,description,range,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+including,including,"('including', 'VBG')",includ,include,description,including,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,O,,
+excellent,excellent,"('excellent', 'JJ')",excel,excellent,description,excellent,O,,
+local,local,"('local', 'JJ')",local,local,description,local,O,,
+handicraft,handicraft,"('handicraft', 'NN')",handicraft,handicraft,description,handicraft,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+rental,rental,"('rental', 'JJ')",rental,rental,description,rental,O,,
+desks,desks,"('desks', 'VBZ')",desk,desks,description,desks,O,,
+post,post,"('post', 'NN')",post,post,description,post,O,,
+office,office,"('office', 'NN')",offic,office,description,office,O,,
+banks,banks,"('banks', 'NNS')",bank,bank,description,banks,O,,
+ATMs,atms,"('atms', 'JJ')",atm,atms,description,ATMs,O,,
+Taxis,taxis,"('taxis', 'NN')",taxi,taxi,description,Taxis,O,,
+airport,airport,"('airport', 'NN')",airport,airport,description,airport,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+charge,charge,"('charge', 'NN')",charg,charge,description,charge,O,,
+R,r,"('r', 'NN')",r,r,description,R,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+minibus,minibus,"('minibus', 'NN')",minibu,minibus,description,minibus,O,,
+R,r,"('r', 'NN')",r,r,description,R,O,,
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+marked,marked,"('marked', 'VBD')",mark,mark,description,marked,O,,
+Aeroporto,aeroporto,"('aeroporto', 'NN')",aeroporto,aeroporto,description,Aeroporto,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+minibuses,minibuses,"('minibuses', 'VBZ')",minibus,minibuses,description,minibuses,O,,
+stop,stop,"('stop', 'VB')",stop,stop,description,stop,O,,
+Shopping,shopping,"('shopping', 'VBG')",shop,shop,description,Shopping,B,ORG,"Companies, agencies, institutions, etc."
+Estação,estação,"('estação', 'JJ')",estação,estação,description,Estação,I,ORG,"Companies, agencies, institutions, etc."
+Rua,rua,"('rua', 'NN')",rua,rua,description,Rua,I,ORG,"Companies, agencies, institutions, etc."
+Horas,horas,"('horas', 'VBD')",hora,horas,description,Horas,I,ORG,"Companies, agencies, institutions, etc."
+Teatro,teatro,"('teatro', 'NN')",teatro,teatro,description,Teatro,O,,
+Guaíra,guaíra,"('guaíra', 'NN')",guaíra,guaíra,description,Guaíra,O,,
+outside,outside,"('outside', 'IN')",outsid,outside,description,outside,O,,
+rodoferroviária,rodoferroviária,"('rodoferroviária', 'NN')",rodoferroviária,rodoferroviária,description,rodoferroviária,O,,
+combined,combined,"('combined', 'VBN')",combin,combine,description,combined,O,,
+name,name,"('name', 'NN')",name,name,description,name,O,,
+adjacent,adjacent,"('adjacent', 'JJ')",adjac,adjacent,description,adjacent,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+train,train,"('train', 'NN')",train,train,description,train,O,,
+stations,stations,"('stations', 'NNS')",station,station,description,stations,O,,
+rodoferroviária,rodoferroviária,"('rodoferroviária', 'VBP')",rodoferroviária,rodoferroviária,description,rodoferroviária,O,,
+ten,ten,"('ten', 'JJ')",ten,ten,description,ten,B,CARDINAL,Numerals that do not fall under another type
+blocks,blocks,"('blocks', 'NNS')",block,block,description,blocks,O,,
+southeast,southeast,"('southeast', 'NN')",southeast,southeast,description,southeast,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+centre,centre,"('centre', 'VB')",centr,centre,description,centre,O,,
+only,only,"('only', 'JJ')",onli,only,description,only,O,,
+remaining,remaining,"('remaining', 'VBG')",remain,remain,description,remaining,O,,
+passenger,passenger,"('passenger', 'NN')",passeng,passenger,description,passenger,O,,
+trains,trains,"('trains', 'NNS')",train,train,description,trains,O,,
+Curitiba,curitiba,"('curitiba', 'VB')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+run,run,"('run', 'VB')",run,run,description,run,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+line,line,"('line', 'NN')",line,line,description,line,O,,
+Morretes,morretes,"('morretes', 'NNS')",morret,morretes,description,Morretes,B,ORG,"Companies, agencies, institutions, etc."
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,I,ORG,"Companies, agencies, institutions, etc."
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+become,become,"('become', 'VBN')",becom,become,description,become,O,,
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+attraction,attraction,"('attraction', 'NN')",attract,attraction,description,attraction,O,,
+rodoferroviária,rodoferroviária,"('rodoferroviária', 'NN')",rodoferroviária,rodoferroviária,description,rodoferroviária,O,,
+takes,takes,"('takes', 'VBZ')",take,take,description,takes,O,,
+twenty,twenty,"('twenty', 'NN')",twenti,twenty,description,twenty,B,TIME,Times smaller than a day
+minutes,minutes,"('minutes', 'NNS')",minut,minute,description,minutes,I,TIME,Times smaller than a day
+walk,walk,"('walk', 'VB')",walk,walk,description,walk,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+minibus,minibus,"('minibus', 'NN')",minibu,minibus,description,minibus,O,,
+almost,almost,"('almost', 'RB')",almost,almost,description,almost,O,,
+front,front,"('front', 'NN')",front,front,description,front,O,,
+station,station,"('station', 'NN')",station,station,description,station,O,,
+catch,catch,"('catch', 'VB')",catch,catch,description,catch,O,,
+intersection,intersection,"('intersection', 'NN')",intersect,intersection,description,intersection,O,,
+Avenida,avenida,"('avenida', 'JJ')",avenida,avenida,description,Avenida,B,PERSON,"People, including fictional"
+Presidente,presidente,"('presidente', 'NN')",president,presidente,description,Presidente,I,PERSON,"People, including fictional"
+Afonso,afonso,"('afonso', 'NN')",afonso,afonso,description,Afonso,O,,
+Camargo,camargo,"('camargo', 'NN')",camargo,camargo,description,Camargo,O,,
+Avenida,avenida,"('avenida', 'JJ')",avenida,avenida,description,Avenida,O,,
+Sete,sete,"('sete', 'NN')",sete,sete,description,Sete,O,,
+de,de,"('de', 'FW')",de,de,description,de,O,,
+Setembro,setembro,"('setembro', 'NN')",setembro,setembro,description,Setembro,O,,
+left,left,"('left', 'NN')",left,left,description,left,O,,
+entrance,entrance,"('entrance', 'NN')",entranc,entrance,description,entrance,O,,
+station,station,"('station', 'NN')",station,station,description,station,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+information,information,"('information', 'NN')",inform,information,description,information,O,,
+organization,organization,"('organization', 'NN')",organ,organization,description,organization,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+headquarters,headquarters,"('headquarters', 'NN')",headquart,headquarters,description,headquarters,O,,
+near,near,"('near', 'IN')",near,near,description,near,O,,
+Palácio,palácio,"('palácio', 'NN')",palácio,palácio,description,Palácio,B,FAC,"Buildings, airports, highways, bridges, etc."
+Iguaçu,iguaçu,"('iguaçu', 'NN')",iguaçu,iguaçu,description,Iguaçu,I,FAC,"Buildings, airports, highways, bridges, etc."
+Rua,rua,"('rua', 'NN')",rua,rua,description,Rua,I,FAC,"Buildings, airports, highways, bridges, etc."
+Deputado,deputado,"('deputado', 'NN')",deputado,deputado,description,Deputado,I,FAC,"Buildings, airports, highways, bridges, etc."
+Mário,mário,"('mário', 'NN')",mário,mário,description,Mário,O,,
+de,de,"('de', 'FW')",de,de,description,de,O,,
+Barros,barros,"('barros', 'NN')",barro,barros,description,Barros,O,,
+third,third,"('third', 'JJ')",third,third,description,third,B,ORDINAL,"""first"", ""second"", etc."
+floor,floor,"('floor', 'NN')",floor,floor,description,floor,O,,
+Edifício,edifício,"('edifício', 'JJ')",edifício,edifício,description,Edifício,B,PERSON,"People, including fictional"
+Caetano,caetano,"('caetano', 'NN')",caetano,caetano,description,Caetano,I,PERSON,"People, including fictional"
+Munhoz,munhoz,"('munhoz', 'NN')",munhoz,munhoz,description,Munhoz,I,PERSON,"People, including fictional"
+da,da,"('da', 'NN')",da,da,description,da,I,PERSON,"People, including fictional"
+Rocha,rocha,"('rocha', 'NN')",rocha,rocha,description,Rocha,I,PERSON,"People, including fictional"
+keep,keep,"('keep', 'VBP')",keep,keep,description,keep,O,,
+information,information,"('information', 'NN')",inform,information,description,information,O,,
+changes,changes,"('changes', 'NNS')",chang,change,description,changes,O,,
+rail,rail,"('rail', 'VB')",rail,rail,description,rail,O,,
+boat,boat,"('boat', 'VB')",boat,boat,description,boat,O,,
+schedules,schedules,"('schedules', 'NNS')",schedul,schedule,description,schedules,O,,
+provide,provide,"('provide', 'VB')",provid,provide,description,provide,O,,
+useful,useful,"('useful', 'JJ')",use,useful,description,useful,O,,
+maps,maps,"('maps', 'NNS')",map,map,description,maps,O,,
+trails,trails,"('trails', 'NNS')",trail,trail,description,trails,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+parks,parks,"('parks', 'NNS')",park,park,description,parks,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+employees,employees,"('employees', 'NNS')",employe,employee,description,employees,O,,
+speak,speak,"('speak', 'VBP')",speak,speak,description,speak,O,,
+English,english,"('english', 'JJ')",english,english,description,English,B,NORP,Nationalities or religious or political groups
+information,information,"('information', 'NN')",inform,information,description,information,O,,
+specifically,specifically,"('specifically', 'RB')",specif,specifically,description,specifically,O,,
+Curitiba,curitiba,"('curitiba', 'NNS')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+go,go,"('go', 'VBP')",go,go,description,go,O,,
+municipal,municipal,"('municipal', 'JJ')",municip,municipal,description,municipal,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+office,office,"('office', 'NN')",offic,office,description,office,O,,
+historic,historic,"('historic', 'JJ')",histor,historic,description,historic,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+Rua,rua,"('rua', 'NN')",rua,rua,description,Rua,B,PERSON,"People, including fictional"
+da,da,"('da', 'NN')",da,da,description,da,I,PERSON,"People, including fictional"
+Glória,glória,"('glória', 'NN')",glória,glória,description,Glória,I,PERSON,"People, including fictional"
+Sat,sat,"('sat', 'VBD')",sat,sit,description,Sat,I,PERSON,"People, including fictional"
+Sun,sun,"('sun', 'JJ')",sun,sun,description,Sun,I,PERSON,"People, including fictional"
+branches,branches,"('branches', 'NNS')",branch,branch,description,branches,O,,
+rodoferroviária,rodoferroviária,"('rodoferroviária', 'NN')",rodoferroviária,rodoferroviária,description,rodoferroviária,O,,
+Sat,sat,"('sat', 'VBD')",sat,sit,description,Sat,B,ORG,"Companies, agencies, institutions, etc."
+Rua,rua,"('rua', 'JJ')",rua,rua,description,Rua,I,ORG,"Companies, agencies, institutions, etc."
+Horas,horas,"('horas', 'JJ')",hora,horas,description,Horas,I,ORG,"Companies, agencies, institutions, etc."
+daily,daily,"('daily', 'JJ')",daili,daily,description,daily,B,DATE,Absolute or relative dates or periods
+though,though,"('though', 'IN')",though,though,description,though,O,,
+keep,keep,"('keep', 'VB')",keep,keep,description,keep,O,,
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+erratic,erratic,"('erratic', 'JJ')",errat,erratic,description,erratic,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+enough,enough,"('enough', 'RB')",enough,enough,description,enough,O,,
+able,able,"('able', 'JJ')",abl,able,description,able,O,,
+walk,walk,"('walk', 'VB')",walk,walk,description,walk,O,,
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+exploring,exploring,"('exploring', 'VBG')",explor,explore,description,exploring,O,,
+outlying,outlying,"('outlying', 'VBG')",outli,outlying,description,outlying,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+extremely,extremely,"('extremely', 'RB')",extrem,extremely,description,extremely,O,,
+efficient,efficient,"('efficient', 'JJ')",effici,efficient,description,efficient,O,,
+municipal,municipal,"('municipal', 'JJ')",municip,municipal,description,municipal,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+network,network,"('network', 'NN')",network,network,description,network,O,,
+considered,considered,"('considered', 'VBD')",consid,consider,description,considered,O,,
+envy,envy,"('envy', 'NN')",envi,envy,description,envy,O,,
+Brazilian,brazilian,"('brazilian', 'JJ')",brazilian,brazilian,description,Brazilian,B,NORP,Nationalities or religious or political groups
+cities,cities,"('cities', 'NNS')",citi,city,description,cities,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+centre,centre,"('centre', 'VBP')",centr,centre,description,centre,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+terminals,terminals,"('terminals', 'NNS')",termin,terminal,description,terminals,O,,
+Praça,praça,"('praça', 'JJ')",praça,praça,description,Praça,B,ORG,"Companies, agencies, institutions, etc."
+Tiradentes,tiradentes,"('tiradentes', 'NNS')",tiradent,tiradentes,description,Tiradentes,I,ORG,"Companies, agencies, institutions, etc."
+Praça,praça,"('praça', 'NN')",praça,praça,description,Praça,O,,
+Rui,rui,"('rui', 'NN')",rui,rui,description,Rui,B,PERSON,"People, including fictional"
+Barbosa,barbosa,"('barbosa', 'NN')",barbosa,barbosa,description,Barbosa,I,PERSON,"People, including fictional"
+buses,buses,"('buses', 'NNS')",buse,bus,description,buses,O,,
+R,r,"('r', 'VBP')",r,r,description,R,O,,
+head,head,"('head', 'NN')",head,head,description,head,O,,
+suburbs,suburbs,"('suburbs', 'NN')",suburb,suburb,description,suburbs,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+neighbouring,neighbouring,"('neighbouring', 'VBG')",neighbour,neighbour,description,neighbouring,O,,
+municípios,municípios,"('municípios', 'NNS')",município,municípios,description,municípios,O,,
+Taxis,taxis,"('taxis', 'NNS')",taxi,taxi,description,Taxis,O,,
+easy,easy,"('easy', 'JJ')",easi,easy,description,easy,O,,
+come,come,"('come', 'VB')",come,come,description,come,O,,
+distances,distances,"('distances', 'NNS')",distanc,distance,description,distances,O,,
+generally,generally,"('generally', 'RB')",gener,generally,description,generally,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+sole,sole,"('sole', 'JJ')",sole,sole,description,sole,O,,
+reason,reason,"('reason', 'NN')",reason,reason,description,reason,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+catch,catch,"('catch', 'VB')",catch,catch,description,catch,O,,
+dawn,dawn,"('dawn', 'NN')",dawn,dawn,description,dawn,O,,
+train,train,"('train', 'NN')",train,train,description,train,O,,
+coast,coast,"('coast', 'NN')",coast,coast,description,coast,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+staying,staying,"('staying', 'VBG')",stay,stay,description,staying,O,,
+youth,youth,"('youth', 'NN')",youth,youth,description,youth,O,,
+hostel,hostel,"('hostel', 'NN')",hostel,hostel,description,hostel,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+numerous,numerous,"('numerous', 'JJ')",numer,numerous,description,numerous,O,,
+cheap,cheap,"('cheap', 'NNS')",cheap,cheap,description,cheap,O,,
+hotels,hotels,"('hotels', 'NNS')",hotel,hotel,description,hotels,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+minutes,minutes,"('minutes', 'NNS')",minut,minute,description,minutes,B,TIME,Times smaller than a day
+walk,walk,"('walk', 'VBP')",walk,walk,description,walk,O,,
+rodoferroviária,rodoferroviária,"('rodoferroviária', 'NNS')",rodoferroviária,rodoferroviária,description,rodoferroviária,O,,
+Otherwise,otherwise,"('otherwise', 'RB')",otherwis,otherwise,description,Otherwise,O,,
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+widely,widely,"('widely', 'RB')",wide,widely,description,widely,O,,
+scattered,scattered,"('scattered', 'VBN')",scatter,scatter,description,scattered,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+walking,walking,"('walking', 'VBG')",walk,walk,description,walking,O,,
+distance,distance,"('distance', 'NN')",distanc,distance,description,distance,O,,
+downtown,downtown,"('downtown', 'JJ')",downtown,downtown,description,downtown,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,description,attractions,O,,
+generally,generally,"('generally', 'RB')",gener,generally,description,generally,O,,
+remarkable,remarkable,"('remarkable', 'JJ')",remark,remarkable,description,remarkable,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+prosperity,prosperity,"('prosperity', 'NN')",prosper,prosperity,description,prosperity,O,,
+inhabitants,inhabitants,"('inhabitants', 'NNS')",inhabit,inhabitant,description,inhabitants,O,,
+diverse,diverse,"('diverse', 'VB')",divers,diverse,description,diverse,O,,
+ethnic,ethnic,"('ethnic', 'JJ')",ethnic,ethnic,description,ethnic,O,,
+origins,origins,"('origins', 'NNS')",origin,origin,description,origins,O,,
+surprising,surprising,"('surprising', 'JJ')",surpris,surprising,description,surprising,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,description,huge,O,,
+range,range,"('range', 'NN')",rang,range,description,range,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+historic,historic,"('historic', 'JJ')",histor,historic,description,historic,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+Batel,batel,"('batel', 'NN')",batel,batel,description,Batel,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+upscale,upscale,"('upscale', 'JJ')",upscal,upscale,description,upscale,O,,
+suburb,suburb,"('suburb', 'NN')",suburb,suburb,description,suburb,O,,
+particular,particular,"('particular', 'JJ')",particular,particular,description,particular,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+concentration,concentration,"('concentration', 'NN')",concentr,concentration,description,concentration,O,,
+excellent,excellent,"('excellent', 'JJ')",excel,excellent,description,excellent,O,,
+selection,selection,"('selection', 'NN')",select,selection,description,selection,O,,
+produce,produce,"('produce', 'NN')",produc,produce,description,produce,O,,
+available,available,"('available', 'JJ')",avail,available,description,available,O,,
+Mercado,mercado,"('mercado', 'NN')",mercado,mercado,description,Mercado,B,FAC,"Buildings, airports, highways, bridges, etc."
+Municipal,municipal,"('municipal', 'NN')",municip,municipal,description,Municipal,I,FAC,"Buildings, airports, highways, bridges, etc."
+Av,av,"('av', 'JJ')",av,av,description,Av,I,FAC,"Buildings, airports, highways, bridges, etc."
+Sete,sete,"('sete', 'FW')",sete,sete,description,Sete,I,FAC,"Buildings, airports, highways, bridges, etc."
+de,de,"('de', 'FW')",de,de,description,de,I,FAC,"Buildings, airports, highways, bridges, etc."
+Setembro,setembro,"('setembro', 'FW')",setembro,setembro,description,Setembro,I,FAC,"Buildings, airports, highways, bridges, etc."
+superb,superb,"('superb', 'NN')",superb,superb,description,superb,O,,
+cakes,cakes,"('cakes', 'NNS')",cake,cake,description,cakes,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+worth,worth,"('worth', 'IN')",worth,worth,description,worth,O,,
+trek,trek,"('trek', 'NN')",trek,trek,description,trek,O,,
+Bosque,bosque,"('bosque', 'NN')",bosqu,bosque,description,Bosque,O,,
+João,joão,"('joão', 'NN')",joão,joão,description,João,B,PERSON,"People, including fictional"
+Paulo,paulo,"('paulo', 'NN')",paulo,paulo,description,Paulo,I,PERSON,"People, including fictional"
+II,ii,"('ii', 'NN')",ii,ii,description,II,I,PERSON,"People, including fictional"
+excellent,excellent,"('excellent', 'JJ')",excel,excellent,description,excellent,O,,
+Polish,polish,"('polish', 'JJ')",polish,polish,description,Polish,B,NORP,Nationalities or religious or political groups
+tearoom,tearoom,"('tearoom', 'NN')",tearoom,tearoom,description,tearoom,O,,
+Kawiarnia,kawiarnia,"('kawiarnia', 'NN')",kawiarnia,kawiarnia,description,Kawiarnia,B,PERSON,"People, including fictional"
+Krakowiak,krakowiak,"('krakowiak', 'NN')",krakowiak,krakowiak,description,Krakowiak,I,PERSON,"People, including fictional"
+superb,superb,"('superb', 'NN')",superb,superb,description,superb,O,,
+ice,ice,"('ice', 'NN')",ice,ice,description,ice,O,,
+cream,cream,"('cream', 'NN')",cream,cream,description,cream,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+delicious,delicious,"('delicious', 'JJ')",delici,delicious,description,delicious,O,,
+sandwiches,sandwiches,"('sandwiches', 'NNS')",sandwich,sandwich,description,sandwiches,O,,
+cakes,cakes,"('cakes', 'NNS')",cake,cake,description,cakes,O,,
+coffee,coffee,"('coffee', 'NN')",coffe,coffee,description,coffee,O,,
+try,try,"('try', 'NN')",tri,try,description,try,O,,
+Marcolini,marcolini,"('marcolini', 'VBD')",marcolini,marcolini,description,Marcolini,O,,
+Alameda,alameda,"('alameda', 'JJ')",alameda,alameda,description,Alameda,O,,
+Dr,dr,"('dr', 'JJ')",dr,dr,description,Dr,O,,
+Carlos,carlos,"('carlos', 'NN')",carlo,carlos,description,Carlos,B,PERSON,"People, including fictional"
+de,de,"('de', 'IN')",de,de,description,de,I,PERSON,"People, including fictional"
+Carvalho,carvalho,"('carvalho', 'NN')",carvalho,carvalho,description,Carvalho,I,PERSON,"People, including fictional"
+near,near,"('near', 'IN')",near,near,description,near,O,,
+Praça,praça,"('praça', 'JJ')",praça,praça,description,Praça,B,ORG,"Companies, agencies, institutions, etc."
+Espanha,espanha,"('espanha', 'NN')",espanha,espanha,description,Espanha,I,ORG,"Companies, agencies, institutions, etc."
+Batel,batel,"('batel', 'NN')",batel,batel,description,Batel,I,ORG,"Companies, agencies, institutions, etc."
+doors,doors,"('doors', 'NNS')",door,door,description,doors,O,,
+away,away,"('away', 'RB')",away,away,description,away,O,,
+Freddo,freddo,"('freddo', 'NN')",freddo,freddo,description,Freddo,B,PERSON,"People, including fictional"
+Gelateria,gelateria,"('gelateria', 'NN')",gelateria,gelateria,description,Gelateria,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+equally,equally,"('equally', 'RB')",equal,equally,description,equally,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+ice,ice,"('ice', 'NN')",ice,ice,description,ice,O,,
+cream,cream,"('cream', 'NN')",cream,cream,description,cream,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+Sunday,sunday,"('sunday', 'NN')",sunday,sunday,description,Sunday,B,DATE,Absolute or relative dates or periods
+Monday,monday,"('monday', 'NN')",monday,monday,description,Monday,I,DATE,Absolute or relative dates or periods
+Tuesday,tuesday,"('tuesday', 'JJ')",tuesday,tuesday,description,Tuesday,I,DATE,Absolute or relative dates or periods
+Saturday,saturday,"('saturday', 'VB')",saturday,saturday,description,Saturday,B,DATE,Absolute or relative dates or periods
+late,late,"('late', 'JJ')",late,late,description,late,B,TIME,Times smaller than a day
+afternoon,afternoon,"('afternoon', 'NN')",afternoon,afternoon,description,afternoon,I,TIME,Times smaller than a day
+early,early,"('early', 'JJ')",earli,early,description,early,B,TIME,Times smaller than a day
+evening,evening,"('evening', 'NN')",even,evening,description,evening,I,TIME,Times smaller than a day
+locals,locals,"('locals', 'NNS')",local,local,description,locals,O,,
+congregate,congregate,"('congregate', 'VBP')",congreg,congregate,description,congregate,O,,
+pavement,pavement,"('pavement', 'NN')",pavement,pavement,description,pavement,O,,
+cafés,cafés,"('cafés', 'NN')",café,cafés,description,cafés,O,,
+Praça,praça,"('praça', 'NN')",praça,praça,description,Praça,B,PERSON,"People, including fictional"
+Osório,osório,"('osório', 'JJ')",osório,osório,description,Osório,I,PERSON,"People, including fictional"
+end,end,"('end', 'NN')",end,end,description,end,O,,
+Rua,rua,"('rua', 'NN')",rua,rua,description,Rua,O,,
+das,das,"('das', 'NN')",da,da,description,das,O,,
+Flores,flores,"('flores', 'NNS')",flore,flores,description,Flores,O,,
+evening,evening,"('evening', 'NN')",even,evening,description,evening,B,TIME,Times smaller than a day
+progresses,progresses,"('progresses', 'VBZ')",progress,progress,description,progresses,O,,
+historic,historic,"('historic', 'JJ')",histor,historic,description,historic,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+comes,comes,"('comes', 'VBZ')",come,come,description,comes,O,,
+life,life,"('life', 'NN')",life,life,description,life,O,,
+bars,bars,"('bars', 'NNS')",bar,bar,description,bars,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+theatres,theatres,"('theatres', 'NNS')",theatr,theatre,description,theatres,O,,
+attracting,attracting,"('attracting', 'VBG')",attract,attract,description,attracting,O,,
+mainly,mainly,"('mainly', 'RB')",mainli,mainly,description,mainly,O,,
+young,young,"('young', 'JJ')",young,young,description,young,O,,
+crowd,crowd,"('crowd', 'VB')",crowd,crowd,description,crowd,O,,
+Praça,praça,"('praça', 'NN')",praça,praça,description,Praça,B,PERSON,"People, including fictional"
+Garibaldi,garibaldi,"('garibaldi', 'NN')",garibaldi,garibaldi,description,Garibaldi,I,PERSON,"People, including fictional"
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+extending,extending,"('extending', 'VBG')",extend,extend,description,extending,O,,
+numerous,numerous,"('numerous', 'JJ')",numer,numerous,description,numerous,O,,
+bars,bars,"('bars', 'NNS')",bar,bar,description,bars,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+live,live,"('live', 'JJ')",live,live,description,live,O,,
+music,music,"('music', 'NN')",music,music,description,music,O,,
+typically,typically,"('typically', 'RB')",typic,typically,description,typically,O,,
+Brazilian,brazilian,"('brazilian', 'JJ')",brazilian,brazilian,description,Brazilian,B,NORP,Nationalities or religious or political groups
+rock,rock,"('rock', 'NN')",rock,rock,description,rock,O,,
+music,music,"('music', 'NN')",music,music,description,music,O,,
+jazz,jazz,"('jazz', 'NN')",jazz,jazz,description,jazz,O,,
+seem,seem,"('seem', 'VBP')",seem,seem,description,seem,O,,
+parodies,parodies,"('parodies', 'NNS')",parodi,parody,description,parodies,O,,
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+western,western,"('western', 'JJ')",western,western,description,western,O,,
+Also,also,"('also', 'RB')",also,also,description,Also,O,,
+historic,historic,"('historic', 'JJ')",histor,historic,description,historic,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+bars,bars,"('bars', 'NNS')",bar,bar,description,bars,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+students,students,"('students', 'NNS')",student,student,description,students,O,,
+dot,dot,"('dot', 'VBP')",dot,dot,description,dot,O,,
+Rua,rua,"('rua', 'JJ')",rua,rua,description,Rua,B,PERSON,"People, including fictional"
+Mateus,mateus,"('mateus', 'NN')",mateu,mateus,description,Mateus,I,PERSON,"People, including fictional"
+Largo,largo,"('largo', 'NN')",largo,largo,description,Largo,I,PERSON,"People, including fictional"
+da,da,"('da', 'NN')",da,da,description,da,I,PERSON,"People, including fictional"
+wealthy,wealthy,"('wealthy', 'NN')",wealthi,wealthy,description,wealthy,O,,
+suburb,suburb,"('suburb', 'NN')",suburb,suburb,description,suburb,O,,
+Batel,batel,"('batel', 'NN')",batel,batel,description,Batel,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+also,also,"('also', 'RB')",also,also,description,also,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+considerable,considerable,"('considerable', 'JJ')",consider,considerable,description,considerable,O,,
+number,number,"('number', 'NN')",number,number,description,number,O,,
+bars,bars,"('bars', 'NNS')",bar,bar,description,bars,O,,
+particular,particular,"('particular', 'JJ')",particular,particular,description,particular,O,,
+concentration,concentration,"('concentration', 'NN')",concentr,concentration,description,concentration,O,,
+Alameda,alameda,"('alameda', 'JJ')",alameda,alameda,description,Alameda,B,GPE,"Countries, cities, states"
+Presidente,presidente,"('presidente', 'NN')",president,presidente,description,Presidente,B,GPE,"Countries, cities, states"
+Taunay,taunay,"('taunay', 'NN')",taunay,taunay,description,Taunay,I,GPE,"Countries, cities, states"
+intersection,intersection,"('intersection', 'NN')",intersect,intersection,description,intersection,O,,
+Alameda,alameda,"('alameda', 'NN')",alameda,alameda,description,Alameda,B,PERSON,"People, including fictional"
+Dr,dr,"('dr', 'NN')",dr,dr,description,Dr,I,PERSON,"People, including fictional"
+Carlos,carlos,"('carlos', 'NN')",carlo,carlos,description,Carlos,B,PERSON,"People, including fictional"
+de,de,"('de', 'IN')",de,de,description,de,I,PERSON,"People, including fictional"
+Carvalho,carvalho,"('carvalho', 'NN')",carvalho,carvalho,description,Carvalho,I,PERSON,"People, including fictional"
+Especially,especially,"('especially', 'RB')",especi,especially,description,Especially,I,PERSON,"People, including fictional"
+worth,worth,"('worth', 'JJ')",worth,worth,description,worth,O,,
+checking,checking,"('checking', 'VBG')",check,check,description,checking,O,,
+Bar,bar,"('bar', 'JJ')",bar,bar,description,Bar,B,PERSON,"People, including fictional"
+Curityba,curityba,"('curityba', 'NN')",curityba,curityba,description,Curityba,I,PERSON,"People, including fictional"
+live,live,"('live', 'JJ')",live,live,description,live,O,,
+jazz,jazz,"('jazz', 'NN')",jazz,jazz,description,jazz,O,,
+evenings,evenings,"('evenings', 'NNS')",even,evening,description,evenings,O,,
+Slánte,slánte,"('slánte', 'VBP')",slánte,slánte,description,Slánte,B,WORK_OF_ART,"Titles of books, songs, etc."
+Irish,irish,"('irish', 'JJ')",irish,irish,description,Irish,I,WORK_OF_ART,"Titles of books, songs, etc."
+Pub,pub,"('pub', 'NN')",pub,pub,description,Pub,I,WORK_OF_ART,"Titles of books, songs, etc."
+live,live,"('live', 'JJ')",live,live,description,live,O,,
+rock,rock,"('rock', 'NN')",rock,rock,description,rock,O,,
+Kaffee,kaffee,"('kaffee', 'NN')",kaffe,kaffee,description,Kaffee,B,ORG,"Companies, agencies, institutions, etc."
+Bar,bar,"('bar', 'NN')",bar,bar,description,Bar,I,ORG,"Companies, agencies, institutions, etc."
+mellow,mellow,"('mellow', 'JJ')",mellow,mellow,description,mellow,O,,
+piano,piano,"('piano', 'NN')",piano,piano,description,piano,O,,
+guitar,guitar,"('guitar', 'VB')",guitar,guitar,description,guitar,O,,
+winter,winter,"('winter', 'NN')",winter,winter,description,winter,O,,
+Teatro,teatro,"('teatro', 'NN')",teatro,teatro,description,Teatro,B,ORG,"Companies, agencies, institutions, etc."
+Guaíra,guaíra,"('guaíra', 'NN')",guaíra,guaíra,description,Guaíra,I,ORG,"Companies, agencies, institutions, etc."
+Praça,praça,"('praça', 'NN')",praça,praça,description,Praça,I,ORG,"Companies, agencies, institutions, etc."
+Santos,santos,"('santos', 'NN')",santo,santos,description,Santos,I,ORG,"Companies, agencies, institutions, etc."
+Andrade,andrade,"('andrade', 'VBN')",andrad,andrade,description,Andrade,I,ORG,"Companies, agencies, institutions, etc."
+across,across,"('across', 'IN')",across,across,description,across,O,,
+Federal,federal,"('federal', 'JJ')",feder,federal,description,Federal,B,ORG,"Companies, agencies, institutions, etc."
+University,university,"('university', 'NN')",univers,university,description,University,I,ORG,"Companies, agencies, institutions, etc."
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+varied,varied,"('varied', 'JJ')",vari,varied,description,varied,O,,
+schedule,schedule,"('schedule', 'NN')",schedul,schedule,description,schedule,O,,
+theatre,theatre,"('theatre', 'JJ')",theatr,theatre,description,theatre,O,,
+ballet,ballet,"('ballet', 'NN')",ballet,ballet,description,ballet,O,,
+classical,classical,"('classical', 'JJ')",classic,classical,description,classical,O,,
+music,music,"('music', 'NN')",music,music,description,music,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+excellent,excellent,"('excellent', 'NN')",excel,excellent,description,excellent,O,,
+auditoriums,auditoriums,"('auditoriums', 'IN')",auditorium,auditorium,description,auditoriums,O,,
+Guaíra,guaíra,"('guaíra', 'NN')",guaíra,guaíra,description,Guaíra,B,ORG,"Companies, agencies, institutions, etc."
+justified,justified,"('justified', 'VBN')",justifi,justify,description,justified,O,,
+claim,claim,"('claim', 'NN')",claim,claim,description,claim,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+finest,finest,"('finest', 'JJS')",finest,fine,description,finest,O,,
+theatres,theatres,"('theatres', 'NNS')",theatr,theatre,description,theatres,O,,
+Latin,latin,"('latin', 'NN')",latin,latin,description,Latin,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+America,america,"('america', 'NN')",america,america,description,America,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+often,often,"('often', 'RB')",often,often,description,often,O,,
+host,host,"('host', 'VBN')",host,host,description,host,O,,
+companies,companies,"('companies', 'NNS')",compani,company,description,companies,O,,
+rest,rest,"('rest', 'NN')",rest,rest,description,rest,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+even,even,"('even', 'RB')",even,even,description,even,O,,
+international,international,"('international', 'JJ')",intern,international,description,international,O,,
+ethnic,ethnic,"('ethnic', 'JJ')",ethnic,ethnic,description,ethnic,O,,
+group,group,"('group', 'NN')",group,group,description,group,O,,
+often,often,"('often', 'RB')",often,often,description,often,O,,
+associated,associated,"('associated', 'VBN')",associ,associate,description,associated,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,PERSON,"People, including fictional"
+Poles,poles,"('poles', 'NNS')",pole,pole,description,Poles,I,PERSON,"People, including fictional"
+settled,settled,"('settled', 'VBD')",settl,settle,description,settled,O,,
+tightly,tightly,"('tightly', 'RB')",tightli,tightly,description,tightly,O,,
+knit,knit,"('knit', 'VBN')",knit,knit,description,knit,O,,
+farming,farming,"('farming', 'JJ')",farm,farming,description,farming,O,,
+communities,communities,"('communities', 'NNS')",commun,community,description,communities,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,GPE,"Countries, cities, states"
+late,late,"('late', 'JJ')",late,late,description,late,O,,
+nineteenth,nineteenth,"('nineteenth', 'NN')",nineteenth,nineteenth,description,nineteenth,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+twentieth,twentieth,"('twentieth', 'NN')",twentieth,twentieth,description,twentieth,B,ORDINAL,"""first"", ""second"", etc."
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,O,,
+Poles,poles,"('poles', 'VBZ')",pole,pole,description,Poles,B,NORP,Nationalities or religious or political groups
+migrated,migrated,"('migrated', 'VBN')",migrat,migrate,description,migrated,O,,
+Brazil,brazil,"('brazil', 'VB')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+waves,waves,"('waves', 'VBZ')",wave,wave,description,waves,O,,
+smallest,smallest,"('smallest', 'JJS')",smallest,small,description,smallest,O,,
+number,number,"('number', 'NN')",number,number,description,number,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+during,during,"('during', 'IN')",dure,during,description,during,O,,
+period,period,"('period', 'NN')",period,period,description,period,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+fever,fever,"('fever', 'NN')",fever,fever,description,fever,O,,
+swept,swept,"('swept', 'VBD')",swept,sweep,description,swept,O,,
+Poland,poland,"('poland', 'NN')",poland,poland,description,Poland,B,GPE,"Countries, cities, states"
+Ukraine,ukraine,"('ukraine', 'NN')",ukrain,ukraine,description,Ukraine,B,GPE,"Countries, cities, states"
+contribution,contribution,"('contribution', 'NN')",contribut,contribution,description,contribution,O,,
+years,years,"('years', 'NNS')",year,year,description,years,B,DATE,Absolute or relative dates or periods
+before,before,"('before', 'IN')",befor,before,description,before,O,,
+World,world,"('world', 'NN')",world,world,description,World,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+Poles,poles,"('poles', 'NNS')",pole,pole,description,Poles,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+settling,settling,"('settling', 'VBG')",settl,settle,description,settling,O,,
+vicinity,vicinity,"('vicinity', 'NN')",vicin,vicinity,description,vicinity,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+arrived,arrived,"('arrived', 'VBN')",arriv,arrive,description,arrived,O,,
+subsequent,subsequent,"('subsequent', 'JJ')",subsequ,subsequent,description,subsequent,O,,
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,description,immigrants,O,,
+settling,settling,"('settling', 'VBG')",settl,settle,description,settling,O,,
+afield,afield,"('afield', 'NN')",afield,afield,description,afield,O,,
+twentieth,twentieth,"('twentieth', 'JJ')",twentieth,twentieth,description,twentieth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+Polish,polish,"('polish', 'JJ')",polish,polish,description,Polish,B,NORP,Nationalities or religious or political groups
+community,community,"('community', 'NN')",commun,community,description,community,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+culturally,culturally,"('culturally', 'RB')",cultur,culturally,description,culturally,O,,
+isolated,isolated,"('isolated', 'JJ')",isol,isolated,description,isolated,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+expanded,expanded,"('expanded', 'VBD')",expand,expand,description,expanded,O,,
+absorbing,absorbing,"('absorbing', 'VBG')",absorb,absorb,description,absorbing,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+old,old,"('old', 'JJ')",old,old,description,old,O,,
+farming,farming,"('farming', 'NN')",farm,farming,description,farming,O,,
+settlements,settlements,"('settlements', 'NNS')",settlement,settlement,description,settlements,O,,
+assimilation,assimilation,"('assimilation', 'NN')",assimil,assimilation,description,assimilation,O,,
+accelerated,accelerated,"('accelerated', 'VBN')",acceler,accelerate,description,accelerated,O,,
+Today,today,"('today', 'NN')",today,today,description,Today,B,DATE,Absolute or relative dates or periods
+lives,lives,"('lives', 'NNS')",live,life,description,lives,O,,
+approximately,approximately,"('approximately', 'RB')",approxim,approximately,description,approximately,B,CARDINAL,Numerals that do not fall under another type
+one,one,"('one', 'CD')",one,one,description,one,I,CARDINAL,Numerals that do not fall under another type
+million,million,"('million', 'CD')",million,million,description,million,I,CARDINAL,Numerals that do not fall under another type
+paranaenses,paranaenses,"('paranaenses', 'NNS')",paranaens,paranaenses,description,paranaenses,O,,
+Polish,polish,"('polish', 'JJ')",polish,polish,description,Polish,B,NORP,Nationalities or religious or political groups
+origin,origin,"('origin', 'NN')",origin,origin,description,origin,O,,
+indistinguishable,indistinguishable,"('indistinguishable', 'JJ')",indistinguish,indistinguishable,description,indistinguishable,O,,
+neighbours,neighbours,"('neighbours', 'NNS')",neighbour,neighbour,description,neighbours,O,,
+recent,recent,"('recent', 'JJ')",recent,recent,description,recent,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+however,however,"('however', 'RB')",howev,however,description,however,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+revival,revival,"('revival', 'NN')",reviv,revival,description,revival,O,,
+interest,interest,"('interest', 'NN')",interest,interest,description,interest,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+Polish,polish,"('polish', 'JJ')",polish,polish,description,Polish,B,NORP,Nationalities or religious or political groups
+heritage,heritage,"('heritage', 'NN')",heritag,heritage,description,heritage,O,,
+wherever,wherever,"('wherever', 'NN')",wherev,wherever,description,wherever,O,,
+large,large,"('large', 'JJ')",larg,large,description,large,O,,
+concentrations,concentrations,"('concentrations', 'NNS')",concentr,concentration,description,concentrations,O,,
+Poles,poles,"('poles', 'NNS')",pole,pole,description,Poles,B,LANGUAGE,Any named language
+Polish,polish,"('polish', 'JJ')",polish,polish,description,Polish,B,NORP,Nationalities or religious or political groups
+language,language,"('language', 'NN')",languag,language,description,language,O,,
+classes,classes,"('classes', 'NNS')",class,class,description,classes,O,,
+folk,folk,"('folk', 'VBP')",folk,folk,description,folk,O,,
+dance,dance,"('dance', 'NN')",danc,dance,description,dance,O,,
+music,music,"('music', 'NN')",music,music,description,music,O,,
+groups,groups,"('groups', 'NNS')",group,group,description,groups,O,,
+established,established,"('established', 'VBN')",establish,establish,description,established,O,,
+preserve,preserve,"('preserve', 'VB')",preserv,preserve,description,preserve,O,,
+revive,revive,"('revive', 'VB')",reviv,revive,description,revive,O,,
+folk,folk,"('folk', 'NNS')",folk,folk,description,folk,O,,
+plateau,plateau,"('plateau', 'NN')",plateau,plateau,description,plateau,O,,
+upon,upon,"('upon', 'IN')",upon,upon,description,upon,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+dramatic,dramatic,"('dramatic', 'JJ')",dramat,dramatic,description,dramatic,O,,
+mountain,mountain,"('mountain', 'NN')",mountain,mountain,description,mountain,O,,
+range,range,"('range', 'NN')",rang,range,description,range,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+Serra,serra,"('serra', 'NN')",serra,serra,description,Serra,B,PERSON,"People, including fictional"
+Mar,mar,"('mar', 'NN')",mar,mar,description,Mar,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+long,long,"('long', 'RB')",long,long,description,long,O,,
+formidable,formidable,"('formidable', 'JJ')",formid,formidable,description,formidable,O,,
+barrier,barrier,"('barrier', 'NN')",barrier,barrier,description,barrier,O,,
+separating,separating,"('separating', 'VBG')",separ,separate,description,separating,O,,
+coast,coast,"('coast', 'NN')",coast,coast,description,coast,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+interior,interior,"('interior', 'NN')",interior,interior,description,interior,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,description,narrow,O,,
+cobblestone,cobblestone,"('cobblestone', 'NN')",cobbleston,cobblestone,description,cobblestone,O,,
+road,road,"('road', 'NN')",road,road,description,road,O,,
+connected,connected,"('connected', 'VBD')",connect,connect,description,connected,O,,
+Curitiba,curitiba,"('curitiba', 'NNS')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+coast,coast,"('coast', 'NN')",coast,coast,description,coast,I,ORG,"Companies, agencies, institutions, etc."
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,I,ORG,"Companies, agencies, institutions, etc."
+Bay,bay,"('bay', 'NN')",bay,bay,description,Bay,I,ORG,"Companies, agencies, institutions, etc."
+took,took,"('took', 'VBD')",took,take,description,took,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,DATE,Absolute or relative dates or periods
+days,days,"('days', 'NNS')",day,day,description,days,I,DATE,Absolute or relative dates or periods
+mules,mules,"('mules', 'NNS')",mule,mule,description,mules,O,,
+carts,carts,"('carts', 'NNS')",cart,cart,description,carts,O,,
+cover,cover,"('cover', 'VB')",cover,cover,description,cover,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+port,port,"('port', 'NN')",port,port,description,port,O,,
+Antonina,antonina,"('antonina', 'NN')",antonina,antonina,description,Antonina,B,GPE,"Countries, cities, states"
+work,work,"('work', 'NN')",work,work,description,work,O,,
+began,began,"('began', 'VBD')",began,begin,description,began,O,,
+construction,construction,"('construction', 'NN')",construct,construction,description,construction,O,,
+rail,rail,"('rail', 'NN')",rail,rail,description,rail,O,,
+line,line,"('line', 'NN')",line,line,description,line,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+Paranaguá,paranaguá,"('paranaguá', 'VB')",paranaguá,paranaguá,description,Paranaguá,I,ORG,"Companies, agencies, institutions, etc."
+port,port,"('port', 'NN')",port,port,description,port,O,,
+capable,capable,"('capable', 'JJ')",capabl,capable,description,capable,O,,
+taking,taking,"('taking', 'VBG')",take,take,description,taking,O,,
+much,much,"('much', 'JJ')",much,much,description,much,O,,
+larger,larger,"('larger', 'JJR')",larger,large,description,larger,O,,
+vessels,vessels,"('vessels', 'NNS')",vessel,vessel,description,vessels,O,,
+Antonina,antonina,"('antonina', 'NN')",antonina,antonina,description,Antonina,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+could,could,"('could', 'MD')",could,could,description,could,O,,
+Completed,completed,"('completed', 'VBN')",complet,complete,description,Completed,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+remains,remains,"('remains', 'VBZ')",remain,remain,description,remains,O,,
+marvel,marvel,"('marvel', 'NN')",marvel,marvel,description,marvel,O,,
+late,late,"('late', 'JJ')",late,late,description,late,O,,
+engineering,engineering,"('engineering', 'NN')",engin,engineering,description,engineering,O,,
+source,source,"('source', 'NN')",sourc,source,description,source,O,,
+much,much,"('much', 'JJ')",much,much,description,much,O,,
+local,local,"('local', 'JJ')",local,local,description,local,O,,
+pride,pride,"('pride', 'NN')",pride,pride,description,pride,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+significant,significant,"('significant', 'JJ')",signific,significant,description,significant,O,,
+rail,rail,"('rail', 'NN')",rail,rail,description,rail,O,,
+lines,lines,"('lines', 'NNS')",line,line,description,lines,O,,
+developed,developed,"('developed', 'VBD')",develop,develop,description,developed,O,,
+Brazilian,brazilian,"('brazilian', 'JJ')",brazilian,brazilian,description,Brazilian,B,NORP,Nationalities or religious or political groups
+finance,finance,"('finance', 'NN')",financ,finance,description,finance,O,,
+technology,technology,"('technology', 'NN')",technolog,technology,description,technology,O,,
+Sufferers,sufferers,"('sufferers', 'NNS')",suffer,sufferer,description,Sufferers,B,ORG,"Companies, agencies, institutions, etc."
+vertigo,vertigo,"('vertigo', 'NN')",vertigo,vertigo,description,vertigo,O,,
+warned,warned,"('warned', 'VBN')",warn,warn,description,warned,O,,
+line,line,"('line', 'NN')",line,line,description,line,O,,
+grips,grips,"('grips', 'NNS')",grip,grip,description,grips,O,,
+narrow,narrow,"('narrow', 'VBP')",narrow,narrow,description,narrow,O,,
+mountain,mountain,"('mountain', 'NN')",mountain,mountain,description,mountain,O,,
+ridges,ridges,"('ridges', 'NNS')",ridg,ridge,description,ridges,O,,
+traverses,traverses,"('traverses', 'VBZ')",travers,traverse,description,traverses,O,,
+bridges,bridges,"('bridges', 'NNS')",bridg,bridge,description,bridges,O,,
+viaducts,viaducts,"('viaducts', 'NNS')",viaduct,viaduct,description,viaducts,O,,
+passes,passes,"('passes', 'NNS')",pass,pass,description,passes,O,,
+fourteen,fourteen,"('fourteen', 'JJ')",fourteen,fourteen,description,fourteen,B,CARDINAL,Numerals that do not fall under another type
+tunnels,tunnels,"('tunnels', 'NNS')",tunnel,tunnel,description,tunnels,O,,
+trains,trains,"('trains', 'NNS')",train,train,description,trains,O,,
+gradually,gradually,"('gradually', 'RB')",gradual,gradually,description,gradually,O,,
+wind,wind,"('wind', 'VBP')",wind,wind,description,wind,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+sea,sea,"('sea', 'VB')",sea,sea,description,sea,O,,
+level,level,"('level', 'NN')",level,level,description,level,O,,
+see,see,"('see', 'VB')",see,see,description,see,O,,
+Paranaguá,paranaguá,"('paranaguá', 'JJ')",paranaguá,paranaguá,description,Paranaguá,B,FAC,"Buildings, airports, highways, bridges, etc."
+Bay,bay,"('bay', 'NN')",bay,bay,description,Bay,I,FAC,"Buildings, airports, highways, bridges, etc."
+Passing,passing,"('passing', 'NN')",pass,passing,description,Passing,I,FAC,"Buildings, airports, highways, bridges, etc."
+Parque,parque,"('parque', 'JJ')",parqu,parque,description,Parque,I,FAC,"Buildings, airports, highways, bridges, etc."
+Estadual,estadual,"('estadual', 'JJ')",estadu,estadual,description,Estadual,I,FAC,"Buildings, airports, highways, bridges, etc."
+de,de,"('de', 'FW')",de,de,description,de,I,FAC,"Buildings, airports, highways, bridges, etc."
+Marumbi,marumbi,"('marumbi', 'FW')",marumbi,marumbi,description,Marumbi,I,FAC,"Buildings, airports, highways, bridges, etc."
+clear,clear,"('clear', 'JJ')",clear,clear,description,clear,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+absolutely,absolutely,"('absolutely', 'RB')",absolut,absolutely,description,absolutely,O,,
+spectacular,spectacular,"('spectacular', 'JJ')",spectacular,spectacular,description,spectacular,O,,
+towering,towering,"('towering', 'VBG')",tower,tower,description,towering,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+pines,pines,"('pines', 'NNS')",pine,pine,description,pines,O,,
+higher,higher,"('higher', 'JJR')",higher,high,description,higher,O,,
+altitudes,altitudes,"('altitudes', 'NNS')",altitud,altitude,description,altitudes,O,,
+subtropical,subtropical,"('subtropical', 'JJ')",subtrop,subtropical,description,subtropical,O,,
+foliage,foliage,"('foliage', 'NN')",foliag,foliage,description,foliage,O,,
+lower,lower,"('lower', 'JJR')",lower,low,description,lower,O,,
+levels,levels,"('levels', 'NNS')",level,level,description,levels,O,,
+unforgettable,unforgettable,"('unforgettable', 'JJ')",unforgett,unforgettable,description,unforgettable,O,,
+charming,charming,"('charming', 'JJ')",charm,charming,description,charming,O,,
+colonial,colonial,"('colonial', 'JJ')",coloni,colonial,description,colonial,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+Morretes,morretes,"('morretes', 'NNS')",morret,morretes,description,Morretes,B,GPE,"Countries, cities, states"
+near,near,"('near', 'IN')",near,near,description,near,O,,
+foot,foot,"('foot', 'NN')",foot,foot,description,foot,O,,
+mountain,mountain,"('mountain', 'NN')",mountain,mountain,description,mountain,O,,
+range,range,"('range', 'NN')",rang,range,description,range,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+base,base,"('base', 'NN')",base,base,description,base,O,,
+exploring,exploring,"('exploring', 'VBG')",explor,explore,description,exploring,O,,
+surrounding,surrounding,"('surrounding', 'VBG')",surround,surround,description,surrounding,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+coastal,coastal,"('coastal', 'JJ')",coastal,coastal,description,coastal,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+particular,particular,"('particular', 'JJ')",particular,particular,description,particular,O,,
+Morretes,morretes,"('morretes', 'NNS')",morret,morretes,description,Morretes,B,ORG,"Companies, agencies, institutions, etc."
+Antonina,antonina,"('antonina', 'VBP')",antonina,antonina,description,Antonina,I,ORG,"Companies, agencies, institutions, etc."
+Paranaguá,paranaguá,"('paranaguá', 'VBP')",paranaguá,paranaguá,description,Paranaguá,O,,
+Barreado,barreado,"('barreado', 'VB')",barreado,barreado,description,Barreado,B,PERSON,"People, including fictional"
+region,region,"('region', 'NN')",region,region,description,region,O,,
+equivalent,equivalent,"('equivalent', 'NN')",equival,equivalent,description,equivalent,O,,
+feijoada,feijoada,"('feijoada', 'NN')",feijoada,feijoada,description,feijoada,B,GPE,"Countries, cities, states"
+appears,appears,"('appears', 'VBZ')",appear,appear,description,appears,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+menus,menus,"('menus', 'VBP')",menu,menus,description,menus,O,,
+This,this,"('this', 'DT')",thi,this,description,This,O,,
+speciality,speciality,"('speciality', 'NN')",special,speciality,description,speciality,O,,
+convenience,convenience,"('convenience', 'NN')",conveni,convenience,description,convenience,O,,
+dish,dish,"('dish', 'NN')",dish,dish,description,dish,O,,
+provide,provide,"('provide', 'VB')",provid,provide,description,provide,O,,
+food,food,"('food', 'NN')",food,food,description,food,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,B,DATE,Absolute or relative dates or periods
+days,days,"('days', 'NNS')",day,day,description,days,I,DATE,Absolute or relative dates or periods
+requires,requires,"('requires', 'VBZ')",requir,require,description,requires,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+attention,attention,"('attention', 'NN')",attent,attention,description,attention,O,,
+cooking,cooking,"('cooking', 'VBG')",cook,cook,description,cooking,O,,
+used,used,"('used', 'VBN')",use,use,description,used,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+eaten,eaten,"('eaten', 'VBN')",eaten,eat,description,eaten,O,,
+poor,poor,"('poor', 'JJ')",poor,poor,description,poor,O,,
+during,during,"('during', 'IN')",dure,during,description,during,O,,
+Carnaval,carnaval,"('carnaval', 'NN')",carnav,carnaval,description,Carnaval,O,,
+enjoyed,enjoyed,"('enjoyed', 'VBN')",enjoy,enjoy,description,enjoyed,O,,
+throughout,throughout,"('throughout', 'IN')",throughout,throughout,description,throughout,O,,
+year,year,"('year', 'NN')",year,year,description,year,O,,
+Traditionally,traditionally,"('traditionally', 'RB')",tradit,traditionally,description,Traditionally,O,,
+barreado,barreado,"('barreado', 'NN')",barreado,barreado,description,barreado,O,,
+made,made,"('made', 'VBN')",made,make,description,made,O,,
+beef,beef,"('beef', 'NN')",beef,beef,description,beef,O,,
+bacon,bacon,"('bacon', 'NN')",bacon,bacon,description,bacon,O,,
+tomatoes,tomatoes,"('tomatoes', 'NNS')",tomato,tomato,description,tomatoes,O,,
+onion,onion,"('onion', 'VBP')",onion,onion,description,onion,O,,
+cumin,cumin,"('cumin', 'NN')",cumin,cumin,description,cumin,O,,
+spices,spices,"('spices', 'NNS')",spice,spice,description,spices,O,,
+placed,placed,"('placed', 'VBN')",place,place,description,placed,O,,
+successive,successive,"('successive', 'JJ')",success,successive,description,successive,O,,
+layers,layers,"('layers', 'NNS')",layer,layer,description,layers,O,,
+large,large,"('large', 'JJ')",larg,large,description,large,O,,
+clay,clay,"('clay', 'NN')",clay,clay,description,clay,O,,
+urn,urn,"('urn', 'NN')",urn,urn,description,urn,O,,
+covered,covered,"('covered', 'VBN')",cover,cover,description,covered,O,,
+barreada,barreada,"('barreada', 'VB')",barreada,barreada,description,barreada,O,,
+sealed,sealed,"('sealed', 'VBN')",seal,seal,description,sealed,O,,
+paste,paste,"('paste', 'NN')",past,paste,description,paste,O,,
+ash,ash,"('ash', 'NN')",ash,ash,description,ash,O,,
+farinha,farinha,"('farinha', 'NN')",farinha,farinha,description,farinha,O,,
+manioc,manioc,"('manioc', 'FW')",manioc,manioc,description,manioc,O,,
+flour,flour,"('flour', 'NN')",flour,flour,description,flour,O,,
+slowly,slowly,"('slowly', 'RB')",slowli,slowly,description,slowly,O,,
+cooked,cooked,"('cooked', 'VBN')",cook,cook,description,cooked,O,,
+oven,oven,"('oven', 'NN')",oven,oven,description,oven,O,,
+twelve,twelve,"('twelve', 'NN')",twelv,twelve,description,twelve,B,TIME,Times smaller than a day
+fifteen,fifteen,"('fifteen', 'VB')",fifteen,fifteen,description,fifteen,I,TIME,Times smaller than a day
+hours,hours,"('hours', 'NNS')",hour,hour,description,hours,I,TIME,Times smaller than a day
+Today,today,"('today', 'NN')",today,today,description,Today,B,DATE,Absolute or relative dates or periods
+pressure,pressure,"('pressure', 'NN')",pressur,pressure,description,pressure,O,,
+cookers,cookers,"('cookers', 'NNS')",cooker,cooker,description,cookers,O,,
+sometimes,sometimes,"('sometimes', 'RB')",sometim,sometimes,description,sometimes,O,,
+used,used,"('used', 'VBN')",use,use,description,used,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+better,better,"('better', 'JJR')",better,good,description,better,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+gas,gas,"('gas', 'NN')",ga,gas,description,gas,O,,
+electric,electric,"('electric', 'JJ')",electr,electric,description,electric,O,,
+ovens,ovens,"('ovens', 'NNS')",oven,oven,description,ovens,O,,
+almost,almost,"('almost', 'RB')",almost,almost,description,almost,O,,
+always,always,"('always', 'RB')",alway,always,description,always,O,,
+substitute,substitute,"('substitute', 'NN')",substitut,substitute,description,substitute,O,,
+ones,ones,"('ones', 'NNS')",one,one,description,ones,O,,
+Barreado,barreado,"('barreado', 'NN')",barreado,barreado,description,Barreado,B,PERSON,"People, including fictional"
+served,served,"('served', 'VBN')",serv,serve,description,served,O,,
+farinha,farinha,"('farinha', 'NN')",farinha,farinha,description,farinha,O,,
+spread,spread,"('spread', 'VBP')",spread,spread,description,spread,O,,
+plate,plate,"('plate', 'NN')",plate,plate,description,plate,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+meat,meat,"('meat', 'NN')",meat,meat,description,meat,O,,
+gravy,gravy,"('gravy', 'NN')",gravi,gravy,description,gravy,O,,
+top,top,"('top', 'JJ')",top,top,description,top,O,,
+eat,eat,"('eat', 'NN')",eat,eat,description,eat,O,,
+banana,banana,"('banana', 'NN')",banana,banana,description,banana,O,,
+orange,orange,"('orange', 'NN')",orang,orange,description,orange,O,,
+slices,slices,"('slices', 'NNS')",slice,slice,description,slices,O,,
+Though,though,"('though', 'IN')",though,though,description,Though,O,,
+tasty,tasty,"('tasty', 'JJ')",tasti,tasty,description,tasty,O,,
+enough,enough,"('enough', 'JJ')",enough,enough,description,enough,O,,
+barreado,barreado,"('barreado', 'NN')",barreado,barreado,description,barreado,O,,
+very,very,"('very', 'RB')",veri,very,description,very,O,,
+heavy,heavy,"('heavy', 'JJ')",heavi,heavy,description,heavy,O,,
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+appropriate,appropriate,"('appropriate', 'JJ')",appropri,appropriate,description,appropriate,O,,
+dish,dish,"('dish', 'NN')",dish,dish,description,dish,O,,
+chilly,chilly,"('chilly', 'JJ')",chilli,chilly,description,chilly,O,,
+winter,winter,"('winter', 'NN')",winter,winter,description,winter,B,DATE,Absolute or relative dates or periods
+evening,evening,"('evening', 'NN')",even,evening,description,evening,O,,
+summer,summer,"('summer', 'NN')",summer,summer,description,summer,O,,
+Carnaval,carnaval,"('carnaval', 'NN')",carnav,carnaval,description,Carnaval,B,ORG,"Companies, agencies, institutions, etc."
+originally,originally,"('originally', 'RB')",origin,originally,description,originally,O,,
+since,since,"('since', 'IN')",sinc,since,description,since,O,,
+position,position,"('position', 'NN')",posit,position,description,position,O,,
+Brazil,brazil,"('brazil', 'JJ')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+third,third,"('third', 'JJ')",third,third,description,third,B,ORDINAL,"""first"", ""second"", etc."
+important,important,"('important', 'JJ')",import,important,description,important,O,,
+port,port,"('port', 'NN')",port,port,description,port,O,,
+exports,exports,"('exports', 'NNS')",export,export,description,exports,O,,
+PARANAGUÁ,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,PARANAGUÁ,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+lost,lost,"('lost', 'VBN')",lost,lose,description,lost,O,,
+former,former,"('former', 'JJ')",former,former,description,former,O,,
+character,character,"('character', 'NN')",charact,character,description,character,O,,
+Founded,founded,"('founded', 'VBN')",found,found,description,Founded,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+oldest,oldest,"('oldest', 'JJS')",oldest,old,description,oldest,O,,
+cities,cities,"('cities', 'NNS')",citi,city,description,cities,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+recently,recently,"('recently', 'RB')",recent,recently,description,recently,O,,
+measures,measures,"('measures', 'NNS')",measur,measure,description,measures,O,,
+undertaken,undertaken,"('undertaken', 'JJ')",undertaken,undertaken,description,undertaken,O,,
+preserve,preserve,"('preserve', 'VB')",preserv,preserve,description,preserve,O,,
+colonial,colonial,"('colonial', 'JJ')",coloni,colonial,description,colonial,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+Antonina,antonina,"('antonina', 'NNS')",antonina,antonina,description,Antonina,B,ORG,"Companies, agencies, institutions, etc."
+Morretes,morretes,"('morretes', 'NNS')",morret,morretes,description,Morretes,I,ORG,"Companies, agencies, institutions, etc."
+boast,boast,"('boast', 'VBP')",boast,boast,description,boast,O,,
+less,less,"('less', 'JJR')",less,less,description,less,O,,
+interest,interest,"('interest', 'NN')",interest,interest,description,interest,O,,
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+remained,remained,"('remained', 'VBN')",remain,remain,description,remained,O,,
+largely,largely,"('largely', 'RB')",larg,largely,description,largely,O,,
+intact,intact,"('intact', 'JJ')",intact,intact,description,intact,O,,
+retain,retain,"('retain', 'VB')",retain,retain,description,retain,O,,
+instantly,instantly,"('instantly', 'RB')",instantli,instantly,description,instantly,O,,
+accessible,accessible,"('accessible', 'JJ')",access,accessible,description,accessible,O,,
+charm,charm,"('charm', 'NN')",charm,charm,description,charm,O,,
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,B,PERSON,"People, including fictional"
+though,though,"('though', 'IN')",though,though,description,though,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+worth,worth,"('worth', 'IN')",worth,worth,description,worth,O,,
+seeing,seeing,"('seeing', 'VBG')",see,see,description,seeing,O,,
+conveniently,conveniently,"('conveniently', 'RB')",conveni,conveniently,description,conveniently,O,,
+concentrated,concentrated,"('concentrated', 'VBN')",concentr,concentrate,description,concentrated,O,,
+quite,quite,"('quite', 'RB')",quit,quite,description,quite,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+means,means,"('means', 'VBZ')",mean,mean,description,means,O,,
+spend,spend,"('spend', 'VB')",spend,spend,description,spend,O,,
+diverting,diverting,"('diverting', 'NN')",divert,diverting,description,diverting,O,,
+hours,hours,"('hours', 'NNS')",hour,hour,description,hours,O,,
+boats,boats,"('boats', 'NNS')",boat,boat,description,boats,O,,
+trains,trains,"('trains', 'NNS')",train,train,description,trains,O,,
+beyond,beyond,"('beyond', 'IN')",beyond,beyond,description,beyond,O,,
+market,market,"('market', 'NN')",market,market,description,market,O,,
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,O,,
+imposing,imposing,"('imposing', 'JJ')",impos,imposing,description,imposing,O,,
+building,building,"('building', 'VBG')",build,build,description,building,O,,
+Colégio,colégio,"('colégio', 'NN')",colégio,colégio,description,Colégio,O,,
+Jesuítas,jesuítas,"('jesuítas', 'NNS')",jesuíta,jesuítas,description,Jesuítas,O,,
+overlooks,overlooks,"('overlooks', 'VBZ')",overlook,overlook,description,overlooks,O,,
+waterfront,waterfront,"('waterfront', 'JJ')",waterfront,waterfront,description,waterfront,O,,
+Construction,construction,"('construction', 'NN')",construct,construction,description,Construction,O,,
+college,college,"('college', 'NN')",colleg,college,description,college,O,,
+began,began,"('began', 'VBD')",began,begin,description,began,O,,
+sixteen,sixteen,"('sixteen', 'JJ')",sixteen,sixteen,description,sixteen,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+Jesuits,jesuits,"('jesuits', 'NNS')",jesuit,jesuit,description,Jesuits,O,,
+invited,invited,"('invited', 'VBN')",invit,invite,description,invited,O,,
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,O,,
+citizens,citizens,"('citizens', 'NNS')",citizen,citizen,description,citizens,O,,
+establish,establish,"('establish', 'VB')",establish,establish,description,establish,O,,
+school,school,"('school', 'NN')",school,school,description,school,O,,
+sons,sons,"('sons', 'NNS')",son,son,description,sons,O,,
+Because,because,"('because', 'IN')",becaus,because,description,Because,O,,
+lacked,lacked,"('lacked', 'VBD')",lack,lack,description,lacked,O,,
+royal,royal,"('royal', 'JJ')",royal,royal,description,royal,O,,
+permit,permit,"('permit', 'NN')",permit,permit,description,permit,O,,
+however,however,"('however', 'RB')",howev,however,description,however,O,,
+authorities,authorities,"('authorities', 'NNS')",author,authority,description,authorities,O,,
+promptly,promptly,"('promptly', 'RB')",promptli,promptly,description,promptly,O,,
+halted,halted,"('halted', 'VBN')",halt,halt,description,halted,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+college,college,"('college', 'NN')",colleg,college,description,college,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+granted,granted,"('granted', 'JJ')",grant,granted,description,granted,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+recommenced,recommenced,"('recommenced', 'VBN')",recommenc,recommence,description,recommenced,O,,
+college,college,"('college', 'NN')",colleg,college,description,college,O,,
+finally,finally,"('finally', 'RB')",final,finally,description,finally,O,,
+opened,opened,"('opened', 'VBD')",open,open,description,opened,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+close,close,"('close', 'VB')",close,close,description,close,O,,
+four,four,"('four', 'CD')",four,four,description,four,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+later,later,"('later', 'RB')",later,later,description,later,I,DATE,Absolute or relative dates or periods
+Jesuits,jesuits,"('jesuits', 'NNS')",jesuit,jesuit,description,Jesuits,O,,
+expulsion,expulsion,"('expulsion', 'NN')",expuls,expulsion,description,expulsion,O,,
+Brazil,brazil,"('brazil', 'IN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+building,building,"('building', 'NN')",build,building,description,building,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+used,used,"('used', 'VBN')",use,use,description,used,O,,
+headquarters,headquarters,"('headquarters', 'NN')",headquart,headquarters,description,headquarters,O,,
+local,local,"('local', 'JJ')",local,local,description,local,O,,
+militia,militia,"('militia', 'NN')",militia,militia,description,militia,O,,
+customs,customs,"('customs', 'NNS')",custom,custom,description,customs,O,,
+house,house,"('house', 'NN')",hous,house,description,house,O,,
+today,today,"('today', 'NN')",today,today,description,today,B,DATE,Absolute or relative dates or periods
+home,home,"('home', 'VBN')",home,home,description,home,O,,
+Museu,museu,"('museu', 'NN')",museu,museu,description,Museu,B,ORG,"Companies, agencies, institutions, etc."
+de,de,"('de', 'IN')",de,de,description,de,I,ORG,"Companies, agencies, institutions, etc."
+Arqueologia,arqueologia,"('arqueologia', 'FW')",arqueologia,arqueologia,description,Arqueologia,I,ORG,"Companies, agencies, institutions, etc."
+e,e,"('e', 'FW')",e,e,description,e,I,ORG,"Companies, agencies, institutions, etc."
+Etnología,etnología,"('etnología', 'VBP')",etnología,etnología,description,Etnología,B,ORG,"Companies, agencies, institutions, etc."
+college,college,"('college', 'NN')",colleg,college,description,college,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+floors,floors,"('floors', 'NNS')",floor,floor,description,floors,O,,
+divided,divided,"('divided', 'VBN')",divid,divide,description,divided,O,,
+rooms,rooms,"('rooms', 'NNS')",room,room,description,rooms,O,,
+yard,yard,"('yard', 'NN')",yard,yard,description,yard,O,,
+chapel,chapel,"('chapel', 'NN')",chapel,chapel,description,chapel,O,,
+stood,stood,"('stood', 'VBD')",stood,stand,description,stood,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+destroyed,destroyed,"('destroyed', 'VBN')",destroy,destroy,description,destroyed,O,,
+fire,fire,"('fire', 'NN')",fire,fire,description,fire,O,,
+None,none,"('none', 'NN')",none,none,description,None,O,,
+museum,museum,"('museum', 'NN')",museum,museum,description,museum,O,,
+exhibits,exhibits,"('exhibits', 'VBZ')",exhibit,exhibit,description,exhibits,O,,
+relate,relate,"('relate', 'NN')",relat,relate,description,relate,O,,
+Jesuits,jesuits,"('jesuits', 'NNS')",jesuit,jesuit,description,Jesuits,O,,
+concentrating,concentrating,"('concentrating', 'VBG')",concentr,concentrate,description,concentrating,O,,
+instead,instead,"('instead', 'RB')",instead,instead,description,instead,O,,
+prehistoric,prehistoric,"('prehistoric', 'JJ')",prehistor,prehistoric,description,prehistoric,O,,
+archeology,archeology,"('archeology', 'NN')",archeolog,archeology,description,archeology,O,,
+Indian,indian,"('indian', 'JJ')",indian,indian,description,Indian,B,NORP,Nationalities or religious or political groups
+culture,culture,"('culture', 'NN')",cultur,culture,description,culture,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+displays,displays,"('displays', 'NNS')",display,display,description,displays,O,,
+local,local,"('local', 'JJ')",local,local,description,local,O,,
+artefacts,artefacts,"('artefacts', 'NNS')",artefact,artefact,description,artefacts,O,,
+greatest,greatest,"('greatest', 'JJ')",greatest,great,description,greatest,O,,
+interest,interest,"('interest', 'NN')",interest,interest,description,interest,O,,
+fine,fine,"('fine', 'JJ')",fine,fine,description,fine,O,,
+examples,examples,"('examples', 'NNS')",exampl,example,description,examples,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+agricultural,agricultural,"('agricultural', 'JJ')",agricultur,agricultural,description,agricultural,O,,
+implements,implements,"('implements', 'NNS')",implement,implement,description,implements,O,,
+basketry,basketry,"('basketry', 'NN')",basketri,basketry,description,basketry,O,,
+fishing,fishing,"('fishing', 'NN')",fish,fishing,description,fishing,O,,
+skills,skills,"('skills', 'NNS')",skill,skill,description,skills,O,,
+Indians,indians,"('indians', 'NNS')",indian,indian,description,Indians,B,NORP,Nationalities or religious or political groups
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+settlers,settlers,"('settlers', 'NNS')",settler,settler,description,settlers,O,,
+east,east,"('east', 'NN')",east,east,description,east,O,,
+Paranaguá,paranaguá,"('paranaguá', 'NN')",paranaguá,paranaguá,description,Paranaguá,B,ORG,"Companies, agencies, institutions, etc."
+Paraná,paraná,"('paraná', 'JJ')",paraná,paraná,description,Paraná,I,ORG,"Companies, agencies, institutions, etc."
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+beach,beach,"('beach', 'NN')",beach,beach,description,beach,O,,
+resorts,resorts,"('resorts', 'NNS')",resort,resort,description,resorts,O,,
+principally,principally,"('principally', 'RB')",princip,principally,description,principally,O,,
+attracting,attracting,"('attracting', 'VBG')",attract,attract,description,attracting,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+seeking,seeking,"('seeking', 'VBG')",seek,seek,description,seeking,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+sea,sea,"('sea', 'NN')",sea,sea,description,sea,O,,
+familiar,familiar,"('familiar', 'JJ')",familiar,familiar,description,familiar,O,,
+comforts,comforts,"('comforts', 'NNS')",comfort,comfort,description,comforts,O,,
+home,home,"('home', 'NN')",home,home,description,home,O,,
+surrounding,surrounding,"('surrounding', 'VBG')",surround,surround,description,surrounding,O,,
+countryside,countryside,"('countryside', 'NN')",countrysid,countryside,description,countryside,O,,
+relentlessly,relentlessly,"('relentlessly', 'RB')",relentlessli,relentlessly,description,relentlessly,O,,
+flat,flat,"('flat', 'JJ')",flat,flat,description,flat,O,,
+beaches,beaches,"('beaches', 'NNS')",beach,beach,description,beaches,O,,
+really,really,"('really', 'RB')",realli,really,description,really,O,,
+compare,compare,"('compare', 'JJ')",compar,compare,description,compare,O,,
+Santa,santa,"('santa', 'JJ')",santa,santa,description,Santa,B,GPE,"Countries, cities, states"
+Catarina,catarina,"('catarina', 'NN')",catarina,catarina,description,Catarina,I,GPE,"Countries, cities, states"
+matter,matter,"('matter', 'NN')",matter,matter,description,matter,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+however,however,"('however', 'RB')",howev,however,description,however,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+notable,notable,"('notable', 'JJ')",notabl,notable,description,notable,O,,
+exception,exception,"('exception', 'NN')",except,exception,description,exception,O,,
+Ilha,ilha,"('ilha', 'NN')",ilha,ilha,description,Ilha,B,PERSON,"People, including fictional"
+Mel,mel,"('mel', 'NNS')",mel,mel,description,Mel,I,PERSON,"People, including fictional"
+despite,despite,"('despite', 'IN')",despit,despite,description,despite,O,,
+Paraná,paraná,"('paraná', 'VBN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,description,beautiful,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+protected,protected,"('protected', 'VBN')",protect,protect,description,protected,O,,
+tourism,tourism,"('tourism', 'NN')",tourism,tourism,description,tourism,O,,
+worst,worst,"('worst', 'JJ')",worst,bad,description,worst,O,,
+effects,effects,"('effects', 'NNS')",effect,effect,description,effects,O,,
+classified,classified,"('classified', 'VBN')",classifi,classify,description,classified,O,,
+ecological,ecological,"('ecological', 'JJ')",ecolog,ecological,description,ecological,O,,
+protection,protection,"('protection', 'NN')",protect,protection,description,protection,O,,
+zone,zone,"('zone', 'CD')",zone,zone,description,zone,O,,
+number,number,"('number', 'NN')",number,number,description,number,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+limited,limited,"('limited', 'VBN')",limit,limit,description,limited,O,,
+five,five,"('five', 'CD')",five,five,description,five,O,,
+thousand,thousand,"('thousand', 'NNS')",thousand,thousand,description,thousand,O,,
+per,per,"('per', 'IN')",per,per,description,per,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+strictly,strictly,"('strictly', 'RB')",strictli,strictly,description,strictly,O,,
+regulated,regulated,"('regulated', 'VBN')",regul,regulate,description,regulated,O,,
+sale,sale,"('sale', 'NN')",sale,sale,description,sale,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+outsiders,outsiders,"('outsiders', 'NNS')",outsid,outsider,description,outsiders,O,,
+carefully,carefully,"('carefully', 'RB')",care,carefully,description,carefully,O,,
+hilly,hilly,"('hilly', 'RB')",hilli,hilly,description,hilly,O,,
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+almost,almost,"('almost', 'RB')",almost,almost,description,almost,O,,
+mountainous,mountainous,"('mountainous', 'JJ')",mountain,mountainous,description,mountainous,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+makes,makes,"('makes', 'VBZ')",make,make,description,makes,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+stopover,stopover,"('stopover', 'NN')",stopov,stopover,description,stopover,O,,
+Curitiba,curitiba,"('curitiba', 'NN')",curitiba,curitiba,description,Curitiba,B,ORG,"Companies, agencies, institutions, etc."
+Iguaçu,iguaçu,"('iguaçu', 'NN')",iguaçu,iguaçu,description,Iguaçu,I,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'VBZ')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+anyone,anyone,"('anyone', 'NN')",anyon,anyone,description,anyone,O,,
+interested,interested,"('interested', 'JJ')",interest,interested,description,interested,O,,
+European,european,"('european', 'JJ')",european,european,description,European,B,NORP,Nationalities or religious or political groups
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,NORP,Nationalities or religious or political groups
+immigration,immigration,"('immigration', 'NN')",immigr,immigration,description,immigration,O,,
+none,none,"('none', 'NN')",none,none,description,none,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+distinctive,distinctive,"('distinctive', 'JJ')",distinct,distinctive,description,distinctive,O,,
+better,better,"('better', 'RBR')",better,well,description,better,O,,
+use,use,"('use', 'VB')",use,use,description,use,O,,
+bases,bases,"('bases', 'NNS')",base,base,description,bases,O,,
+visit,visit,"('visit', 'VB')",visit,visit,description,visit,O,,
+nearby,nearby,"('nearby', 'JJ')",nearbi,nearby,description,nearby,O,,
+villages,villages,"('villages', 'NNS')",villag,village,description,villages,O,,
+hamlets,hamlets,"('hamlets', 'NNS')",hamlet,hamlet,description,hamlets,O,,
+pioneering,pioneering,"('pioneering', 'JJ')",pioneer,pioneering,description,pioneering,O,,
+spirit,spirit,"('spirit', 'NN')",spirit,spirit,description,spirit,O,,
+inhabitants,inhabitants,"('inhabitants', 'NNS')",inhabit,inhabitant,description,inhabitants,O,,
+immigrant,immigrant,"('immigrant', 'JJ')",immigr,immigrant,description,immigrant,O,,
+forebears,forebears,"('forebears', 'NNS')",forebear,forebear,description,forebears,O,,
+remains,remains,"('remains', 'VBZ')",remain,remain,description,remains,O,,
+houses,houses,"('houses', 'NNS')",hous,house,description,houses,O,,
+made,made,"('made', 'VBN')",made,make,description,made,O,,
+wood,wood,"('wood', 'NN')",wood,wood,description,wood,O,,
+sometimes,sometimes,"('sometimes', 'RB')",sometim,sometimes,description,sometimes,O,,
+featuring,featuring,"('featuring', 'VBG')",featur,feature,description,featuring,O,,
+intricately,intricately,"('intricately', 'RB')",intric,intricately,description,intricately,O,,
+carved,carved,"('carved', 'VBN')",carv,carve,description,carved,O,,
+details,details,"('details', 'NNS')",detail,detail,description,details,O,,
+typically,typically,"('typically', 'RB')",typic,typically,description,typically,O,,
+painted,painted,"('painted', 'VBN')",paint,paint,description,painted,O,,
+bright,bright,"('bright', 'JJ')",bright,bright,description,bright,O,,
+colours,colours,"('colours', 'NNS')",colour,colour,description,colours,O,,
+usually,usually,"('usually', 'RB')",usual,usually,description,usually,O,,
+surrounded,surrounded,"('surrounded', 'VBN')",surround,surround,description,surrounded,O,,
+gardens,gardens,"('gardens', 'NNS')",garden,garden,description,gardens,O,,
+Because,because,"('because', 'IN')",becaus,because,description,Because,O,,
+ethnic,ethnic,"('ethnic', 'JJ')",ethnic,ethnic,description,ethnic,O,,
+mix,mix,"('mix', 'NN')",mix,mix,description,mix,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+villages,villages,"('villages', 'NNS')",villag,village,description,villages,O,,
+contain,contain,"('contain', 'VBP')",contain,contain,description,contain,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,O,,
+denominations,denominations,"('denominations', 'NNS')",denomin,denomination,description,denominations,O,,
+hamlets,hamlets,"('hamlets', 'NNS')",hamlet,hamlet,description,hamlets,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+chapel,chapel,"('chapel', 'NN')",chapel,chapel,description,chapel,O,,
+someone,someone,"('someone', 'NN')",someon,someone,description,someone,O,,
+hand,hand,"('hand', 'NN')",hand,hand,description,hand,O,,
+open,open,"('open', 'VB')",open,open,description,open,O,,
+rare,rare,"('rare', 'JJ')",rare,rare,description,rare,O,,
+late,late,"('late', 'JJ')",late,late,description,late,B,DATE,Absolute or relative dates or periods
+nineteenth,nineteenth,"('nineteenth', 'NN')",nineteenth,nineteenth,description,nineteenth,I,DATE,Absolute or relative dates or periods
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+twentieth,twentieth,"('twentieth', 'NN')",twentieth,twentieth,description,twentieth,B,ORDINAL,"""first"", ""second"", etc."
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,O,,
+European,european,"('european', 'JJ')",european,european,description,European,B,NORP,Nationalities or religious or political groups
+North,north,"('north', 'JJ')",north,north,description,North,B,NORP,Nationalities or religious or political groups
+American,american,"('american', 'JJ')",american,american,description,American,I,NORP,Nationalities or religious or political groups
+companies,companies,"('companies', 'NNS')",compani,company,description,companies,O,,
+contracted,contracted,"('contracted', 'VBN')",contract,contract,description,contracted,O,,
+construct,construct,"('construct', 'VB')",construct,construct,description,construct,O,,
+rail,rail,"('rail', 'NN')",rail,rail,description,rail,O,,
+line,line,"('line', 'NN')",line,line,description,line,O,,
+linking,linking,"('linking', 'VBG')",link,link,description,linking,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+São,são,"('são', 'NN')",são,são,description,São,B,PERSON,"People, including fictional"
+Paulo,paulo,"('paulo', 'NN')",paulo,paulo,description,Paulo,I,PERSON,"People, including fictional"
+Rio,rio,"('rio', 'VB')",rio,rio,description,Rio,I,PERSON,"People, including fictional"
+Grande,grande,"('grande', 'NNS')",grand,grande,description,Grande,I,PERSON,"People, including fictional"
+Sul,sul,"('sul', 'RB')",sul,sul,description,Sul,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+payment,payment,"('payment', 'NN')",payment,payment,description,payment,O,,
+large,large,"('large', 'JJ')",larg,large,description,large,O,,
+tracts,tracts,"('tracts', 'NNS')",tract,tract,description,tracts,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+given,given,"('given', 'VBN')",given,give,description,given,O,,
+companies,companies,"('companies', 'NNS')",compani,company,description,companies,O,,
+United,united,"('united', 'JJ')",unit,united,description,United,B,GPE,"Countries, cities, states"
+States,states,"('states', 'NNS')",state,state,description,States,I,GPE,"Countries, cities, states"
+Canadian,canadian,"('canadian', 'JJ')",canadian,canadian,description,Canadian,B,NORP,Nationalities or religious or political groups
+West,west,"('west', 'NN')",west,west,description,West,O,,
+subdivided,subdivided,"('subdivided', 'VBD')",subdivid,subdivide,description,subdivided,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+properties,properties,"('properties', 'NNS')",properti,property,description,properties,O,,
+sale,sale,"('sale', 'NN')",sale,sale,description,sale,O,,
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,description,immigrants,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+hoped,hoped,"('hoped', 'VBN')",hope,hop,description,hoped,O,,
+would,would,"('would', 'MD')",would,would,description,would,O,,
+generate,generate,"('generate', 'VB')",gener,generate,description,generate,O,,
+traffic,traffic,"('traffic', 'NN')",traffic,traffic,description,traffic,O,,
+rail,rail,"('rail', 'NN')",rail,rail,description,rail,O,,
+line,line,"('line', 'NN')",line,line,description,line,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+grants,grants,"('grants', 'NNS')",grant,grant,description,grants,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,O,,
+companies,companies,"('companies', 'NNS')",compani,company,description,companies,O,,
+quickly,quickly,"('quickly', 'RB')",quickli,quickly,description,quickly,O,,
+cleared,cleared,"('cleared', 'VBD')",clear,clear,description,cleared,O,,
+valuable,valuable,"('valuable', 'JJ')",valuabl,valuable,description,valuable,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,O,,
+pine,pine,"('pine', 'NN')",pine,pine,description,pine,O,,
+trees,trees,"('trees', 'NNS')",tree,tree,description,trees,O,,
+dominated,dominated,"('dominated', 'VBD')",domin,dominate,description,dominated,O,,
+territory,territory,"('territory', 'NN')",territori,territory,description,territory,O,,
+Settlers,settlers,"('settlers', 'NNS')",settler,settler,description,Settlers,O,,
+came,came,"('came', 'VBD')",came,come,description,came,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+companies,companies,"('companies', 'NNS')",compani,company,description,companies,O,,
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+successful,successful,"('successful', 'JJ')",success,successful,description,successful,O,,
+recruiting,recruiting,"('recruiting', 'VBG')",recruit,recruit,description,recruiting,O,,
+Ukrainians,ukrainians,"('ukrainians', 'NNS')",ukrainian,ukrainian,description,Ukrainians,B,NORP,Nationalities or religious or political groups
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,description,immigrants,O,,
+arrived,arrived,"('arrived', 'VBN')",arriv,arrive,description,arrived,O,,
+Ukraine,ukraine,"('ukraine', 'JJ')",ukrain,ukraine,description,Ukraine,B,ORG,"Companies, agencies, institutions, etc."
+America,america,"('america', 'NN')",america,america,description,America,I,ORG,"Companies, agencies, institutions, etc."
+Today,today,"('today', 'NN')",today,today,description,Today,B,DATE,Absolute or relative dates or periods
+Brazilians,brazilians,"('brazilians', 'NNS')",brazilian,brazilian,description,Brazilians,B,NORP,Nationalities or religious or political groups
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,GPE,"Countries, cities, states"
+extraction,extraction,"('extraction', 'NN')",extract,extraction,description,extraction,O,,
+eighty,eighty,"('eighty', 'JJ')",eighti,eighty,description,eighty,B,PERCENT,"Percentage, including ""%"""
+percent,percent,"('percent', 'NN')",percent,percent,description,percent,I,PERCENT,"Percentage, including ""%"""
+live,live,"('live', 'NN')",live,live,description,live,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+largely,largely,"('largely', 'RB')",larg,largely,description,largely,O,,
+concentrated,concentrated,"('concentrated', 'VBN')",concentr,concentrate,description,concentrated,O,,
+southern,southern,"('southern', 'JJ')",southern,southern,description,southern,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,description,immigrants,O,,
+came,came,"('came', 'VBD')",came,come,description,came,O,,
+western,western,"('western', 'JJ')",western,western,description,western,O,,
+Ukraine,ukraine,"('ukraine', 'NN')",ukrain,ukraine,description,Ukraine,B,GPE,"Countries, cities, states"
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,O,,
+Catholic,catholic,"('catholic', 'NN')",cathol,catholic,description,Catholic,B,NORP,Nationalities or religious or political groups
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+Orthodox,orthodox,"('orthodox', 'JJ')",orthodox,orthodox,description,Orthodox,B,ORG,"Companies, agencies, institutions, etc."
+Church,church,"('church', 'NN')",church,church,description,Church,I,ORG,"Companies, agencies, institutions, etc."
+dominates,dominates,"('dominates', 'VBZ')",domin,dominate,description,dominates,O,,
+throughout,throughout,"('throughout', 'IN')",throughout,throughout,description,throughout,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+Ukrainians,ukrainians,"('ukrainians', 'NNS')",ukrainian,ukrainian,description,Ukrainians,B,NORP,Nationalities or religious or political groups
+descendants,descendants,"('descendants', 'NNS')",descend,descendant,description,descendants,O,,
+gathered,gathered,"('gathered', 'VBN')",gather,gather,description,gathered,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+chapels,chapels,"('chapels', 'NNS')",chapel,chapel,description,chapels,O,,
+abound,abound,"('abound', 'VBP')",abound,abound,description,abound,O,,
+Roman,roman,"('roman', 'JJ')",roman,roman,description,Roman,B,NORP,Nationalities or religious or political groups
+Catholic,catholic,"('catholic', 'JJ')",cathol,catholic,description,Catholic,I,NORP,Nationalities or religious or political groups
+hierarchy,hierarchy,"('hierarchy', 'NN')",hierarchi,hierarchy,description,hierarchy,O,,
+general,general,"('general', 'JJ')",gener,general,description,general,O,,
+gradually,gradually,"('gradually', 'RB')",gradual,gradually,description,gradually,O,,
+becoming,becoming,"('becoming', 'VBG')",becom,become,description,becoming,O,,
+sensitive,sensitive,"('sensitive', 'JJ')",sensit,sensitive,description,sensitive,O,,
+need,need,"('need', 'NN')",need,need,description,need,O,,
+concentrate,concentrate,"('concentrate', 'VB')",concentr,concentrate,description,concentrate,O,,
+resources,resources,"('resources', 'NNS')",resourc,resource,description,resources,O,,
+social,social,"('social', 'JJ')",social,social,description,social,O,,
+projects,projects,"('projects', 'NNS')",project,project,description,projects,O,,
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,NORP,Nationalities or religious or political groups
+Catholic,catholic,"('catholic', 'NN')",cathol,catholic,description,Catholic,I,NORP,Nationalities or religious or political groups
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+proliferating,proliferating,"('proliferating', 'VBG')",prolifer,proliferate,description,proliferating,O,,
+ever,ever,"('ever', 'RB')",ever,ever,description,ever,O,,
+lavish,lavish,"('lavish', 'JJ')",lavish,lavish,description,lavish,O,,
+proportions,proportions,"('proportions', 'NNS')",proport,proportion,description,proportions,O,,
+sometimes,sometimes,"('sometimes', 'RB')",sometim,sometimes,description,sometimes,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+replacing,replacing,"('replacing', 'VBG')",replac,replace,description,replacing,O,,
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,description,beautiful,O,,
+wooden,wooden,"('wooden', 'JJ')",wooden,wooden,description,wooden,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+immigrants,immigrants,"('immigrants', 'NNS')",immigr,immigrant,description,immigrants,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,GPE,"Countries, cities, states"
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,ORG,"Companies, agencies, institutions, etc."
+Catholic,catholic,"('catholic', 'JJ')",cathol,catholic,description,Catholic,I,ORG,"Companies, agencies, institutions, etc."
+Church,church,"('church', 'NN')",church,church,description,Church,I,ORG,"Companies, agencies, institutions, etc."
+extremely,extremely,"('extremely', 'RB')",extrem,extremely,description,extremely,O,,
+wealthy,wealthy,"('wealthy', 'JJ')",wealthi,wealthy,description,wealthy,O,,
+massive,massive,"('massive', 'JJ')",massiv,massive,description,massive,O,,
+landholdings,landholdings,"('landholdings', 'NNS')",landhold,landholding,description,landholdings,O,,
+contrast,contrast,"('contrast', 'NN')",contrast,contrast,description,contrast,O,,
+greatly,greatly,"('greatly', 'RB')",greatli,greatly,description,greatly,O,,
+tiny,tiny,"('tiny', 'JJ')",tini,tiny,description,tiny,O,,
+properties,properties,"('properties', 'NNS')",properti,property,description,properties,O,,
+vast,vast,"('vast', 'JJ')",vast,vast,description,vast,O,,
+majority,majority,"('majority', 'NN')",major,majority,description,majority,O,,
+local,local,"('local', 'JJ')",local,local,description,local,O,,
+population,population,"('population', 'NN')",popul,population,description,population,O,,
+eke,eke,"('eke', 'VBZ')",eke,eke,description,eke,O,,
+living,living,"('living', 'NN')",live,living,description,living,O,,
+Priests,priests,"('priests', 'NNS')",priest,priest,description,Priests,O,,
+often,often,"('often', 'RB')",often,often,description,often,O,,
+accused,accused,"('accused', 'VBN')",accus,accuse,description,accused,O,,
+attempting,attempting,"('attempting', 'VBG')",attempt,attempt,description,attempting,O,,
+block,block,"('block', 'VB')",block,block,description,block,O,,
+measures,measures,"('measures', 'NNS')",measur,measure,description,measures,O,,
+improve,improve,"('improve', 'VB')",improv,improve,description,improve,O,,
+conditions,conditions,"('conditions', 'NNS')",condit,condition,description,conditions,O,,
+said,said,"('said', 'VBD')",said,say,description,said,O,,
+fear,fear,"('fear', 'VB')",fear,fear,description,fear,O,,
+educational,educational,"('educational', 'JJ')",educ,educational,description,educational,O,,
+attainment,attainment,"('attainment', 'NN')",attain,attainment,description,attainment,O,,
+modernization,modernization,"('modernization', 'NN')",modern,modernization,description,modernization,O,,
+increased,increased,"('increased', 'JJ')",increas,increased,description,increased,O,,
+prosperity,prosperity,"('prosperity', 'NN')",prosper,prosperity,description,prosperity,O,,
+lessen,lessen,"('lessen', 'VB')",lessen,lessen,description,lessen,O,,
+populace,populace,"('populace', 'NN')",populac,populace,description,populace,O,,
+dependence,dependence,"('dependence', 'NN')",depend,dependence,description,dependence,O,,
+Church,church,"('church', 'NN')",church,church,description,Church,B,ORG,"Companies, agencies, institutions, etc."
+material,material,"('material', 'NN')",materi,material,description,material,O,,
+spiritual,spiritual,"('spiritual', 'JJ')",spiritu,spiritual,description,spiritual,O,,
+comfort,comfort,"('comfort', 'NN')",comfort,comfort,description,comfort,O,,
+reducing,reducing,"('reducing', 'VBG')",reduc,reduce,description,reducing,O,,
+Ukrainians,ukrainians,"('ukrainians', 'NNS')",ukrainian,ukrainian,description,Ukrainians,B,NORP,Nationalities or religious or political groups
+neighbours,neighbours,"('neighbours', 'VBP')",neighbour,neighbour,description,neighbours,O,,
+caboclos,caboclos,"('caboclos', 'NN')",caboclo,caboclos,description,caboclos,O,,
+Poles,poles,"('poles', 'NNS')",pole,pole,description,Poles,B,NORP,Nationalities or religious or political groups
+Germans,germans,"('germans', 'NNS')",german,german,description,Germans,I,NORP,Nationalities or religious or political groups
+Italians,italians,"('italians', 'NNS')",italian,italian,description,Italians,B,NORP,Nationalities or religious or political groups
+Dutch,dutch,"('dutch', 'VB')",dutch,dutch,description,Dutch,I,NORP,Nationalities or religious or political groups
+frequently,frequently,"('frequently', 'RB')",frequent,frequently,description,frequently,O,,
+accuse,accuse,"('accuse', 'IN')",accus,accuse,description,accuse,O,,
+priests,priests,"('priests', 'NNS')",priest,priest,description,priests,O,,
+maintaining,maintaining,"('maintaining', 'VBG')",maintain,maintain,description,maintaining,O,,
+cultural,cultural,"('cultural', 'JJ')",cultur,cultural,description,cultural,O,,
+exclusiveness,exclusiveness,"('exclusiveness', 'NN')",exclus,exclusiveness,description,exclusiveness,O,,
+intercommunal,intercommunal,"('intercommunal', 'JJ')",intercommun,intercommunal,description,intercommunal,O,,
+tensions,tensions,"('tensions', 'NNS')",tension,tension,description,tensions,O,,
+certainly,certainly,"('certainly', 'RB')",certainli,certainly,description,certainly,O,,
+exist,exist,"('exist', 'VBP')",exist,exist,description,exist,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+treated,treated,"('treated', 'VBN')",treat,treat,description,treated,O,,
+utmost,utmost,"('utmost', 'JJ')",utmost,utmost,description,utmost,O,,
+civility,civility,"('civility', 'NN')",civil,civility,description,civility,O,,
+Portuguese,portuguese,"('portuguese', 'NN')",portugues,portuguese,description,Portuguese,B,LANGUAGE,Any named language
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,GPE,"Countries, cities, states"
+language,language,"('language', 'NN')",languag,language,description,language,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+universally,universally,"('universally', 'RB')",univers,universally,description,universally,O,,
+spoken,spoken,"('spoken', 'VBN')",spoken,speak,description,spoken,O,,
+rural,rural,"('rural', 'JJ')",rural,rural,description,rural,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+ages,ages,"('ages', 'NNS')",age,age,description,ages,O,,
+problem,problem,"('problem', 'NN')",problem,problem,description,problem,O,,
+finding,finding,"('finding', 'VBG')",find,find,description,finding,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+hamlets,hamlets,"('hamlets', 'NNS')",hamlet,hamlet,description,hamlets,O,,
+happy,happy,"('happy', 'JJ')",happi,happy,description,happy,O,,
+talk,talk,"('talk', 'VB')",talk,talk,description,talk,O,,
+traditions,traditions,"('traditions', 'NNS')",tradit,tradition,description,traditions,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+any,any,"('any', 'DT')",ani,any,description,any,O,,
+doubt,doubt,"('doubt', 'NN')",doubt,doubt,description,doubt,O,,
+interesting,interesting,"('interesting', 'JJ')",interest,interesting,description,interesting,O,,
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,NORP,Nationalities or religious or political groups
+church,church,"('church', 'NN')",church,church,description,church,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,PERSON,"People, including fictional"
+SERRA,serra,"('serra', 'NN')",serra,serra,description,SERRA,I,PERSON,"People, including fictional"
+TIGRE,tigre,"('tigre', 'VB')",tigr,tigre,description,TIGRE,I,PERSON,"People, including fictional"
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+settlement,settlement,"('settlement', 'NN')",settlement,settlement,description,settlement,O,,
+south,south,"('south', 'NN')",south,south,description,south,O,,
+Mallet,mallet,"('mallet', 'NN')",mallet,mallet,description,Mallet,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+retains,retains,"('retains', 'VBZ')",retain,retain,description,retains,O,,
+much,much,"('much', 'RB')",much,much,description,much,O,,
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,GPE,"Countries, cities, states"
+character,character,"('character', 'NN')",charact,character,description,character,O,,
+Built,built,"('built', 'VBN')",built,build,description,Built,B,ORG,"Companies, agencies, institutions, etc."
+Igreja,igreja,"('igreja', 'NN')",igreja,igreja,description,Igreja,I,ORG,"Companies, agencies, institutions, etc."
+de,de,"('de', 'IN')",de,de,description,de,I,ORG,"Companies, agencies, institutions, etc."
+São,são,"('são', 'FW')",são,são,description,São,I,ORG,"Companies, agencies, institutions, etc."
+Miguel,miguel,"('miguel', 'NN')",miguel,miguel,description,Miguel,I,ORG,"Companies, agencies, institutions, etc."
+Arcanjo,arcanjo,"('arcanjo', 'VBP')",arcanjo,arcanjo,description,Arcanjo,I,ORG,"Companies, agencies, institutions, etc."
+spectacularly,spectacularly,"('spectacularly', 'RB')",spectacularli,spectacularly,description,spectacularly,O,,
+positioned,positioned,"('positioned', 'VBN')",posit,position,description,positioned,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+upon,upon,"('upon', 'IN')",upon,upon,description,upon,O,,
+mountain,mountain,"('mountain', 'NN')",mountain,mountain,description,mountain,O,,
+top,top,"('top', 'NN')",top,top,description,top,O,,
+near,near,"('near', 'IN')",near,near,description,near,O,,
+heart,heart,"('heart', 'NN')",heart,heart,description,heart,O,,
+village,village,"('village', 'NN')",villag,village,description,village,O,,
+oldest,oldest,"('oldest', 'JJS')",oldest,old,description,oldest,O,,
+Ukrainian,ukrainian,"('ukrainian', 'JJ')",ukrainian,ukrainian,description,Ukrainian,B,NORP,Nationalities or religious or political groups
+Catholic,catholic,"('catholic', 'JJ')",cathol,catholic,description,Catholic,I,NORP,Nationalities or religious or political groups
+church,church,"('church', 'NN')",church,church,description,church,O,,
+Paraná,paraná,"('paraná', 'NN')",paraná,paraná,description,Paraná,B,GPE,"Countries, cities, states"
+traditional,traditional,"('traditional', 'JJ')",tradit,traditional,description,traditional,O,,
+fashion,fashion,"('fashion', 'NN')",fashion,fashion,description,fashion,O,,
+church,church,"('church', 'NN')",church,church,description,church,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+constructed,constructed,"('constructed', 'VBN')",construct,construct,description,constructed,O,,
+totally,totally,"('totally', 'RB')",total,totally,description,totally,O,,
+wood,wood,"('wood', 'NN')",wood,wood,description,wood,O,,
+including,including,"('including', 'VBG')",includ,include,description,including,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+roof,roof,"('roof', 'NN')",roof,roof,description,roof,O,,
+tiles,tiles,"('tiles', 'NNS')",tile,tile,description,tiles,O,,
+exterior,exterior,"('exterior', 'NN')",exterior,exterior,description,exterior,O,,
+elaborately,elaborately,"('elaborately', 'RB')",elabor,elaborately,description,elaborately,O,,
+painted,painted,"('painted', 'VBN')",paint,paint,description,painted,O,,
+interior,interior,"('interior', 'NN')",interior,interior,description,interior,O,,
+frescoes,frescoes,"('frescoes', 'NNS')",fresco,fresco,description,frescoes,O,,
+carefully,carefully,"('carefully', 'RB')",care,carefully,description,carefully,O,,
+maintained,maintained,"('maintained', 'VBN')",maintain,maintain,description,maintained,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+Iguaçu,iguaçu,"('iguaçu', 'NN')",iguaçu,iguaçu,description,Iguaçu,B,ORG,"Companies, agencies, institutions, etc."
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,ORG,"Companies, agencies, institutions, etc."
+unquestionably,unquestionably,"('unquestionably', 'RB')",unquestion,unquestionably,description,unquestionably,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+world,world,"('world', 'NN')",world,world,description,world,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+natural,natural,"('natural', 'JJ')",natur,natural,description,natural,O,,
+phenomena,phenomena,"('phenomena', 'NNS')",phenomena,phenomenon,description,phenomena,O,,
+describe,describe,"('describe', 'VB')",describ,describe,description,describe,O,,
+beauty,beauty,"('beauty', 'NN')",beauti,beauty,description,beauty,O,,
+power,power,"('power', 'NN')",power,power,description,power,O,,
+tall,tall,"('tall', 'JJ')",tall,tall,description,tall,O,,
+order,order,"('order', 'NN')",order,order,description,order,O,,
+starters,starters,"('starters', 'NNS')",starter,starter,description,starters,O,,
+cast,cast,"('cast', 'VBD')",cast,cast,description,cast,O,,
+any,any,"('any', 'DT')",ani,any,description,any,O,,
+ideas,ideas,"('ideas', 'NNS')",idea,idea,description,ideas,O,,
+Iguaçu,iguaçu,"('iguaçu', 'NN')",iguaçu,iguaçu,description,Iguaçu,O,,
+kind,kind,"('kind', 'NN')",kind,kind,description,kind,O,,
+Niagara,niagara,"('niagara', 'NN')",niagara,niagara,description,Niagara,B,PERSON,"People, including fictional"
+Falls,falls,"('falls', 'NNS')",fall,fall,description,Falls,I,PERSON,"People, including fictional"
+transplanted,transplanted,"('transplanted', 'VBD')",transplant,transplant,description,transplanted,O,,
+south,south,"('south', 'NN')",south,south,description,south,O,,
+equator,equator,"('equator', 'NN')",equat,equator,description,equator,O,,
+compared,compared,"('compared', 'VBN')",compar,compare,description,compared,O,,
+Iguaçu,iguaçu,"('iguaçu', 'VB')",iguaçu,iguaçu,description,Iguaçu,B,ORG,"Companies, agencies, institutions, etc."
+total,total,"('total', 'NN')",total,total,description,total,O,,
+falls,falls,"('falls', 'NNS')",fall,fall,description,falls,O,,
+cascade,cascade,"('cascade', 'VBP')",cascad,cascade,description,cascade,O,,
+precipice,precipice,"('precipice', 'JJ')",precipic,precipice,description,precipice,O,,
+wide,wide,"('wide', 'JJ')",wide,wide,description,wide,O,,
+Niagara,niagara,"('niagara', 'NN')",niagara,niagara,description,Niagara,B,PERSON,"People, including fictional"
+ripple,ripple,"('ripple', 'NN')",rippl,ripple,description,ripple,O,,
+falls,falls,"('falls', 'NNS')",fall,fall,description,falls,O,,
+alone,alone,"('alone', 'VBP')",alon,alone,description,alone,O,,
+make,make,"('make', 'VBP')",make,make,description,make,O,,
+Iguaçu,iguaçu,"('iguaçu', 'NNS')",iguaçu,iguaçu,description,Iguaçu,O,,
+special,special,"('special', 'JJ')",special,special,description,special,O,,
+vast,vast,"('vast', 'JJ')",vast,vast,description,vast,O,,
+surrounding,surrounding,"('surrounding', 'JJ')",surround,surrounding,description,surrounding,O,,
+subtropical,subtropical,"('subtropical', 'JJ')",subtrop,subtropical,description,subtropical,O,,
+nature,nature,"('nature', 'NN')",natur,nature,description,nature,O,,
+reserve,reserve,"('reserve', 'NN')",reserv,reserve,description,reserve,O,,
+Brazil,brazil,"('brazil', 'NN')",brazil,brazil,description,Brazil,B,ORG,"Companies, agencies, institutions, etc."
+Parque,parque,"('parque', 'NN')",parqu,parque,description,Parque,I,ORG,"Companies, agencies, institutions, etc."
+Nacional,nacional,"('nacional', 'JJ')",nacion,nacional,description,Nacional,I,ORG,"Companies, agencies, institutions, etc."
+Iguaçu,iguaçu,"('iguaçu', 'VB')",iguaçu,iguaçu,description,Iguaçu,I,ORG,"Companies, agencies, institutions, etc."
+w,w,"('w', 'NN')",w,w,description,w,I,ORG,"Companies, agencies, institutions, etc."
+Argentina,argentina,"('argentina', 'PDT')",argentina,argentina,description,Argentina,O,,
+Parque,parque,"('parque', 'JJ')",parqu,parque,description,Parque,O,,
+Nacional,nacional,"('nacional', 'JJ')",nacion,nacional,description,Nacional,O,,
+Iguazú,iguazú,"('iguazú', 'NN')",iguazú,iguazú,description,Iguazú,O,,
+w,w,"('w', 'NN')",w,w,description,w,O,,
+timeless,timeless,"('timeless', 'NN')",timeless,timeless,description,timeless,O,,
+haunt,haunt,"('haunt', 'NN')",haunt,haunt,description,haunt,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+hordes,hordes,"('hordes', 'NNS')",hord,horde,description,hordes,O,,
+tourists,tourists,"('tourists', 'NNS')",tourist,tourist,description,tourists,O,,
+fail,fail,"('fail', 'VBP')",fail,fail,description,fail,O,,
+destroy,destroy,"('destroy', 'VB')",destroy,destroy,description,destroy,O,,

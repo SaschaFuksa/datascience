@@ -1,0 +1,963 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+ridiculous,ridiculous,"('ridiculous', 'JJ')",ridicul,ridiculous,introduction,ridiculous,O,,
+think,think,"('think', 'VB')",think,think,introduction,think,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+simply,simply,"('simply', 'RB')",simpli,simply,introduction,simply,O,,
+rather,rather,"('rather', 'RB')",rather,rather,introduction,rather,O,,
+large,large,"('large', 'JJ')",larg,large,introduction,large,O,,
+village,village,"('village', 'NN')",villag,village,introduction,village,O,,
+set,set,"('set', 'VBN')",set,set,introduction,set,O,,
+middle,middle,"('middle', 'NN')",middl,middle,introduction,middle,O,,
+forest,forest,"('forest', 'NN')",forest,forest,introduction,forest,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,introduction,lakes,O,,
+wonder,wonder,"('wonder', 'VBP')",wonder,wonder,introduction,wonder,O,,
+thinks,thinks,"('thinks', 'VBZ')",think,think,introduction,thinks,O,,
+looking,looking,"('looking', 'VBG')",look,look,introduction,looking,O,,
+important,important,"('important', 'JJ')",import,important,introduction,important,O,,
+Ingmar,ingmar,"('ingmar', 'NN')",ingmar,ingmar,description,Ingmar,O,,
+BergmanBroad,bergmanbroad,"('bergmanbroad', 'NN')",bergmanbroad,bergmanbroad,description,BergmanBroad,O,,
+boulevards,boulevards,"('boulevards', 'NNS')",boulevard,boulevard,description,boulevards,O,,
+lined,lined,"('lined', 'VBN')",line,line,description,lined,O,,
+elegant,elegant,"('elegant', 'JJ')",eleg,elegant,description,elegant,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+reflected,reflected,"('reflected', 'VBN')",reflect,reflect,description,reflected,O,,
+deep,deep,"('deep', 'JJ')",deep,deep,description,deep,O,,
+blue,blue,"('blue', 'JJ')",blue,blue,description,blue,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+rows,rows,"('rows', 'NNS')",row,row,description,rows,O,,
+painted,painted,"('painted', 'VBN')",paint,paint,description,painted,O,,
+wooden,wooden,"('wooden', 'JJ')",wooden,wooden,description,wooden,O,,
+houseboats,houseboats,"('houseboats', 'NNS')",houseboat,houseboat,description,houseboats,O,,
+bob,bob,"('bob', 'VBP')",bob,bob,description,bob,B,PERSON,"People, including fictional"
+gently,gently,"('gently', 'RB')",gentli,gently,description,gently,O,,
+alongside,alongside,"('alongside', 'IN')",alongsid,alongside,description,alongside,O,,
+cobbled,cobbled,"('cobbled', 'JJ')",cobbl,cobbled,description,cobbled,O,,
+waterfront,waterfront,"('waterfront', 'NN')",waterfront,waterfront,description,waterfront,O,,
+Yet,yet,"('yet', 'RB')",yet,yet,description,Yet,O,,
+Stockholm,stockholm,"('stockholm', 'VBN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+also,also,"('also', 'RB')",also,also,description,also,O,,
+metropolis,metropolis,"('metropolis', 'NN')",metropoli,metropolis,description,metropolis,O,,
+futuristic,futuristic,"('futuristic', 'JJ')",futurist,futuristic,description,futuristic,O,,
+skyscrapers,skyscrapers,"('skyscrapers', 'NNS')",skyscrap,skyscraper,description,skyscrapers,O,,
+bustling,bustling,"('bustling', 'VBG')",bustl,bustle,description,bustling,O,,
+commercial,commercial,"('commercial', 'JJ')",commerci,commercial,description,commercial,O,,
+heart,heart,"('heart', 'NN')",heart,heart,description,heart,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+world,world,"('world', 'NN')",world,world,description,world,O,,
+hottest,hottest,"('hottest', 'JJS')",hottest,hot,description,hottest,O,,
+stateman,stateman,"('stateman', 'NN')",stateman,stateman,description,stateman,O,,
+Birger,birger,"('birger', 'NN')",birger,birger,description,Birger,B,PERSON,"People, including fictional"
+Jarl,jarl,"('jarl', 'NN')",jarl,jarl,description,Jarl,I,PERSON,"People, including fictional"
+founded,founded,"('founded', 'VBD')",found,found,description,founded,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+attempt,attempt,"('attempt', 'NN')",attempt,attempt,description,attempt,O,,
+secure,secure,"('secure', 'VB')",secur,secure,description,secure,O,,
+burgeoning,burgeoning,"('burgeoning', 'VBG')",burgeon,burgeon,description,burgeoning,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+Sigtuna,sigtuna,"('sigtuna', 'NN')",sigtuna,sigtuna,description,Sigtuna,O,,
+maritime,maritime,"('maritime', 'JJ')",maritim,maritime,description,maritime,O,,
+attack,attack,"('attack', 'NN')",attack,attack,description,attack,O,,
+However,however,"('however', 'RB')",howev,however,description,However,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+vibrant,vibrant,"('vibrant', 'JJ')",vibrant,vibrant,description,vibrant,O,,
+trade,trade,"('trade', 'NN')",trade,trade,description,trade,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+Hanseatic,hanseatic,"('hanseatic', 'JJ')",hanseat,hanseatic,description,Hanseatic,B,ORG,"Companies, agencies, institutions, etc."
+League,league,"('league', 'NN')",leagu,league,description,League,I,ORG,"Companies, agencies, institutions, etc."
+Hamburg,hamburg,"('hamburg', 'NN')",hamburg,hamburg,description,Hamburg,I,ORG,"Companies, agencies, institutions, etc."
+helped,helped,"('helped', 'VBD')",help,help,description,helped,O,,
+give,give,"('give', 'VB')",give,give,description,give,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+rather,rather,"('rather', 'RB')",rather,rather,description,rather,O,,
+Sigtuna,sigtuna,"('sigtuna', 'VB')",sigtuna,sigtuna,description,Sigtuna,O,,
+prominent,prominent,"('prominent', 'JJ')",promin,prominent,description,prominent,O,,
+position,position,"('position', 'NN')",posit,position,description,position,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+Swedish,swedish,"('swedish', 'JJ')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+realm,realm,"('realm', 'NN')",realm,realm,description,realm,O,,
+during,during,"('during', 'IN')",dure,during,description,during,O,,
+fourteenth,fourteenth,"('fourteenth', 'NN')",fourteenth,fourteenth,description,fourteenth,B,DATE,Absolute or relative dates or periods
+fifteenth,fifteenth,"('fifteenth', 'JJ')",fifteenth,fifteenth,description,fifteenth,I,DATE,Absolute or relative dates or periods
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,I,DATE,Absolute or relative dates or periods
+Following,following,"('following', 'VBG')",follow,follow,description,Following,O,,
+breakup,breakup,"('breakup', 'NN')",breakup,breakup,description,breakup,O,,
+Kalmar,kalmar,"('kalmar', 'NNP')",kalmar,kalmar,description,Kalmar,B,PERSON,"People, including fictional"
+Union,union,"('union', 'NN')",union,union,description,Union,I,PERSON,"People, including fictional"
+Denmark,denmark,"('denmark', 'JJ')",denmark,denmark,description,Denmark,B,PERSON,"People, including fictional"
+Swedish,swedish,"('swedish', 'JJ')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+king,king,"('king', 'NN')",king,king,description,king,O,,
+Gustav,gustav,"('gustav', 'NN')",gustav,gustav,description,Gustav,B,PERSON,"People, including fictional"
+Vasa,vasa,"('vasa', 'NN')",vasa,vas,description,Vasa,I,PERSON,"People, including fictional"
+established,established,"('established', 'VBD')",establish,establish,description,established,O,,
+royal,royal,"('royal', 'JJ')",royal,royal,description,royal,O,,
+power,power,"('power', 'NN')",power,power,description,power,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+enabling,enabling,"('enabling', 'VBG')",enabl,enable,description,enabling,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+grow,grow,"('grow', 'VB')",grow,grow,description,grow,O,,
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+powers,powers,"('powers', 'NNS')",power,power,description,powers,O,,
+seventeenth,seventeenth,"('seventeenth', 'JJ')",seventeenth,seventeenth,description,seventeenth,O,,
+century,century,"('century', 'NN')",centuri,century,description,century,O,,
+Military,military,"('military', 'JJ')",militari,military,description,Military,O,,
+defeat,defeat,"('defeat', 'NN')",defeat,defeat,description,defeat,O,,
+Russia,russia,"('russia', 'NN')",russia,russia,description,Russia,B,GPE,"Countries, cities, states"
+Great,great,"('great', 'JJ')",great,great,description,Great,O,,
+Northern,northern,"('northern', 'JJ')",northern,northern,description,Northern,O,,
+War,war,"('war', 'NN')",war,war,description,War,O,,
+put,put,"('put', 'VBD')",put,put,description,put,O,,
+paid,paid,"('paid', 'VBN')",paid,pay,description,paid,O,,
+Swedish,swedish,"('swedish', 'VB')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+territorial,territorial,"('territorial', 'JJ')",territori,territorial,description,territorial,O,,
+expansion,expansion,"('expansion', 'NN')",expans,expansion,description,expansion,O,,
+northern,northern,"('northern', 'JJ')",northern,northern,description,northern,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+instead,instead,"('instead', 'RB')",instead,instead,description,instead,O,,
+Stockholm,stockholm,"('stockholm', 'VB')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+developed,developed,"('developed', 'VBN')",develop,develop,description,developed,O,,
+politically,politically,"('politically', 'RB')",polit,politically,description,politically,O,,
+culturally,culturally,"('culturally', 'RB')",cultur,culturally,description,culturally,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+smaller,smaller,"('smaller', 'JJR')",smaller,small,description,smaller,O,,
+Swedish,swedish,"('swedish', 'JJ')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+nineteenth,nineteenth,"('nineteenth', 'JJ')",nineteenth,nineteenth,description,nineteenth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+essentially,essentially,"('essentially', 'RB')",essenti,essentially,description,essentially,O,,
+rural,rural,"('rural', 'JJ')",rural,rural,description,rural,O,,
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+lanes,lanes,"('lanes', 'NNS')",lane,lane,description,lanes,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+orchards,orchards,"('orchards', 'NNS')",orchard,orchard,description,orchards,O,,
+grazing,grazing,"('grazing', 'VBG')",graze,graze,description,grazing,O,,
+cows,cows,"('cows', 'NNS')",cow,cow,description,cows,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+windmills,windmills,"('windmills', 'NNS')",windmil,windmill,description,windmills,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+downside,downside,"('downside', 'NN')",downsid,downside,description,downside,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+lack,lack,"('lack', 'NN')",lack,lack,description,lack,O,,
+pavements,pavements,"('pavements', 'NNS')",pavement,pavement,description,pavements,O,,
+piped,piped,"('piped', 'VBD')",pipe,pip,description,piped,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+supply,supply,"('supply', 'NN')",suppli,supply,description,supply,O,,
+presence,presence,"('presence', 'NN')",presenc,presence,description,presence,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+sewers,sewers,"('sewers', 'NNS')",sewer,sewer,description,sewers,O,,
+squalid,squalid,"('squalid', 'JJ')",squalid,squalid,description,squalid,O,,
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+crowded,crowded,"('crowded', 'VBD')",crowd,crowd,description,crowded,O,,
+slums,slums,"('slums', 'NNS')",slum,slum,description,slums,O,,
+escaped,escaped,"('escaped', 'VBN')",escap,escape,description,escaped,O,,
+bomb,bomb,"('bomb', 'JJ')",bomb,bomb,description,bomb,O,,
+damage,damage,"('damage', 'NN')",damag,damage,description,damage,O,,
+during,during,"('during', 'IN')",dure,during,description,during,O,,
+World,world,"('world', 'NN')",world,world,description,World,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+II,ii,"('ii', 'JJ')",ii,ii,description,II,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+thanks,thanks,"('thanks', 'NNS')",thank,thanks,description,thanks,O,,
+Swedish,swedish,"('swedish', 'VB')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+neutrality,neutrality,"('neutrality', 'NN')",neutral,neutrality,description,neutrality,O,,
+century,century,"('century', 'NN')",centuri,century,description,century,B,DATE,Absolute or relative dates or periods
+ushered,ushered,"('ushered', 'VBD')",usher,usher,description,ushered,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,description,huge,O,,
+modernization,modernization,"('modernization', 'NN')",modern,modernization,description,modernization,O,,
+programme,programme,"('programme', 'NN')",programm,programme,description,programme,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+Social,social,"('social', 'JJ')",social,social,description,Social,B,ORG,"Companies, agencies, institutions, etc."
+Democratic,democratic,"('democratic', 'JJ')",democrat,democratic,description,Democratic,I,ORG,"Companies, agencies, institutions, etc."
+policy,policy,"('policy', 'NN')",polici,policy,description,policy,O,,
+Sweden,sweden,"('sweden', 'NN')",sweden,sweden,description,Sweden,B,GPE,"Countries, cities, states"
+particularly,particularly,"('particularly', 'RB')",particularli,particularly,description,particularly,O,,
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+become,become,"('become', 'VB')",becom,become,description,become,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+fit,fit,"('fit', 'NN')",fit,fit,description,fit,O,,
+working,working,"('working', 'VBG')",work,work,description,working,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+live,live,"('live', 'VB')",live,live,description,live,O,,
+Old,old,"('old', 'JJ')",old,old,description,Old,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+torn,torn,"('torn', 'JJ')",torn,torn,description,torn,O,,
+thousand,thousand,"('thousand', 'NN')",thousand,thousand,description,thousand,O,,
+homes,homes,"('homes', 'NNS')",home,home,description,homes,B,CARDINAL,Numerals that do not fall under another type
+thousand,thousand,"('thousand', 'NN')",thousand,thousand,description,thousand,I,CARDINAL,Numerals that do not fall under another type
+Swedes,swedes,"('swedes', 'VBZ')",swede,swedes,description,Swedes,B,NORP,Nationalities or religious or political groups
+project,project,"('project', 'NN')",project,project,description,project,O,,
+constructed,constructed,"('constructed', 'VBN')",construct,construct,description,constructed,O,,
+Today,today,"('today', 'NN')",today,today,description,Today,B,DATE,Absolute or relative dates or periods
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+bright,bright,"('bright', 'JJ')",bright,bright,description,bright,O,,
+elegant,elegant,"('elegant', 'JJ')",eleg,elegant,description,elegant,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+expanses,expanses,"('expanses', 'NNS')",expans,expanse,description,expanses,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+right,right,"('right', 'NN')",right,right,description,right,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+offers,offers,"('offers', 'VBZ')",offer,offer,description,offers,O,,
+spectacular,spectacular,"('spectacular', 'JJ')",spectacular,spectacular,description,spectacular,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+panorama,panorama,"('panorama', 'NN')",panorama,panorama,description,panorama,O,,
+unparalleled,unparalleled,"('unparalleled', 'VBD')",unparallel,unparalleled,description,unparalleled,O,,
+anywhere,anywhere,"('anywhere', 'RB')",anywher,anywhere,description,anywhere,O,,
+west,west,"('west', 'NN')",west,west,description,west,B,GPE,"Countries, cities, states"
+city,city,"('city', 'NN')",citi,city,description,city,I,GPE,"Countries, cities, states"
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+Kungsholmen,kungsholmen,"('kungsholmen', 'NNS')",kungsholmen,kungsholmen,description,Kungsholmen,B,GPE,"Countries, cities, states"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+very,very,"('very', 'RB')",veri,very,description,very,O,,
+different,different,"('different', 'JJ')",differ,different,description,different,O,,
+feel,feel,"('feel', 'NN')",feel,feel,description,feel,O,,
+wider,wider,"('wider', 'NN')",wider,wider,description,wider,O,,
+residential,residential,"('residential', 'JJ')",residenti,residential,description,residential,O,,
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+larger,larger,"('larger', 'JJR')",larger,large,description,larger,O,,
+parks,parks,"('parks', 'NNS')",park,park,description,parks,O,,
+select,select,"('select', 'VBP')",select,select,description,select,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+Stockholm,stockholm,"('stockholm', 'JJ')",stockholm,stockholm,description,Stockholm,B,FAC,"Buildings, airports, highways, bridges, etc."
+Stadshuset,stadshuset,"('stadshuset', 'VBN')",stadshuset,stadshuset,description,Stadshuset,I,FAC,"Buildings, airports, highways, bridges, etc."
+City,city,"('city', 'NN')",citi,city,description,City,I,FAC,"Buildings, airports, highways, bridges, etc."
+Hall,hall,"('hall', 'NN')",hall,hall,description,Hall,I,FAC,"Buildings, airports, highways, bridges, etc."
+Whereas,whereas,"('whereas', 'JJ')",wherea,whereas,description,Whereas,O,,
+Norrmalm,norrmalm,"('norrmalm', 'NN')",norrmalm,norrmalm,description,Norrmalm,O,,
+easy,easy,"('easy', 'JJ')",easi,easy,description,easy,O,,
+get,get,"('get', 'VB')",get,get,description,get,O,,
+foot,foot,"('foot', 'NN')",foot,foot,description,foot,O,,
+Kungsholmen,kungsholmen,"('kungsholmen', 'NNS')",kungsholmen,kungsholmen,description,Kungsholmen,O,,
+best,best,"('best', 'RB')",best,best,description,best,O,,
+reached,reached,"('reached', 'VBN')",reach,reach,description,reached,O,,
+either,either,"('either', 'DT')",either,either,description,either,O,,
+Rådhuset,rådhuset,"('rådhuset', 'NN')",rådhuset,rådhuset,description,Rådhuset,B,PERSON,"People, including fictional"
+Fridhemsplan,fridhemsplan,"('fridhemsplan', 'NN')",fridhemsplan,fridhemsplan,description,Fridhemsplan,I,PERSON,"People, including fictional"
+stations,stations,"('stations', 'NNS')",station,station,description,stations,O,,
+Venture,venture,"('venture', 'NN')",ventur,venture,description,Venture,B,ORG,"Companies, agencies, institutions, etc."
+Kungsholmen,kungsholmen,"('kungsholmen', 'NNS')",kungsholmen,kungsholmen,description,Kungsholmen,I,ORG,"Companies, agencies, institutions, etc."
+discover,discover,"('discover', 'VB')",discov,discover,description,discover,O,,
+rash,rash,"('rash', 'NN')",rash,rash,description,rash,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+bars,bars,"('bars', 'NNS')",bar,bar,description,bars,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+excellent,excellent,"('excellent', 'JJ')",excel,excellent,description,excellent,O,,
+beach,beach,"('beach', 'NN')",beach,beach,description,beach,O,,
+Smedsuddsbadet,smedsuddsbadet,"('smedsuddsbadet', 'NN')",smedsuddsbadet,smedsuddsbadet,description,Smedsuddsbadet,B,PERSON,"People, including fictional"
+Smedsudden,smedsudden,"('smedsudden', 'NN')",smedsudden,smedsudden,description,Smedsudden,I,PERSON,"People, including fictional"
+swim,swim,"('swim', 'VB')",swim,swim,description,swim,O,,
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,B,FAC,"Buildings, airports, highways, bridges, etc."
+Mälaren,mälaren,"('mälaren', 'NNS')",mälaren,mälaren,description,Mälaren,I,FAC,"Buildings, airports, highways, bridges, etc."
+enjoy,enjoy,"('enjoy', 'VB')",enjoy,enjoy,description,enjoy,O,,
+fantastic,fantastic,"('fantastic', 'JJ')",fantast,fantastic,description,fantastic,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+Stadhuset,stadhuset,"('stadhuset', 'NN')",stadhuset,stadhuset,description,Stadhuset,O,,
+Old,old,"('old', 'JJ')",old,old,description,Old,O,,
+Town,town,"('town', 'NN')",town,town,description,Town,O,,
+get,get,"('get', 'VB')",get,get,description,get,O,,
+head,head,"('head', 'VB')",head,head,description,head,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+Rålambshovsparken,rålambshovsparken,"('rålambshovsparken', 'NN')",rålambshovsparken,rålambshovsparken,description,Rålambshovsparken,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+bus,bus,"('bus', 'NN')",bu,bus,description,bus,O,,
+Västerbroplan,västerbroplan,"('västerbroplan', 'NN')",västerbroplan,västerbroplan,description,Västerbroplan,B,GPE,"Countries, cities, states"
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+Lidingö,lidingö,"('lidingö', 'NN')",lidingö,lidingö,description,Lidingö,B,NORP,Nationalities or religious or political groups
+commuter,commuter,"('commuter', 'NN')",commut,commuter,description,commuter,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+close,close,"('close', 'RB')",close,close,description,close,O,,
+ferry,ferry,"('ferry', 'JJ')",ferri,ferry,description,ferry,O,,
+terminal,terminal,"('terminal', 'NN')",termin,terminal,description,terminal,O,,
+Värtahamnen,värtahamnen,"('värtahamnen', 'NN')",värtahamnen,värtahamnen,description,Värtahamnen,B,GPE,"Countries, cities, states"
+serving,serving,"('serving', 'VBG')",serv,serve,description,serving,O,,
+Finland,finland,"('finland', 'NN')",finland,finland,description,Finland,B,GPE,"Countries, cities, states"
+Estonia,estonia,"('estonia', 'NN')",estonia,estonia,description,Estonia,B,GPE,"Countries, cities, states"
+Latvia,latvia,"('latvia', 'VBZ')",latvia,latvia,description,Latvia,B,GPE,"Countries, cities, states"
+island,island,"('island', 'NN')",island,island,description,island,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+attraction,attraction,"('attraction', 'NN')",attract,attraction,description,attraction,O,,
+startling,startling,"('startling', 'VBG')",startl,startle,description,startling,O,,
+Millesgården,millesgården,"('millesgården', 'NN')",millesgården,millesgården,description,Millesgården,B,PERSON,"People, including fictional"
+outdoor,outdoor,"('outdoor', 'JJ')",outdoor,outdoor,description,outdoor,O,,
+sculpture,sculpture,"('sculpture', 'NN')",sculptur,sculpture,description,sculpture,O,,
+collection,collection,"('collection', 'NN')",collect,collection,description,collection,O,,
+Carl,carl,"('carl', 'NN')",carl,carl,description,Carl,B,PERSON,"People, including fictional"
+Milles,milles,"('milles', 'NNS')",mill,milles,description,Milles,I,PERSON,"People, including fictional"
+one,one,"('one', 'CD')",one,one,description,one,O,,
+Sweden,sweden,"('sweden', 'JJ')",sweden,sweden,description,Sweden,B,GPE,"Countries, cities, states"
+greatest,greatest,"('greatest', 'JJS')",greatest,great,description,greatest,O,,
+sculptors,sculptors,"('sculptors', 'NNS')",sculptor,sculptor,description,sculptors,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+gods,gods,"('gods', 'NNS')",god,god,description,gods,O,,
+angels,angels,"('angels', 'NNS')",angel,angel,description,angels,O,,
+beasts,beasts,"('beasts', 'NNS')",beast,beast,description,beasts,O,,
+sit,sit,"('sit', 'VBP')",sit,sit,description,sit,O,,
+terraces,terraces,"('terraces', 'NNS')",terrac,terrace,description,terraces,O,,
+carved,carved,"('carved', 'VBN')",carv,carve,description,carved,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+steep,steep,"('steep', 'JJ')",steep,steep,description,steep,O,,
+cliffs,cliffs,"('cliffs', 'NNS')",cliff,cliff,description,cliffs,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+animated,animated,"('animated', 'JJ')",anim,animated,description,animated,O,,
+classical,classical,"('classical', 'JJ')",classic,classical,description,classical,O,,
+figures,figures,"('figures', 'NNS')",figur,figure,description,figures,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+perching,perching,"('perching', 'VBG')",perch,perch,description,perching,O,,
+precariously,precariously,"('precariously', 'RB')",precari,precariously,description,precariously,O,,
+soaring,soaring,"('soaring', 'VBG')",soar,soar,description,soaring,O,,
+pillars,pillars,"('pillars', 'NNS')",pillar,pillar,description,pillars,O,,
+overlook,overlook,"('overlook', 'VBP')",overlook,overlook,description,overlook,O,,
+distant,distant,"('distant', 'JJ')",distant,distant,description,distant,O,,
+harbour,harbour,"('harbour', 'NN')",harbour,harbour,description,harbour,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,description,huge,O,,
+Poseidon,poseidon,"('poseidon', 'NN')",poseidon,poseidon,description,Poseidon,B,GPE,"Countries, cities, states"
+rears,rears,"('rears', 'NNS')",rear,rear,description,rears,O,,
+army,army,"('army', 'NN')",armi,army,description,army,O,,
+sculptures,sculptures,"('sculptures', 'NNS')",sculptur,sculpture,description,sculptures,O,,
+remarkable,remarkable,"('remarkable', 'JJ')",remark,remarkable,description,remarkable,O,,
+God,god,"('god', 'NN')",god,god,description,God,O,,
+Hand,hand,"('hand', 'NN')",hand,hand,description,Hand,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+boy,boy,"('boy', 'NN')",boy,boy,description,boy,O,,
+delicately,delicately,"('delicately', 'RB')",delic,delicately,description,delicately,O,,
+balancing,balancing,"('balancing', 'VBG')",balanc,balance,description,balancing,O,,
+outstretched,outstretched,"('outstretched', 'JJ')",outstretch,outstretched,description,outstretched,O,,
+finger,finger,"('finger', 'NN')",finger,finger,description,finger,O,,
+monumental,monumental,"('monumental', 'JJ')",monument,monumental,description,monumental,O,,
+hand,hand,"('hand', 'NN')",hand,hand,description,hand,O,,
+elsewhere,elsewhere,"('elsewhere', 'RB')",elsewher,elsewhere,description,elsewhere,O,,
+Sweden,sweden,"('sweden', 'NN')",sweden,sweden,description,Sweden,B,GPE,"Countries, cities, states"
+may,may,"('may', 'MD')",may,may,description,may,O,,
+find,find,"('find', 'VB')",find,find,description,find,O,,
+much,much,"('much', 'JJ')",much,much,description,much,O,,
+collection,collection,"('collection', 'NN')",collect,collection,description,collection,O,,
+familiar,familiar,"('familiar', 'JJ')",familiar,familiar,description,familiar,O,,
+includes,includes,"('includes', 'VBZ')",includ,include,description,includes,O,,
+copies,copies,"('copies', 'NNS')",copi,copy,description,copies,O,,
+casts,casts,"('casts', 'NNS')",cast,cast,description,casts,O,,
+originals,originals,"('originals', 'NNS')",origin,original,description,originals,O,,
+adorning,adorning,"('adorning', 'VBG')",adorn,adorn,description,adorning,O,,
+countless,countless,"('countless', 'JJ')",countless,countless,description,countless,O,,
+provincial,provincial,"('provincial', 'NN')",provinci,provincial,description,provincial,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+collection,collection,"('collection', 'NN')",collect,collection,description,collection,O,,
+inspires,inspires,"('inspires', 'VBZ')",inspir,inspire,description,inspires,O,,
+worth,worth,"('worth', 'IN')",worth,worth,description,worth,O,,
+tracking,tracking,"('tracking', 'VBG')",track,track,description,tracking,B,CARDINAL,Numerals that do not fall under another type
+three,three,"('three', 'CD')",three,three,description,three,I,CARDINAL,Numerals that do not fall under another type
+pieces,pieces,"('pieces', 'NNS')",piec,piece,description,pieces,O,,
+Milles,milles,"('milles', 'NNS')",mill,milles,description,Milles,B,PERSON,"People, including fictional"
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+statue,statue,"('statue', 'NN')",statu,statue,description,statue,O,,
+Gustav,gustav,"('gustav', 'NN')",gustav,gustav,description,Gustav,B,PERSON,"People, including fictional"
+Vasa,vasa,"('vasa', 'NN')",vasa,vas,description,Vasa,I,PERSON,"People, including fictional"
+Nordiska,nordiska,"('nordiska', 'JJ')",nordiska,nordiska,description,Nordiska,I,PERSON,"People, including fictional"
+Muséet,muséet,"('muséet', 'NN')",muséet,muséet,description,Muséet,O,,
+Djurgården,djurgården,"('djurgården', 'NN')",djurgården,djurgården,description,Djurgården,O,,
+Orpheus,orpheus,"('orpheus', 'NN')",orpheu,orpheus,description,Orpheus,O,,
+Fountain,fountain,"('fountain', 'NN')",fountain,fountain,description,Fountain,O,,
+Norrmalm,norrmalm,"('norrmalm', 'JJ')",norrmalm,norrmalm,description,Norrmalm,O,,
+Hötorget,hötorget,"('hötorget', 'NN')",hötorget,hötorget,description,Hötorget,O,,
+Nacka,nacka,"('nacka', 'JJ')",nacka,nacka,description,Nacka,O,,
+Strand,strand,"('strand', 'NN')",strand,strand,description,Strand,O,,
+Waxholm,waxholm,"('waxholm', 'NN')",waxholm,waxholm,description,Waxholm,O,,
+boat,boat,"('boat', 'NN')",boat,boat,description,boat,O,,
+Strömkajen,strömkajen,"('strömkajen', 'VBG')",strömkajen,strömkajen,description,Strömkajen,O,,
+magnificent,magnificent,"('magnificent', 'JJ')",magnific,magnificent,description,magnificent,O,,
+Gud,gud,"('gud', 'NN')",gud,gud,description,Gud,B,PERSON,"People, including fictional"
+på,på,"('på', 'NN')",på,på,description,på,O,,
+Himmelsbågen,himmelsbågen,"('himmelsbågen', 'NN')",himmelsbågen,himmelsbågen,description,Himmelsbågen,B,GPE,"Countries, cities, states"
+vertical,vertical,"('vertical', 'JJ')",vertic,vertical,description,vertical,O,,
+piece,piece,"('piece', 'NN')",piec,piece,description,piece,O,,
+steel,steel,"('steel', 'NN')",steel,steel,description,steel,O,,
+topped,topped,"('topped', 'VBN')",top,top,description,topped,O,,
+figure,figure,"('figure', 'NN')",figur,figure,description,figure,O,,
+boy,boy,"('boy', 'NN')",boy,boy,description,boy,O,,
+forming,forming,"('forming', 'VBG')",form,form,description,forming,O,,
+stunning,stunning,"('stunning', 'JJ')",stun,stunning,description,stunning,O,,
+entrance,entrance,"('entrance', 'NN')",entranc,entrance,description,entrance,O,,
+marker,marker,"('marker', 'NN')",marker,marker,description,marker,O,,
+Stockholm,stockholm,"('stockholm', 'VB')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+Riddarholmen,riddarholmen,"('riddarholmen', 'NNS')",riddarholmen,riddarholmen,description,Riddarholmen,B,PERSON,"People, including fictional"
+Staden,staden,"('staden', 'JJ')",staden,staden,description,Staden,I,PERSON,"People, including fictional"
+Helgeandsholmen,helgeandsholmen,"('helgeandsholmen', 'NNS')",helgeandsholmen,helgeandsholmen,description,Helgeandsholmen,O,,
+make,make,"('make', 'VBP')",make,make,description,make,O,,
+oldest,oldest,"('oldest', 'JJS')",oldest,old,description,oldest,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+cluster,cluster,"('cluster', 'NN')",cluster,cluster,description,cluster,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+backed,backed,"('backed', 'VBN')",back,back,description,backed,O,,
+hairline,hairline,"('hairline', 'NN')",hairlin,hairline,description,hairline,O,,
+medieval,medieval,"('medieval', 'NN')",mediev,medieval,description,medieval,O,,
+alleys,alleys,"('alleys', 'IN')",alley,alley,description,alleys,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+adjoining,adjoining,"('adjoining', 'VBG')",adjoin,adjoin,description,adjoining,O,,
+polyps,polyps,"('polyps', 'NNS')",polyp,polyp,description,polyps,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+Birger,birger,"('birger', 'JJR')",birger,birger,description,Birger,B,PERSON,"People, including fictional"
+Jarl,jarl,"('jarl', 'NN')",jarl,jarl,description,Jarl,I,PERSON,"People, including fictional"
+erected,erected,"('erected', 'VBD')",erect,erect,description,erected,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+fortifications,fortifications,"('fortifications', 'NNS')",fortif,fortification,description,fortifications,O,,
+Rumours,rumours,"('rumours', 'VBP')",rumour,rumour,description,Rumours,O,,
+abound,abound,"('abound', 'RB')",abound,abound,description,abound,O,,
+derivation,derivation,"('derivation', 'NN')",deriv,derivation,description,derivation,O,,
+name,name,"('name', 'NN')",name,name,description,name,O,,
+Stockholm,stockholm,"('stockholm', 'VBZ')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+though,though,"('though', 'IN')",though,though,description,though,O,,
+widely,widely,"('widely', 'RB')",wide,widely,description,widely,O,,
+believed,believed,"('believed', 'VBN')",believ,believe,description,believed,O,,
+mean,mean,"('mean', 'VB')",mean,mean,description,mean,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+cleared,cleared,"('cleared', 'VBN')",clear,clear,description,cleared,O,,
+trees,trees,"('trees', 'NNS')",tree,tree,description,trees,O,,
+since,since,"('since', 'IN')",sinc,since,description,since,O,,
+trees,trees,"('trees', 'NNS')",tree,tree,description,trees,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+home,home,"('home', 'NN')",home,home,description,home,O,,
+Gamla,gamla,"('gamla', 'VB')",gamla,gamla,description,Gamla,B,PERSON,"People, including fictional"
+Stan,stan,"('stan', 'NNS')",stan,stan,description,Stan,I,PERSON,"People, including fictional"
+probably,probably,"('probably', 'RB')",probabl,probably,description,probably,O,,
+felled,felled,"('felled', 'VBN')",fell,fell,description,felled,O,,
+make,make,"('make', 'VB')",make,make,description,make,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+settlement,settlement,"('settlement', 'NN')",settlement,settlement,description,settlement,O,,
+Incidentally,incidentally,"('incidentally', 'RB')",incident,incidentally,description,Incidentally,O,,
+words,words,"('words', 'NNS')",word,word,description,words,O,,
+holm,holm,"('holm', 'NN')",holm,holm,description,holm,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+stock,stock,"('stock', 'NN')",stock,stock,description,stock,O,,
+log,log,"('log', 'NN')",log,log,description,log,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+common,common,"('common', 'JJ')",common,common,description,common,O,,
+use,use,"('use', 'NN')",use,use,description,use,O,,
+today,today,"('today', 'NN')",today,today,description,today,B,DATE,Absolute or relative dates or periods
+experience,experience,"('experience', 'VB')",experi,experience,description,experience,O,,
+taste,taste,"('taste', 'NN')",tast,taste,description,taste,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+medieval,medieval,"('medieval', 'NN')",mediev,medieval,description,medieval,O,,
+past,past,"('past', 'NN')",past,past,description,past,O,,
+excellent,excellent,"('excellent', 'JJ')",excel,excellent,description,excellent,O,,
+Medeltidsmuseet,medeltidsmuseet,"('medeltidsmuseet', 'NN')",medeltidsmuseet,medeltidsmuseet,description,Medeltidsmuseet,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+northern,northern,"('northern', 'JJ')",northern,northern,description,northern,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+bridges,bridges,"('bridges', 'NNS')",bridg,bridge,description,bridges,O,,
+Norrbron,norrbron,"('norrbron', 'RB')",norrbron,norrbron,description,Norrbron,B,PERSON,"People, including fictional"
+Riksbron,riksbron,"('riksbron', 'VB')",riksbron,riksbron,description,Riksbron,I,PERSON,"People, including fictional"
+lead,lead,"('lead', 'VBP')",lead,lead,description,lead,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+Gamla,gamla,"('gamla', 'VB')",gamla,gamla,description,Gamla,B,ORG,"Companies, agencies, institutions, etc."
+strictly,strictly,"('strictly', 'RB')",strictli,strictly,description,strictly,O,,
+speaking,speaking,"('speaking', 'VBG')",speak,speak,description,speaking,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+Staden,staden,"('staden', 'NN')",staden,staden,description,Staden,B,GPE,"Countries, cities, states"
+contains,contains,"('contains', 'VBZ')",contain,contain,description,contains,O,,
+Gamla,gamla,"('gamla', 'JJ')",gamla,gamla,description,Gamla,B,PERSON,"People, including fictional"
+Stan,stan,"('stan', 'NN')",stan,stan,description,Stan,I,PERSON,"People, including fictional"
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+name,name,"('name', 'NN')",name,name,description,name,O,,
+usually,usually,"('usually', 'RB')",usual,usually,description,usually,O,,
+attached,attached,"('attached', 'VBN')",attach,attach,description,attached,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+Stockholm,stockholm,"('stockholm', 'NNS')",stockholm,stockholm,description,Stockholm,O,,
+working,working,"('working', 'VBG')",work,work,description,working,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+nowadays,nowadays,"('nowadays', 'NNS')",nowaday,nowadays,description,nowadays,O,,
+Gamla,gamla,"('gamla', 'VBP')",gamla,gamla,description,Gamla,B,PERSON,"People, including fictional"
+Stan,stan,"('stan', 'NN')",stan,stan,description,Stan,I,PERSON,"People, including fictional"
+primarily,primarily,"('primarily', 'RB')",primarili,primarily,description,primarily,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+hub,hub,"('hub', 'NN')",hub,hub,description,hub,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+eminently,eminently,"('eminently', 'RB')",emin,eminently,description,eminently,O,,
+strollable,strollable,"('strollable', 'JJ')",strollabl,strollable,description,strollable,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+particular,particular,"('particular', 'JJ')",particular,particular,description,particular,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+Kungliga,kungliga,"('kungliga', 'NN')",kungliga,kungliga,description,Kungliga,B,PERSON,"People, including fictional"
+Slottet,slottet,"('slottet', 'NN')",slottet,slottet,description,Slottet,I,PERSON,"People, including fictional"
+royal,royal,"('royal', 'NN')",royal,royal,description,royal,O,,
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+Riksdagshuset,riksdagshuset,"('riksdagshuset', 'VBN')",riksdagshuset,riksdagshuset,description,Riksdagshuset,B,NORP,Nationalities or religious or political groups
+parliament,parliament,"('parliament', 'NN')",parliament,parliament,description,parliament,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+Storkyrkan,storkyrkan,"('storkyrkan', 'JJ')",storkyrkan,storkyrkan,description,Storkyrkan,B,NORP,Nationalities or religious or political groups
+cathedral,cathedral,"('cathedral', 'JJ')",cathedr,cathedral,description,cathedral,O,,
+central,central,"('central', 'JJ')",central,central,description,central,O,,
+spider,spider,"('spider', 'NN')",spider,spider,description,spider,O,,
+web,web,"('web', 'NN')",web,web,description,web,O,,
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+best,best,"('best', 'RB')",best,best,description,best,O,,
+approached,approached,"('approached', 'VBD')",approach,approach,description,approached,O,,
+bridges,bridges,"('bridges', 'NNS')",bridg,bridge,description,bridges,O,,
+Norrbron,norrbron,"('norrbron', 'NN')",norrbron,norrbron,description,Norrbron,B,PERSON,"People, including fictional"
+Riksbron,riksbron,"('riksbron', 'NN')",riksbron,riksbron,description,Riksbron,I,PERSON,"People, including fictional"
+sprawl,sprawl,"('sprawl', 'NN')",sprawl,sprawl,description,sprawl,O,,
+monumental,monumental,"('monumental', 'JJ')",monument,monumental,description,monumental,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+airy,airy,"('airy', 'NN')",airi,airy,description,airy,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+form,form,"('form', 'VBP')",form,form,description,form,O,,
+protective,protective,"('protective', 'JJ')",protect,protective,description,protective,O,,
+girdle,girdle,"('girdle', 'NN')",girdl,girdle,description,girdle,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,description,narrow,O,,
+lanes,lanes,"('lanes', 'VBZ')",lane,lanes,description,lanes,O,,
+impossibly,impossibly,"('impossibly', 'NN')",imposs,impossibly,description,impossibly,O,,
+slender,slender,"('slender', 'NN')",slender,slender,description,slender,O,,
+alleys,alleys,"('alleys', 'NNS')",alley,alley,description,alleys,O,,
+lead,lead,"('lead', 'VBP')",lead,lead,description,lead,O,,
+steep,steep,"('steep', 'JJ')",steep,steep,description,steep,O,,
+steps,steps,"('steps', 'NNS')",step,step,description,steps,O,,
+ascending,ascending,"('ascending', 'VBG')",ascend,ascend,description,ascending,O,,
+battered,battered,"('battered', 'VBN')",batter,batter,description,battered,O,,
+walls,walls,"('walls', 'NNS')",wall,wall,description,walls,O,,
+covered,covered,"('covered', 'VBN')",cover,cover,description,covered,O,,
+passageways,passageways,"('passageways', 'NNS')",passageway,passageway,description,passageways,O,,
+linking,linking,"('linking', 'VBG')",link,link,description,linking,O,,
+leaning,leaning,"('leaning', 'VBG')",lean,lean,description,leaning,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+tall,tall,"('tall', 'JJ')",tall,tall,description,tall,O,,
+dark,dark,"('dark', 'NN')",dark,dark,description,dark,O,,
+houses,houses,"('houses', 'NNS')",hous,house,description,houses,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+mostly,mostly,"('mostly', 'RB')",mostli,mostly,description,mostly,O,,
+wealthy,wealthy,"('wealthy', 'JJ')",wealthi,wealthy,description,wealthy,O,,
+merchants,merchants,"('merchants', 'NNS')",merchant,merchant,description,merchants,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+distinguished,distinguished,"('distinguished', 'VBN')",distinguish,distinguish,description,distinguished,O,,
+intricate,intricate,"('intricate', 'JJ')",intric,intricate,description,intricate,O,,
+doorways,doorways,"('doorways', 'NNS')",doorway,doorway,description,doorways,O,,
+portals,portals,"('portals', 'NNS')",portal,portal,description,portals,O,,
+bearing,bearing,"('bearing', 'VBG')",bear,bear,description,bearing,O,,
+coats,coats,"('coats', 'NNS')",coat,coat,description,coats,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+square,square,"('square', 'NN')",squar,square,description,square,O,,
+Old,old,"('old', 'JJ')",old,old,description,Old,O,,
+Town,town,"('town', 'NN')",town,town,description,Town,O,,
+Stortorget,stortorget,"('stortorget', 'PDT')",stortorget,stortorget,description,Stortorget,O,,
+impressive,impressive,"('impressive', 'JJ')",impress,impressive,description,impressive,O,,
+collection,collection,"('collection', 'NN')",collect,collection,description,collection,O,,
+tall,tall,"('tall', 'JJ')",tall,tall,description,tall,O,,
+stone,stone,"('stone', 'NN')",stone,stone,description,stone,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+curling,curling,"('curling', 'VBG')",curl,curl,description,curling,O,,
+gables,gables,"('gables', 'NNS')",gabl,gable,description,gables,O,,
+saw,saw,"('saw', 'VBD')",saw,saw,description,saw,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+medieval,medieval,"('medieval', 'JJ')",mediev,medieval,description,medieval,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+ferocious,ferocious,"('ferocious', 'JJ')",feroci,ferocious,description,ferocious,O,,
+battles,battles,"('battles', 'NNS')",battl,battle,description,battles,O,,
+Stockholm,stockholm,"('stockholm', 'JJ')",stockholm,stockholm,description,Stockholm,B,PERSON,"People, including fictional"
+Bloodbath,bloodbath,"('bloodbath', 'NN')",bloodbath,bloodbath,description,Bloodbath,I,PERSON,"People, including fictional"
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+Västerlånggatan,västerlånggatan,"('västerlånggatan', 'VBP')",västerlånggatan,västerlånggatan,description,Västerlånggatan,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Österlånggatan,österlånggatan,"('österlånggatan', 'JJ')",österlånggatan,österlånggatan,description,Österlånggatan,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Stora,stora,"('stora', 'NN')",stora,stora,description,Stora,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Nygatan,nygatan,"('nygatan', 'NN')",nygatan,nygatan,description,Nygatan,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lilla,lilla,"('lilla', 'NN')",lilla,lilla,description,Lilla,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Nygatan,nygatan,"('nygatan', 'NNS')",nygatan,nygatan,description,Nygatan,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+run,run,"('run', 'VBP')",run,run,description,run,O,,
+length,length,"('length', 'NN')",length,length,description,length,O,,
+Old,old,"('old', 'JJ')",old,old,description,Old,B,PERSON,"People, including fictional"
+Town,town,"('town', 'NN')",town,town,description,Town,I,PERSON,"People, including fictional"
+although,although,"('although', 'IN')",although,although,description,although,O,,
+today,today,"('today', 'NN')",today,today,description,today,B,DATE,Absolute or relative dates or periods
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+harbour,harbour,"('harbour', 'VBP')",harbour,harbour,description,harbour,O,,
+succession,succession,"('succession', 'NN')",success,succession,description,succession,O,,
+souvenir,souvenir,"('souvenir', 'JJ')",souvenir,souvenir,description,souvenir,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+Happily,happily,"('happily', 'RB')",happili,happily,description,Happily,B,ORG,"Companies, agencies, institutions, etc."
+consumerism,consumerism,"('consumerism', 'NN')",consumer,consumerism,description,consumerism,O,,
+obtrusive,obtrusive,"('obtrusive', 'JJ')",obtrus,obtrusive,description,obtrusive,O,,
+summer,summer,"('summer', 'NN')",summer,summer,description,summer,O,,
+buskers,buskers,"('buskers', 'NNS')",busker,busker,description,buskers,O,,
+evening,evening,"('evening', 'VBG')",even,even,description,evening,O,,
+strollers,strollers,"('strollers', 'NNS')",stroller,stroller,description,strollers,O,,
+clog,clog,"('clog', 'VBP')",clog,clog,description,clog,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,description,narrow,O,,
+alleyways,alleyways,"('alleyways', 'NNS')",alleyway,alleyway,description,alleyways,O,,
+making,making,"('making', 'VBG')",make,make,description,making,O,,
+entertaining,entertaining,"('entertaining', 'JJ')",entertain,entertaining,description,entertaining,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+wander,wander,"('wander', 'VB')",wander,wander,description,wander,O,,
+stop,stop,"('stop', 'VB')",stop,stop,description,stop,O,,
+bite,bite,"('bite', 'NN')",bite,bite,description,bite,O,,
+eat,eat,"('eat', 'VB')",eat,eat,description,eat,O,,
+real,real,"('real', 'JJ')",real,real,description,real,O,,
+targets,targets,"('targets', 'NNS')",target,target,description,targets,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+opportunity,opportunity,"('opportunity', 'NN')",opportun,opportunity,description,opportunity,O,,
+wander,wander,"('wander', 'VB')",wander,wander,description,wander,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+find,find,"('find', 'VB')",find,find,description,find,O,,
+fading,fading,"('fading', 'JJ')",fade,fading,description,fading,O,,
+coats,coats,"('coats', 'NNS')",coat,coat,description,coats,O,,
+arms,arms,"('arms', 'NNS')",arm,arm,description,arms,O,,
+covered,covered,"('covered', 'VBN')",cover,cover,description,covered,O,,
+alleys,alleys,"('alleys', 'NNS')",alley,alley,description,alleys,O,,
+worn,worn,"('worn', 'JJ')",worn,worn,description,worn,O,,
+cobbles,cobbles,"('cobbles', 'NNS')",cobbl,cobble,description,cobbles,O,,
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+western,western,"('western', 'JJ')",western,western,description,western,O,,
+shore,shore,"('shore', 'NN')",shore,shore,description,shore,O,,
+Gamla,gamla,"('gamla', 'NN')",gamla,gamla,description,Gamla,B,PERSON,"People, including fictional"
+Stan,stan,"('stan', 'VBP')",stan,stan,description,Stan,I,PERSON,"People, including fictional"
+tiny,tiny,"('tiny', 'JJ')",tini,tiny,description,tiny,O,,
+islet,islet,"('islet', 'NN')",islet,islet,description,islet,O,,
+Riddarholmen,riddarholmen,"('riddarholmen', 'NNS')",riddarholmen,riddarholmen,description,Riddarholmen,B,NORP,Nationalities or religious or political groups
+houses,houses,"('houses', 'NNS')",hous,house,description,houses,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,description,beautiful,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+Riddarholmskyrkan,riddarholmskyrkan,"('riddarholmskyrkan', 'VBP')",riddarholmskyrkan,riddarholmskyrkan,description,Riddarholmskyrkan,B,NORP,Nationalities or religious or political groups
+burial,burial,"('burial', 'JJ')",burial,burial,description,burial,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+countless,countless,"('countless', 'JJ')",countless,countless,description,countless,O,,
+Swedish,swedish,"('swedish', 'JJ')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+kings,kings,"('kings', 'NNS')",king,king,description,kings,O,,
+queens,queens,"('queens', 'NNS')",queen,queen,description,queens,O,,
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+Baroque,baroque,"('baroque', 'NN')",baroqu,baroque,description,Baroque,B,ORG,"Companies, agencies, institutions, etc."
+Riddarhuset,riddarhuset,"('riddarhuset', 'NN')",riddarhuset,riddarhuset,description,Riddarhuset,I,ORG,"Companies, agencies, institutions, etc."
+House,house,"('house', 'NN')",hous,house,description,House,I,ORG,"Companies, agencies, institutions, etc."
+Nobility,nobility,"('nobility', 'NN')",nobil,nobility,description,Nobility,I,ORG,"Companies, agencies, institutions, etc."
+reminder,reminder,"('reminder', 'NN')",remind,reminder,description,reminder,O,,
+glory,glory,"('glory', 'NN')",glori,glory,description,glory,O,,
+days,days,"('days', 'NNS')",day,day,description,days,O,,
+Swedish,swedish,"('swedish', 'NN')",swedish,swedish,description,Swedish,B,NORP,Nationalities or religious or political groups
+Birger,birger,"('birger', 'NN')",birger,birger,description,Birger,B,PERSON,"People, including fictional"
+Jarlsgatan,jarlsgatan,"('jarlsgatan', 'VBP')",jarlsgatan,jarlsgatan,description,Jarlsgatan,I,PERSON,"People, including fictional"
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+thoroughfare,thoroughfare,"('thoroughfare', 'NN')",thoroughfar,thoroughfare,description,thoroughfare,O,,
+divides,divides,"('divides', 'VBZ')",divid,divide,description,divides,O,,
+Norrmalm,norrmalm,"('norrmalm', 'RB')",norrmalm,norrmalm,description,Norrmalm,B,PERSON,"People, including fictional"
+Östermalm,östermalm,"('östermalm', 'VBG')",östermalm,östermalm,description,Östermalm,I,PERSON,"People, including fictional"
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+become,become,"('become', 'VBP')",becom,become,description,become,O,,
+noticeably,noticeably,"('noticeably', 'RB')",notic,noticeably,description,noticeably,O,,
+broader,broader,"('broader', 'JJR')",broader,broad,description,broader,O,,
+grander,grander,"('grander', 'VB')",grander,grander,description,grander,O,,
+forming,forming,"('forming', 'VBG')",form,form,description,forming,O,,
+uniform,uniform,"('uniform', 'JJ')",uniform,uniform,description,uniform,O,,
+grid,grid,"('grid', 'NN')",grid,grid,description,grid,O,,
+far,far,"('far', 'RB')",far,far,description,far,O,,
+circular,circular,"('circular', 'JJ')",circular,circular,description,circular,O,,
+Karlaplan,karlaplan,"('karlaplan', 'NN')",karlaplan,karlaplan,description,Karlaplan,B,ORG,"Companies, agencies, institutions, etc."
+handy,handy,"('handy', 'JJ')",handi,handy,description,handy,O,,
+bus,bus,"('bus', 'JJ')",bu,bus,description,bus,O,,
+interchange,interchange,"('interchange', 'NN')",interchang,interchange,description,interchange,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+media,media,"('media', 'NNS')",media,medium,description,media,O,,
+types,types,"('types', 'NNS')",type,type,description,types,O,,
+coming,coming,"('coming', 'VBG')",come,come,description,coming,O,,
+shift,shift,"('shift', 'NN')",shift,shift,description,shift,O,,
+Swedish,swedish,"('swedish', 'JJ')",swedish,swedish,description,Swedish,B,ORG,"Companies, agencies, institutions, etc."
+Radio,radio,"('radio', 'NN')",radio,radio,description,Radio,I,ORG,"Companies, agencies, institutions, etc."
+Television,television,"('television', 'NN')",televis,television,description,Television,I,ORG,"Companies, agencies, institutions, etc."
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+Kalavägen,kalavägen,"('kalavägen', 'NN')",kalavägen,kalavägen,description,Kalavägen,B,PERSON,"People, including fictional"
+Östermalm,östermalm,"('östermalm', 'NN')",östermalm,östermalm,description,Östermalm,I,PERSON,"People, including fictional"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+central,central,"('central', 'JJ')",central,central,description,central,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+developed,developed,"('developed', 'VBN')",develop,develop,description,developed,O,,
+impressive,impressive,"('impressive', 'JJ')",impress,impressive,description,impressive,O,,
+residences,residences,"('residences', 'NNS')",resid,residence,description,residences,O,,
+likely,likely,"('likely', 'JJ')",like,likely,description,likely,O,,
+consulates,consulates,"('consulates', 'NNS')",consul,consulate,description,consulates,O,,
+embassies,embassies,"('embassies', 'NNS')",embassi,embassy,description,embassies,O,,
+fashionable,fashionable,"('fashionable', 'JJ')",fashion,fashionable,description,fashionable,O,,
+Gamla,gamla,"('gamla', 'NN')",gamla,gamla,description,Gamla,B,PERSON,"People, including fictional"
+Stan,stan,"('stan', 'NN')",stan,stan,description,Stan,I,PERSON,"People, including fictional"
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+reaches,reaches,"('reaches', 'VBZ')",reach,reach,description,reaches,O,,
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+Skeppsholmen,skeppsholmen,"('skeppsholmen', 'NNS')",skeppsholmen,skeppsholmen,description,Skeppsholmen,O,,
+home,home,"('home', 'VBP')",home,home,description,home,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+Stockholm,stockholm,"('stockholm', 'NNS')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+youth,youth,"('youth', 'NN')",youth,youth,description,youth,O,,
+hostels,hostels,"('hostels', 'NNS')",hostel,hostel,description,hostels,O,,
+However,however,"('however', 'RB')",howev,however,description,However,O,,
+eclectic,eclectic,"('eclectic', 'JJ')",eclect,eclectic,description,eclectic,O,,
+clutch,clutch,"('clutch', 'NN')",clutch,clutch,description,clutch,O,,
+museums,museums,"('museums', 'NNS')",museum,museum,description,museums,O,,
+galleries,galleries,"('galleries', 'NNS')",galleri,gallery,description,galleries,O,,
+including,including,"('including', 'VBG')",includ,include,description,including,O,,
+excellentModerna,excellentmoderna,"('excellentmoderna', 'JJ')",excellentmoderna,excellentmoderna,description,excellentModerna,O,,
+Museet,museet,"('museet', 'NN')",museet,museet,description,Museet,O,,
+draw,draw,"('draw', 'VBZ')",draw,draw,description,draw,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+miss,miss,"('miss', 'VBP')",miss,miss,description,miss,O,,
+delights,delights,"('delights', 'NNS')",delight,delight,description,delights,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+southern,southern,"('southern', 'JJ')",southern,southern,description,southern,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+Södermalm,södermalm,"('södermalm', 'NN')",södermalm,södermalm,description,Södermalm,B,GPE,"Countries, cities, states"
+whose,whose,"('whose', 'WP$')",whose,whose,description,whose,O,,
+craggy,craggy,"('craggy', 'JJ')",craggi,craggy,description,craggy,O,,
+cliffs,cliffs,"('cliffs', 'NNS')",cliff,cliff,description,cliffs,O,,
+turrets,turrets,"('turrets', 'NNS')",turret,turret,description,turrets,O,,
+towers,towers,"('towers', 'NNS')",tower,tower,description,towers,O,,
+rise,rise,"('rise', 'VBP')",rise,rise,description,rise,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+above,above,"('above', 'IN')",abov,above,description,above,O,,
+clogged,clogged,"('clogged', 'JJ')",clog,clogged,description,clogged,O,,
+traffic,traffic,"('traffic', 'NN')",traffic,traffic,description,traffic,O,,
+interchange,interchange,"('interchange', 'NN')",interchang,interchange,description,interchange,O,,
+Slussen,slussen,"('slussen', 'PDT')",slussen,slussen,description,Slussen,B,PERSON,"People, including fictional"
+perched,perched,"('perched', 'JJ')",perch,perched,description,perched,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+vaguely,vaguely,"('vaguely', 'RB')",vagu,vaguely,description,vaguely,O,,
+forbidding,forbidding,"('forbidding', 'VBG')",forbid,forbid,description,forbidding,O,,
+venture,venture,"('venture', 'NN')",ventur,venture,description,venture,O,,
+beyond,beyond,"('beyond', 'IN')",beyond,beyond,description,beyond,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+roads,roads,"('roads', 'NNS')",road,road,description,roads,O,,
+skirting,skirting,"('skirting', 'VBG')",skirt,skirt,description,skirting,O,,
+island,island,"('island', 'NN')",island,island,description,island,O,,
+lively,lively,"('lively', 'RB')",live,lively,description,lively,O,,
+surprisingly,surprisingly,"('surprisingly', 'RB')",surprisingli,surprisingly,description,surprisingly,O,,
+green,green,"('green', 'JJ')",green,green,description,green,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+unfolds,unfolds,"('unfolds', 'VBZ')",unfold,unfold,description,unfolds,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+historically,historically,"('historically', 'RB')",histor,historically,description,historically,O,,
+speaking,speaking,"('speaking', 'VBG')",speak,speak,description,speaking,O,,
+working,working,"('working', 'VBG')",work,work,description,working,O,,
+class,class,"('class', 'NN')",class,class,description,class,O,,
+heart,heart,"('heart', 'NN')",heart,heart,description,heart,O,,
+dark,dark,"('dark', 'NN')",dark,dark,description,dark,O,,
+probably,probably,"('probably', 'RB')",probabl,probably,description,probably,O,,
+end,end,"('end', 'VBP')",end,end,description,end,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+Söder,söder,"('söder', 'NN')",söder,söder,description,Söder,B,ORG,"Companies, agencies, institutions, etc."
+bars,bars,"('bars', 'NNS')",bar,bar,description,bars,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+hip,hip,"('hip', 'NN')",hip,hip,description,hip,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+handful,handful,"('handful', 'NN')",hand,handful,description,handful,O,,
+streets,streets,"('streets', 'NNS')",street,street,description,streets,O,,
+lined,lined,"('lined', 'VBN')",line,line,description,lined,O,,
+cafés,cafés,"('cafés', 'NN')",café,cafés,description,cafés,O,,
+restaurants,restaurants,"('restaurants', 'NNS')",restaur,restaurant,description,restaurants,O,,
+lie,lie,"('lie', 'VBP')",lie,lie,description,lie,O,,
+south,south,"('south', 'NN')",south,south,description,south,O,,
+Folkungagatan,folkungagatan,"('folkungagatan', 'JJ')",folkungagatan,folkungagatan,description,Folkungagatan,O,,
+hence,hence,"('hence', 'NN')",henc,hence,description,hence,O,,
+name,name,"('name', 'NN')",name,name,description,name,O,,
+predominantly,predominantly,"('predominantly', 'RB')",predominantli,predominantly,description,predominantly,O,,
+Åsögatan,åsögatan,"('åsögatan', 'NNP')",åsögatan,åsögatan,description,Åsögatan,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Bondegatan,bondegatan,"('bondegatan', 'NN')",bondegatan,bondegatan,description,Bondegatan,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+mere,mere,"('mere', 'JJ')",mere,mere,description,mere,O,,
+five,five,"('five', 'CD')",five,five,description,five,B,TIME,Times smaller than a day
+minutes,minutes,"('minutes', 'NNS')",minut,minute,description,minutes,I,TIME,Times smaller than a day
+walk,walk,"('walk', 'VBP')",walk,walk,description,walk,O,,
+Slussen,slussen,"('slussen', 'VBN')",slussen,slussen,description,Slussen,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+Stadsgårdsleden,stadsgårdsleden,"('stadsgårdsleden', 'JJ')",stadsgårdsleden,stadsgårdsleden,description,Stadsgårdsleden,O,,
+towards,towards,"('towards', 'NNS')",toward,towards,description,towards,O,,
+Viking,viking,"('viking', 'VBG')",vike,viking,description,Viking,O,,
+Line,line,"('line', 'NN')",line,line,description,Line,O,,
+ferry,ferry,"('ferry', 'VBP')",ferri,ferry,description,ferry,O,,
+terminal,terminal,"('terminal', 'JJ')",termin,terminal,description,terminal,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+latest,latest,"('latest', 'JJS')",latest,late,description,latest,O,,
+attraction,attraction,"('attraction', 'NN')",attract,attraction,description,attraction,O,,
+Fotografiska,fotografiska,"('fotografiska', 'NN')",fotografiska,fotografiska,description,Fotografiska,B,PERSON,"People, including fictional"
+Muséet,muséet,"('muséet', 'NN')",muséet,muséet,description,Muséet,I,PERSON,"People, including fictional"
+housed,housed,"('housed', 'VBN')",hous,house,description,housed,O,,
+inside,inside,"('inside', 'IN')",insid,inside,description,inside,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+former,former,"('former', 'JJ')",former,former,description,former,O,,
+customs,customs,"('customs', 'NNS')",custom,custom,description,customs,O,,
+warehouses,warehouses,"('warehouses', 'NNS')",warehous,warehouse,description,warehouses,O,,
+Spread,spread,"('spread', 'VBP')",spread,spread,description,Spread,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+floors,floors,"('floors', 'NNS')",floor,floor,description,floors,O,,
+airy,airy,"('airy', 'JJ')",airi,airy,description,airy,O,,
+exhibition,exhibition,"('exhibition', 'NN')",exhibit,exhibition,description,exhibition,O,,
+space,space,"('space', 'NN')",space,space,description,space,O,,
+museum,museum,"('museum', 'NN')",museum,museum,description,museum,O,,
+showcases,showcases,"('showcases', 'VBZ')",showcas,showcases,description,showcases,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+photographers,photographers,"('photographers', 'NNS')",photograph,photographer,description,photographers,O,,
+print,print,"('print', 'NN')",print,print,description,print,O,,
+film,film,"('film', 'NN')",film,film,description,film,O,,
+Exhibitions,exhibitions,"('exhibitions', 'NNS')",exhibit,exhibition,description,Exhibitions,O,,
+change,change,"('change', 'VBP')",chang,change,description,change,O,,
+frequently,frequently,"('frequently', 'RB')",frequent,frequently,description,frequently,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+chance,chance,"('chance', 'NN')",chanc,chance,description,chance,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+big,big,"('big', 'JJ')",big,big,description,big,O,,
+names,names,"('names', 'NNS')",name,name,description,names,O,,
+display,display,"('display', 'NN')",display,display,description,display,O,,
+visit,visit,"('visit', 'VBP')",visit,visit,description,visit,O,,
+recent,recent,"('recent', 'JJ')",recent,recent,description,recent,O,,
+displays,displays,"('displays', 'NNS')",display,display,description,displays,O,,
+included,included,"('included', 'VBN')",includ,include,description,included,O,,
+Robert,robert,"('robert', 'JJ')",robert,robert,description,Robert,B,PERSON,"People, including fictional"
+Mapplethorpe,mapplethorpe,"('mapplethorpe', 'NN')",mapplethorp,mapplethorpe,description,Mapplethorpe,I,PERSON,"People, including fictional"
+France,france,"('france', 'NN')",franc,france,description,France,O,,
+Sarah,sarah,"('sarah', 'JJ')",sarah,sarah,description,Sarah,B,PERSON,"People, including fictional"
+Moon,moon,"('moon', 'NN')",moon,moon,description,Moon,I,PERSON,"People, including fictional"
+Scottish,scottish,"('scottish', 'VB')",scottish,scottish,description,Scottish,B,NORP,Nationalities or religious or political groups
+photographer,photographer,"('photographer', 'JJR')",photograph,photographer,description,photographer,O,,
+Albert,albert,"('albert', 'JJ')",albert,albert,description,Albert,B,PERSON,"People, including fictional"
+Watson,watson,"('watson', 'NN')",watson,watson,description,Watson,I,PERSON,"People, including fictional"
+whose,whose,"('whose', 'WP$')",whose,whose,description,whose,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+featured,featured,"('featured', 'VBN')",featur,feature,description,featured,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+hundred,hundred,"('hundred', 'JJ')",hundr,hundred,description,hundred,I,CARDINAL,Numerals that do not fall under another type
+magazine,magazine,"('magazine', 'NN')",magazin,magazine,description,magazine,O,,
+covers,covers,"('covers', 'VBZ')",cover,cover,description,covers,O,,
+including,including,"('including', 'VBG')",includ,include,description,including,O,,
+Vogue,vogue,"('vogue', 'NN')",vogu,vogue,description,Vogue,B,ORG,"Companies, agencies, institutions, etc."
+unsurpassed,unsurpassed,"('unsurpassed', 'JJ')",unsurpass,unsurpassed,description,unsurpassed,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+waterfront,waterfront,"('waterfront', 'NN')",waterfront,waterfront,description,waterfront,O,,
+head,head,"('head', 'VBP')",head,head,description,head,O,,
+museum,museum,"('museum', 'NN')",museum,museum,description,museum,O,,
+café,café,"('café', 'NN')",café,café,description,café,O,,
+vistas,vistas,"('vistas', 'NNS')",vista,vista,description,vistas,O,,
+breathtaking,breathtaking,"('breathtaking', 'VBG')",breathtak,breathtaking,description,breathtaking,O,,
+photographic,photographic,"('photographic', 'JJ')",photograph,photographic,description,photographic,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+Stockholm,stockholm,"('stockholm', 'NN')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+clean,clean,"('clean', 'JJ')",clean,clean,description,clean,O,,
+perfect,perfect,"('perfect', 'JJ')",perfect,perfect,description,perfect,O,,
+swimming,swimming,"('swimming', 'VBG')",swim,swim,description,swimming,O,,
+during,during,"('during', 'IN')",dure,during,description,during,O,,
+long,long,"('long', 'JJ')",long,long,description,long,O,,
+days,days,"('days', 'NNS')",day,day,description,days,O,,
+summer,summer,"('summer', 'NN')",summer,summer,description,summer,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+beaches,beaches,"('beaches', 'NNS')",beach,beach,description,beaches,O,,
+west,west,"('west', 'NN')",west,west,description,west,B,GPE,"Countries, cities, states"
+city,city,"('city', 'NN')",citi,city,description,city,I,GPE,"Countries, cities, states"
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+Långholmens,långholmens,"('långholmens', 'NNS')",långholmen,långholmens,description,Långholmens,B,PERSON,"People, including fictional"
+Långholmens,långholmens,"('långholmens', 'VBZ')",långholmen,långholmens,description,Långholmens,I,PERSON,"People, including fictional"
+strandbad,strandbad,"('strandbad', 'NN')",strandbad,strandbad,description,strandbad,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Västerbron,västerbron,"('västerbron', 'NN')",västerbron,västerbron,description,Västerbron,B,GPE,"Countries, cities, states"
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,bridge,O,,
+rocky,rocky,"('rocky', 'JJ')",rocki,rocky,description,rocky,O,,
+Klippbadet,klippbadet,"('klippbadet', 'NN')",klippbadet,klippbadet,description,Klippbadet,B,FAC,"Buildings, airports, highways, bridges, etc."
+east,east,"('east', 'NN')",east,east,description,east,I,FAC,"Buildings, airports, highways, bridges, etc."
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,bridge,I,FAC,"Buildings, airports, highways, bridges, etc."
+across,across,"('across', 'IN')",across,across,description,across,O,,
+Kungsholmen,kungsholmen,"('kungsholmen', 'NNS')",kungsholmen,kungsholmen,description,Kungsholmen,B,PERSON,"People, including fictional"
+Smedsuddsbadet,smedsuddsbadet,"('smedsuddsbadet', 'NN')",smedsuddsbadet,smedsuddsbadet,description,Smedsuddsbadet,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+large,large,"('large', 'JJ')",larg,large,description,large,O,,
+grassy,grassy,"('grassy', 'JJ')",grassi,grassy,description,grassy,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Södermalm,södermalm,"('södermalm', 'NN')",södermalm,södermalm,description,Södermalm,B,GPE,"Countries, cities, states"
+place,place,"('place', 'NN')",place,place,description,place,O,,
+go,go,"('go', 'VB')",go,go,description,go,O,,
+swimming,swimming,"('swimming', 'NN')",swim,swimming,description,swimming,O,,
+pools,pools,"('pools', 'NNS')",pool,pool,description,pools,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+fairly,fairly,"('fairly', 'RB')",fairli,fairly,description,fairly,O,,
+close,close,"('close', 'JJ')",close,close,description,close,O,,
+proximity,proximity,"('proximity', 'NN')",proxim,proximity,description,proximity,O,,
+Forsgrénskabadet,forsgrénskabadet,"('forsgrénskabadet', 'NN')",forsgrénskabadet,forsgrénskabadet,description,Forsgrénskabadet,B,PERSON,"People, including fictional"
+Medborgarplatsen,medborgarplatsen,"('medborgarplatsen', 'NN')",medborgarplatsen,medborgarplatsen,description,Medborgarplatsen,I,PERSON,"People, including fictional"
+Medborgarplatsen,medborgarplatsen,"('medborgarplatsen', 'NN')",medborgarplatsen,medborgarplatsen,description,Medborgarplatsen,B,PERSON,"People, including fictional"
+Erikdalsbadet,erikdalsbadet,"('erikdalsbadet', 'NN')",erikdalsbadet,erikdalsbadet,description,Erikdalsbadet,I,PERSON,"People, including fictional"
+Hammarby,hammarby,"('hammarby', 'JJ')",hammarbi,hammarby,description,Hammarby,I,PERSON,"People, including fictional"
+Slussväg,slussväg,"('slussväg', 'NN')",slussväg,slussväg,description,Slussväg,B,PERSON,"People, including fictional"
+Skanstull,skanstull,"('skanstull', 'NN')",skanstul,skanstull,description,Skanstull,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+pool,pool,"('pool', 'NN')",pool,pool,description,pool,O,,
+wonderful,wonderful,"('wonderful', 'JJ')",wonder,wonderful,description,wonderful,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+Liljeholmsbadet,liljeholmsbadet,"('liljeholmsbadet', 'JJ')",liljeholmsbadet,liljeholmsbadet,description,Liljeholmsbadet,B,PERSON,"People, including fictional"
+Bergsundsgatan,bergsundsgatan,"('bergsundsgatan', 'NN')",bergsundsgatan,bergsundsgatan,description,Bergsundsgatan,I,PERSON,"People, including fictional"
+Hornstull,hornstull,"('hornstull', 'VBZ')",hornstul,hornstull,description,Hornstull,I,PERSON,"People, including fictional"
+pool,pool,"('pool', 'NN')",pool,pool,description,pool,O,,
+pontoon,pontoon,"('pontoon', 'NN')",pontoon,pontoon,description,pontoon,O,,
+contraption,contraption,"('contraption', 'NN')",contrapt,contraption,description,contraption,O,,
+floats,floats,"('floats', 'VBZ')",float,float,description,floats,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,FAC,"Buildings, airports, highways, bridges, etc."
+Mälaren,mälaren,"('mälaren', 'VBP')",mälaren,mälaren,description,Mälaren,I,FAC,"Buildings, airports, highways, bridges, etc."
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+closed,closed,"('closed', 'VBN')",close,close,description,closed,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+nude,nude,"('nude', 'VBN')",nude,nude,description,nude,O,,
+swimming,swimming,"('swimming', 'VBG')",swim,swim,description,swimming,O,,
+women,women,"('women', 'NNS')",women,woman,description,women,O,,
+Mondays,mondays,"('mondays', 'NNS')",monday,monday,description,Mondays,B,DATE,Absolute or relative dates or periods
+men,men,"('men', 'NNS')",men,men,description,men,O,,
+Fridays,fridays,"('fridays', 'NNS')",friday,friday,description,Fridays,B,DATE,Absolute or relative dates or periods
+water,water,"('water', 'NN')",water,water,description,water,O,,
+always,always,"('always', 'RB')",alway,always,description,always,O,,
+unofficial,unofficial,"('unofficial', 'JJ')",unoffici,unofficial,description,unofficial,O,,
+nude,nude,"('nude', 'JJ')",nude,nude,description,nude,O,,
+bathing,bathing,"('bathing', 'VBG')",bath,bath,description,bathing,O,,
+head,head,"('head', 'NN')",head,head,description,head,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+archipelago,archipelago,"('archipelago', 'NN')",archipelago,archipelago,description,archipelago,O,,
+find,find,"('find', 'VB')",find,find,description,find,O,,
+private,private,"('private', 'JJ')",privat,private,description,private,O,,
+image,image,"('image', 'NN')",imag,image,description,image,O,,
+Things,things,"('things', 'NNS')",thing,thing,description,Things,O,,
+Miss,miss,"('miss', 'VB')",miss,miss,description,Miss,O,,
+Rocky,rocky,"('rocky', 'JJ')",rocki,rocky,description,Rocky,B,PERSON,"People, including fictional"
+skerry,skerry,"('skerry', 'NN')",skerri,skerry,description,skerry,I,PERSON,"People, including fictional"
+outer,outer,"('outer', 'NN')",outer,outer,description,outer,O,,
+archipelago,archipelago,"('archipelago', 'NN')",archipelago,archipelago,description,archipelago,O,,
+Stockholm,stockholm,"('stockholm', 'JJ')",stockholm,stockholm,description,Stockholm,B,GPE,"Countries, cities, states"
+Sweden,sweden,"('sweden', 'NN')",sweden,sweden,description,Sweden,B,GPE,"Countries, cities, states"
+Mikael,mikael,"('mikael', 'NN')",mikael,mikael,description,Mikael,O,,

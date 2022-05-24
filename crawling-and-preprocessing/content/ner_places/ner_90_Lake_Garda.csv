@@ -1,0 +1,170 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+Lake,lake,"('lake', 'NN')",lake,lake,introduction,Lake,B,PERSON,"People, including fictional"
+Garda,garda,"('garda', 'NN')",garda,garda,introduction,Garda,I,PERSON,"People, including fictional"
+Lago,lago,"('lago', 'IN')",lago,lago,introduction,Lago,I,PERSON,"People, including fictional"
+di,di,"('di', 'NN')",di,di,introduction,di,O,,
+Garda,garda,"('garda', 'NN')",garda,garda,introduction,Garda,O,,
+largest,largest,"('largest', 'JJS')",largest,large,introduction,largest,O,,
+lake,lake,"('lake', 'NN')",lake,lake,introduction,lake,O,,
+Italy,italy,"('italy', 'NN')",itali,italy,introduction,Italy,B,GPE,"Countries, cities, states"
+long,long,"('long', 'RB')",long,long,introduction,long,O,,
+wide,wide,"('wide', 'JJ')",wide,wide,introduction,wide,O,,
+big,big,"('big', 'JJ')",big,big,introduction,big,O,,
+alters,alters,"('alters', 'VBZ')",alter,alter,introduction,alters,O,,
+local,local,"('local', 'JJ')",local,local,introduction,local,O,,
+climate,climate,"('climate', 'NN')",climat,climate,introduction,climate,O,,
+milder,milder,"('milder', 'JJR')",milder,mild,introduction,milder,O,,
+thanks,thanks,"('thanks', 'NNS')",thank,thanks,introduction,thanks,O,,
+complex,complex,"('complex', 'JJ')",complex,complex,introduction,complex,O,,
+pattern,pattern,"('pattern', 'NN')",pattern,pattern,introduction,pattern,O,,
+lake,lake,"('lake', 'NN')",lake,lake,introduction,lake,O,,
+breezes,breezes,"('breezes', 'NNS')",breez,breeze,introduction,breezes,O,,
+sunnier,sunnier,"('sunnier', 'JJR')",sunnier,sunny,introduction,sunnier,O,,
+might,might,"('might', 'MD')",might,might,introduction,might,O,,
+expected,expected,"('expected', 'VBN')",expect,expect,introduction,expected,O,,
+also,also,"('also', 'RB')",also,also,introduction,also,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,introduction,popular,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,introduction,lakes,O,,
+attracting,attracting,"('attracting', 'VBG')",attract,attract,introduction,attracting,O,,
+around,around,"('around', 'RB')",around,around,introduction,around,B,PERCENT,"Percentage, including ""%"""
+seven,seven,"('seven', 'CD')",seven,seven,introduction,seven,I,PERCENT,"Percentage, including ""%"""
+percent,percent,"('percent', 'NN')",percent,percent,introduction,percent,I,PERCENT,"Percentage, including ""%"""
+tourists,tourists,"('tourists', 'NNS')",tourist,tourist,introduction,tourists,O,,
+Italy,italy,"('italy', 'VB')",itali,italy,introduction,Italy,B,GPE,"Countries, cities, states"
+acting,acting,"('acting', 'VBG')",act,act,introduction,acting,O,,
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,introduction,bridge,O,,
+Alps,alps,"('alps', 'NN')",alp,alp,introduction,Alps,B,PERSON,"People, including fictional"
+rest,rest,"('rest', 'NN')",rest,rest,introduction,rest,O,,
+country,country,"('country', 'NN')",countri,country,introduction,country,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,introduction,narrow,O,,
+north,north,"('north', 'NN')",north,north,introduction,north,O,,
+lake,lake,"('lake', 'NN')",lake,lake,introduction,lake,O,,
+tightly,tightly,"('tightly', 'RB')",tightli,tightly,introduction,tightly,O,,
+enclosed,enclosed,"('enclosed', 'VBN')",enclos,enclose,introduction,enclosed,O,,
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,introduction,mountains,O,,
+drop,drop,"('drop', 'VBP')",drop,drop,introduction,drop,O,,
+sheer,sheer,"('sheer', 'NN')",sheer,sheer,introduction,sheer,O,,
+water,water,"('water', 'NN')",water,water,introduction,water,O,,
+villages,villages,"('villages', 'NNS')",villag,village,introduction,villages,O,,
+wedged,wedged,"('wedged', 'VBN')",wedg,wedge,introduction,wedged,O,,
+gaps,gaps,"('gaps', 'NNS')",gap,gap,introduction,gaps,O,,
+cliffs,cliffs,"('cliffs', 'NNS')",cliff,cliff,introduction,cliffs,O,,
+south,south,"('south', 'RB')",south,south,introduction,south,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+lake,lake,"('lake', 'NN')",lake,lake,introduction,lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+spreads,spreads,"('spreads', 'VBZ')",spread,spread,introduction,spreads,O,,
+comfortably,comfortably,"('comfortably', 'RB')",comfort,comfortably,introduction,comfortably,O,,
+flanked,flanked,"('flanked', 'VBN')",flank,flank,introduction,flanked,O,,
+gentle,gentle,"('gentle', 'JJ')",gentl,gentle,introduction,gentle,O,,
+hills,hills,"('hills', 'NNS')",hill,hill,introduction,hills,O,,
+lined,lined,"('lined', 'VBN')",line,line,introduction,lined,O,,
+placid,placid,"('placid', 'NN')",placid,placid,introduction,placid,O,,
+holiday,holiday,"('holiday', 'NN')",holiday,holiday,introduction,holiday,O,,
+resorts,resorts,"('resorts', 'NNS')",resort,resort,introduction,resorts,O,,
+south,south,"('south', 'JJ')",south,south,description,south,O,,
+Desenzano,desenzano,"('desenzano', 'NN')",desenzano,desenzano,description,Desenzano,O,,
+cheery,cheery,"('cheery', 'JJ')",cheeri,cheery,description,cheery,O,,
+spot,spot,"('spot', 'NN')",spot,spot,description,spot,O,,
+advantage,advantage,"('advantage', 'NN')",advantag,advantage,description,advantage,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+transport,transport,"('transport', 'NN')",transport,transport,description,transport,O,,
+links,links,"('links', 'NNS')",link,link,description,links,O,,
+plus,plus,"('plus', 'CC')",plu,plus,description,plus,O,,
+proximity,proximity,"('proximity', 'NN')",proxim,proximity,description,proximity,O,,
+very,very,"('very', 'RB')",veri,very,description,very,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+scenically,scenically,"('scenically', 'RB')",scenic,scenically,description,scenically,O,,
+impressive,impressive,"('impressive', 'JJ')",impress,impressive,description,impressive,O,,
+Sirmione,sirmione,"('sirmione', 'NN')",sirmion,sirmione,description,Sirmione,B,CARDINAL,Numerals that do not fall under another type
+western,western,"('western', 'JJ')",western,western,description,western,O,,
+shore,shore,"('shore', 'NN')",shore,shore,description,shore,O,,
+old,old,"('old', 'JJ')",old,old,description,old,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+town,town,"('town', 'NN')",town,town,description,town,O,,
+Salò,salò,"('salò', 'NN')",salò,salò,description,Salò,B,PERSON,"People, including fictional"
+Gargnano,gargnano,"('gargnano', 'VB')",gargnano,gargnano,description,Gargnano,I,PERSON,"People, including fictional"
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+destination,destination,"('destination', 'NN')",destin,destination,description,destination,O,,
+small,small,"('small', 'JJ')",small,small,description,small,O,,
+village,village,"('village', 'NN')",villag,village,description,village,O,,
+remains,remains,"('remains', 'VBZ')",remain,remain,description,remains,O,,
+largely,largely,"('largely', 'RB')",larg,largely,description,largely,O,,
+unspoilt,unspoilt,"('unspoilt', 'JJ')",unspoilt,unspoilt,description,unspoilt,O,,
+mountainous,mountainous,"('mountainous', 'JJ')",mountain,mountainous,description,mountainous,O,,
+scenery,scenery,"('scenery', 'NN')",sceneri,scenery,description,scenery,O,,
+spectacular,spectacular,"('spectacular', 'JJ')",spectacular,spectacular,description,spectacular,O,,
+approach,approach,"('approach', 'NN')",approach,approach,description,approach,O,,
+genteel,genteel,"('genteel', 'NN')",genteel,genteel,description,genteel,O,,
+resort,resort,"('resort', 'NN')",resort,resort,description,resort,O,,
+Riva,riva,"('riva', 'NN')",riva,riva,description,Riva,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+del,del,"('del', 'NN')",del,del,description,del,I,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+Garda,garda,"('garda', 'NN')",garda,garda,description,Garda,I,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+head,head,"('head', 'NN')",head,head,description,head,O,,
+lake,lake,"('lake', 'NN')",lake,lake,description,lake,O,,
+handsome,handsome,"('handsome', 'JJ')",handsom,handsome,description,handsome,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+long,long,"('long', 'JJ')",long,long,description,long,O,,
+history,history,"('history', 'NN')",histori,history,description,history,O,,
+focal,focal,"('focal', 'JJ')",focal,focal,description,focal,O,,
+point,point,"('point', 'NN')",point,point,description,point,O,,
+sports,sports,"('sports', 'NNS')",sport,sport,description,sports,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+ridges,ridges,"('ridges', 'NNS')",ridg,ridge,description,ridges,O,,
+Monte,monte,"('monte', 'NN')",mont,monte,description,Monte,B,PERSON,"People, including fictional"
+Baldo,baldo,"('baldo', 'NN')",baldo,baldo,description,Baldo,I,PERSON,"People, including fictional"
+tops,tops,"('tops', 'VBZ')",top,top,description,tops,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+resorts,resorts,"('resorts', 'NNS')",resort,resort,description,resorts,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,PERSON,"People, including fictional"
+Garda,garda,"('garda', 'NN')",garda,garda,description,Garda,I,PERSON,"People, including fictional"
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+shore,shore,"('shore', 'NN')",shore,shore,description,shore,O,,
+struggle,struggle,"('struggle', 'NN')",struggl,struggle,description,struggle,O,,
+match,match,"('match', 'VB')",match,match,description,match,O,,
+charm,charm,"('charm', 'NN')",charm,charm,description,charm,O,,
+villages,villages,"('villages', 'NNS')",villag,village,description,villages,O,,
+opposite,opposite,"('opposite', 'VBP')",opposit,opposite,description,opposite,O,,
+Aim,aim,"('aim', 'NN')",aim,aim,description,Aim,B,FAC,"Buildings, airports, highways, bridges, etc."
+Torbole,torbole,"('torbole', 'NN')",torbol,torbole,description,Torbole,I,FAC,"Buildings, airports, highways, bridges, etc."
+outdoors,outdoors,"('outdoors', 'NNS')",outdoor,outdoors,description,outdoors,O,,
+enthusiast,enthusiast,"('enthusiast', 'VBP')",enthusiast,enthusiast,description,enthusiast,O,,
+south,south,"('south', 'JJ')",south,south,description,south,O,,
+very,very,"('very', 'RB')",veri,very,description,very,O,,
+popular,popular,"('popular', 'JJ')",popular,popular,description,popular,O,,
+resort,resort,"('resort', 'NN')",resort,resort,description,resort,O,,
+Malcesine,malcesine,"('malcesine', 'NN')",malcesin,malcesine,description,Malcesine,B,ORG,"Companies, agencies, institutions, etc."
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+direct,direct,"('direct', 'JJ')",direct,direct,description,direct,O,,
+access,access,"('access', 'NN')",access,access,description,access,O,,
+Monte,monte,"('monte', 'VB')",mont,monte,description,Monte,B,PERSON,"People, including fictional"
+Baldo,baldo,"('baldo', 'RB')",baldo,baldo,description,Baldo,I,PERSON,"People, including fictional"
+does,does,"('does', 'VBZ')",doe,do,description,does,O,,
+Brenzone,brenzone,"('brenzone', 'VB')",brenzon,brenzone,description,Brenzone,O,,
+comprising,comprising,"('comprising', 'VBG')",compris,comprise,description,comprising,O,,
+string,string,"('string', 'NN')",string,string,description,string,O,,
+attractive,attractive,"('attractive', 'JJ')",attract,attractive,description,attractive,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+harbours,harbours,"('harbours', 'NN')",harbour,harbour,description,harbours,O,,
+good,good,"('good', 'JJ')",good,good,description,good,O,,
+base,base,"('base', 'NN')",base,base,description,base,O,,
+walks,walks,"('walks', 'NNS')",walk,walk,description,walks,O,,
+rides,rides,"('rides', 'NNS')",ride,ride,description,rides,O,,
+Monte,monte,"('monte', 'NN')",mont,monte,description,Monte,B,PERSON,"People, including fictional"
+Baldo,baldo,"('baldo', 'NN')",baldo,baldo,description,Baldo,I,PERSON,"People, including fictional"
+behind,behind,"('behind', 'IN')",behind,behind,description,behind,O,,
+Torri,torri,"('torri', 'JJ')",torri,torri,description,Torri,B,PERSON,"People, including fictional"
+del,del,"('del', 'FW')",del,del,description,del,I,PERSON,"People, including fictional"
+Benaco,benaco,"('benaco', 'VB')",benaco,benaco,description,Benaco,I,PERSON,"People, including fictional"
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+south,south,"('south', 'NN')",south,south,description,south,O,,
+attractive,attractive,"('attractive', 'JJ')",attract,attractive,description,attractive,O,,
+corner,corner,"('corner', 'NN')",corner,corner,description,corner,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+avoided,avoided,"('avoided', 'VBN')",avoid,avoid,description,avoided,O,,
+worst,worst,"('worst', 'JJS')",worst,bad,description,worst,O,,
+image,image,"('image', 'NN')",imag,image,description,image,O,,
+Village,village,"('village', 'NN')",villag,village,description,Village,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Limone,limone,"('limone', 'JJ')",limon,limone,description,Limone,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Garda,garda,"('garda', 'NN')",garda,garda,description,Garda,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Italy,italy,"('italy', 'NN')",itali,italy,description,Italy,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"

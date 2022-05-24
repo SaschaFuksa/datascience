@@ -1,0 +1,1838 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+visitor,visitor,"('visitor', 'NN')",visitor,visitor,introduction,visitor,O,,
+Venice,venice,"('venice', 'VB')",venic,venice,introduction,Venice,B,GPE,"Countries, cities, states"
+arrives,arrives,"('arrives', 'NNS')",arriv,arrives,introduction,arrives,O,,
+full,full,"('full', 'JJ')",full,full,introduction,full,O,,
+expectations,expectations,"('expectations', 'NNS')",expect,expectation,introduction,expectations,O,,
+turn,turn,"('turn', 'VBP')",turn,turn,introduction,turn,O,,
+well,well,"('well', 'RB')",well,well,introduction,well,O,,
+founded,founded,"('founded', 'VBN')",found,found,introduction,founded,O,,
+photographs,photographs,"('photographs', 'NN')",photograph,photograph,introduction,photographs,O,,
+seen,seen,"('seen', 'VBN')",seen,see,introduction,seen,O,,
+Palazzo,palazzo,"('palazzo', 'JJ')",palazzo,palazzo,introduction,Palazzo,B,ORG,"Companies, agencies, institutions, etc."
+Ducale,ducale,"('ducale', 'NN')",ducal,ducale,introduction,Ducale,I,ORG,"Companies, agencies, institutions, etc."
+Basilica,basilica,"('basilica', 'NN')",basilica,basilica,introduction,Basilica,I,ORG,"Companies, agencies, institutions, etc."
+di,di,"('di', 'VBZ')",di,di,introduction,di,O,,
+San,san,"('san', 'JJ')",san,san,introduction,San,B,GPE,"Countries, cities, states"
+Marco,marco,"('marco', 'NN')",marco,marco,introduction,Marco,I,GPE,"Countries, cities, states"
+palaces,palaces,"('palaces', 'NNS')",palac,palace,introduction,palaces,O,,
+along,along,"('along', 'IN')",along,along,introduction,along,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,introduction,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,introduction,Grande,I,ORG,"Companies, agencies, institutions, etc."
+simply,simply,"('simply', 'RB')",simpli,simply,introduction,simply,O,,
+recording,recording,"('recording', 'VBG')",record,record,introduction,recording,O,,
+extraordinary,extraordinary,"('extraordinary', 'JJ')",extraordinari,extraordinary,introduction,extraordinary,O,,
+truth,truth,"('truth', 'NN')",truth,truth,introduction,truth,O,,
+bad,bad,"('bad', 'JJ')",bad,bad,introduction,bad,O,,
+things,things,"('things', 'NNS')",thing,thing,introduction,things,O,,
+heard,heard,"('heard', 'VBN')",heard,hear,introduction,heard,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+turn,turn,"('turn', 'VBP')",turn,turn,introduction,turn,O,,
+right,right,"('right', 'JJ')",right,right,introduction,right,O,,
+well,well,"('well', 'RB')",well,well,introduction,well,O,,
+Economically,economically,"('economically', 'RB')",econom,economically,introduction,Economically,O,,
+socially,socially,"('socially', 'RB')",social,socially,introduction,socially,O,,
+ossified,ossified,"('ossified', 'VBD')",ossifi,ossify,introduction,ossified,O,,
+losing,losing,"('losing', 'VBG')",lose,lose,introduction,losing,O,,
+hundreds,hundreds,"('hundreds', 'NNS')",hundr,hundred,introduction,hundreds,B,CARDINAL,Numerals that do not fall under another type
+residents,residents,"('residents', 'NNS')",resid,resident,introduction,residents,O,,
+year,year,"('year', 'NN')",year,year,introduction,year,O,,
+plays,plays,"('plays', 'VBZ')",play,play,introduction,plays,O,,
+virtually,virtually,"('virtually', 'RB')",virtual,virtually,introduction,virtually,O,,
+part,part,"('part', 'NN')",part,part,introduction,part,O,,
+life,life,"('life', 'NN')",life,life,introduction,life,O,,
+modern,modern,"('modern', 'JJ')",modern,modern,introduction,modern,O,,
+Italy,italy,"('italy', 'NN')",itali,italy,introduction,Italy,B,GPE,"Countries, cities, states"
+deluged,deluged,"('deluged', 'VBN')",delug,deluge,introduction,deluged,O,,
+tourists,tourists,"('tourists', 'NNS')",tourist,tourist,introduction,tourists,O,,
+occasionally,occasionally,"('occasionally', 'RB')",occasion,occasionally,introduction,occasionally,O,,
+things,things,"('things', 'NNS')",thing,thing,introduction,things,O,,
+get,get,"('get', 'VBP')",get,get,introduction,get,O,,
+bad,bad,"('bad', 'JJ')",bad,bad,introduction,bad,O,,
+entry,entry,"('entry', 'NN')",entri,entry,introduction,entry,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+barred,barred,"('barred', 'VBN')",bar,bar,introduction,barred,O,,
+already,already,"('already', 'RB')",alreadi,already,introduction,already,O,,
+booked,booked,"('booked', 'VBD')",book,book,introduction,booked,O,,
+room,room,"('room', 'NN')",room,room,introduction,room,O,,
+expensive,expensive,"('expensive', 'VBP')",expens,expensive,introduction,expensive,O,,
+price,price,"('price', 'NN')",price,price,introduction,price,O,,
+good,good,"('good', 'JJ')",good,good,introduction,good,O,,
+meal,meal,"('meal', 'NN')",meal,meal,introduction,meal,O,,
+almost,almost,"('almost', 'RB')",almost,almost,introduction,almost,O,,
+anywhere,anywhere,"('anywhere', 'RB')",anywher,anywhere,introduction,anywhere,O,,
+else,else,"('else', 'RB')",els,else,introduction,else,O,,
+Italy,italy,"('italy', 'NN')",itali,italy,introduction,Italy,B,GPE,"Countries, cities, states"
+get,get,"('get', 'VB')",get,get,introduction,get,O,,
+lousy,lousy,"('lousy', 'JJ')",lousi,lousy,introduction,lousy,O,,
+one,one,"('one', 'CD')",one,one,introduction,one,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,introduction,Venice,B,GPE,"Countries, cities, states"
+hoteliers,hoteliers,"('hoteliers', 'NNS')",hoteli,hotelier,introduction,hoteliers,O,,
+make,make,"('make', 'VBP')",make,make,introduction,make,O,,
+situation,situation,"('situation', 'NN')",situat,situation,introduction,situation,O,,
+demand,demand,"('demand', 'NN')",demand,demand,introduction,demand,O,,
+always,always,"('always', 'RB')",alway,always,introduction,always,O,,
+far,far,"('far', 'RB')",far,far,introduction,far,O,,
+outstrip,outstrip,"('outstrip', 'JJ')",outstrip,outstrip,introduction,outstrip,O,,
+supply,supply,"('supply', 'NN')",suppli,supply,introduction,supply,O,,
+soon,soon,"('soon', 'RB')",soon,soon,description,soon,O,,
+begin,begin,"('begin', 'VBP')",begin,begin,description,begin,O,,
+explore,explore,"('explore', 'VB')",explor,explore,description,explore,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+though,though,"('though', 'IN')",though,though,description,though,O,,
+every,every,"('every', 'DT')",everi,every,description,every,B,DATE,Absolute or relative dates or periods
+day,day,"('day', 'NN')",day,day,description,day,I,DATE,Absolute or relative dates or periods
+bring,bring,"('bring', 'VB')",bring,bring,description,bring,O,,
+surprises,surprises,"('surprises', 'NNS')",surpris,surprise,description,surprises,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+urban,urban,"('urban', 'JJ')",urban,urban,description,urban,O,,
+landscape,landscape,"('landscape', 'NN')",landscap,landscape,description,landscape,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+things,things,"('things', 'NNS')",thing,thing,description,things,O,,
+walk,walk,"('walk', 'NN')",walk,walk,description,walk,O,,
+minute,minute,"('minute', 'NN')",minut,minute,description,minute,O,,
+without,without,"('without', 'IN')",without,without,description,without,O,,
+coming,coming,"('coming', 'VBG')",come,come,description,coming,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+something,something,"('something', 'NN')",someth,something,description,something,O,,
+worth,worth,"('worth', 'IN')",worth,worth,description,worth,O,,
+stop,stop,"('stop', 'NN')",stop,stop,description,stop,O,,
+although,although,"('although', 'IN')",although,although,description,although,O,,
+true,true,"('true', 'JJ')",true,true,description,true,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+unbearably,unbearably,"('unbearably', 'RB')",unbear,unbearably,description,unbearably,O,,
+crowded,crowded,"('crowded', 'VBN')",crowd,crowd,description,crowded,O,,
+things,things,"('things', 'NNS')",thing,thing,description,things,O,,
+bad,bad,"('bad', 'JJ')",bad,bad,description,bad,O,,
+beyond,beyond,"('beyond', 'IN')",beyond,beyond,description,beyond,O,,
+magnetic,magnetic,"('magnetic', 'JJ')",magnet,magnetic,description,magnetic,O,,
+field,field,"('field', 'NN')",field,field,description,field,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,ORG,"Companies, agencies, institutions, etc."
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,I,ORG,"Companies, agencies, institutions, etc."
+possible,possible,"('possible', 'JJ')",possibl,possible,description,possible,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+virtually,virtually,"('virtually', 'RB')",virtual,virtually,description,virtually,O,,
+keeping,keeping,"('keeping', 'VBG')",keep,keep,description,keeping,O,,
+costs,costs,"('costs', 'NNS')",cost,cost,description,costs,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+does,does,"('does', 'VBZ')",doe,do,description,does,O,,
+eating,eating,"('eating', 'JJ')",eat,eating,description,eating,O,,
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+planning,planning,"('planning', 'NN')",plan,planning,description,planning,O,,
+find,find,"('find', 'VBP')",find,find,description,find,O,,
+bed,bed,"('bed', 'NN')",bed,bed,description,bed,O,,
+without,without,"('without', 'IN')",without,without,description,without,O,,
+spending,spending,"('spending', 'VBG')",spend,spend,description,spending,O,,
+control,control,"('control', 'NN')",control,control,description,control,O,,
+Byzantium,byzantium,"('byzantium', 'NN')",byzantium,byzantium,description,Byzantium,B,PERSON,"People, including fictional"
+soon,soon,"('soon', 'RB')",soon,soon,description,soon,O,,
+became,became,"('became', 'VBD')",becam,become,description,became,O,,
+nominal,nominal,"('nominal', 'JJ')",nomin,nominal,description,nominal,O,,
+inhabitants,inhabitants,"('inhabitants', 'NNS')",inhabit,inhabitant,description,inhabitants,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+signalled,signalled,"('signalled', 'VBD')",signal,signal,description,signalled,O,,
+independence,independence,"('independence', 'NN')",independ,independence,description,independence,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+symbolic,symbolic,"('symbolic', 'JJ')",symbol,symbolic,description,symbolic,O,,
+act,act,"('act', 'NN')",act,act,description,act,O,,
+theft,theft,"('theft', 'NN')",theft,theft,description,theft,O,,
+body,body,"('body', 'NN')",bodi,body,description,body,O,,
+St,st,"('st', 'JJ')",st,st,description,St,B,PERSON,"People, including fictional"
+Mark,mark,"('mark', 'NN')",mark,mark,description,Mark,I,PERSON,"People, including fictional"
+Alexandria,alexandria,"('alexandria', 'NN')",alexandria,alexandria,description,Alexandria,B,PERSON,"People, including fictional"
+St,st,"('st', 'JJ')",st,st,description,St,I,PERSON,"People, including fictional"
+Mark,mark,"('mark', 'NN')",mark,mark,description,Mark,I,PERSON,"People, including fictional"
+displaced,displaced,"('displaced', 'VBD')",displac,displace,description,displaced,O,,
+Byzantium,byzantium,"('byzantium', 'NN')",byzantium,byzantium,description,Byzantium,B,PERSON,"People, including fictional"
+St,st,"('st', 'NN')",st,st,description,St,I,PERSON,"People, including fictional"
+Theodore,theodore,"('theodore', 'NN')",theodor,theodore,description,Theodore,I,PERSON,"People, including fictional"
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+patron,patron,"('patron', 'NN')",patron,patron,description,patron,O,,
+basilica,basilica,"('basilica', 'NN')",basilica,basilica,description,basilica,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+alongside,alongside,"('alongside', 'IN')",alongsid,alongside,description,alongside,O,,
+doge,doge,"('doge', 'NN')",doge,doge,description,doge,O,,
+castle,castle,"('castle', 'NN')",castl,castle,description,castle,O,,
+accommodate,accommodate,"('accommodate', 'VB')",accommod,accommodate,description,accommodate,O,,
+relics,relics,"('relics', 'NNS')",relic,relic,description,relics,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+Basilica,basilica,"('basilica', 'NN')",basilica,basilica,description,Basilica,O,,
+di,di,"('di', 'VBZ')",di,di,description,di,O,,
+San,san,"('san', 'JJ')",san,san,description,San,O,,
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,O,,
+Palazzo,palazzo,"('palazzo', 'JJ')",palazzo,palazzo,description,Palazzo,O,,
+Ducale,ducale,"('ducale', 'NN')",ducal,ducale,description,Ducale,O,,
+remain,remain,"('remain', 'VB')",remain,remain,description,remain,O,,
+emblems,emblems,"('emblems', 'NNS')",emblem,emblem,description,emblems,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+state,state,"('state', 'NN')",state,state,description,state,O,,
+repository,repository,"('repository', 'NN')",repositori,repository,description,repository,O,,
+power,power,"('power', 'NN')",power,power,description,power,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+almost,almost,"('almost', 'RB')",almost,almost,description,almost,B,CARDINAL,Numerals that do not fall under another type
+one,one,"('one', 'CD')",one,one,description,one,I,CARDINAL,Numerals that do not fall under another type
+thousand,thousand,"('thousand', 'VBP')",thousand,thousand,description,thousand,I,CARDINAL,Numerals that do not fall under another type
+close,close,"('close', 'NN')",close,close,description,close,I,CARDINAL,Numerals that do not fall under another type
+tenth,tenth,"('tenth', 'JJ')",tenth,tenth,description,tenth,I,CARDINAL,Numerals that do not fall under another type
+century,century,"('century', 'NN')",centuri,century,description,century,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+trading,trading,"('trading', 'NN')",trade,trading,description,trading,O,,
+networks,networks,"('networks', 'NNS')",network,network,description,networks,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+established,established,"('established', 'VBN')",establish,establish,description,established,O,,
+concessions,concessions,"('concessions', 'NNS')",concess,concession,description,concessions,O,,
+granted,granted,"('granted', 'VBN')",grant,grant,description,granted,O,,
+Byzantium,byzantium,"('byzantium', 'NN')",byzantium,byzantium,description,Byzantium,B,GPE,"Countries, cities, states"
+markets,markets,"('markets', 'NNS')",market,market,description,markets,O,,
+East,east,"('east', 'NN')",east,east,description,East,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+twelfth,twelfth,"('twelfth', 'JJ')",twelfth,twelfth,description,twelfth,O,,
+century,century,"('century', 'NN')",centuri,century,description,century,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+merchants,merchants,"('merchants', 'NNS')",merchant,merchant,description,merchants,O,,
+exemption,exemption,"('exemption', 'NN')",exempt,exemption,description,exemption,O,,
+tolls,tolls,"('tolls', 'NNS')",toll,toll,description,tolls,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+empire,empire,"('empire', 'NN')",empir,empire,description,empire,O,,
+profiting,profiting,"('profiting', 'VBG')",profit,profit,description,profiting,O,,
+chaos,chaos,"('chaos', 'NN')",chao,chaos,description,chaos,O,,
+followed,followed,"('followed', 'VBD')",follow,follow,description,followed,O,,
+First,first,"('first', 'JJ')",first,first,description,First,B,ORG,"Companies, agencies, institutions, etc."
+Crusade,crusade,"('crusade', 'NN')",crusad,crusade,description,Crusade,I,ORG,"Companies, agencies, institutions, etc."
+launched,launched,"('launched', 'VBN')",launch,launch,description,launched,O,,
+Prosperity,prosperity,"('prosperity', 'NN')",prosper,prosperity,description,Prosperity,B,ORG,"Companies, agencies, institutions, etc."
+found,found,"('found', 'VBN')",found,find,description,found,O,,
+expression,expression,"('expression', 'NN')",express,expression,description,expression,O,,
+fabric,fabric,"('fabric', 'NN')",fabric,fabric,description,fabric,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+basilica,basilica,"('basilica', 'NN')",basilica,basilica,description,basilica,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+mosaics,mosaics,"('mosaics', 'NNS')",mosaic,mosaic,description,mosaics,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+period,period,"('period', 'NN')",period,period,description,period,O,,
+Fourth,fourth,"('fourth', 'JJ')",fourth,fourth,description,Fourth,B,LAW,Named documents made into laws.
+Crusade,crusade,"('crusade', 'NN')",crusad,crusade,description,Crusade,I,LAW,Named documents made into laws.
+diverted,diverted,"('diverted', 'VBD')",divert,divert,description,diverted,O,,
+Constantinople,constantinople,"('constantinople', 'VB')",constantinopl,constantinople,description,Constantinople,O,,
+Venetians,venetians,"('venetians', 'NNS')",venetian,venetian,description,Venetians,B,NORP,Nationalities or religious or political groups
+set,set,"('set', 'VBD')",set,set,description,set,O,,
+seal,seal,"('seal', 'NN')",seal,seal,description,seal,O,,
+maritime,maritime,"('maritime', 'NN')",maritim,maritime,description,maritime,O,,
+empire,empire,"('empire', 'NN')",empir,empire,description,empire,O,,
+brought,brought,"('brought', 'VBD')",brought,bring,description,brought,O,,
+back,back,"('back', 'RP')",back,back,description,back,O,,
+shiploads,shiploads,"('shiploads', 'NNS')",shipload,shipload,description,shiploads,O,,
+treasure,treasure,"('treasure', 'NN')",treasur,treasure,description,treasure,O,,
+including,including,"('including', 'VBG')",includ,include,description,including,O,,
+horses,horses,"('horses', 'NNS')",hors,horse,description,horses,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,ORG,"Companies, agencies, institutions, etc."
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,I,ORG,"Companies, agencies, institutions, etc."
+Sack,sack,"('sack', 'NN')",sack,sack,description,Sack,I,ORG,"Companies, agencies, institutions, etc."
+Constantinople,constantinople,"('constantinople', 'NN')",constantinopl,constantinople,description,Constantinople,O,,
+significant,significant,"('significant', 'JJ')",signific,significant,description,significant,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+division,division,"('division', 'NN')",divis,division,description,division,O,,
+territorial,territorial,"('territorial', 'NN')",territori,territorial,description,territorial,O,,
+spoils,spoils,"('spoils', 'NNS')",spoil,spoil,description,spoils,O,,
+left,left,"('left', 'VBD')",left,leave,description,left,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,DATE,Absolute or relative dates or periods
+quarter,quarter,"('quarter', 'NN')",quarter,quarter,description,quarter,I,DATE,Absolute or relative dates or periods
+half,half,"('half', 'PDT')",half,half,description,half,I,DATE,Absolute or relative dates or periods
+quarter,quarter,"('quarter', 'NN')",quarter,quarter,description,quarter,I,DATE,Absolute or relative dates or periods
+Roman,roman,"('roman', 'NN')",roman,roman,description,Roman,B,GPE,"Countries, cities, states"
+Empire,empire,"('empire', 'NN')",empir,empire,description,Empire,I,GPE,"Countries, cities, states"
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+sway,sway,"('sway', 'NN')",sway,sway,description,sway,O,,
+gave,gave,"('gave', 'VBD')",gave,give,description,gave,O,,
+chain,chain,"('chain', 'NN')",chain,chain,description,chain,O,,
+ports,ports,"('ports', 'NNS')",port,port,description,ports,O,,
+stretched,stretched,"('stretched', 'VBD')",stretch,stretch,description,stretched,O,,
+Black,black,"('black', 'JJ')",black,black,description,Black,B,ORG,"Companies, agencies, institutions, etc."
+Sack,sack,"('sack', 'NN')",sack,sack,description,Sack,I,ORG,"Companies, agencies, institutions, etc."
+Rome,rome,"('rome', 'NN')",rome,rome,description,Rome,I,ORG,"Companies, agencies, institutions, etc."
+whole,whole,"('whole', 'JJ')",whole,whole,description,whole,O,,
+Italian,italian,"('italian', 'JJ')",italian,italian,description,Italian,B,NORP,Nationalities or religious or political groups
+peninsula,peninsula,"('peninsula', 'NN')",peninsula,peninsula,description,peninsula,O,,
+exception,exception,"('exception', 'NN')",except,exception,description,exception,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+came,came,"('came', 'VBD')",came,come,description,came,O,,
+domination,domination,"('domination', 'NN')",domin,domination,description,domination,O,,
+Emperor,emperor,"('emperor', 'NN')",emperor,emperor,description,Emperor,O,,
+Charles,charles,"('charles', 'NNS')",charl,charles,description,Charles,B,PERSON,"People, including fictional"
+Hemmed,hemmed,"('hemmed', 'VBN')",hem,hem,description,Hemmed,I,PERSON,"People, including fictional"
+home,home,"('home', 'NN')",home,home,description,home,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+saw,saw,"('saw', 'VBD')",saw,saw,description,saw,O,,
+overseas,overseas,"('overseas', 'JJ')",oversea,overseas,description,overseas,O,,
+territory,territory,"('territory', 'NN')",territori,territory,description,territory,O,,
+whittled,whittled,"('whittled', 'VBD')",whittl,whittle,description,whittled,O,,
+away,away,"('away', 'RB')",away,away,description,away,O,,
+Turks,turks,"('turks', 'NNS')",turk,turk,description,Turks,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+progressed,progressed,"('progressed', 'VBN')",progress,progress,description,progressed,O,,
+Ottoman,ottoman,"('ottoman', 'NN')",ottoman,ottoman,description,Ottoman,B,GPE,"Countries, cities, states"
+Empire,empire,"('empire', 'NN')",empir,empire,description,Empire,I,GPE,"Countries, cities, states"
+extended,extended,"('extended', 'VBD')",extend,extend,description,extended,O,,
+right,right,"('right', 'RB')",right,right,description,right,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+southern,southern,"('southern', 'JJ')",southern,southern,description,southern,O,,
+Mediterranean,mediterranean,"('mediterranean', 'NN')",mediterranean,mediterranean,description,Mediterranean,B,FAC,"Buildings, airports, highways, bridges, etc."
+Morocco,morocco,"('morocco', 'NN')",morocco,morocco,description,Morocco,I,FAC,"Buildings, airports, highways, bridges, etc."
+even,even,"('even', 'RB')",even,even,description,even,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+naval,naval,"('naval', 'JJ')",naval,naval,description,naval,O,,
+success,success,"('success', 'NN')",success,success,description,success,O,,
+Lepanto,lepanto,"('lepanto', 'NN')",lepanto,lepanto,description,Lepanto,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+followed,followed,"('followed', 'VBN')",follow,follow,description,followed,O,,
+surrender,surrender,"('surrender', 'NN')",surrend,surrender,description,surrender,O,,
+decline,decline,"('decline', 'NN')",declin,decline,description,decline,O,,
+continued,continued,"('continued', 'VBN')",continu,continue,description,continued,O,,
+throughout,throughout,"('throughout', 'IN')",throughout,throughout,description,throughout,O,,
+eighteenth,eighteenth,"('eighteenth', 'JJ')",eighteenth,eighteenth,description,eighteenth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+become,become,"('become', 'VBN')",becom,become,description,become,O,,
+political,political,"('political', 'JJ')",polit,political,description,political,O,,
+nonentity,nonentity,"('nonentity', 'NN')",nonent,nonentity,description,nonentity,O,,
+playground,playground,"('playground', 'NN')",playground,playground,description,playground,O,,
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+casinos,casinos,"('casinos', 'NNS')",casino,casino,description,casinos,O,,
+perpetual,perpetual,"('perpetual', 'JJ')",perpetu,perpetual,description,perpetual,O,,
+festivals,festivals,"('festivals', 'NNS')",festiv,festival,description,festivals,O,,
+Napoleon,napoleon,"('napoleon', 'VBP')",napoleon,napoleon,description,Napoleon,B,NORP,Nationalities or religious or political groups
+finally,finally,"('finally', 'RB')",final,finally,description,finally,O,,
+brought,brought,"('brought', 'VBN')",brought,bring,description,brought,O,,
+show,show,"('show', 'NN')",show,show,description,show,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+May,may,"('may', 'MD')",may,may,description,May,O,,
+Maggior,maggior,"('maggior', 'JJ')",maggior,maggior,description,Maggior,O,,
+Consiglio,consiglio,"('consiglio', 'NN')",consiglio,consiglio,description,Consiglio,O,,
+met,met,"('met', 'VBD')",met,meet,description,met,O,,
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+voting,voting,"('voting', 'VBG')",vote,vote,description,voting,O,,
+accede,accede,"('accede', 'VB')",acced,accede,description,accede,O,,
+Napoleon,napoleon,"('napoleon', 'JJ')",napoleon,napoleon,description,Napoleon,B,NORP,Nationalities or religious or political groups
+demand,demand,"('demand', 'NN')",demand,demand,description,demand,O,,
+dismantle,dismantle,"('dismantle', 'VBZ')",dismantl,dismantle,description,dismantle,O,,
+machinery,machinery,"('machinery', 'NN')",machineri,machinery,description,machinery,O,,
+government,government,"('government', 'NN')",govern,government,description,government,O,,
+Waterloo,waterloo,"('waterloo', 'JJ')",waterloo,waterloo,description,Waterloo,B,PERSON,"People, including fictional"
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,I,PERSON,"People, including fictional"
+fell,fell,"('fell', 'VBD')",fell,fell,description,fell,O,,
+Austrians,austrians,"('austrians', 'NNS')",austrian,austrian,description,Austrians,B,NORP,Nationalities or religious or political groups
+remained,remained,"('remained', 'VBD')",remain,remain,description,remained,O,,
+Habsburg,habsburg,"('habsburg', 'JJ')",habsburg,habsburg,description,Habsburg,B,GPE,"Countries, cities, states"
+province,province,"('province', 'NN')",provinc,province,description,province,O,,
+united,united,"('united', 'JJ')",unit,united,description,united,O,,
+Kingdom,kingdom,"('kingdom', 'NN')",kingdom,kingdom,description,Kingdom,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Italy,italy,"('italy', 'NN')",itali,italy,description,Italy,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+need,need,"('need', 'NN')",need,need,description,need,O,,
+substantial,substantial,"('substantial', 'JJ')",substanti,substantial,description,substantial,O,,
+economic,economic,"('economic', 'JJ')",econom,economic,description,economic,O,,
+base,base,"('base', 'NN')",base,base,description,base,O,,
+led,led,"('led', 'VBD')",led,lead,description,led,O,,
+wake,wake,"('wake', 'NN')",wake,wake,description,wake,O,,
+World,world,"('world', 'NN')",world,world,description,World,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+construction,construction,"('construction', 'NN')",construct,construction,description,construction,O,,
+industrial,industrial,"('industrial', 'JJ')",industri,industrial,description,industrial,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+Marghera,marghera,"('marghera', 'NN')",marghera,marghera,description,Marghera,B,GPE,"Countries, cities, states"
+adjacent,adjacent,"('adjacent', 'NN')",adjac,adjacent,description,adjacent,O,,
+Mestre,mestre,"('mestre', 'VB')",mestr,mestre,description,Mestre,B,PERSON,"People, including fictional"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+connected,connected,"('connected', 'VBN')",connect,connect,description,connected,O,,
+Venice,venice,"('venice', 'VB')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+road,road,"('road', 'NN')",road,road,description,road,O,,
+link,link,"('link', 'NN')",link,link,description,link,O,,
+World,world,"('world', 'NN')",world,world,description,World,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+II,ii,"('ii', 'NN')",ii,ii,description,II,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+growth,growth,"('growth', 'NN')",growth,growth,description,growth,O,,
+accelerated,accelerated,"('accelerated', 'VBD')",acceler,accelerate,description,accelerated,O,,
+greatly,greatly,"('greatly', 'RB')",greatli,greatly,description,greatly,O,,
+mainland,mainland,"('mainland', 'NN')",mainland,mainland,description,mainland,O,,
+conurbation,conurbation,"('conurbation', 'NN')",conurb,conurbation,description,conurbation,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+continued,continued,"('continued', 'VBN')",continu,continue,description,continued,O,,
+expand,expand,"('expand', 'VB')",expand,expand,description,expand,O,,
+detriment,detriment,"('detriment', 'NN')",detriment,detriment,description,detriment,O,,
+centro,centro,"('centro', 'NN')",centro,centro,description,centro,O,,
+storico,storico,"('storico', 'VBD')",storico,storico,description,storico,O,,
+factories,factories,"('factories', 'NNS')",factori,factory,description,factories,O,,
+essential,essential,"('essential', 'JJ')",essenti,essential,description,essential,O,,
+economy,economy,"('economy', 'NN')",economi,economy,description,economy,O,,
+province,province,"('province', 'NN')",provinc,province,description,province,O,,
+caused,caused,"('caused', 'VBN')",caus,cause,description,caused,O,,
+problems,problems,"('problems', 'NNS')",problem,problem,description,problems,O,,
+apart,apart,"('apart', 'RB')",apart,apart,description,apart,O,,
+polluting,polluting,"('polluting', 'VBG')",pollut,pollute,description,polluting,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+siphoned,siphoned,"('siphoned', 'VBN')",siphon,siphon,description,siphoned,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+cheaper,cheaper,"('cheaper', 'JJR')",cheaper,cheap,description,cheaper,O,,
+housing,housing,"('housing', 'NN')",hous,housing,description,housing,O,,
+Mestre,mestre,"('mestre', 'NN')",mestr,mestre,description,Mestre,B,PERSON,"People, including fictional"
+making,making,"('making', 'VBG')",make,make,description,making,O,,
+today,today,"('today', 'NN')",today,today,description,today,B,DATE,Absolute or relative dates or periods
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+times,times,"('times', 'NNS')",time,time,description,times,O,,
+larger,larger,"('larger', 'JJR')",larger,large,description,larger,O,,
+historic,historic,"('historic', 'JJ')",histor,historic,description,historic,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+outlying,outlying,"('outlying', 'NN')",outli,outlying,description,outlying,O,,
+islands,islands,"('islands', 'VBZ')",island,islands,description,islands,O,,
+population,population,"('population', 'NN')",popul,population,description,population,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+dropped,dropped,"('dropped', 'VBN')",drop,drop,description,dropped,O,,
+since,since,"('since', 'IN')",sinc,since,description,since,O,,
+World,world,"('world', 'NN')",world,world,description,World,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+II,ii,"('ii', 'NN')",ii,ii,description,II,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+around,around,"('around', 'IN')",around,around,description,around,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+suffered,suffered,"('suffered', 'VBN')",suffer,suffer,description,suffered,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+industry,industry,"('industry', 'NN')",industri,industry,description,industry,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+place,place,"('place', 'NN')",place,place,description,place,O,,
+would,would,"('would', 'MD')",would,would,description,would,O,,
+barely,barely,"('barely', 'RB')",bare,barely,description,barely,O,,
+survive,survive,"('survive', 'VB')",surviv,survive,description,survive,O,,
+without,without,"('without', 'IN')",without,without,description,without,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+treasures,treasures,"('treasures', 'NNS')",treasur,treasure,description,treasures,O,,
+remain,remain,"('remain', 'VBP')",remain,remain,description,remain,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+created,created,"('created', 'VBN')",creat,create,description,created,O,,
+sizeable,sizeable,"('sizeable', 'JJ')",sizeabl,sizeable,description,sizeable,O,,
+number,number,"('number', 'NN')",number,number,description,number,O,,
+removed,removed,"('removed', 'VBN')",remov,remove,description,removed,O,,
+Venice,venice,"('venice', 'VB')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+museums,museums,"('museums', 'IN')",museum,museum,description,museums,O,,
+one,one,"('one', 'NN')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+missed,missed,"('missed', 'VBN')",miss,miss,description,missed,O,,
+Accademia,accademia,"('accademia', 'NN')",accademia,accademia,description,Accademia,B,PERSON,"People, including fictional"
+assembly,assembly,"('assembly', 'NN')",assembl,assembly,description,assembly,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+painting,painting,"('painting', 'NN')",paint,painting,description,painting,O,,
+consists,consists,"('consists', 'VBZ')",consist,consist,description,consists,O,,
+virtually,virtually,"('virtually', 'RB')",virtual,virtually,description,virtually,O,,
+nothing,nothing,"('nothing', 'NN')",noth,nothing,description,nothing,O,,
+masterpieces,masterpieces,"('masterpieces', 'VBZ')",masterpiec,masterpieces,description,masterpieces,O,,
+prominent,prominent,"('prominent', 'JJ')",promin,prominent,description,prominent,O,,
+collections,collections,"('collections', 'NNS')",collect,collection,description,collections,O,,
+include,include,"('include', 'VBP')",includ,include,description,include,O,,
+museum,museum,"('museum', 'NN')",museum,museum,description,museum,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Rezzonico,rezzonico,"('rezzonico', 'VB')",rezzonico,rezzonico,description,Rezzonico,B,PERSON,"People, including fictional"
+Museo,museo,"('museo', 'NN')",museo,museo,description,Museo,I,PERSON,"People, including fictional"
+Correr,correr,"('correr', 'VBZ')",correr,correr,description,Correr,I,PERSON,"People, including fictional"
+civic,civic,"('civic', 'JJ')",civic,civic,description,civic,O,,
+museum,museum,"('museum', 'NN')",museum,museum,description,museum,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+superb,superb,"('superb', 'JJ')",superb,superb,description,superb,O,,
+showcase,showcase,"('showcase', 'NN')",showcas,showcase,description,showcase,O,,
+contemporary,contemporary,"('contemporary', 'JJ')",contemporari,contemporary,description,contemporary,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+Punta,punta,"('punta', 'NN')",punta,punta,description,Punta,B,PERSON,"People, including fictional"
+della,della,"('della', 'NN')",della,della,description,della,O,,
+cultural,cultural,"('cultural', 'JJ')",cultur,cultural,description,cultural,O,,
+heritage,heritage,"('heritage', 'NN')",heritag,heritage,description,heritage,O,,
+source,source,"('source', 'NN')",sourc,source,description,source,O,,
+endless,endless,"('endless', 'JJ')",endless,endless,description,endless,O,,
+fascination,fascination,"('fascination', 'NN')",fascin,fascination,description,fascination,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+allow,allow,"('allow', 'VB')",allow,allow,description,allow,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+wander,wander,"('wander', 'VB')",wander,wander,description,wander,O,,
+anonymous,anonymous,"('anonymous', 'JJ')",anonym,anonymous,description,anonymous,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+reveal,reveal,"('reveal', 'NN')",reveal,reveal,description,reveal,O,,
+much,much,"('much', 'JJ')",much,much,description,much,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+essence,essence,"('essence', 'NN')",essenc,essence,description,essence,O,,
+highlighted,highlighted,"('highlighted', 'JJ')",highlight,highlighted,description,highlighted,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,description,attractions,O,,
+equally,equally,"('equally', 'RB')",equal,equally,description,equally,O,,
+indispensable,indispensable,"('indispensable', 'JJ')",indispens,indispensable,description,indispensable,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+understanding,understanding,"('understanding', 'NN')",understand,understanding,description,understanding,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+way,way,"('way', 'NN')",way,way,description,way,O,,
+life,life,"('life', 'NN')",life,life,description,life,O,,
+development,development,"('development', 'NN')",develop,development,description,development,O,,
+expeditions,expeditions,"('expeditions', 'NNS')",expedit,expedition,description,expeditions,O,,
+outer,outer,"('outer', 'NN')",outer,outer,description,outer,O,,
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+acqua,acqua,"('acqua', 'JJ')",acqua,acqua,description,acqua,B,PERSON,"People, including fictional"
+alta,alta,"('alta', 'NN')",alta,alta,description,alta,O,,
+winter,winter,"('winter', 'NN')",winter,winter,description,winter,O,,
+flooding,flooding,"('flooding', 'NN')",flood,flooding,description,flooding,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+caused,caused,"('caused', 'VBN')",caus,cause,description,caused,O,,
+combination,combination,"('combination', 'NN')",combin,combination,description,combination,O,,
+seasonal,seasonal,"('seasonal', 'JJ')",season,seasonal,description,seasonal,O,,
+tides,tides,"('tides', 'NNS')",tide,tide,description,tides,O,,
+fluctuations,fluctuations,"('fluctuations', 'NNS')",fluctuat,fluctuation,description,fluctuations,O,,
+atmospheric,atmospheric,"('atmospheric', 'JJ')",atmospher,atmospheric,description,atmospheric,O,,
+pressure,pressure,"('pressure', 'NN')",pressur,pressure,description,pressure,O,,
+Adriatic,adriatic,"('adriatic', 'JJ')",adriat,adriatic,description,Adriatic,B,NORP,Nationalities or religious or political groups
+persistent,persistent,"('persistent', 'JJ')",persist,persistent,description,persistent,O,,
+southeasterly,southeasterly,"('southeasterly', 'JJ')",southeasterli,southeasterly,description,southeasterly,O,,
+winds,winds,"('winds', 'NNS')",wind,wind,description,winds,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+always,always,"('always', 'RB')",alway,always,description,always,O,,
+feature,feature,"('feature', 'NN')",featur,feature,description,feature,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+life,life,"('life', 'NN')",life,life,description,life,O,,
+recent,recent,"('recent', 'JJ')",recent,recent,description,recent,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+however,however,"('however', 'RB')",howev,however,description,however,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+getting,getting,"('getting', 'VBG')",get,get,description,getting,O,,
+worse,worse,"('worse', 'JJR')",wors,bad,description,worse,O,,
+eight,eight,"('eight', 'CD')",eight,eight,description,eight,B,CARDINAL,Numerals that do not fall under another type
+floods,floods,"('floods', 'NNS')",flood,flood,description,floods,O,,
+preceding,preceding,"('preceding', 'JJ')",preced,preceding,description,preceding,O,,
+fifty,fifty,"('fifty', 'JJ')",fifti,fifty,description,fifty,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+siren,siren,"('siren', 'NN')",siren,siren,description,siren,I,DATE,Absolute or relative dates or periods
+sounds,sounds,"('sounds', 'VBZ')",sound,sound,description,sounds,O,,
+expect,expect,"('expect', 'VB')",expect,expect,description,expect,O,,
+serious,serious,"('serious', 'JJ')",seriou,serious,description,serious,O,,
+flood,flood,"('flood', 'NN')",flood,flood,description,flood,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,TIME,Times smaller than a day
+four,four,"('four', 'CD')",four,four,description,four,I,TIME,Times smaller than a day
+hours,hours,"('hours', 'NNS')",hour,hour,description,hours,I,TIME,Times smaller than a day
+time,time,"('time', 'NN')",time,time,description,time,O,,
+system,system,"('system', 'NN')",system,system,description,system,O,,
+plank,plank,"('plank', 'NN')",plank,plank,description,plank,O,,
+walkways,walkways,"('walkways', 'NNS')",walkway,walkway,description,walkways,O,,
+immediately,immediately,"('immediately', 'RB')",immedi,immediately,description,immediately,O,,
+set,set,"('set', 'VBN')",set,set,description,set,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+usual,usual,"('usual', 'JJ')",usual,usual,description,usual,O,,
+season,season,"('season', 'NN')",season,season,description,season,B,DATE,Absolute or relative dates or periods
+October,october,"('october', 'VBN')",octob,october,description,October,I,DATE,Absolute or relative dates or periods
+March,march,"('march', 'VB')",march,march,description,March,I,DATE,Absolute or relative dates or periods
+worst,worst,"('worst', 'JJS')",worst,bad,description,worst,O,,
+flooding,flooding,"('flooding', 'NN')",flood,flooding,description,flooding,O,,
+November,november,"('november', 'NN')",novemb,november,description,November,B,DATE,Absolute or relative dates or periods
+February,february,"('february', 'JJ')",februari,february,description,February,I,DATE,Absolute or relative dates or periods
+floods,floods,"('floods', 'NNS')",flood,flood,description,floods,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+minor,minor,"('minor', 'JJ')",minor,minor,description,minor,O,,
+cause,cause,"('cause', 'VB')",caus,cause,description,cause,O,,
+disruption,disruption,"('disruption', 'NN')",disrupt,disruption,description,disruption,O,,
+grand,grand,"('grand', 'JJ')",grand,grand,description,grand,O,,
+plan,plan,"('plan', 'NN')",plan,plan,description,plan,O,,
+implemented,implemented,"('implemented', 'VBN')",implement,implement,description,implemented,O,,
+protect,protect,"('protect', 'VB')",protect,protect,description,protect,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+involving,involving,"('involving', 'VBG')",involv,involve,description,involving,O,,
+building,building,"('building', 'VBG')",build,build,description,building,O,,
+tidal,tidal,"('tidal', 'JJ')",tidal,tidal,description,tidal,O,,
+barrier,barrier,"('barrier', 'NN')",barrier,barrier,description,barrier,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+entrances,entrances,"('entrances', 'NNS')",entranc,entrance,description,entrances,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+barrier,barrier,"('barrier', 'NN')",barrier,barrier,description,barrier,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+aroused,aroused,"('aroused', 'VBN')",arous,arouse,description,aroused,O,,
+considerable,considerable,"('considerable', 'JJ')",consider,considerable,description,considerable,O,,
+opposition,opposition,"('opposition', 'NN')",opposit,opposition,description,opposition,O,,
+cost,cost,"('cost', 'NN')",cost,cost,description,cost,O,,
+potential,potential,"('potential', 'JJ')",potenti,potential,description,potential,O,,
+environmental,environmental,"('environmental', 'JJ')",environment,environmental,description,environmental,O,,
+impact,impact,"('impact', 'NN')",impact,impact,description,impact,O,,
+However,however,"('however', 'RB')",howev,however,description,However,O,,
+mounting,mounting,"('mounting', 'VBG')",mount,mount,description,mounting,O,,
+concern,concern,"('concern', 'NN')",concern,concern,description,concern,O,,
+global,global,"('global', 'JJ')",global,global,description,global,O,,
+warming,warming,"('warming', 'NN')",warm,warming,description,warming,O,,
+gave,gave,"('gave', 'VBD')",gave,give,description,gave,O,,
+matter,matter,"('matter', 'NN')",matter,matter,description,matter,O,,
+urgency,urgency,"('urgency', 'NN')",urgenc,urgency,description,urgency,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+finally,finally,"('finally', 'RB')",final,finally,description,finally,O,,
+began,began,"('began', 'VBD')",began,begin,description,began,O,,
+barrier,barrier,"('barrier', 'NN')",barrier,barrier,description,barrier,O,,
+Delays,delays,"('delays', 'NNS')",delay,delay,description,Delays,O,,
+corruption,corruption,"('corruption', 'NN')",corrupt,corruption,description,corruption,O,,
+engineering,engineering,"('engineering', 'NN')",engin,engineering,description,engineering,O,,
+problems,problems,"('problems', 'NNS')",problem,problem,description,problems,O,,
+dogged,dogged,"('dogged', 'VBN')",dog,dog,description,dogged,O,,
+project,project,"('project', 'NN')",project,project,description,project,O,,
+scheduled,scheduled,"('scheduled', 'VBN')",schedul,schedule,description,scheduled,O,,
+completion,completion,"('completion', 'NN')",complet,completion,description,completion,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+Venetians,venetians,"('venetians', 'NNS')",venetian,venetian,description,Venetians,B,NORP,Nationalities or religious or political groups
+think,think,"('think', 'VBP')",think,think,description,think,O,,
+functioning,functioning,"('functioning', 'VBG')",function,function,description,functioning,O,,
+sweets,sweets,"('sweets', 'NNS')",sweet,sweet,description,sweets,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+expertise,expertise,"('expertise', 'NN')",expertis,expertise,description,expertise,O,,
+Look,look,"('look', 'NN')",look,look,description,Look,O,,
+thin,thin,"('thin', 'JJ')",thin,thin,description,thin,O,,
+oval,oval,"('oval', 'NN')",oval,oval,description,oval,O,,
+biscuits,biscuits,"('biscuits', 'NNS')",biscuit,biscuit,description,biscuits,O,,
+called,called,"('called', 'VBN')",call,call,description,called,O,,
+baicoli,baicoli,"('baicoli', 'VBP')",baicoli,baicoli,description,baicoli,O,,
+bussolai,bussolai,"('bussolai', 'NN')",bussolai,bussolai,description,bussolai,O,,
+speciality,speciality,"('speciality', 'NN')",special,speciality,description,speciality,O,,
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+island,island,"('island', 'NN')",island,island,description,island,O,,
+Burano,burano,"('burano', 'NN')",burano,burano,description,Burano,B,ORG,"Companies, agencies, institutions, etc."
+mandorlato,mandorlato,"('mandorlato', 'VB')",mandorlato,mandorlato,description,mandorlato,O,,
+cross,cross,"('cross', 'NN')",cross,cross,description,cross,O,,
+nougat,nougat,"('nougat', 'NNS')",nougat,nougat,description,nougat,O,,
+toffee,toffee,"('toffee', 'NN')",toffe,toffee,description,toffee,O,,
+made,made,"('made', 'VBN')",made,make,description,made,O,,
+newest,newest,"('newest', 'JJ')",newest,new,description,newest,O,,
+feature,feature,"('feature', 'NN')",featur,feature,description,feature,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+cityscape,cityscape,"('cityscape', 'NN')",cityscap,cityscape,description,cityscape,O,,
+officially,officially,"('officially', 'RB')",offici,officially,description,officially,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+Ponte,ponte,"('ponte', 'NN')",pont,ponte,description,Ponte,B,PERSON,"People, including fictional"
+della,della,"('della', 'NN')",della,della,description,della,I,PERSON,"People, including fictional"
+Costituzione,costituzione,"('costituzione', 'NN')",costituzion,costituzione,description,Costituzione,I,PERSON,"People, including fictional"
+Venetians,venetians,"('venetians', 'NNS')",venetian,venetian,description,Venetians,O,,
+generally,generally,"('generally', 'RB')",gener,generally,description,generally,O,,
+use,use,"('use', 'VBP')",use,use,description,use,O,,
+name,name,"('name', 'NN')",name,name,description,name,O,,
+designer,designer,"('designer', 'NN')",design,designer,description,designer,O,,
+Santiago,santiago,"('santiago', 'NN')",santiago,santiago,description,Santiago,B,PERSON,"People, including fictional"
+Calatrava,calatrava,"('calatrava', 'VBD')",calatrava,calatrava,description,Calatrava,I,PERSON,"People, including fictional"
+elegant,elegant,"('elegant', 'JJ')",eleg,elegant,description,elegant,O,,
+arc,arc,"('arc', 'NN')",arc,arc,description,arc,O,,
+steel,steel,"('steel', 'NN')",steel,steel,description,steel,O,,
+stone,stone,"('stone', 'NN')",stone,stone,description,stone,O,,
+glass,glass,"('glass', 'NN')",glass,glass,description,glass,O,,
+modelled,modelled,"('modelled', 'VBN')",model,model,description,modelled,O,,
+gondola,gondola,"('gondola', 'NN')",gondola,gondola,description,gondola,O,,
+successor,successor,"('successor', 'NN')",successor,successor,description,successor,O,,
+iron,iron,"('iron', 'NN')",iron,iron,description,iron,O,,
+structure,structure,"('structure', 'NN')",structur,structure,description,structure,O,,
+put,put,"('put', 'VBD')",put,put,description,put,O,,
+Austrians,austrians,"('austrians', 'NNS')",austrian,austrian,description,Austrians,B,NORP,Nationalities or religious or political groups
+replaced,replaced,"('replaced', 'VBN')",replac,replace,description,replaced,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,O,,
+give,give,"('give', 'VB')",give,give,description,give,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+steamboats,steamboats,"('steamboats', 'NNS')",steamboat,steamboat,description,steamboats,O,,
+sufficient,sufficient,"('sufficient', 'JJ')",suffici,sufficient,description,sufficient,O,,
+private,private,"('private', 'JJ')",privat,private,description,private,O,,
+house,house,"('house', 'NN')",hous,house,description,house,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,B,DATE,Absolute or relative dates or periods
+thirteenth,thirteenth,"('thirteenth', 'JJ')",thirteenth,thirteenth,description,thirteenth,I,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+Fondaco,fondaco,"('fondaco', 'JJ')",fondaco,fondaco,description,Fondaco,B,GPE,"Countries, cities, states"
+dei,dei,"('dei', 'NN')",dei,dei,description,dei,O,,
+Turchi,turchi,"('turchi', 'NN')",turchi,turchi,description,Turchi,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+turned,turned,"('turned', 'VBN')",turn,turn,description,turned,O,,
+Turkish,turkish,"('turkish', 'JJ')",turkish,turkish,description,Turkish,B,NORP,Nationalities or religious or political groups
+traders,traders,"('traders', 'NNS')",trader,trader,description,traders,O,,
+stayed,stayed,"('stayed', 'VBD')",stay,stay,description,stayed,O,,
+Though,though,"('though', 'IN')",though,though,description,Though,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+towers,towers,"('towers', 'NNS')",tower,tower,description,towers,O,,
+arcade,arcade,"('arcade', 'VB')",arcad,arcade,description,arcade,O,,
+give,give,"('give', 'VB')",give,give,description,give,O,,
+reasonably,reasonably,"('reasonably', 'RB')",reason,reasonably,description,reasonably,O,,
+precise,precise,"('precise', 'JJ')",precis,precise,description,precise,O,,
+picture,picture,"('picture', 'NN')",pictur,picture,description,picture,O,,
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+would,would,"('would', 'MD')",would,would,description,would,O,,
+looked,looked,"('looked', 'VBN')",look,look,description,looked,O,,
+like,like,"('like', 'IN')",like,like,description,like,O,,
+natural,natural,"('natural', 'JJ')",natur,natural,description,natural,O,,
+history,history,"('history', 'NN')",histori,history,description,history,O,,
+Mauro,mauro,"('mauro', 'NN')",mauro,mauro,description,Mauro,B,PERSON,"People, including fictional"
+Codussi,codussi,"('codussi', 'NN')",codussi,codussi,description,Codussi,I,PERSON,"People, including fictional"
+very,very,"('very', 'JJ')",veri,very,description,very,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+fifteenth,fifteenth,"('fifteenth', 'JJ')",fifteenth,fifteenth,description,fifteenth,O,,
+century,century,"('century', 'NN')",centuri,century,description,century,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+Venetian,venetian,"('venetian', 'JJ')",venetian,venetian,description,Venetian,B,NORP,Nationalities or religious or political groups
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+Renaissance,renaissance,"('renaissance', 'NN')",renaiss,renaissance,description,Renaissance,B,ORG,"Companies, agencies, institutions, etc."
+lines,lines,"('lines', 'NNS')",line,line,description,lines,O,,
+palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,palazzo,O,,
+famous,famous,"('famous', 'JJ')",famou,famous,description,famous,O,,
+resident,resident,"('resident', 'NN')",resid,resident,description,resident,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+Richard,richard,"('richard', 'JJ')",richard,richard,description,Richard,B,PERSON,"People, including fictional"
+Wagner,wagner,"('wagner', 'NN')",wagner,wagner,description,Wagner,I,PERSON,"People, including fictional"
+died,died,"('died', 'VBD')",die,die,description,died,O,,
+February,february,"('february', 'JJ')",februari,february,description,February,B,DATE,Absolute or relative dates or periods
+thickly,thickly,"('thickly', 'NN')",thickli,thickly,description,thickly,I,DATE,Absolute or relative dates or periods
+ornamented,ornamented,"('ornamented', 'VBD')",ornament,ornament,description,ornamented,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Pésaro,pésaro,"('pésaro', 'VB')",pésaro,pésaro,description,Pésaro,O,,
+bristling,bristling,"('bristling', 'VBG')",bristl,bristle,description,bristling,O,,
+spikes,spikes,"('spikes', 'NNS')",spike,spike,description,spikes,O,,
+grotesque,grotesque,"('grotesque', 'JJ')",grotesqu,grotesque,description,grotesque,O,,
+heads,heads,"('heads', 'NNS')",head,head,description,heads,O,,
+took,took,"('took', 'VBD')",took,take,description,took,O,,
+half,half,"('half', 'PDT')",half,half,description,half,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+build,build,"('build', 'VB')",build,build,description,build,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+finished,finished,"('finished', 'VBN')",finish,finish,description,finished,O,,
+long,long,"('long', 'RB')",long,long,description,long,O,,
+death,death,"('death', 'NN')",death,death,description,death,O,,
+architect,architect,"('architect', 'NN')",architect,architect,description,architect,O,,
+Baldassare,baldassare,"('baldassare', 'NN')",baldassar,baldassare,description,Baldassare,O,,
+palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,palazzo,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+site,site,"('site', 'NN')",site,site,description,site,O,,
+home,home,"('home', 'NN')",home,home,description,home,O,,
+Caterina,caterina,"('caterina', 'NN')",caterina,caterina,description,Caterina,B,PERSON,"People, including fictional"
+Cornaro,cornaro,"('cornaro', 'NN')",cornaro,cornaro,description,Cornaro,I,PERSON,"People, including fictional"
+Queen,queen,"('queen', 'NN')",queen,queen,description,Queen,I,PERSON,"People, including fictional"
+Cyprus,cyprus,"('cyprus', 'NN')",cypru,cyprus,description,Cyprus,I,PERSON,"People, including fictional"
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+takes,takes,"('takes', 'VBZ')",take,take,description,takes,O,,
+fragments,fragments,"('fragments', 'NNS')",fragment,fragment,description,fragments,O,,
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+once,once,"('once', 'RB')",onc,once,description,once,O,,
+stood,stood,"('stood', 'VBD')",stood,stand,description,stood,O,,
+site,site,"('site', 'NN')",site,site,description,site,O,,
+gorgeous,gorgeous,"('gorgeous', 'JJ')",gorgeou,gorgeous,description,gorgeous,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Oro,oro,"('oro', 'NN')",oro,oro,description,Oro,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+acquired,acquired,"('acquired', 'VBD')",acquir,acquire,description,acquired,O,,
+nickname,nickname,"('nickname', 'NN')",nicknam,nickname,description,nickname,O,,
+Golden,golden,"('golden', 'JJ')",golden,golden,description,Golden,B,ORG,"Companies, agencies, institutions, etc."
+House,house,"('house', 'NN')",hous,house,description,House,I,ORG,"Companies, agencies, institutions, etc."
+gilding,gilding,"('gilding', 'NN')",gild,gilding,description,gilding,O,,
+used,used,"('used', 'VBD')",use,use,description,used,O,,
+accentuate,accentuate,"('accentuate', 'VB')",accentu,accentuate,description,accentuate,O,,
+arches,arches,"('arches', 'NNS')",arch,arch,description,arches,O,,
+first,first,"('first', 'JJ')",first,first,description,first,O,,
+storey,storey,"('storey', 'NN')",storey,storey,description,storey,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,B,PERSON,"People, including fictional"
+da,da,"('da', 'VB')",da,da,description,da,I,PERSON,"People, including fictional"
+Mosto,mosto,"('mosto', 'NN')",mosto,mosto,description,Mosto,I,PERSON,"People, including fictional"
+carved,carved,"('carved', 'JJ')",carv,carved,description,carved,O,,
+panels,panels,"('panels', 'NNS')",panel,panel,description,panels,O,,
+above,above,"('above', 'IN')",abov,above,description,above,O,,
+remnants,remnants,"('remnants', 'NNS')",remnant,remnant,description,remnants,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+thus,thus,"('thus', 'RB')",thu,thus,description,thus,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+oldest,oldest,"('oldest', 'JJS')",oldest,old,description,oldest,O,,
+structures,structures,"('structures', 'NNS')",structur,structure,description,structures,O,,
+Rialto,rialto,"('rialto', 'NN')",rialto,rialto,description,Rialto,O,,
+market,market,"('market', 'NN')",market,market,description,market,O,,
+may,may,"('may', 'MD')",may,may,description,may,O,,
+lot,lot,"('lot', 'NN')",lot,lot,description,lot,O,,
+tamer,tamer,"('tamer', 'JJR')",tamer,tame,description,tamer,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+peak,peak,"('peak', 'NN')",peak,peak,description,peak,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+liveliest,liveliest,"('liveliest', 'JJS')",liveliest,lively,description,liveliest,O,,
+spots,spots,"('spots', 'NNS')",spot,spot,description,spots,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+possible,possible,"('possible', 'JJ')",possibl,possible,description,possible,O,,
+stand,stand,"('stand', 'VB')",stand,stand,description,stand,O,,
+crowd,crowd,"('crowd', 'NN')",crowd,crowd,description,crowd,O,,
+hear,hear,"('hear', 'JJ')",hear,hear,description,hear,O,,
+nothing,nothing,"('nothing', 'NN')",noth,nothing,description,nothing,O,,
+Italian,italian,"('italian', 'JJ')",italian,italian,description,Italian,B,NORP,Nationalities or religious or political groups
+spoken,spoken,"('spoken', 'NN')",spoken,spoken,description,spoken,O,,
+shoal,shoal,"('shoal', 'NN')",shoal,shoal,description,shoal,O,,
+sellers,sellers,"('sellers', 'NNS')",seller,seller,description,sellers,O,,
+church,church,"('church', 'NN')",church,church,description,church,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+Ruga,ruga,"('ruga', 'NN')",ruga,ruga,description,Ruga,B,ORG,"Companies, agencies, institutions, etc."
+degli,degli,"('degli', 'NN')",degli,degli,description,degli,I,ORG,"Companies, agencies, institutions, etc."
+Orefici,orefici,"('orefici', 'IN')",orefici,orefici,description,Orefici,I,ORG,"Companies, agencies, institutions, etc."
+market,market,"('market', 'NN')",market,market,description,market,O,,
+proper,proper,"('proper', 'JJ')",proper,proper,description,proper,O,,
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+mainly,mainly,"('mainly', 'RB')",mainli,mainly,description,mainly,O,,
+fruit,fruit,"('fruit', 'NN')",fruit,fruit,description,fruit,O,,
+stalls,stalls,"('stalls', 'VBZ')",stall,stall,description,stalls,O,,
+around,around,"('around', 'IN')",around,around,description,around,O,,
+Campo,campo,"('campo', 'NN')",campo,campo,description,Campo,B,FAC,"Buildings, airports, highways, bridges, etc."
+San,san,"('san', 'JJ')",san,san,description,San,I,FAC,"Buildings, airports, highways, bridges, etc."
+Giacomo,giacomo,"('giacomo', 'NN')",giacomo,giacomo,description,Giacomo,I,FAC,"Buildings, airports, highways, bridges, etc."
+vegetable,vegetable,"('vegetable', 'JJ')",veget,vegetable,description,vegetable,O,,
+stalls,stalls,"('stalls', 'NNS')",stall,stall,description,stalls,O,,
+butchers,butchers,"('butchers', 'NNS')",butcher,butcher,description,butchers,O,,
+shops,shops,"('shops', 'VBP')",shop,shop,description,shops,O,,
+go,go,"('go', 'VBP')",go,go,description,go,O,,
+Campo,campo,"('campo', 'NN')",campo,campo,description,Campo,B,ORG,"Companies, agencies, institutions, etc."
+Battisti,battisti,"('battisti', 'NN')",battisti,battisti,description,Battisti,I,ORG,"Companies, agencies, institutions, etc."
+come,come,"('come', 'VBP')",come,come,description,come,O,,
+fish,fish,"('fish', 'NN')",fish,fish,description,fish,O,,
+market,market,"('market', 'NN')",market,market,description,market,O,,
+threatened,threatened,"('threatened', 'VBN')",threaten,threaten,description,threatened,O,,
+closure,closure,"('closure', 'NN')",closur,closure,description,closure,O,,
+because,because,"('because', 'IN')",becaus,because,description,because,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+declining,declining,"('declining', 'VBG')",declin,decline,description,declining,O,,
+fondaco,fondaco,"('fondaco', 'NN')",fondaco,fondaco,description,fondaco,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+once,once,"('once', 'RB')",onc,once,description,once,O,,
+headquarters,headquarters,"('headquarters', 'NNS')",headquart,headquarters,description,headquarters,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+German,german,"('german', 'JJ')",german,german,description,German,B,NORP,Nationalities or religious or political groups
+merchants,merchants,"('merchants', 'NNS')",merchant,merchant,description,merchants,O,,
+early,early,"('early', 'RB')",earli,early,description,early,O,,
+leasing,leasing,"('leasing', 'VBG')",leas,lease,description,leasing,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+Fondaco,fondaco,"('fondaco', 'NN')",fondaco,fondaco,description,Fondaco,B,GPE,"Countries, cities, states"
+burned,burned,"('burned', 'VBD')",burn,burn,description,burned,O,,
+Giorgione,giorgione,"('giorgione', 'NN')",giorgion,giorgione,description,Giorgione,B,ORG,"Companies, agencies, institutions, etc."
+Titian,titian,"('titian', 'JJ')",titian,titian,description,Titian,I,ORG,"Companies, agencies, institutions, etc."
+commissioned,commissioned,"('commissioned', 'VBN')",commiss,commission,description,commissioned,O,,
+paint,paint,"('paint', 'VB')",paint,paint,description,paint,O,,
+exterior,exterior,"('exterior', 'NN')",exterior,exterior,description,exterior,O,,
+replacement,replacement,"('replacement', 'NN')",replac,replacement,description,replacement,O,,
+remnants,remnants,"('remnants', 'NNS')",remnant,remnant,description,remnants,O,,
+contribution,contribution,"('contribution', 'NN')",contribut,contribution,description,contribution,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+famous,famous,"('famous', 'JJ')",famou,famous,description,famous,O,,
+Ponte,ponte,"('ponte', 'NN')",pont,ponte,description,Ponte,B,PERSON,"People, including fictional"
+di,di,"('di', 'NN')",di,di,description,di,O,,
+Rialto,rialto,"('rialto', 'NN')",rialto,rialto,description,Rialto,O,,
+Rialto,rialto,"('rialto', 'NN')",rialto,rialto,description,Rialto,O,,
+Bridge,bridge,"('bridge', 'VBP')",bridg,bridge,description,Bridge,O,,
+perpetually,perpetually,"('perpetually', 'RB')",perpetu,perpetually,description,perpetually,O,,
+thronged,thronged,"('thronged', 'VBN')",throng,throng,description,thronged,O,,
+link,link,"('link', 'NN')",link,link,description,link,O,,
+betweenSan,betweensan,"('betweensan', 'NN')",betweensan,betweensan,description,betweenSan,O,,
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,B,ORG,"Companies, agencies, institutions, etc."
+San,san,"('san', 'JJ')",san,san,description,San,I,ORG,"Companies, agencies, institutions, etc."
+Polo,polo,"('polo', 'NN')",polo,polo,description,Polo,I,ORG,"Companies, agencies, institutions, etc."
+superseded,superseded,"('superseded', 'VBD')",supersed,supersede,description,superseded,O,,
+succession,succession,"('succession', 'NN')",success,succession,description,succession,O,,
+wooden,wooden,"('wooden', 'JJ')",wooden,wooden,description,wooden,O,,
+structures,structures,"('structures', 'NNS')",structur,structure,description,structures,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+Carpaccio,carpaccio,"('carpaccio', 'NN')",carpaccio,carpaccio,description,Carpaccio,B,ORG,"Companies, agencies, institutions, etc."
+Miracles,miracles,"('miracles', 'NNS')",miracl,miracle,description,Miracles,I,ORG,"Companies, agencies, institutions, etc."
+True,true,"('true', 'JJ')",true,true,description,True,I,ORG,"Companies, agencies, institutions, etc."
+Cross,cross,"('cross', 'NN')",cross,cross,description,Cross,I,ORG,"Companies, agencies, institutions, etc."
+Accademia,accademia,"('accademia', 'NN')",accademia,accademia,description,Accademia,I,ORG,"Companies, agencies, institutions, etc."
+shows,shows,"('shows', 'VBZ')",show,show,description,shows,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+old,old,"('old', 'JJ')",old,old,description,old,O,,
+drawbridges,drawbridges,"('drawbridges', 'NNS')",drawbridg,drawbridge,description,drawbridges,O,,
+looked,looked,"('looked', 'VBD')",look,look,description,looked,O,,
+like,like,"('like', 'IN')",like,like,description,like,O,,
+decision,decision,"('decision', 'NN')",decis,decision,description,decision,O,,
+construct,construct,"('construct', 'VB')",construct,construct,description,construct,O,,
+stone,stone,"('stone', 'NN')",stone,stone,description,stone,O,,
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,bridge,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+taken,taken,"('taken', 'VBN')",taken,take,description,taken,O,,
+job,job,"('job', 'NN')",job,job,description,job,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+awarded,awarded,"('awarded', 'VBN')",award,award,description,awarded,O,,
+aptly,aptly,"('aptly', 'RB')",aptli,aptly,description,aptly,O,,
+named,named,"('named', 'VBN')",name,name,description,named,O,,
+Antonio,antonio,"('antonio', 'NN')",antonio,antonio,description,Antonio,B,PERSON,"People, including fictional"
+da,da,"('da', 'NN')",da,da,description,da,I,PERSON,"People, including fictional"
+Ponte,ponte,"('ponte', 'NN')",pont,ponte,description,Ponte,I,PERSON,"People, including fictional"
+whose,whose,"('whose', 'WP$')",whose,whose,description,whose,O,,
+design,design,"('design', 'NN')",design,design,description,design,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+described,described,"('described', 'VBN')",describ,describe,description,described,O,,
+Edward,edward,"('edward', 'JJ')",edward,edward,description,Edward,B,PERSON,"People, including fictional"
+Gibbon,gibbon,"('gibbon', 'NN')",gibbon,gibbon,description,Gibbon,I,PERSON,"People, including fictional"
+fine,fine,"('fine', 'JJ')",fine,fine,description,fine,O,,
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,bridge,O,,
+spoilt,spoilt,"('spoilt', 'VBN')",spoilt,spoil,description,spoilt,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+rows,rows,"('rows', 'NNS')",row,row,description,rows,O,,
+houses,houses,"('houses', 'NNS')",hous,house,description,houses,O,,
+upon,upon,"('upon', 'IN')",upon,upon,description,upon,O,,
+first,first,"('first', 'JJ')",first,first,description,first,O,,
+Accademia,accademia,"('accademia', 'NN')",accademia,accademia,description,Accademia,B,FAC,"Buildings, airports, highways, bridges, etc."
+Bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,Bridge,I,FAC,"Buildings, airports, highways, bridges, etc."
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+only,only,"('only', 'JJ')",onli,only,description,only,O,,
+point,point,"('point', 'NN')",point,point,description,point,O,,
+Canal,canal,"('canal', 'NN')",canal,canal,description,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+could,could,"('could', 'MD')",could,could,description,could,O,,
+crossed,crossed,"('crossed', 'VBN')",cross,cross,description,crossed,O,,
+neighbouring,neighbouring,"('neighbouring', 'VBG')",neighbour,neighbour,description,neighbouring,O,,
+palazzi,palazzi,"('palazzi', 'NN')",palazzi,palazzi,description,palazzi,O,,
+heavily,heavily,"('heavily', 'RB')",heavili,heavily,description,heavily,O,,
+restored,restored,"('restored', 'JJ')",restor,restored,description,restored,O,,
+palaces,palaces,"('palaces', 'NNS')",palac,palace,description,palaces,O,,
+thirteenth,thirteenth,"('thirteenth', 'JJ')",thirteenth,thirteenth,description,thirteenth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+town,town,"('town', 'NN')",town,town,description,town,O,,
+began,began,"('began', 'VBD')",began,begin,description,began,O,,
+immense,immense,"('immense', 'JJ')",immens,immense,description,immense,O,,
+Palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,Palazzo,B,PERSON,"People, including fictional"
+Grimani,grimani,"('grimani', 'NN')",grimani,grimani,description,Grimani,I,PERSON,"People, including fictional"
+designs,designs,"('designs', 'NNS')",design,design,description,designs,O,,
+Sanmicheli,sanmicheli,"('sanmicheli', 'NN')",sanmich,sanmicheli,description,Sanmicheli,B,PERSON,"People, including fictional"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+completed,completed,"('completed', 'VBN')",complet,complete,description,completed,O,,
+sixteen,sixteen,"('sixteen', 'JJ')",sixteen,sixteen,description,sixteen,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+houses,houses,"('houses', 'NNS')",hous,house,description,houses,O,,
+once,once,"('once', 'RB')",onc,once,description,once,O,,
+belonged,belonged,"('belonged', 'VBN')",belong,belong,description,belonged,O,,
+Mocenigo,mocenigo,"('mocenigo', 'JJ')",mocenigo,mocenigo,description,Mocenigo,B,ORG,"Companies, agencies, institutions, etc."
+family,family,"('family', 'NN')",famili,family,description,family,O,,
+stand,stand,"('stand', 'VB')",stand,stand,description,stand,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,O,,
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,O,,
+sharpest,sharpest,"('sharpest', 'JJS')",sharpest,sharp,description,sharpest,O,,
+turn,turn,"('turn', 'VBP')",turn,turn,description,turn,O,,
+Palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,Palazzo,B,NORP,Nationalities or religious or political groups
+late,late,"('late', 'JJ')",late,late,description,late,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+once,once,"('once', 'RB')",onc,once,description,once,O,,
+home,home,"('home', 'NN')",home,home,description,home,O,,
+Byron,byron,"('byron', 'VB')",byron,byron,description,Byron,O,,
+double,double,"('double', 'JJ')",doubl,double,description,double,O,,
+Palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,Palazzo,B,PERSON,"People, including fictional"
+Mocenigo,mocenigo,"('mocenigo', 'NN')",mocenigo,mocenigo,description,Mocenigo,I,PERSON,"People, including fictional"
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+eighteenth,eighteenth,"('eighteenth', 'JJ')",eighteenth,eighteenth,description,eighteenth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+Palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,Palazzo,O,,
+Mocenigo,mocenigo,"('mocenigo', 'NN')",mocenigo,mocenigo,description,Mocenigo,B,ORG,"Companies, agencies, institutions, etc."
+Vecchio,vecchio,"('vecchio', 'VBZ')",vecchio,vecchio,description,Vecchio,I,ORG,"Companies, agencies, institutions, etc."
+Gothic,gothic,"('gothic', 'JJ')",gothic,gothic,description,Gothic,I,ORG,"Companies, agencies, institutions, etc."
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+remodelled,remodelled,"('remodelled', 'VBN')",remodel,remodelled,description,remodelled,O,,
+seventeenth,seventeenth,"('seventeenth', 'JJ')",seventeenth,seventeenth,description,seventeenth,B,ORDINAL,"""first"", ""second"", etc."
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+private,private,"('private', 'JJ')",privat,private,description,private,O,,
+house,house,"('house', 'NN')",hous,house,description,house,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+time,time,"('time', 'NN')",time,time,description,time,O,,
+construction,construction,"('construction', 'NN')",construct,construction,description,construction,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Fóscari,fóscari,"('fóscari', 'VB')",fóscari,fóscari,description,Fóscari,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+home,home,"('home', 'NN')",home,home,description,home,O,,
+Doge,doge,"('doge', 'JJ')",doge,doge,description,Doge,O,,
+Francesco,francesco,"('francesco', 'NN')",francesco,francesco,description,Francesco,O,,
+Fóscari,fóscari,"('fóscari', 'NN')",fóscari,fóscari,description,Fóscari,O,,
+whose,whose,"('whose', 'WP$')",whose,whose,description,whose,O,,
+extraordinarily,extraordinarily,"('extraordinarily', 'RB')",extraordinarili,extraordinarily,description,extraordinarily,O,,
+long,long,"('long', 'JJ')",long,long,description,long,O,,
+term,term,"('term', 'NN')",term,term,description,term,O,,
+office,office,"('office', 'NN')",offic,office,description,office,O,,
+years,years,"('years', 'NNS')",year,year,description,years,B,DATE,Absolute or relative dates or periods
+came,came,"('came', 'VBD')",came,come,description,came,O,,
+end,end,"('end', 'NN')",end,end,description,end,O,,
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+forced,forced,"('forced', 'VBN')",forc,force,description,forced,O,,
+twinned,twinned,"('twinned', 'JJ')",twin,twinned,description,twinned,O,,
+palaces,palaces,"('palaces', 'NNS')",palac,palace,description,palaces,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+century,century,"('century', 'NN')",centuri,century,description,century,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+brothers,brothers,"('brothers', 'NNS')",brother,brother,description,brothers,O,,
+wanted,wanted,"('wanted', 'VBD')",want,want,description,wanted,O,,
+attached,attached,"('attached', 'VBN')",attach,attach,description,attached,O,,
+gargantuan,gargantuan,"('gargantuan', 'NN')",gargantuan,gargantuan,description,gargantuan,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Rezzonico,rezzonico,"('rezzonico', 'VB')",rezzonico,rezzonico,description,Rezzonico,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+begun,begun,"('begun', 'VBN')",begun,begin,description,begun,O,,
+commission,commission,"('commission', 'NN')",commiss,commission,description,commission,O,,
+Bon,bon,"('bon', 'NN')",bon,bon,description,Bon,B,PERSON,"People, including fictional"
+family,family,"('family', 'NN')",famili,family,description,family,O,,
+obliged,obliged,"('obliged', 'VBN')",oblig,oblige,description,obliged,O,,
+sell,sell,"('sell', 'VB')",sell,sell,description,sell,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+unfinished,unfinished,"('unfinished', 'JJ')",unfinish,unfinished,description,unfinished,O,,
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+Rezzonico,rezzonico,"('rezzonico', 'NN')",rezzonico,rezzonico,description,Rezzonico,B,PERSON,"People, including fictional"
+family,family,"('family', 'NN')",famili,family,description,family,O,,
+stupendously,stupendously,"('stupendously', 'RB')",stupend,stupendously,description,stupendously,O,,
+wealthy,wealthy,"('wealthy', 'JJ')",wealthi,wealthy,description,wealthy,O,,
+Genoese,genoese,"('genoese', 'JJ')",genoes,genoese,description,Genoese,B,PERSON,"People, including fictional"
+bankers,bankers,"('bankers', 'NNS')",banker,banker,description,bankers,O,,
+Among,among,"('among', 'IN')",among,among,description,Among,O,,
+subsequent,subsequent,"('subsequent', 'NN')",subsequ,subsequent,description,subsequent,O,,
+owners,owners,"('owners', 'NNS')",owner,owner,description,owners,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+Pen,pen,"('pen', 'JJ')",pen,pen,description,Pen,O,,
+Browning,browning,"('browning', 'NN')",brown,browning,description,Browning,O,,
+whose,whose,"('whose', 'WP$')",whose,whose,description,whose,O,,
+father,father,"('father', 'NN')",father,father,description,father,O,,
+Robert,robert,"('robert', 'NN')",robert,robert,description,Robert,B,PERSON,"People, including fictional"
+died,died,"('died', 'VBD')",die,die,description,died,O,,
+vast,vast,"('vast', 'JJ')",vast,vast,description,vast,O,,
+palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,palazzo,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+Massari,massari,"('massari', 'NN')",massari,massari,description,Massari,B,GPE,"Countries, cities, states"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+house,house,"('house', 'NN')",hous,house,description,house,O,,
+raised,raised,"('raised', 'VBN')",rais,raise,description,raised,O,,
+Canal,canal,"('canal', 'NN')",canal,canal,description,Canal,B,WORK_OF_ART,"Titles of books, songs, etc."
+larger,larger,"('larger', 'JJR')",larger,large,description,larger,O,,
+vaporetti,vaporetti,"('vaporetti', 'JJ')",vaporetti,vaporetti,description,vaporetti,O,,
+get,get,"('get', 'VB')",get,get,description,get,O,,
+iron,iron,"('iron', 'NN')",iron,iron,description,iron,O,,
+Ponte,ponte,"('ponte', 'NN')",pont,ponte,description,Ponte,B,PERSON,"People, including fictional"
+dell,dell,"('dell', 'NN')",dell,dell,description,dell,O,,
+Accademia,accademia,"('accademia', 'NN')",accademia,accademia,description,Accademia,B,PERSON,"People, including fictional"
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+Austrians,austrians,"('austrians', 'NNS')",austrian,austrian,description,Austrians,B,NORP,Nationalities or religious or political groups
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+replaced,replaced,"('replaced', 'VBN')",replac,replace,description,replaced,O,,
+wooden,wooden,"('wooden', 'JJ')",wooden,wooden,description,wooden,O,,
+structure,structure,"('structure', 'NN')",structur,structure,description,structure,O,,
+later,later,"('later', 'RBR')",later,later,description,later,O,,
+reinforced,reinforced,"('reinforced', 'VBN')",reinforc,reinforce,description,reinforced,O,,
+exquisite,exquisite,"('exquisite', 'JJ')",exquisit,exquisite,description,exquisite,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,palazzo,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+late,late,"('late', 'JJ')",late,late,description,late,O,,
+multicoloured,multicoloured,"('multicoloured', 'JJ')",multicolour,multicoloured,description,multicoloured,O,,
+marbles,marbles,"('marbles', 'NNS')",marbl,marble,description,marbles,O,,
+facade,facade,"('facade', 'NN')",facad,facade,description,facade,O,,
+characteristic,characteristic,"('characteristic', 'JJ')",characterist,characteristic,description,characteristic,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+Lombardo,lombardo,"('lombardo', 'JJ')",lombardo,lombardo,description,Lombardo,B,PERSON,"People, including fictional"
+palace,palace,"('palace', 'NN')",palac,palace,description,palace,O,,
+used,used,"('used', 'VBD')",use,use,description,used,O,,
+stand,stand,"('stand', 'VB')",stand,stand,description,stand,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+destroyed,destroyed,"('destroyed', 'VBN')",destroy,destroy,description,destroyed,O,,
+fire,fire,"('fire', 'NN')",fire,fire,description,fire,O,,
+lit,lit,"('lit', 'NN')",lit,lit,description,lit,O,,
+dry,dry,"('dry', 'VB')",dri,dry,description,dry,O,,
+stock,stock,"('stock', 'NN')",stock,stock,description,stock,O,,
+sugar,sugar,"('sugar', 'NN')",sugar,sugar,description,sugar,O,,
+ran,ran,"('ran', 'VBD')",ran,run,description,ran,O,,
+control,control,"('control', 'NN')",control,control,description,control,O,,
+Sansovino,sansovino,"('sansovino', 'NN')",sansovino,sansovino,description,Sansovino,O,,
+design,design,"('design', 'NN')",design,design,description,design,O,,
+built,built,"('built', 'VBN')",built,build,description,built,O,,
+notable,notable,"('notable', 'JJ')",notabl,notable,description,notable,O,,
+rugged,rugged,"('rugged', 'NN')",rug,rugged,description,rugged,O,,
+stonework,stonework,"('stonework', 'NN')",stonework,stonework,description,stonework,O,,
+makes,makes,"('makes', 'VBZ')",make,make,description,makes,O,,
+prototype,prototype,"('prototype', 'NN')",prototyp,prototype,description,prototype,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Pésaro,pésaro,"('pésaro', 'NN')",pésaro,pésaro,description,Pésaro,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+central,central,"('central', 'JJ')",central,central,description,central,O,,
+Venice,venice,"('venice', 'NNS')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+divided,divided,"('divided', 'VBN')",divid,divide,description,divided,O,,
+six,six,"('six', 'CD')",six,six,description,six,B,CARDINAL,Numerals that do not fall under another type
+districts,districts,"('districts', 'NNS')",district,district,description,districts,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+sestieri,sestieri,"('sestieri', 'NN')",sestieri,sestieri,description,sestieri,O,,
+houses,houses,"('houses', 'NNS')",hous,house,description,houses,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+sestiere,sestiere,"('sestiere', 'EX')",sestier,sestiere,description,sestiere,O,,
+numbered,numbered,"('numbered', 'VBN')",number,number,description,numbered,O,,
+sequence,sequence,"('sequence', 'NN')",sequenc,sequence,description,sequence,O,,
+makes,makes,"('makes', 'VBZ')",make,make,description,makes,O,,
+sense,sense,"('sense', 'NN')",sens,sense,description,sense,O,,
+solely,solely,"('solely', 'RB')",sole,solely,description,solely,O,,
+functionaries,functionaries,"('functionaries', 'NNS')",functionari,functionary,description,functionaries,O,,
+post,post,"('post', 'NN')",post,post,description,post,O,,
+office,office,"('office', 'NN')",offic,office,description,office,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+explains,explains,"('explains', 'VBZ')",explain,explain,description,explains,O,,
+buildings,buildings,"('buildings', 'NNS')",build,building,description,buildings,O,,
+facing,facing,"('facing', 'VBG')",face,face,description,facing,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+alleyway,alleyway,"('alleyway', 'NN')",alleyway,alleyway,description,alleyway,O,,
+numbers,numbers,"('numbers', 'NNS')",number,number,description,numbers,O,,
+separated,separated,"('separated', 'VBN')",separ,separate,description,separated,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+thoroughfare,thoroughfare,"('thoroughfare', 'NN')",thoroughfar,thoroughfare,description,thoroughfare,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+divides,divides,"('divides', 'VBZ')",divid,divide,description,divides,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+half,half,"('half', 'JJ')",half,half,description,half,B,QUANTITY,"Measurements, as of weight or distance"
+three,three,"('three', 'CD')",three,three,description,three,I,QUANTITY,"Measurements, as of weight or distance"
+sestieri,sestieri,"('sestieri', 'NN')",sestieri,sestieri,description,sestieri,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+three,three,"('three', 'CD')",three,three,description,three,O,,
+east,east,"('east', 'NN')",east,east,description,east,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+east,east,"('east', 'JJ')",east,east,description,east,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+side,side,"('side', 'NN')",side,side,description,side,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+sestiere,sestiere,"('sestiere', 'NN')",sestier,sestiere,description,sestiere,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,GPE,"Countries, cities, states"
+Marco,marco,"('marco', 'FW')",marco,marco,description,Marco,I,GPE,"Countries, cities, states"
+area,area,"('area', 'NN')",area,area,description,area,O,,
+majority,majority,"('majority', 'NN')",major,majority,description,majority,O,,
+essential,essential,"('essential', 'JJ')",essenti,essential,description,essential,O,,
+sights,sights,"('sights', 'NNS')",sight,sight,description,sights,O,,
+clustered,clustered,"('clustered', 'VBN')",cluster,cluster,description,clustered,O,,
+accordingly,accordingly,"('accordingly', 'RB')",accordingli,accordingly,description,accordingly,O,,
+expensive,expensive,"('expensive', 'JJ')",expens,expensive,description,expensive,O,,
+crowded,crowded,"('crowded', 'JJ')",crowd,crowded,description,crowded,O,,
+district,district,"('district', 'NN')",district,district,description,district,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+East,east,"('east', 'NN')",east,east,description,East,B,ORG,"Companies, agencies, institutions, etc."
+San,san,"('san', 'JJ')",san,san,description,San,I,ORG,"Companies, agencies, institutions, etc."
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,I,ORG,"Companies, agencies, institutions, etc."
+Castello,castello,"('castello', 'JJ')",castello,castello,description,Castello,I,ORG,"Companies, agencies, institutions, etc."
+north,north,"('north', 'NN')",north,north,description,north,O,,
+Cannaregio,cannaregio,"('cannaregio', 'JJ')",cannaregio,cannaregio,description,Cannaregio,O,,
+become,become,"('become', 'VBP')",becom,become,description,become,O,,
+residential,residential,"('residential', 'JJ')",residenti,residential,description,residential,O,,
+quieter,quieter,"('quieter', 'VB')",quieter,quieter,description,quieter,O,,
+get,get,"('get', 'VBP')",get,get,description,get,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,O,,
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+sestieri,sestieri,"('sestieri', 'NN')",sestieri,sestieri,description,sestieri,O,,
+Dorsoduro,dorsoduro,"('dorsoduro', 'JJ')",dorsoduro,dorsoduro,description,Dorsoduro,O,,
+stretching,stretching,"('stretching', 'VBG')",stretch,stretch,description,stretching,O,,
+fashionable,fashionable,"('fashionable', 'JJ')",fashion,fashionable,description,fashionable,O,,
+quarter,quarter,"('quarter', 'NN')",quarter,quarter,description,quarter,B,CARDINAL,Numerals that do not fall under another type
+southern,southern,"('southern', 'JJ')",southern,southern,description,southern,O,,
+tip,tip,"('tip', 'NN')",tip,tip,description,tip,O,,
+canal,canal,"('canal', 'NN')",canal,canal,description,canal,O,,
+docks,docks,"('docks', 'NNS')",dock,dock,description,docks,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Santa,santa,"('santa', 'NN')",santa,santa,description,Santa,B,GPE,"Countries, cities, states"
+Croce,croce,"('croce', 'NN')",croce,croce,description,Croce,I,GPE,"Countries, cities, states"
+named,named,"('named', 'VBN')",name,name,description,named,O,,
+church,church,"('church', 'NN')",church,church,description,church,O,,
+roughly,roughly,"('roughly', 'RB')",roughli,roughly,description,roughly,O,,
+follows,follows,"('follows', 'VBZ')",follow,follow,description,follows,O,,
+curve,curve,"('curve', 'NN')",curv,curve,description,curve,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+Piazzale,piazzale,"('piazzale', 'JJ')",piazzal,piazzale,description,Piazzale,I,ORG,"Companies, agencies, institutions, etc."
+Roma,roma,"('roma', 'NN')",roma,rom,description,Roma,I,ORG,"Companies, agencies, institutions, etc."
+point,point,"('point', 'NN')",point,point,description,point,O,,
+short,short,"('short', 'RB')",short,short,description,short,O,,
+Rialto,rialto,"('rialto', 'NN')",rialto,rialto,description,Rialto,B,ORG,"Companies, agencies, institutions, etc."
+joins,joins,"('joins', 'VBZ')",join,join,description,joins,O,,
+smartest,smartest,"('smartest', 'JJS')",smartest,smart,description,smartest,O,,
+commercially,commercially,"('commercially', 'RB')",commerci,commercially,description,commercially,O,,
+active,active,"('active', 'JJ')",activ,active,description,active,O,,
+districts,districts,"('districts', 'NNS')",district,district,description,districts,O,,
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+bank,bank,"('bank', 'NN')",bank,bank,description,bank,O,,
+San,san,"('san', 'JJ')",san,san,description,San,O,,
+section,section,"('section', 'NN')",section,section,description,section,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+enclosed,enclosed,"('enclosed', 'VBN')",enclos,enclose,description,enclosed,O,,
+lower,lower,"('lower', 'JJR')",lower,low,description,lower,O,,
+loop,loop,"('loop', 'NN')",loop,loop,description,loop,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,B,ORG,"Companies, agencies, institutions, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,ORG,"Companies, agencies, institutions, etc."
+rectangle,rectangle,"('rectangle', 'NN')",rectangl,rectangle,description,rectangle,O,,
+smaller,smaller,"('smaller', 'JJR')",smaller,small,description,smaller,O,,
+essence,essence,"('essence', 'NN')",essenc,essence,description,essence,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+travel,travel,"('travel', 'NN')",travel,travel,description,travel,O,,
+brochures,brochures,"('brochures', 'VBZ')",brochur,brochures,description,brochures,O,,
+plush,plush,"('plush', 'NN')",plush,plush,description,plush,O,,
+hotels,hotels,"('hotels', 'NNS')",hotel,hotel,description,hotels,O,,
+concentrated,concentrated,"('concentrated', 'VBN')",concentr,concentrate,description,concentrated,O,,
+sestiere,sestiere,"('sestiere', 'NN')",sestier,sestiere,description,sestiere,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,GPE,"Countries, cities, states"
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,I,GPE,"Countries, cities, states"
+swankier,swankier,"('swankier', 'JJR')",swankier,swanky,description,swankier,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+cultural,cultural,"('cultural', 'JJ')",cultur,cultural,description,cultural,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,description,attractions,O,,
+finest,finest,"('finest', 'JJS')",finest,fine,description,finest,O,,
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+Napoleon,napoleon,"('napoleon', 'JJ')",napoleon,napoleon,description,Napoleon,B,NORP,Nationalities or religious or political groups
+described,described,"('described', 'VBD')",describ,describe,description,described,O,,
+focal,focal,"('focal', 'JJ')",focal,focal,description,focal,O,,
+point,point,"('point', 'NN')",point,point,description,point,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,B,ORG,"Companies, agencies, institutions, etc."
+San,san,"('san', 'JJ')",san,san,description,San,I,ORG,"Companies, agencies, institutions, etc."
+Marco,marco,"('marco', 'VBD')",marco,marco,description,Marco,I,ORG,"Companies, agencies, institutions, etc."
+only,only,"('only', 'JJ')",onli,only,description,only,O,,
+piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,piazza,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+squares,squares,"('squares', 'NNS')",squar,square,description,squares,O,,
+campi,campi,"('campi', 'NN')",campi,campi,description,campi,O,,
+campielli,campielli,"('campielli', 'NN')",campielli,campielli,description,campielli,O,,
+Less,less,"('less', 'JJR')",less,less,description,Less,O,,
+genteel,genteel,"('genteel', 'JJ')",genteel,genteel,description,genteel,O,,
+phrases,phrases,"('phrases', 'NNS')",phrase,phrase,description,phrases,O,,
+might,might,"('might', 'MD')",might,might,description,might,O,,
+seem,seem,"('seem', 'VB')",seem,seem,description,seem,O,,
+appropriate,appropriate,"('appropriate', 'JJ')",appropri,appropriate,description,appropriate,O,,
+suffocating,suffocating,"('suffocating', 'VBG')",suffoc,suffocate,description,suffocating,O,,
+summer,summer,"('summer', 'NN')",summer,summer,description,summer,B,DATE,Absolute or relative dates or periods
+afternoon,afternoon,"('afternoon', 'NN')",afternoon,afternoon,description,afternoon,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,B,ORG,"Companies, agencies, institutions, etc."
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+congested,congested,"('congested', 'VBN')",congest,congest,description,congested,O,,
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,B,DATE,Absolute or relative dates or periods
+parades,parades,"('parades', 'NNS')",parad,parade,description,parades,O,,
+festivities,festivities,"('festivities', 'NNS')",festiv,festivity,description,festivities,O,,
+markets,markets,"('markets', 'NNS')",market,market,description,markets,O,,
+always,always,"('always', 'RB')",alway,always,description,always,O,,
+drawn,drawn,"('drawn', 'VBN')",drawn,draw,description,drawn,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+biggest,biggest,"('biggest', 'JJS')",biggest,big,description,biggest,O,,
+attraction,attraction,"('attraction', 'NN')",attract,attraction,description,attraction,O,,
+trade,trade,"('trade', 'NN')",trade,trade,description,trade,O,,
+fair,fair,"('fair', 'NN')",fair,fair,description,fair,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+Fiera,fiera,"('fiera', 'NN')",fiera,fiera,description,Fiera,B,PERSON,"People, including fictional"
+della,della,"('della', 'NN')",della,della,description,della,O,,
+Sensa,sensa,"('sensa', 'NN')",sensa,sensa,description,Sensa,B,NORP,Nationalities or religious or political groups
+kept,kept,"('kept', 'VBD')",kept,keep,description,kept,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,O,,
+buzzing,buzzing,"('buzzing', 'NN')",buzz,buzzing,description,buzzing,O,,
+fortnight,fortnight,"('fortnight', 'NN')",fortnight,fortnight,description,fortnight,O,,
+following,following,"('following', 'VBG')",follow,follow,description,following,O,,
+Ascension,ascension,"('ascension', 'NN')",ascens,ascension,description,Ascension,B,LAW,Named documents made into laws.
+Day,day,"('day', 'NN')",day,day,description,Day,I,LAW,Named documents made into laws.
+ceremony,ceremony,"('ceremony', 'NN')",ceremoni,ceremony,description,ceremony,O,,
+Marriage,marriage,"('marriage', 'NN')",marriag,marriage,description,Marriage,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,O,,
+Sea,sea,"('sea', 'NN')",sea,sea,description,Sea,O,,
+nowadays,nowadays,"('nowadays', 'VBZ')",nowaday,nowadays,description,nowadays,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,O,,
+focal,focal,"('focal', 'JJ')",focal,focal,description,focal,O,,
+point,point,"('point', 'NN')",point,point,description,point,O,,
+Carnevale,carnevale,"('carnevale', 'NN')",carneval,carnevale,description,Carnevale,B,PRODUCT,"Objects, vehicles, foods, etc. (not services)"
+shenanigans,shenanigans,"('shenanigans', 'VBZ')",shenanigan,shenanigans,description,shenanigans,O,,
+coffee,coffee,"('coffee', 'NN')",coffe,coffee,description,coffee,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,O,,
+vital,vital,"('vital', 'JJ')",vital,vital,description,vital,O,,
+component,component,"('component', 'NN')",compon,component,description,component,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+society,society,"('society', 'NN')",societi,society,description,society,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+survivors,survivors,"('survivors', 'NNS')",survivor,survivor,description,survivors,O,,
+period,period,"('period', 'NN')",period,period,description,period,O,,
+Florian,florian,"('florian', 'JJ')",florian,florian,description,Florian,B,NORP,Nationalities or religious or political groups
+Quadri,quadri,"('quadri', 'NN')",quadri,quadri,description,Quadri,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+expensive,expensive,"('expensive', 'JJ')",expens,expensive,description,expensive,O,,
+Basilica,basilica,"('basilica', 'NN')",basilica,basilica,description,Basilica,B,ORG,"Companies, agencies, institutions, etc."
+di,di,"('di', 'NN')",di,di,description,di,I,ORG,"Companies, agencies, institutions, etc."
+San,san,"('san', 'JJ')",san,san,description,San,I,ORG,"Companies, agencies, institutions, etc."
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,I,ORG,"Companies, agencies, institutions, etc."
+exotic,exotic,"('exotic', 'JJ')",exot,exotic,description,exotic,O,,
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+cathedrals,cathedrals,"('cathedrals', 'NNS')",cathedr,cathedral,description,cathedrals,O,,
+visitor,visitor,"('visitor', 'NN')",visitor,visitor,description,visitor,O,,
+remain,remain,"('remain', 'VB')",remain,remain,description,remain,O,,
+dispassionate,dispassionate,"('dispassionate', 'JJ')",dispassion,dispassionate,description,dispassionate,O,,
+confronted,confronted,"('confronted', 'VBN')",confront,confront,description,confronted,O,,
+Herbert,herbert,"('herbert', 'JJ')",herbert,herbert,description,Herbert,B,PERSON,"People, including fictional"
+Spencer,spencer,"('spencer', 'NN')",spencer,spencer,description,Spencer,I,PERSON,"People, including fictional"
+loathed,loathed,"('loathed', 'VBD')",loath,loathe,description,loathed,O,,
+fine,fine,"('fine', 'JJ')",fine,fine,description,fine,O,,
+sample,sample,"('sample', 'NN')",sampl,sample,description,sample,O,,
+barbaric,barbaric,"('barbaric', 'JJ')",barbar,barbaric,description,barbaric,O,,
+architecture,architecture,"('architecture', 'NN')",architectur,architecture,description,architecture,O,,
+John,john,"('john', 'VB')",john,john,description,John,B,PERSON,"People, including fictional"
+Ruskin,ruskin,"('ruskin', 'VB')",ruskin,ruskin,description,Ruskin,I,PERSON,"People, including fictional"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+confusion,confusion,"('confusion', 'NN')",confus,confusion,description,confusion,O,,
+delight,delight,"('delight', 'NN')",delight,delight,description,delight,O,,
+certainly,certainly,"('certainly', 'RB')",certainli,certainly,description,certainly,O,,
+confusing,confusing,"('confusing', 'JJ')",confus,confusing,description,confusing,O,,
+increasingly,increasingly,"('increasingly', 'RB')",increasingli,increasingly,description,increasingly,O,,
+come,come,"('come', 'VBP')",come,come,description,come,O,,
+nearer,nearer,"('nearer', 'RB')",nearer,nearer,description,nearer,O,,
+details,details,"('details', 'NNS')",detail,detail,description,details,O,,
+emerge,emerge,"('emerge', 'VBP')",emerg,emerge,description,emerge,O,,
+knowledge,knowledge,"('knowledge', 'NN')",knowledg,knowledge,description,knowledge,O,,
+history,history,"('history', 'NN')",histori,history,description,history,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+helps,helps,"('helps', 'VBZ')",help,help,description,helps,O,,
+bring,bring,"('bring', 'VB')",bring,bring,description,bring,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+order,order,"('order', 'NN')",order,order,description,order,O,,
+head,head,"('head', 'NN')",head,head,description,head,O,,
+network,network,"('network', 'NN')",network,network,description,network,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+doge,doge,"('doge', 'NN')",doge,doge,description,doge,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+politician,politician,"('politician', 'NN')",politician,politician,description,politician,O,,
+sit,sit,"('sit', 'VB')",sit,sit,description,sit,O,,
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+councils,councils,"('councils', 'NNS')",council,council,description,councils,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+only,only,"('only', 'JJ')",onli,only,description,only,B,CARDINAL,Numerals that do not fall under another type
+one,one,"('one', 'CD')",one,one,description,one,I,CARDINAL,Numerals that do not fall under another type
+elected,elected,"('elected', 'VBN')",elect,elect,description,elected,O,,
+life,life,"('life', 'NN')",life,life,description,life,O,,
+could,could,"('could', 'MD')",could,could,description,could,O,,
+immensely,immensely,"('immensely', 'RB')",immens,immensely,description,immensely,O,,
+influential,influential,"('influential', 'JJ')",influenti,influential,description,influential,O,,
+policy,policy,"('policy', 'NN')",polici,policy,description,policy,O,,
+appointments,appointments,"('appointments', 'NNS')",appoint,appointment,description,appointments,O,,
+restrictions,restrictions,"('restrictions', 'NNS')",restrict,restriction,description,restrictions,O,,
+accordingly,accordingly,"('accordingly', 'RB')",accordingli,accordingly,description,accordingly,O,,
+imposed,imposed,"('imposed', 'VBN')",impos,impose,description,imposed,O,,
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+actions,actions,"('actions', 'NNS')",action,action,description,actions,O,,
+reduce,reduce,"('reduce', 'VB')",reduc,reduce,description,reduce,O,,
+possibility,possibility,"('possibility', 'NN')",possibl,possibility,description,possibility,O,,
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+abusing,abusing,"('abusing', 'VBG')",abus,abuse,description,abusing,O,,
+power,power,"('power', 'NN')",power,power,description,power,O,,
+his,his,"('his', 'PRP$')",hi,his,description,his,O,,
+letters,letters,"('letters', 'NNS')",letter,letter,description,letters,O,,
+read,read,"('read', 'VBN')",read,read,description,read,O,,
+censors,censors,"('censors', 'NNS')",censor,censor,description,censors,O,,
+permitted,permitted,"('permitted', 'VBN')",permit,permit,description,permitted,O,,
+receive,receive,"('receive', 'VB')",receiv,receive,description,receive,O,,
+foreign,foreign,"('foreign', 'JJ')",foreign,foreign,description,foreign,O,,
+delegations,delegations,"('delegations', 'NNS')",deleg,delegation,description,delegations,O,,
+alone,alone,"('alone', 'RB')",alon,alone,description,alone,O,,
+privileges,privileges,"('privileges', 'NNS')",privileg,privilege,description,privileges,O,,
+job,job,"('job', 'NN')",job,job,description,job,O,,
+far,far,"('far', 'RB')",far,far,description,far,O,,
+outweighed,outweighed,"('outweighed', 'VBD')",outweigh,outweigh,description,outweighed,O,,
+inconveniences,inconveniences,"('inconveniences', 'NNS')",inconveni,inconvenience,description,inconveniences,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+men,men,"('men', 'NNS')",men,men,description,men,O,,
+campaigned,campaigned,"('campaigned', 'VBN')",campaign,campaign,description,campaigned,O,,
+years,years,"('years', 'NNS')",year,year,description,years,B,DATE,Absolute or relative dates or periods
+increase,increase,"('increase', 'VB')",increas,increase,description,increase,O,,
+chances,chances,"('chances', 'NNS')",chanc,chance,description,chances,O,,
+finest,finest,"('finest', 'JJS')",finest,fine,description,finest,O,,
+architecture,architecture,"('architecture', 'NN')",architectur,architecture,description,architecture,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+domestic,domestic,"('domestic', 'JJ')",domest,domestic,description,domestic,O,,
+public,public,"('public', 'JJ')",public,public,description,public,O,,
+found,found,"('found', 'VBN')",found,find,description,found,O,,
+sestiere,sestiere,"('sestiere', 'NN')",sestier,sestiere,description,sestiere,O,,
+Dorsoduro,dorsoduro,"('dorsoduro', 'NN')",dorsoduro,dorsoduro,description,Dorsoduro,B,PERSON,"People, including fictional"
+situation,situation,"('situation', 'NN')",situat,situation,description,situation,O,,
+partly,partly,"('partly', 'RB')",partli,partly,description,partly,O,,
+attributable,attributable,"('attributable', 'JJ')",attribut,attributable,description,attributable,O,,
+stability,stability,"('stability', 'NN')",stabil,stability,description,stability,O,,
+sandbanks,sandbanks,"('sandbanks', 'NNS')",sandbank,sandbank,description,sandbanks,O,,
+Dorsoduro,dorsoduro,"('dorsoduro', 'VBP')",dorsoduro,dorsoduro,description,Dorsoduro,B,PERSON,"People, including fictional"
+means,means,"('means', 'VBZ')",mean,mean,description,means,O,,
+hard,hard,"('hard', 'JJ')",hard,hard,description,hard,O,,
+back,back,"('back', 'RB')",back,back,description,back,O,,
+Yet,yet,"('yet', 'RB')",yet,yet,description,Yet,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,description,attractions,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+wander,wander,"('wander', 'VBP')",wander,wander,description,wander,O,,
+strip,strip,"('strip', 'NN')",strip,strip,description,strip,O,,
+runs,runs,"('runs', 'VBZ')",run,run,description,runs,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+sights,sights,"('sights', 'NNS')",sight,sight,description,sights,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Ca,ca,"('ca', 'MD')",ca,ca,description,Ca,O,,
+Rezzonico,rezzonico,"('rezzonico', 'VB')",rezzonico,rezzonico,description,Rezzonico,B,PERSON,"People, including fictional"
+Accademia,accademia,"('accademia', 'NN')",accademia,accademia,description,Accademia,I,PERSON,"People, including fictional"
+Salute,salute,"('salute', 'NN')",salut,salute,description,Salute,I,PERSON,"People, including fictional"
+Punta,punta,"('punta', 'NN')",punta,punta,description,Punta,O,,
+della,della,"('della', 'NN')",della,della,description,della,O,,
+former,former,"('former', 'JJ')",former,former,description,former,O,,
+church,church,"('church', 'NN')",church,church,description,church,O,,
+convent,convent,"('convent', 'NN')",convent,convent,description,convent,O,,
+Scuola,scuola,"('scuola', 'NN')",scuola,scuola,description,Scuola,O,,
+della,della,"('della', 'NN')",della,della,description,della,O,,
+Carità,carità,"('carità', 'VBD')",carità,carità,description,Carità,O,,
+Accademia,accademia,"('accademia', 'NN')",accademia,accademia,description,Accademia,B,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+recently,recently,"('recently', 'RB')",recent,recently,description,recently,O,,
+expanded,expanded,"('expanded', 'VBN')",expand,expand,description,expanded,O,,
+create,create,"('create', 'VB')",creat,create,description,create,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+galleries,galleries,"('galleries', 'NNS')",galleri,gallery,description,galleries,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,CARDINAL,Numerals that do not fall under another type
+hundred,hundred,"('hundred', 'VBD')",hundr,hundred,description,hundred,I,CARDINAL,Numerals that do not fall under another type
+paintings,paintings,"('paintings', 'NNS')",paint,painting,description,paintings,O,,
+previously,previously,"('previously', 'RB')",previous,previously,description,previously,O,,
+storage,storage,"('storage', 'NN')",storag,storage,description,storage,O,,
+upper,upper,"('upper', 'JJ')",upper,upper,description,upper,O,,
+floor,floor,"('floor', 'NN')",floor,floor,description,floor,O,,
+focus,focus,"('focus', 'VB')",focu,focus,description,focus,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+seventeenth,seventeenth,"('seventeenth', 'JJ')",seventeenth,seventeenth,description,seventeenth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+lower,lower,"('lower', 'JJR')",lower,low,description,lower,O,,
+galleries,galleries,"('galleries', 'NNS')",galleri,gallery,description,galleries,O,,
+devoted,devoted,"('devoted', 'VBN')",devot,devote,description,devoted,O,,
+later,later,"('later', 'RBR')",later,later,description,later,O,,
+artists,artists,"('artists', 'NNS')",artist,artist,description,artists,O,,
+exhibitions,exhibitions,"('exhibitions', 'NNS')",exhibit,exhibition,description,exhibitions,O,,
+modern,modern,"('modern', 'JJ')",modern,modern,description,modern,O,,
+contemporary,contemporary,"('contemporary', 'JJ')",contemporari,contemporary,description,contemporary,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+held,held,"('held', 'VBN')",held,hold,description,held,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+space,space,"('space', 'NN')",space,space,description,space,O,,
+Once,once,"('once', 'RB')",onc,once,description,Once,O,,
+new,new,"('new', 'JJ')",new,new,description,new,O,,
+galleries,galleries,"('galleries', 'NNS')",galleri,gallery,description,galleries,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+layout,layout,"('layout', 'NN')",layout,layout,description,layout,O,,
+galleries,galleries,"('galleries', 'NNS')",galleri,gallery,description,galleries,O,,
+somewhat,somewhat,"('somewhat', 'RB')",somewhat,somewhat,description,somewhat,O,,
+different,different,"('different', 'JJ')",differ,different,description,different,O,,
+described,described,"('described', 'VBD')",describ,describe,description,described,O,,
+point,point,"('point', 'NN')",point,point,description,point,O,,
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,B,FAC,"Buildings, airports, highways, bridges, etc."
+Grande,grande,"('grande', 'NN')",grand,grande,description,Grande,I,FAC,"Buildings, airports, highways, bridges, etc."
+Giudecca,giudecca,"('giudecca', 'JJ')",giudecca,giudecca,description,Giudecca,I,FAC,"Buildings, airports, highways, bridges, etc."
+canal,canal,"('canal', 'JJ')",canal,canal,description,canal,O,,
+merge,merge,"('merge', 'NN')",merg,merge,description,merge,O,,
+stands,stands,"('stands', 'VBZ')",stand,stand,description,stands,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,description,huge,O,,
+late,late,"('late', 'JJ')",late,late,description,late,O,,
+Dogana,dogana,"('dogana', 'NNS')",dogana,dogana,description,Dogana,O,,
+di,di,"('di', 'VBP')",di,di,description,di,O,,
+Mare,mare,"('mare', 'NN')",mare,mare,description,Mare,O,,
+Customs,customs,"('customs', 'NNS')",custom,custom,description,Customs,O,,
+House,house,"('house', 'NN')",hous,house,description,House,O,,
+reopened,reopened,"('reopened', 'VBN')",reopen,reopen,description,reopened,O,,
+Punta,punta,"('punta', 'NN')",punta,punta,description,Punta,B,GPE,"Countries, cities, states"
+della,della,"('della', 'NN')",della,della,description,della,O,,
+Dogana,dogana,"('dogana', 'NN')",dogana,dogana,description,Dogana,B,NORP,Nationalities or religious or political groups
+exhibition,exhibition,"('exhibition', 'NN')",exhibit,exhibition,description,exhibition,O,,
+space,space,"('space', 'NN')",space,space,description,space,O,,
+Financed,financed,"('financed', 'VBN')",financ,finance,description,Financed,B,PERSON,"People, including fictional"
+François,françois,"('françois', 'NN')",françoi,françois,description,François,I,PERSON,"People, including fictional"
+Pinault,pinault,"('pinault', 'NN')",pinault,pinault,description,Pinault,O,,
+Palazzo,palazzo,"('palazzo', 'NN')",palazzo,palazzo,description,Palazzo,B,PERSON,"People, including fictional"
+Grassi,grassi,"('grassi', 'VBP')",grassi,grassi,description,Grassi,I,PERSON,"People, including fictional"
+Dogana,dogana,"('dogana', 'NN')",dogana,dogana,description,Dogana,I,PERSON,"People, including fictional"
+like,like,"('like', 'IN')",like,like,description,like,O,,
+Grassi,grassi,"('grassi', 'NN')",grassi,grassi,description,Grassi,B,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+beautifully,beautifully,"('beautifully', 'RB')",beauti,beautifully,description,beautifully,O,,
+renovated,renovated,"('renovated', 'VBN')",renov,renovate,description,renovated,O,,
+designs,designs,"('designs', 'NNS')",design,design,description,designs,O,,
+Tadao,tadao,"('tadao', 'NN')",tadao,tadao,description,Tadao,B,ORG,"Companies, agencies, institutions, etc."
+Ando,ando,"('ando', 'NN')",ando,ando,description,Ando,I,ORG,"Companies, agencies, institutions, etc."
+unquestionably,unquestionably,"('unquestionably', 'RB')",unquestion,unquestionably,description,unquestionably,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+world,world,"('world', 'NN')",world,world,description,world,O,,
+great,great,"('great', 'JJ')",great,great,description,great,O,,
+showcases,showcases,"('showcases', 'NNS')",showcas,showcase,description,showcases,O,,
+contemporary,contemporary,"('contemporary', 'JJ')",contemporari,contemporary,description,contemporary,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+entry,entry,"('entry', 'NN')",entri,entry,description,entry,O,,
+charge,charge,"('charge', 'NN')",charg,charge,description,charge,O,,
+savage,savage,"('savage', 'JJ')",savag,savage,description,savage,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+hundred,hundred,"('hundred', 'CD')",hundr,hundred,description,hundred,I,CARDINAL,Numerals that do not fall under another type
+works,works,"('works', 'NNS')",work,work,description,works,O,,
+Pinault,pinault,"('pinault', 'NN')",pinault,pinault,description,Pinault,O,,
+collection,collection,"('collection', 'NN')",collect,collection,description,collection,O,,
+usually,usually,"('usually', 'RB')",usual,usually,description,usually,O,,
+display,display,"('display', 'NN')",display,display,description,display,O,,
+any,any,"('any', 'DT')",ani,any,description,any,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+invested,invested,"('invested', 'VBN')",invest,invest,description,invested,O,,
+really,really,"('really', 'RB')",realli,really,description,really,O,,
+big,big,"('big', 'JJ')",big,big,description,big,O,,
+names,names,"('names', 'NNS')",name,name,description,names,O,,
+current,current,"('current', 'JJ')",current,current,description,current,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+scene,scene,"('scene', 'NN')",scene,scene,description,scene,O,,
+expect,expect,"('expect', 'VB')",expect,expect,description,expect,O,,
+see,see,"('see', 'VB')",see,see,description,see,O,,
+pieces,pieces,"('pieces', 'NNS')",piec,piece,description,pieces,O,,
+likes,likes,"('likes', 'NNS')",like,like,description,likes,O,,
+Cindy,cindy,"('cindy', 'JJ')",cindi,cindy,description,Cindy,B,PERSON,"People, including fictional"
+Sherman,sherman,"('sherman', 'JJ')",sherman,sherman,description,Sherman,I,PERSON,"People, including fictional"
+Luc,luc,"('luc', 'NN')",luc,luc,description,Luc,I,PERSON,"People, including fictional"
+Tuymans,tuymans,"('tuymans', 'NNS')",tuyman,tuymans,description,Tuymans,B,NORP,Nationalities or religious or political groups
+Thomas,thomas,"('thomas', 'VBP')",thoma,thomas,description,Thomas,B,PERSON,"People, including fictional"
+Schütte,schütte,"('schütte', 'NN')",schütte,schütte,description,Schütte,I,PERSON,"People, including fictional"
+Jeff,jeff,"('jeff', 'NN')",jeff,jeff,description,Jeff,O,,
+Koons,koons,"('koons', 'NNS')",koon,koons,description,Koons,O,,
+Marlene,marlene,"('marlene', 'NN')",marlen,marlene,description,Marlene,O,,
+Dumas,dumas,"('dumas', 'NN')",duma,duma,description,Dumas,B,PERSON,"People, including fictional"
+name,name,"('name', 'VB')",name,name,description,name,O,,
+northernmost,northernmost,"('northernmost', 'JJ')",northernmost,northernmost,description,northernmost,O,,
+section,section,"('section', 'NN')",section,section,description,section,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+Cannaregio,cannaregio,"('cannaregio', 'NN')",cannaregio,cannaregio,description,Cannaregio,O,,
+go,go,"('go', 'VB')",go,go,description,go,O,,
+bustle,bustle,"('bustle', 'NN')",bustl,bustle,description,bustle,O,,
+train,train,"('train', 'NN')",train,train,description,train,O,,
+station,station,"('station', 'NN')",station,station,description,station,O,,
+tawdry,tawdry,"('tawdry', 'JJ')",tawdri,tawdry,description,tawdry,O,,
+Lista,lista,"('lista', 'NN')",lista,lista,description,Lista,O,,
+di,di,"('di', 'NN')",di,di,description,di,O,,
+Spagna,spagna,"('spagna', 'NN')",spagna,spagna,description,Spagna,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+although,although,"('although', 'IN')",although,although,description,although,O,,
+longer,longer,"('longer', 'RBR')",longer,longer,description,longer,O,,
+rural,rural,"('rural', 'JJ')",rural,rural,description,rural,O,,
+Cannaregio,cannaregio,"('cannaregio', 'NN')",cannaregio,cannaregio,description,Cannaregio,B,PERSON,"People, including fictional"
+comes,comes,"('comes', 'VBZ')",come,come,description,comes,O,,
+canna,canna,"('canna', 'JJ')",canna,canna,description,canna,O,,
+meaning,meaning,"('meaning', 'VBG')",mean,mean,description,meaning,O,,
+reed,reed,"('reed', 'NN')",reed,reed,description,reed,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+quietest,quietest,"('quietest', 'JJS')",quietest,quiet,description,quietest,O,,
+prettiest,prettiest,"('prettiest', 'JJS')",prettiest,pretty,description,prettiest,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+whole,whole,"('whole', 'JJ')",whole,whole,description,whole,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+district,district,"('district', 'NN')",district,district,description,district,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+dubious,dubious,"('dubious', 'JJ')",dubiou,dubious,description,dubious,O,,
+distinction,distinction,"('distinction', 'NN')",distinct,distinction,description,distinction,O,,
+containing,containing,"('containing', 'VBG')",contain,contain,description,containing,O,,
+world,world,"('world', 'NN')",world,world,description,world,O,,
+original,original,"('original', 'JJ')",origin,original,description,original,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,FAC,"Buildings, airports, highways, bridges, etc."
+Marco,marco,"('marco', 'NN')",marco,marco,description,Marco,I,FAC,"Buildings, airports, highways, bridges, etc."
+Cannaregio,cannaregio,"('cannaregio', 'NN')",cannaregio,cannaregio,description,Cannaregio,I,FAC,"Buildings, airports, highways, bridges, etc."
+spreading,spreading,"('spreading', 'VBG')",spread,spread,description,spreading,O,,
+right,right,"('right', 'RB')",right,right,description,right,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+housing,housing,"('housing', 'NN')",hous,housing,description,housing,O,,
+estates,estates,"('estates', 'NNS')",estat,estate,description,estates,O,,
+Sant,sant,"('sant', 'JJ')",sant,sant,description,Sant,B,PERSON,"People, including fictional"
+Elena,elena,"('elena', 'NN')",elena,elena,description,Elena,I,PERSON,"People, including fictional"
+east,east,"('east', 'JJ')",east,east,description,east,O,,
+Castello,castello,"('castello', 'NN')",castello,castello,description,Castello,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+sestieri,sestieri,"('sestieri', 'NN')",sestieri,sestieri,description,sestieri,O,,
+terms,terms,"('terms', 'NNS')",term,term,description,terms,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+appeal,appeal,"('appeal', 'NN')",appeal,appeal,description,appeal,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+stage,stage,"('stage', 'NN')",stage,stage,description,stage,O,,
+occupied,occupied,"('occupied', 'VBN')",occupi,occupy,description,occupied,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,description,huge,O,,
+Santi,santi,"('santi', 'NN')",santi,santi,description,Santi,B,PERSON,"People, including fictional"
+Giovanni,giovanni,"('giovanni', 'NN')",giovanni,giovanni,description,Giovanni,I,PERSON,"People, including fictional"
+e,e,"('e', 'NN')",e,e,description,e,I,PERSON,"People, including fictional"
+Paolo,paolo,"('paolo', 'NN')",paolo,paolo,description,Paolo,B,PERSON,"People, including fictional"
+Within,within,"('within', 'IN')",within,within,description,Within,O,,
+minutes,minutes,"('minutes', 'NNS')",minut,minute,description,minutes,B,TIME,Times smaller than a day
+walk,walk,"('walk', 'VBP')",walk,walk,description,walk,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+fascinating,fascinating,"('fascinating', 'VBG')",fascin,fascinate,description,fascinating,O,,
+churches,churches,"('churches', 'NNS')",church,church,description,churches,O,,
+Santa,santa,"('santa', 'JJ')",santa,santa,description,Santa,B,GPE,"Countries, cities, states"
+Maria,maria,"('maria', 'NNS')",maria,maria,description,Maria,I,GPE,"Countries, cities, states"
+Formosa,formosa,"('formosa', 'NN')",formosa,formosa,description,Formosa,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,GPE,"Countries, cities, states"
+Zaccaria,zaccaria,"('zaccaria', 'NN')",zaccaria,zaccaria,description,Zaccaria,I,GPE,"Countries, cities, states"
+well,well,"('well', 'RB')",well,well,description,well,O,,
+beguiling,beguiling,"('beguiling', 'NN')",beguil,beguiling,description,beguiling,O,,
+Carpaccio,carpaccio,"('carpaccio', 'NN')",carpaccio,carpaccio,description,Carpaccio,B,PERSON,"People, including fictional"
+paintings,paintings,"('paintings', 'NNS')",paint,painting,description,paintings,O,,
+Scuola,scuola,"('scuola', 'NN')",scuola,scuola,description,Scuola,O,,
+di,di,"('di', 'VBZ')",di,di,description,di,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Giorgio,giorgio,"('giorgio', 'JJ')",giorgio,giorgio,description,Giorgio,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+degli,degli,"('degli', 'NN')",degli,degli,description,degli,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+section,section,"('section', 'NN')",section,section,description,section,O,,
+Castello,castello,"('castello', 'NN')",castello,castello,description,Castello,O,,
+sestiere,sestiere,"('sestiere', 'NN')",sestier,sestiere,description,sestiere,O,,
+given,given,"('given', 'VBN')",given,give,description,given,O,,
+Arsenale,arsenale,"('arsenale', 'NN')",arsenal,arsenale,description,Arsenale,O,,
+once,once,"('once', 'IN')",onc,once,description,once,O,,
+industrial,industrial,"('industrial', 'JJ')",industri,industrial,description,industrial,O,,
+hub,hub,"('hub', 'NN')",hub,hub,description,hub,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+large,large,"('large', 'JJ')",larg,large,description,large,O,,
+naval,naval,"('naval', 'JJ')",naval,naval,description,naval,O,,
+base,base,"('base', 'NN')",base,base,description,base,O,,
+Beyond,beyond,"('beyond', 'IN')",beyond,beyond,description,Beyond,O,,
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+predominantly,predominantly,"('predominantly', 'RB')",predominantli,predominantly,description,predominantly,O,,
+residential,residential,"('residential', 'JJ')",residenti,residential,description,residential,B,DATE,Absolute or relative dates or periods
+quarter,quarter,"('quarter', 'NN')",quarter,quarter,description,quarter,I,DATE,Absolute or relative dates or periods
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+little,little,"('little', 'RB')",littl,little,description,little,O,,
+offer,offer,"('offer', 'VB')",offer,offer,description,offer,O,,
+cultural,cultural,"('cultural', 'JJ')",cultur,cultural,description,cultural,O,,
+significance,significance,"('significance', 'NN')",signific,significance,description,significance,O,,
+except,except,"('except', 'IN')",except,except,description,except,O,,
+Biennale,biennale,"('biennale', 'JJ')",biennal,biennale,description,Biennale,B,PERSON,"People, including fictional"
+art,art,"('art', 'NN')",art,art,description,art,O,,
+architecture,architecture,"('architecture', 'NN')",architectur,architecture,description,architecture,O,,
+shows,shows,"('shows', 'NNS')",show,show,description,shows,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+spaces,spaces,"('spaces', 'NNS')",space,space,description,spaces,O,,
+Giardini,giardini,"('giardini', 'NN')",giardini,giardini,description,Giardini,B,PERSON,"People, including fictional"
+Garibaldi,garibaldi,"('garibaldi', 'NN')",garibaldi,garibaldi,description,Garibaldi,I,PERSON,"People, including fictional"
+Giardini,giardini,"('giardini', 'NN')",giardini,giardini,description,Giardini,I,PERSON,"People, including fictional"
+Pubblici,pubblici,"('pubblici', 'NN')",pubblici,pubblici,description,Pubblici,O,,
+Parco,parco,"('parco', 'NN')",parco,parco,description,Parco,O,,
+della,della,"('della', 'NN')",della,della,description,della,O,,
+Rimembranza,rimembranza,"('rimembranza', 'NN')",rimembranza,rimembranza,description,Rimembranza,O,,
+offer,offer,"('offer', 'VBP')",offer,offer,description,offer,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+green,green,"('green', 'JJ')",green,green,description,green,O,,
+hall,hall,"('hall', 'NN')",hall,hall,description,hall,O,,
+Scuola,scuola,"('scuola', 'NN')",scuola,scuola,description,Scuola,O,,
+di,di,"('di', 'VBZ')",di,di,description,di,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Giorgio,giorgio,"('giorgio', 'NN')",giorgio,giorgio,description,Giorgio,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+degli,degli,"('degli', 'NN')",degli,degli,description,degli,O,,
+Schiavoni,schiavoni,"('schiavoni', 'NN')",schiavoni,schiavoni,description,Schiavoni,B,PERSON,"People, including fictional"
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,description,beautiful,O,,
+rooms,rooms,"('rooms', 'NNS')",room,room,description,rooms,O,,
+Europe,europe,"('europe', 'NN')",europ,europe,description,Europe,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+resident,resident,"('resident', 'NN')",resid,resident,description,resident,O,,
+Slavs,slavs,"('slavs', 'NN')",slav,slav,description,Slavs,B,PERSON,"People, including fictional"
+Schiavoni,schiavoni,"('schiavoni', 'VBZ')",schiavoni,schiavoni,description,Schiavoni,I,PERSON,"People, including fictional"
+traders,traders,"('traders', 'NNS')",trader,trader,description,traders,O,,
+set,set,"('set', 'VBN')",set,set,description,set,O,,
+scuola,scuola,"('scuola', 'NN')",scuola,scuola,description,scuola,O,,
+look,look,"('look', 'VB')",look,look,description,look,O,,
+interests,interests,"('interests', 'NNS')",interest,interest,description,interests,O,,
+present,present,"('present', 'JJ')",present,present,description,present,O,,
+building,building,"('building', 'NN')",build,building,description,building,O,,
+dates,dates,"('dates', 'NNS')",date,date,description,dates,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,B,DATE,Absolute or relative dates or periods
+sixteenth,sixteenth,"('sixteenth', 'JJ')",sixteenth,sixteenth,description,sixteenth,I,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+whole,whole,"('whole', 'JJ')",whole,whole,description,whole,O,,
+interior,interior,"('interior', 'JJ')",interior,interior,description,interior,O,,
+looks,looks,"('looks', 'VBZ')",look,look,description,looks,O,,
+less,less,"('less', 'JJR')",less,less,description,less,O,,
+would,would,"('would', 'MD')",would,would,description,would,O,,
+Entering,entering,"('entering', 'VBG')",enter,enter,description,Entering,O,,
+step,step,"('step', 'VB')",step,step,description,step,O,,
+straight,straight,"('straight', 'RB')",straight,straight,description,straight,O,,
+street,street,"('street', 'NN')",street,street,description,street,O,,
+lower,lower,"('lower', 'JJR')",lower,low,description,lower,O,,
+hall,hall,"('hall', 'PDT')",hall,hall,description,hall,O,,
+walls,walls,"('walls', 'NNS')",wall,wall,description,walls,O,,
+decorated,decorated,"('decorated', 'VBN')",decor,decorate,description,decorated,O,,
+superb,superb,"('superb', 'JJ')",superb,superb,description,superb,O,,
+cycle,cycle,"('cycle', 'NN')",cycl,cycle,description,cycle,O,,
+pictures,pictures,"('pictures', 'NNS')",pictur,picture,description,pictures,O,,
+created,created,"('created', 'VBN')",creat,create,description,created,O,,
+Vittore,vittore,"('vittore', 'NN')",vittor,vittore,description,Vittore,O,,
+Carpaccio,carpaccio,"('carpaccio', 'NN')",carpaccio,carpaccio,description,Carpaccio,O,,
+Outstanding,outstanding,"('outstanding', 'JJ')",outstand,outstanding,description,Outstanding,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+Vision,vision,"('vision', 'NN')",vision,vision,description,Vision,O,,
+St,st,"('st', 'JJ')",st,st,description,St,B,PERSON,"People, including fictional"
+Augustine,augustine,"('augustine', 'NN')",augustin,augustine,description,Augustine,I,PERSON,"People, including fictional"
+depicting,depicting,"('depicting', 'VBG')",depict,depict,description,depicting,O,,
+moment,moment,"('moment', 'NN')",moment,moment,description,moment,O,,
+Augustine,augustine,"('augustine', 'VBP')",augustin,augustine,description,Augustine,B,PERSON,"People, including fictional"
+writing,writing,"('writing', 'VBG')",write,write,description,writing,O,,
+St,st,"('st', 'VB')",st,st,description,St,O,,
+Jerome,jerome,"('jerome', 'NN')",jerom,jerome,description,Jerome,O,,
+vision,vision,"('vision', 'NN')",vision,vision,description,vision,O,,
+Jerome,jerome,"('jerome', 'NN')",jerom,jerome,description,Jerome,O,,
+islands,islands,"('islands', 'VBZ')",island,islands,description,islands,O,,
+lying,lying,"('lying', 'VBG')",lie,lie,description,lying,O,,
+north,north,"('north', 'NN')",north,north,description,north,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+San,san,"('san', 'JJ')",san,san,description,San,O,,
+Michele,michele,"('michele', 'JJ')",michel,michele,description,Michele,O,,
+Murano,murano,"('murano', 'NN')",murano,murano,description,Murano,O,,
+Burano,burano,"('burano', 'NN')",burano,burano,description,Burano,O,,
+Torcello,torcello,"('torcello', 'NN')",torcello,torcello,description,Torcello,O,,
+places,places,"('places', 'NNS')",place,place,description,places,O,,
+visit,visit,"('visit', 'VB')",visit,visit,description,visit,O,,
+throng,throng,"('throng', 'NN')",throng,throng,description,throng,O,,
+tourists,tourists,"('tourists', 'NNS')",tourist,tourist,description,tourists,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+becomes,becomes,"('becomes', 'VBZ')",becom,become,description,becomes,O,,
+oppressive,oppressive,"('oppressive', 'JJ')",oppress,oppressive,description,oppressive,O,,
+Murano,murano,"('murano', 'NN')",murano,murano,description,Murano,B,GPE,"Countries, cities, states"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+hundreds,hundreds,"('hundreds', 'NNS')",hundr,hundred,description,hundreds,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+Burano,burano,"('burano', 'NN')",burano,burano,description,Burano,B,ORG,"Companies, agencies, institutions, etc."
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+once,once,"('once', 'RB')",onc,once,description,once,O,,
+renowned,renowned,"('renowned', 'VBN')",renown,renowned,description,renowned,O,,
+lace,lace,"('lace', 'NN')",lace,lace,description,lace,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+get,get,"('get', 'VB')",get,get,description,get,O,,
+northern,northern,"('northern', 'JJ')",northern,northern,description,northern,O,,
+islands,islands,"('islands', 'VBZ')",island,islands,description,islands,O,,
+main,main,"('main', 'JJ')",main,main,description,main,O,,
+vaporetto,vaporetto,"('vaporetto', 'NN')",vaporetto,vaporetto,description,vaporetto,O,,
+stop,stop,"('stop', 'NN')",stop,stop,description,stop,O,,
+Fondamente,fondamente,"('fondamente', 'JJ')",fondament,fondamente,description,Fondamente,B,WORK_OF_ART,"Titles of books, songs, etc."
+Nove,nove,"('nove', 'RB')",nove,nove,description,Nove,I,WORK_OF_ART,"Titles of books, songs, etc."
+Nuove,nuove,"('nuove', 'VB')",nuov,nuove,description,Nuove,I,WORK_OF_ART,"Titles of books, songs, etc."
+island,island,"('island', 'NN')",island,island,description,island,O,,
+services,services,"('services', 'NNS')",servic,service,description,services,O,,
+start,start,"('start', 'VBP')",start,start,description,start,O,,
+call,call,"('call', 'VB')",call,call,description,call,O,,
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+section,section,"('section', 'NN')",section,section,description,section,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+south,south,"('south', 'NN')",south,south,description,south,B,GPE,"Countries, cities, states"
+city,city,"('city', 'NN')",citi,city,description,city,I,GPE,"Countries, cities, states"
+enclosed,enclosed,"('enclosed', 'VBN')",enclos,enclose,description,enclosed,O,,
+Lido,lido,"('lido', 'NN')",lido,lido,description,Lido,B,PERSON,"People, including fictional"
+Pellestrina,pellestrina,"('pellestrina', 'NN')",pellestrina,pellestrina,description,Pellestrina,I,PERSON,"People, including fictional"
+scattered,scattered,"('scattered', 'VBN')",scatter,scatter,description,scattered,O,,
+larger,larger,"('larger', 'JJR')",larger,large,description,larger,O,,
+expanse,expanse,"('expanse', 'NN')",expans,expanse,description,expanse,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+northern,northern,"('northern', 'JJ')",northern,northern,description,northern,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+nearer,nearer,"('nearer', 'JJ')",nearer,near,description,nearer,O,,
+islands,islands,"('islands', 'NNS')",island,island,description,islands,O,,
+notably,notably,"('notably', 'RB')",notabl,notably,description,notably,O,,
+San,san,"('san', 'VBP')",san,san,description,San,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Giorgio,giorgio,"('giorgio', 'JJ')",giorgio,giorgio,description,Giorgio,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Maggiore,maggiore,"('maggiore', 'NN')",maggior,maggiore,description,Maggiore,O,,
+La,la,"('la', 'NN')",la,la,description,La,O,,
+Giudecca,giudecca,"('giudecca', 'NN')",giudecca,giudecca,description,Giudecca,O,,
+San,san,"('san', 'JJ')",san,san,description,San,O,,
+Lazzaro,lazzaro,"('lazzaro', 'NN')",lazzaro,lazzaro,description,Lazzaro,O,,
+interesting,interesting,"('interesting', 'JJ')",interest,interesting,description,interesting,O,,
+ones,ones,"('ones', 'NNS')",one,one,description,ones,O,,
+settlements,settlements,"('settlements', 'NNS')",settlement,settlement,description,settlements,O,,
+southern,southern,"('southern', 'JJ')",southern,southern,description,southern,O,,
+lagoon,lagoon,"('lagoon', 'NN')",lagoon,lagoon,description,lagoon,O,,
+played,played,"('played', 'VBN')",play,play,description,played,O,,
+significant,significant,"('significant', 'JJ')",signific,significant,description,significant,O,,
+role,role,"('role', 'NN')",role,role,description,role,O,,
+history,history,"('history', 'NN')",histori,history,description,history,O,,
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,B,GPE,"Countries, cities, states"
+nowadays,nowadays,"('nowadays', 'NNS')",nowaday,nowadays,description,nowadays,O,,
+little,little,"('little', 'JJ')",littl,little,description,little,O,,
+going,going,"('going', 'VBG')",go,go,description,going,O,,
+pleasure,pleasure,"('pleasure', 'NN')",pleasur,pleasure,description,pleasure,O,,
+outdoor,outdoor,"('outdoor', 'JJ')",outdoor,outdoor,description,outdoor,O,,
+types,types,"('types', 'NNS')",type,type,description,types,O,,
+interesting,interesting,"('interesting', 'NN')",interest,interesting,description,interesting,O,,
+terrain,terrain,"('terrain', 'NN')",terrain,terrain,description,terrain,O,,
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+northern,northern,"('northern', 'JJ')",northern,northern,description,northern,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+Veneto,veneto,"('veneto', 'NN')",veneto,veneto,description,Veneto,B,GPE,"Countries, cities, states"
+wooded,wooded,"('wooded', 'JJ')",wood,wooded,description,wooded,O,,
+slopes,slopes,"('slopes', 'NNS')",slope,slope,description,slopes,O,,
+foothills,foothills,"('foothills', 'NNS')",foothil,foothill,description,foothills,O,,
+soon,soon,"('soon', 'RB')",soon,soon,description,soon,O,,
+give,give,"('give', 'VBP')",give,give,description,give,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+savage,savage,"('savage', 'NN')",savag,savage,description,savage,O,,
+precipices,precipices,"('precipices', 'NNS')",precipic,precipice,description,precipices,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+Dolomites,dolomites,"('dolomites', 'NNS')",dolomit,dolomite,description,Dolomites,O,,
+Because,because,"('because', 'IN')",becaus,because,description,Because,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+peaks,peaks,"('peaks', 'NNS')",peak,peak,description,peaks,O,,
+Dolomites,dolomites,"('dolomites', 'NNS')",dolomit,dolomite,description,Dolomites,O,,
+lie,lie,"('lie', 'VBP')",lie,lie,description,lie,O,,
+within,within,"('within', 'IN')",within,within,description,within,O,,
+Adige,adige,"('adige', 'NN')",adig,adige,description,Adige,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+Dolomites,dolomites,"('dolomites', 'NNS')",dolomit,dolomite,description,Dolomites,O,,
+easily,easily,"('easily', 'RB')",easili,easily,description,easily,O,,
+explored,explored,"('explored', 'VBN')",explor,explore,description,explored,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+tour,tour,"('tour', 'NN')",tour,tour,description,tour,O,,
+range,range,"('range', 'NN')",rang,range,description,range,O,,
+whole,whole,"('whole', 'JJ')",whole,whole,description,whole,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+Veneto,veneto,"('veneto', 'JJ')",veneto,veneto,description,Veneto,B,GPE,"Countries, cities, states"
+north,north,"('north', 'NN')",north,north,description,north,O,,
+Belluno,belluno,"('belluno', 'NN')",belluno,belluno,description,Belluno,B,GPE,"Countries, cities, states"
+covered,covered,"('covered', 'VBN')",cover,cover,description,covered,O,,
+Adige,adige,"('adige', 'JJ')",adig,adige,description,Adige,O,,
+Similarly,similarly,"('similarly', 'RB')",similarli,similarly,description,Similarly,O,,
+eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,eastern,O,,
+shore,shore,"('shore', 'NN')",shore,shore,description,shore,O,,
+Lake,lake,"('lake', 'NN')",lake,lake,description,Lake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Garda,garda,"('garda', 'NN')",garda,garda,description,Garda,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+covered,covered,"('covered', 'VBN')",cover,cover,description,covered,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+Lombardy,lombardy,"('lombardy', 'NN')",lombardi,lombardy,description,Lombardy,B,ORG,"Companies, agencies, institutions, etc."
+image,image,"('image', 'NN')",imag,image,description,image,O,,
+Grand,grand,"('grand', 'JJ')",grand,grand,description,Grand,B,FAC,"Buildings, airports, highways, bridges, etc."
+Canal,canal,"('canal', 'JJ')",canal,canal,description,Canal,I,FAC,"Buildings, airports, highways, bridges, etc."
+Venice,venice,"('venice', 'NN')",venic,venice,description,Venice,I,FAC,"Buildings, airports, highways, bridges, etc."
+Italy,italy,"('italy', 'NN')",itali,italy,description,Italy,O,,
+Apple,apple,"('apple', 'NN')",appl,apple,description,Apple,B,ORG,"Companies, agencies, institutions, etc."
+feature,feature,"('feature', 'NN')",featur,feature,description,feature,O,,
+contains,contains,"('contains', 'VBZ')",contain,contain,description,contains,O,,
+affiliate,affiliate,"('affiliate', 'JJ')",affili,affiliate,description,affiliate,O,,
+links,links,"('links', 'NNS')",link,link,description,links,O,,
+recommendations,recommendations,"('recommendations', 'NNS')",recommend,recommendation,description,recommendations,O,,
+editorially,editorially,"('editorially', 'RB')",editori,editorially,description,editorially,O,,
+independent,independent,"('independent', 'JJ')",independ,independent,description,independent,O,,

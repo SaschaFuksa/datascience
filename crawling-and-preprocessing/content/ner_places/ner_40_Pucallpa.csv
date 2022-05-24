@@ -1,0 +1,102 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+sprawling,sprawling,"('sprawling', 'JJ')",sprawl,sprawling,introduction,sprawling,O,,
+hot,hot,"('hot', 'JJ')",hot,hot,introduction,hot,O,,
+dusty,dusty,"('dusty', 'JJ')",dusti,dusty,introduction,dusty,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+inhabitants,inhabitants,"('inhabitants', 'NNS')",inhabit,inhabitant,introduction,inhabitants,O,,
+PUCALLPA,pucallpa,"('pucallpa', 'JJ')",pucallpa,pucallpa,introduction,PUCALLPA,O,,
+holds,holds,"('holds', 'VBZ')",hold,hold,introduction,holds,O,,
+little,little,"('little', 'RB')",littl,little,introduction,little,O,,
+interest,interest,"('interest', 'NN')",interest,interest,introduction,interest,O,,
+travellers,travellers,"('travellers', 'NNS')",travel,traveller,introduction,travellers,O,,
+get,get,"('get', 'VB')",get,get,introduction,get,O,,
+straight,straight,"('straight', 'VBN')",straight,straight,introduction,straight,O,,
+mototaxi,mototaxi,"('mototaxi', 'NN')",mototaxi,mototaxi,introduction,mototaxi,O,,
+local,local,"('local', 'JJ')",local,local,introduction,local,O,,
+bus,bus,"('bus', 'NN')",bu,bus,introduction,bus,O,,
+Lago,lago,"('lago', 'JJ')",lago,lago,introduction,Lago,B,PERSON,"People, including fictional"
+Yarinacocha,yarinacocha,"('yarinacocha', 'NN')",yarinacocha,yarinacocha,introduction,Yarinacocha,I,PERSON,"People, including fictional"
+stay,stay,"('stay', 'VBP')",stay,stay,introduction,stay,O,,
+though,though,"('though', 'IN')",though,though,introduction,though,O,,
+difficult,difficult,"('difficult', 'JJ')",difficult,difficult,introduction,difficult,O,,
+appreciate,appreciate,"('appreciate', 'VB')",appreci,appreciate,introduction,appreciate,O,,
+Pucallpa,pucallpa,"('pucallpa', 'NN')",pucallpa,pucallpa,introduction,Pucallpa,O,,
+relaxed,relaxed,"('relaxed', 'VBD')",relax,relax,introduction,relaxed,O,,
+feel,feel,"('feel', 'NN')",feel,feel,introduction,feel,O,,
+entrepreneurial,entrepreneurial,"('entrepreneurial', 'JJ')",entrepreneuri,entrepreneurial,introduction,entrepreneurial,O,,
+optimism,optimism,"('optimism', 'NN')",optim,optimism,introduction,optimism,O,,
+this,this,"('this', 'DT')",thi,this,introduction,this,O,,
+burgeoning,burgeoning,"('burgeoning', 'VBG')",burgeon,burgeon,introduction,burgeoning,O,,
+jungle,jungle,"('jungle', 'NN')",jungl,jungle,introduction,jungle,O,,
+frontier,frontier,"('frontier', 'JJR')",frontier,frontier,introduction,frontier,O,,
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+Pucallpa,pucallpa,"('pucallpa', 'NN')",pucallpa,pucallpa,description,Pucallpa,O,,
+annual,annual,"('annual', 'JJ')",annual,annual,description,annual,B,DATE,Absolute or relative dates or periods
+festival,festival,"('festival', 'NN')",festiv,festival,description,festival,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+Semana,semana,"('semana', 'NN')",semana,semana,description,Semana,B,PERSON,"People, including fictional"
+Turística,turística,"('turística', 'NN')",turística,turística,description,Turística,I,PERSON,"People, including fictional"
+de,de,"('de', 'IN')",de,de,description,de,I,PERSON,"People, including fictional"
+la,la,"('la', 'FW')",la,la,description,la,I,PERSON,"People, including fictional"
+Region,region,"('region', 'NN')",region,region,description,Region,O,,
+Ucayali,ucayali,"('ucayali', 'NN')",ucayali,ucayali,description,Ucayali,O,,
+usually,usually,"('usually', 'RB')",usual,usually,description,usually,O,,
+held,held,"('held', 'VBN')",held,hold,description,held,O,,
+last,last,"('last', 'JJ')",last,last,description,last,B,DATE,Absolute or relative dates or periods
+week,week,"('week', 'NN')",week,week,description,week,I,DATE,Absolute or relative dates or periods
+September,september,"('september', 'JJ')",septemb,september,description,September,B,DATE,Absolute or relative dates or periods
+offering,offering,"('offering', 'NN')",offer,offering,description,offering,O,,
+mostly,mostly,"('mostly', 'RB')",mostli,mostly,description,mostly,O,,
+artesanía,artesanía,"('artesanía', 'JJ')",artesanía,artesanía,description,artesanía,O,,
+markets,markets,"('markets', 'NNS')",market,market,description,markets,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+folklore,folklore,"('folklore', 'NN')",folklor,folklore,description,folklore,O,,
+music,music,"('music', 'NN')",music,music,description,music,B,TIME,Times smaller than a day
+hour,hour,"('hour', 'NN')",hour,hour,description,hour,I,TIME,Times smaller than a day
+away,away,"('away', 'RB')",away,away,description,away,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+downtown,downtown,"('downtown', 'NN')",downtown,downtown,description,downtown,O,,
+food,food,"('food', 'NN')",food,food,description,food,O,,
+market,market,"('market', 'NN')",market,market,description,market,O,,
+Jirón,jirón,"('jirón', 'NN')",jirón,jirón,description,Jirón,B,PERSON,"People, including fictional"
+Independencia,independencia,"('independencia', 'NN')",independencia,independencia,description,Independencia,I,PERSON,"People, including fictional"
+older,older,"('older', 'JJR')",older,old,description,older,O,,
+central,central,"('central', 'JJ')",central,central,description,central,O,,
+market,market,"('market', 'NN')",market,market,description,market,O,,
+de,de,"('de', 'IN')",de,de,description,de,O,,
+Mayo,mayo,"('mayo', 'FW')",mayo,mayo,description,Mayo,B,ORG,"Companies, agencies, institutions, etc."
+worth,worth,"('worth', 'JJ')",worth,worth,description,worth,O,,
+checking,checking,"('checking', 'VBG')",check,check,description,checking,O,,
+latter,latter,"('latter', 'NN')",latter,latter,description,latter,O,,
+particular,particular,"('particular', 'JJ')",particular,particular,description,particular,O,,
+comprises,comprises,"('comprises', 'NNS')",compris,comprises,description,comprises,O,,
+varied,varied,"('varied', 'VBD')",vari,vary,description,varied,O,,
+stalls,stalls,"('stalls', 'NNS')",stall,stall,description,stalls,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+jungle,jungle,"('jungle', 'NN')",jungl,jungle,description,jungle,O,,
+produce,produce,"('produce', 'VBP')",produc,produce,description,produce,O,,
+port,port,"('port', 'NN')",port,port,description,port,O,,
+La,la,"('la', 'NN')",la,la,description,La,B,ORG,"Companies, agencies, institutions, etc."
+Hoyada,hoyada,"('hoyada', 'NN')",hoyada,hoyada,description,Hoyada,I,ORG,"Companies, agencies, institutions, etc."
+older,older,"('older', 'JJR')",older,old,description,older,O,,
+nearby,nearby,"('nearby', 'JJ')",nearbi,nearby,description,nearby,O,,
+Puerto,puerto,"('puerto', 'NN')",puerto,puerto,description,Puerto,B,GPE,"Countries, cities, states"
+Italia,italia,"('italia', 'NNS')",italia,italia,description,Italia,I,GPE,"Countries, cities, states"
+also,also,"('also', 'RB')",also,also,description,also,O,,
+bustling,bustling,"('bustling', 'VBG')",bustl,bustle,description,bustling,O,,
+activity,activity,"('activity', 'NN')",activ,activity,description,activity,O,,
+day,day,"('day', 'NN')",day,day,description,day,O,,
+craft,craft,"('craft', 'NN')",craft,craft,description,craft,O,,
+shopping,shopping,"('shopping', 'NN')",shop,shopping,description,shopping,O,,
+artesanía,artesanía,"('artesanía', 'NN')",artesanía,artesanía,description,artesanía,O,,
+found,found,"('found', 'VBN')",found,find,description,found,O,,
+Jirón,jirón,"('jirón', 'JJ')",jirón,jirón,description,Jirón,B,ORG,"Companies, agencies, institutions, etc."
+Mariscal,mariscal,"('mariscal', 'JJ')",marisc,mariscal,description,Mariscal,I,ORG,"Companies, agencies, institutions, etc."
+Cáceres,cáceres,"('cáceres', 'NNS')",cácere,cáceres,description,Cáceres,I,ORG,"Companies, agencies, institutions, etc."
+block,block,"('block', 'VBP')",block,block,description,block,O,,
+Jirón,jirón,"('jirón', 'NN')",jirón,jirón,description,Jirón,B,PERSON,"People, including fictional"
+Tarapacá,tarapacá,"('tarapacá', 'NN')",tarapacá,tarapacá,description,Tarapacá,I,PERSON,"People, including fictional"
+block,block,"('block', 'NN')",block,block,description,block,O,,
+Jirón,jirón,"('jirón', 'NN')",jirón,jirón,description,Jirón,B,PERSON,"People, including fictional"
+Tanca,tanca,"('tanca', 'NN')",tanca,tanca,description,Tanca,I,PERSON,"People, including fictional"
+block,block,"('block', 'NN')",block,block,description,block,O,,

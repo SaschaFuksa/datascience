@@ -1,0 +1,309 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+Only,only,"('only', 'RB')",onli,only,introduction,Only,O,,
+traverse,traverse,"('traverse', 'VBP')",travers,traverse,introduction,traverse,O,,
+Rocky,rocky,"('rocky', 'JJ')",rocki,rocky,introduction,Rocky,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Mountain,mountain,"('mountain', 'NN')",mountain,mountain,introduction,Mountain,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+states,states,"('states', 'NNS')",state,state,introduction,states,O,,
+Colorado,colorado,"('colorado', 'NN')",colorado,colorado,introduction,Colorado,B,GPE,"Countries, cities, states"
+Wyoming,wyoming,"('wyoming', 'VBG')",wyom,wyoming,introduction,Wyoming,B,GPE,"Countries, cities, states"
+Montana,montana,"('montana', 'NNS')",montana,montana,introduction,Montana,B,GPE,"Countries, cities, states"
+Idaho,idaho,"('idaho', 'NN')",idaho,idaho,introduction,Idaho,B,GPE,"Countries, cities, states"
+does,does,"('does', 'VBZ')",doe,do,introduction,does,O,,
+immense,immense,"('immense', 'JJ')",immens,immense,introduction,immense,O,,
+size,size,"('size', 'NN')",size,size,introduction,size,O,,
+American,american,"('american', 'JJ')",american,american,introduction,American,B,NORP,Nationalities or religious or political groups
+West,west,"('west', 'NN')",west,west,introduction,West,O,,
+really,really,"('really', 'RB')",realli,really,introduction,really,O,,
+hit,hit,"('hit', 'VBD')",hit,hit,introduction,hit,O,,
+home,home,"('home', 'NN')",home,home,introduction,home,O,,
+Stretching,stretching,"('stretching', 'NN')",stretch,stretching,introduction,Stretching,B,NORP,Nationalities or religious or political groups
+one,one,"('one', 'CD')",one,one,introduction,one,B,QUANTITY,"Measurements, as of weight or distance"
+thousand,thousand,"('thousand', 'NN')",thousand,thousand,introduction,thousand,I,QUANTITY,"Measurements, as of weight or distance"
+miles,miles,"('miles', 'NNS')",mile,mile,introduction,miles,I,QUANTITY,"Measurements, as of weight or distance"
+virgin,virgin,"('virgin', 'NN')",virgin,virgin,introduction,virgin,O,,
+forests,forests,"('forests', 'NNS')",forest,forest,introduction,forests,O,,
+Canadian,canadian,"('canadian', 'JJ')",canadian,canadian,introduction,Canadian,B,NORP,Nationalities or religious or political groups
+border,border,"('border', 'NN')",border,border,introduction,border,O,,
+deserts,deserts,"('deserts', 'NNS')",desert,desert,introduction,deserts,O,,
+New,new,"('new', 'JJ')",new,new,introduction,New,B,GPE,"Countries, cities, states"
+Mexico,mexico,"('mexico', 'NN')",mexico,mexico,introduction,Mexico,I,GPE,"Countries, cities, states"
+America,america,"('america', 'NN')",america,america,introduction,America,I,GPE,"Countries, cities, states"
+rugged,rugged,"('rugged', 'VBN')",rug,rugged,introduction,rugged,O,,
+spine,spine,"('spine', 'NN')",spine,spine,introduction,spine,O,,
+encompasses,encompasses,"('encompasses', 'VBZ')",encompass,encompass,introduction,encompasses,O,,
+astonishing,astonishing,"('astonishing', 'JJ')",astonish,astonishing,introduction,astonishing,O,,
+array,array,"('array', 'NN')",array,array,introduction,array,B,PERSON,"People, including fictional"
+landscapes,landscapes,"('landscapes', 'NNS')",landscap,landscape,introduction,landscapes,I,PERSON,"People, including fictional"
+geyser,geyser,"('geyser', 'VBP')",geyser,geyser,introduction,geyser,O,,
+basins,basins,"('basins', 'NNS')",basin,basin,introduction,basins,O,,
+lava,lava,"('lava', 'JJ')",lava,lava,introduction,lava,O,,
+flows,flows,"('flows', 'NNS')",flow,flow,introduction,flows,O,,
+arid,arid,"('arid', 'VBP')",arid,arid,introduction,arid,O,,
+valleys,valleys,"('valleys', 'NNS')",valley,valley,introduction,valleys,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,introduction,huge,O,,
+sand,sand,"('sand', 'NN')",sand,sand,introduction,sand,O,,
+dunes,dunes,"('dunes', 'NNS')",dune,dune,introduction,dunes,O,,
+way,way,"('way', 'NN')",way,way,introduction,way,O,,
+dramatic,dramatic,"('dramatic', 'JJ')",dramat,dramatic,introduction,dramatic,O,,
+region,region,"('region', 'NN')",region,region,introduction,region,O,,
+magnificent,magnificent,"('magnificent', 'JJ')",magnific,magnificent,introduction,magnificent,O,,
+peaks,peaks,"('peaks', 'NNS')",peak,peak,introduction,peaks,O,,
+geological,geological,"('geological', 'JJ')",geolog,geological,introduction,geological,O,,
+grandeur,grandeur,"('grandeur', 'NN')",grandeur,grandeur,introduction,grandeur,O,,
+enhanced,enhanced,"('enhanced', 'VBN')",enhanc,enhance,introduction,enhanced,O,,
+wildlife,wildlife,"('wildlife', 'NN')",wildlif,wildlife,introduction,wildlife,O,,
+bison,bison,"('bison', 'NN')",bison,bison,introduction,bison,B,PERSON,"People, including fictional"
+bear,bear,"('bear', 'IN')",bear,bear,introduction,bear,I,PERSON,"People, including fictional"
+moose,moose,"('moose', 'NN')",moos,moose,introduction,moose,O,,
+elk,elk,"('elk', 'NN')",elk,elk,introduction,elk,O,,
+conspicuous,conspicuous,"('conspicuous', 'JJ')",conspicu,conspicuous,introduction,conspicuous,O,,
+legacy,legacy,"('legacy', 'NN')",legaci,legacy,introduction,legacy,O,,
+miners,miners,"('miners', 'NNS')",miner,miner,introduction,miners,O,,
+cowboys,cowboys,"('cowboys', 'VBP')",cowboy,cowboys,introduction,cowboys,O,,
+outlaws,outlaws,"('outlaws', 'NNS')",outlaw,outlaw,introduction,outlaws,O,,
+Native,native,"('native', 'JJ')",nativ,native,introduction,Native,B,NORP,Nationalities or religious or political groups
+Americans,americans,"('americans', 'NNS')",american,american,introduction,Americans,I,NORP,Nationalities or religious or political groups
+struggled,struggled,"('struggled', 'VBD')",struggl,struggle,introduction,struggled,O,,
+area,area,"('area', 'NN')",area,area,introduction,area,O,,
+rich,rich,"('rich', 'JJ')",rich,rich,introduction,rich,O,,
+resources,resources,"('resources', 'NNS')",resourc,resource,introduction,resources,O,,
+during,during,"('during', 'IN')",dure,during,introduction,during,O,,
+nineteenth,nineteenth,"('nineteenth', 'JJ')",nineteenth,nineteenth,introduction,nineteenth,B,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,introduction,century,I,DATE,Absolute or relative dates or periods
+four,four,"('four', 'CD')",four,four,description,four,B,CARDINAL,Numerals that do not fall under another type
+states,states,"('states', 'NNS')",state,state,description,states,O,,
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+distinct,distinct,"('distinct', 'JJ')",distinct,distinct,description,distinct,O,,
+character,character,"('character', 'NN')",charact,character,description,character,O,,
+Colorado,colorado,"('colorado', 'NN')",colorado,colorado,description,Colorado,B,GPE,"Countries, cities, states"
+fifty,fifty,"('fifty', 'JJ')",fifti,fifty,description,fifty,B,CARDINAL,Numerals that do not fall under another type
+peaks,peaks,"('peaks', 'NNS')",peak,peak,description,peaks,O,,
+mountainous,mountainous,"('mountainous', 'JJ')",mountain,mountainous,description,mountainous,O,,
+populated,populated,"('populated', 'VBD')",popul,populate,description,populated,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+economic,economic,"('economic', 'JJ')",econom,economic,description,economic,O,,
+leader,leader,"('leader', 'NN')",leader,leader,description,leader,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+liberal,liberal,"('liberal', 'JJ')",liber,liberal,description,liberal,O,,
+progressive,progressive,"('progressive', 'JJ')",progress,progressive,description,progressive,O,,
+reputation,reputation,"('reputation', 'NN')",reput,reputation,description,reputation,O,,
+Friendly,friendly,"('friendly', 'RB')",friendli,friendly,description,Friendly,O,,
+sophisticated,sophisticated,"('sophisticated', 'VBD')",sophist,sophisticate,description,sophisticated,O,,
+Denver,denver,"('denver', 'IN')",denver,denver,description,Denver,B,ORG,"Companies, agencies, institutions, etc."
+Rockies,rockies,"('rockies', 'NNS')",rocki,rockies,description,Rockies,I,ORG,"Companies, agencies, institutions, etc."
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+metropolis,metropolis,"('metropolis', 'NN')",metropoli,metropolis,description,metropolis,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+visited,visited,"('visited', 'JJ')",visit,visited,description,visited,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+part,part,"('part', 'NN')",part,part,description,part,O,,
+because,because,"('because', 'IN')",becaus,because,description,because,O,,
+serves,serves,"('serves', 'VBZ')",serv,serve,description,serves,O,,
+gateway,gateway,"('gateway', 'NN')",gateway,gateway,description,gateway,O,,
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+ski,ski,"('ski', 'JJ')",ski,ski,description,ski,O,,
+resorts,resorts,"('resorts', 'NNS')",resort,resort,description,resorts,O,,
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+Less,less,"('less', 'CC')",less,le,description,Less,O,,
+touched,touched,"('touched', 'VBN')",touch,touch,description,touched,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+circus,circus,"('circus', 'NN')",circu,circus,description,circus,O,,
+vast,vast,"('vast', 'JJ')",vast,vast,description,vast,O,,
+brawny,brawny,"('brawny', 'NN')",brawni,brawny,description,brawny,O,,
+Montana,montana,"('montana', 'NN')",montana,montana,description,Montana,B,GPE,"Countries, cities, states"
+Big,big,"('big', 'JJ')",big,big,description,Big,O,,
+Sky,sky,"('sky', 'NN')",sky,sky,description,Sky,O,,
+looks,looks,"('looks', 'VBZ')",look,look,description,looks,O,,
+glorious,glorious,"('glorious', 'JJ')",gloriou,glorious,description,glorious,O,,
+verdant,verdant,"('verdant', 'NN')",verdant,verdant,description,verdant,O,,
+manuscript,manuscript,"('manuscript', 'NN')",manuscript,manuscript,description,manuscript,O,,
+scribbled,scribbled,"('scribbled', 'VBD')",scribbl,scribble,description,scribbled,O,,
+gushing,gushing,"('gushing', 'VBG')",gush,gush,description,gushing,O,,
+streams,streams,"('streams', 'NNS')",stream,stream,description,streams,O,,
+lakes,lakes,"('lakes', 'NNS')",lake,lake,description,lakes,O,,
+tiny,tiny,"('tiny', 'JJ')",tini,tiny,description,tiny,O,,
+stretches,stretches,"('stretches', 'NNS')",stretch,stretch,description,stretches,O,,
+scrubland,scrubland,"('scrubland', 'NN')",scrubland,scrubland,description,scrubland,O,,
+fill,fill,"('fill', 'NN')",fill,fill,description,fill,O,,
+Wyoming,wyoming,"('wyoming', 'VBG')",wyom,wyoming,description,Wyoming,B,GPE,"Countries, cities, states"
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+populous,populous,"('populous', 'JJ')",popul,populous,description,populous,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+conservative,conservative,"('conservative', 'JJ')",conserv,conservative,description,conservative,O,,
+traditionally,traditionally,"('traditionally', 'RB')",tradit,traditionally,description,traditionally,O,,
+Western,western,"('western', 'JJ')",western,western,description,Western,B,NORP,Nationalities or religious or political groups
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+known,known,"('known', 'VBN')",known,know,description,known,O,,
+gurgling,gurgling,"('gurgling', 'VBG')",gurgl,gurgle,description,gurgling,O,,
+spitting,spitting,"('spitting', 'VBG')",spit,spit,description,spitting,O,,
+Yellowstone,yellowstone,"('yellowstone', 'NN')",yellowston,yellowstone,description,Yellowstone,O,,
+adjacent,adjacent,"('adjacent', 'JJ')",adjac,adjacent,description,adjacent,O,,
+Grand,grand,"('grand', 'JJ')",grand,grand,description,Grand,B,ORG,"Companies, agencies, institutions, etc."
+Teton,teton,"('teton', 'NN')",teton,teton,description,Teton,I,ORG,"Companies, agencies, institutions, etc."
+National,national,"('national', 'JJ')",nation,national,description,National,I,ORG,"Companies, agencies, institutions, etc."
+Park,park,"('park', 'NN')",park,park,description,Park,I,ORG,"Companies, agencies, institutions, etc."
+nearby,nearby,"('nearby', 'JJ')",nearbi,nearby,description,nearby,O,,
+Bighorn,bighorn,"('bighorn', 'NN')",bighorn,bighorn,description,Bighorn,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,Mountains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Rugged,rugged,"('rugged', 'VBD')",rug,rugged,description,Rugged,O,,
+remote,remote,"('remote', 'JJ')",remot,remote,description,remote,O,,
+whitewater,whitewater,"('whitewater', 'NN')",whitewat,whitewater,description,whitewater,O,,
+rafting,rafting,"('rafting', 'VBG')",raft,raft,description,rafting,O,,
+hub,hub,"('hub', 'JJ')",hub,hub,description,hub,O,,
+Idaho,idaho,"('idaho', 'NN')",idaho,idaho,description,Idaho,B,GPE,"Countries, cities, states"
+holds,holds,"('holds', 'VBZ')",hold,hold,description,holds,O,,
+Rocky,rocky,"('rocky', 'NN')",rocki,rocky,description,Rocky,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Mountains,mountains,"('mountains', 'VBZ')",mountain,mountains,description,Mountains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+last,last,"('last', 'JJ')",last,last,description,last,O,,
+unexplored,unexplored,"('unexplored', 'JJ')",unexplor,unexplored,description,unexplored,O,,
+wildernesses,wildernesses,"('wildernesses', 'NNS')",wilder,wilderness,description,wildernesses,O,,
+notably,notably,"('notably', 'RB')",notabl,notably,description,notably,O,,
+mighty,mighty,"('mighty', 'NN')",mighti,mighty,description,mighty,O,,
+Sawtooth,sawtooth,"('sawtooth', 'NN')",sawtooth,sawtooth,description,Sawtooth,O,,
+rush,rush,"('rush', 'VB')",rush,rush,description,rush,O,,
+around,around,"('around', 'RP')",around,around,description,around,O,,
+every,every,"('every', 'DT')",everi,every,description,every,O,,
+national,national,"('national', 'JJ')",nation,national,description,national,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+miss,miss,"('miss', 'PRP')",miss,miss,description,miss,O,,
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+Rockies,rockies,"('rockies', 'NNS')",rocki,rockies,description,Rockies,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+real,real,"('real', 'JJ')",real,real,description,real,O,,
+delights,delights,"('delights', 'NNS')",delight,delight,description,delights,O,,
+coaxing,coaxing,"('coaxing', 'VBG')",coax,coax,description,coaxing,O,,
+car,car,"('car', 'NN')",car,car,description,car,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+tight,tight,"('tight', 'JJ')",tight,tight,description,tight,O,,
+switchback,switchback,"('switchback', 'NN')",switchback,switchback,description,switchback,O,,
+roads,roads,"('roads', 'NNS')",road,road,description,roads,O,,
+wind,wind,"('wind', 'VBP')",wind,wind,description,wind,O,,
+precipitous,precipitous,"('precipitous', 'JJ')",precipit,precipitous,description,precipitous,O,,
+mountain,mountain,"('mountain', 'NN')",mountain,mountain,description,mountain,O,,
+passes,passes,"('passes', 'NNS')",pass,pass,description,passes,O,,
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+majestic,majestic,"('majestic', 'JJ')",majest,majestic,description,majestic,O,,
+Continental,continental,"('continental', 'JJ')",continent,continental,description,Continental,B,ORG,"Companies, agencies, institutions, etc."
+Divide,divide,"('divide', 'NN')",divid,divide,description,Divide,I,ORG,"Companies, agencies, institutions, etc."
+point,point,"('point', 'NN')",point,point,description,point,O,,
+worth,worth,"('worth', 'JJ')",worth,worth,description,worth,O,,
+forsaking,forsaking,"('forsaking', 'VBG')",forsak,forsake,description,forsaking,O,,
+motorized,motorized,"('motorized', 'JJ')",motor,motorized,description,motorized,O,,
+transport,transport,"('transport', 'NN')",transport,transport,description,transport,O,,
+see,see,"('see', 'VB')",see,see,description,see,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+area,area,"('area', 'NN')",area,area,description,area,O,,
+bike,bike,"('bike', 'IN')",bike,bike,description,bike,O,,
+Rockies,rockies,"('rockies', 'NNS')",rocki,rockies,description,Rockies,B,FAC,"Buildings, airports, highways, bridges, etc."
+contain,contain,"('contain', 'VBP')",contain,contain,description,contain,O,,
+challenging,challenging,"('challenging', 'JJ')",challeng,challenging,description,challenging,O,,
+rewarding,rewarding,"('rewarding', 'VBG')",reward,reward,description,rewarding,O,,
+cycling,cycling,"('cycling', 'VBG')",cycl,cycle,description,cycling,O,,
+terrain,terrain,"('terrain', 'NN')",terrain,terrain,description,terrain,O,,
+continent,continent,"('continent', 'NN')",contin,continent,description,continent,O,,
+course,course,"('course', 'NN')",cours,course,description,course,O,,
+really,really,"('really', 'RB')",realli,really,description,really,O,,
+claim,claim,"('claim', 'VB')",claim,claim,description,claim,O,,
+experienced,experienced,"('experienced', 'VBN')",experienc,experience,description,experienced,O,,
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,mountains,O,,
+unless,unless,"('unless', 'IN')",unless,unless,description,unless,O,,
+embark,embark,"('embark', 'VBP')",embark,embark,description,embark,O,,
+hike,hike,"('hike', 'NN')",hike,hike,description,hike,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,B,DATE,Absolute or relative dates or periods
+June,june,"('june', 'NN')",june,june,description,June,I,DATE,Absolute or relative dates or periods
+early,early,"('early', 'JJ')",earli,early,description,early,I,DATE,Absolute or relative dates or periods
+September,september,"('september', 'NN')",septemb,september,description,September,I,DATE,Absolute or relative dates or periods
+expect,expect,"('expect', 'VB')",expect,expect,description,expect,O,,
+temperatures,temperatures,"('temperatures', 'NNS')",temperatur,temperature,description,temperatures,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+sixties,sixties,"('sixties', 'NNS')",sixti,sixty,description,sixties,O,,
+way,way,"('way', 'NN')",way,way,description,way,O,,
+hundred,hundred,"('hundred', 'JJ')",hundr,hundred,description,hundred,B,QUANTITY,"Measurements, as of weight or distance"
+degrees,degrees,"('degrees', 'NNS')",degre,degree,description,degrees,I,QUANTITY,"Measurements, as of weight or distance"
+Fahrenheit,fahrenheit,"('fahrenheit', 'VBP')",fahrenheit,fahrenheit,description,Fahrenheit,O,,
+depending,depending,"('depending', 'VBG')",depend,depend,description,depending,O,,
+whether,whether,"('whether', 'IN')",whether,whether,description,whether,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+desert,desert,"('desert', 'NN')",desert,desert,description,desert,O,,
+Wyoming,wyoming,"('wyoming', 'VBG')",wyom,wyoming,description,Wyoming,B,GPE,"Countries, cities, states"
+plains,plains,"('plains', 'NNS')",plain,plain,description,plains,O,,
+Idaho,idaho,"('idaho', 'NN')",idaho,idaho,description,Idaho,B,GPE,"Countries, cities, states"
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,mountains,O,,
+Colorado,colorado,"('colorado', 'NN')",colorado,colorado,description,Colorado,B,GPE,"Countries, cities, states"
+prepared,prepared,"('prepared', 'VBN')",prepar,prepare,description,prepared,O,,
+wild,wild,"('wild', 'JJ')",wild,wild,description,wild,O,,
+variations,variations,"('variations', 'NNS')",variat,variation,description,variations,O,,
+mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,mountains,O,,
+course,course,"('course', 'NN')",cours,course,description,course,O,,
+higher,higher,"('higher', 'JJR')",higher,high,description,higher,O,,
+go,go,"('go', 'VBP')",go,go,description,go,O,,
+colder,colder,"('colder', 'NN')",colder,colder,description,colder,O,,
+gets,gets,"('gets', 'VBZ')",get,get,description,gets,O,,
+altitude,altitude,"('altitude', 'NN')",altitud,altitude,description,altitude,O,,
+high,high,"('high', 'JJ')",high,high,description,high,O,,
+enough,enough,"('enough', 'RB')",enough,enough,description,enough,O,,
+warrant,warrant,"('warrant', 'VB')",warrant,warrant,description,warrant,O,,
+period,period,"('period', 'NN')",period,period,description,period,O,,
+acclimatization,acclimatization,"('acclimatization', 'NN')",acclimat,acclimatization,description,acclimatization,O,,
+sun,sun,"('sun', 'NN')",sun,sun,description,sun,O,,
+elevations,elevations,"('elevations', 'NNS')",elev,elevation,description,elevations,O,,
+uncomfortably,uncomfortably,"('uncomfortably', 'RB')",uncomfort,uncomfortably,description,uncomfortably,O,,
+fierce,fierce,"('fierce', 'JJ')",fierc,fierce,description,fierce,O,,
+fact,fact,"('fact', 'NN')",fact,fact,description,fact,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+Wyoming,wyoming,"('wyoming', 'NN')",wyom,wyoming,description,Wyoming,B,GPE,"Countries, cities, states"
+Colorado,colorado,"('colorado', 'NN')",colorado,colorado,description,Colorado,B,GPE,"Countries, cities, states"
+bask,bask,"('bask', 'NN')",bask,bask,description,bask,O,,
+hours,hours,"('hours', 'NNS')",hour,hour,description,hours,O,,
+sunshine,sunshine,"('sunshine', 'NN')",sunshin,sunshine,description,sunshine,O,,
+per,per,"('per', 'IN')",per,per,description,per,O,,
+year,year,"('year', 'NN')",year,year,description,year,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,GPE,"Countries, cities, states"
+Diego,diego,"('diego', 'NN')",diego,diego,description,Diego,I,GPE,"Countries, cities, states"
+Miami,miami,"('miami', 'NN')",miami,miami,description,Miami,B,GPE,"Countries, cities, states"
+Beach,beach,"('beach', 'NN')",beach,beach,description,Beach,I,GPE,"Countries, cities, states"
+Spring,spring,"('spring', 'NN')",spring,spring,description,Spring,I,GPE,"Countries, cities, states"
+snow,snow,"('snow', 'NN')",snow,snow,description,snow,O,,
+melts,melts,"('melts', 'NNS')",melt,melt,description,melts,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+attractive,attractive,"('attractive', 'JJ')",attract,attractive,description,attractive,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+visit,visit,"('visit', 'VB')",visit,visit,description,visit,O,,
+delicate,delicate,"('delicate', 'JJ')",delic,delicate,description,delicate,O,,
+golds,golds,"('golds', 'NNS')",gold,gold,description,golds,O,,
+quaking,quaking,"('quaking', 'VBG')",quak,quake,description,quaking,O,,
+aspen,aspen,"('aspen', 'JJ')",aspen,aspen,description,aspen,O,,
+trees,trees,"('trees', 'NNS')",tree,tree,description,trees,O,,
+light,light,"('light', 'VBD')",light,light,description,light,O,,
+mountainsides,mountainsides,"('mountainsides', 'NNS')",mountainsid,mountainside,description,mountainsides,O,,
+early,early,"('early', 'JJ')",earli,early,description,early,B,DATE,Absolute or relative dates or periods
+autumn,autumn,"('autumn', 'NN')",autumn,autumn,description,autumn,I,DATE,Absolute or relative dates or periods
+October,october,"('october', 'JJ')",octob,october,description,October,B,DATE,Absolute or relative dates or periods
+things,things,"('things', 'NNS')",thing,thing,description,things,O,,
+generally,generally,"('generally', 'RB')",gener,generally,description,generally,O,,
+bit,bit,"('bit', 'NN')",bit,bit,description,bit,O,,
+cold,cold,"('cold', 'JJ')",cold,cold,description,cold,O,,
+enjoyable,enjoyable,"('enjoyable', 'JJ')",enjoy,enjoyable,description,enjoyable,O,,
+hiking,hiking,"('hiking', 'NN')",hike,hiking,description,hiking,O,,
+sports,sports,"('sports', 'NNS')",sport,sport,description,sports,O,,
+ski,ski,"('ski', 'JJ')",ski,ski,description,ski,O,,
+runs,runs,"('runs', 'NNS')",run,run,description,runs,O,,
+open,open,"('open', 'JJ')",open,open,description,open,O,,
+late,late,"('late', 'JJ')",late,late,description,late,B,DATE,Absolute or relative dates or periods
+November,november,"('november', 'NNS')",novemb,november,description,November,I,DATE,Absolute or relative dates or periods
+operate,operate,"('operate', 'VB')",oper,operate,description,operate,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+March,march,"('march', 'NN')",march,march,description,March,B,DATE,Absolute or relative dates or periods
+even,even,"('even', 'RB')",even,even,description,even,I,DATE,Absolute or relative dates or periods
+June,june,"('june', 'JJ')",june,june,description,June,I,DATE,Absolute or relative dates or periods
+depending,depending,"('depending', 'VBG')",depend,depend,description,depending,O,,
+snow,snow,"('snow', 'JJ')",snow,snow,description,snow,O,,
+conditions,conditions,"('conditions', 'NNS')",condit,condition,description,conditions,O,,
+coldest,coldest,"('coldest', 'JJS')",coldest,cold,description,coldest,O,,
+month,month,"('month', 'NN')",month,month,description,month,B,DATE,Absolute or relative dates or periods
+January,january,"('january', 'JJ')",januari,january,description,January,I,DATE,Absolute or relative dates or periods
+temperatures,temperatures,"('temperatures', 'NNS')",temperatur,temperature,description,temperatures,O,,
+common,common,"('common', 'JJ')",common,common,description,common,O,,

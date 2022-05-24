@@ -1,0 +1,274 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+graceful,graceful,"('graceful', 'JJ')",grace,graceful,introduction,graceful,O,,
+Tuscany,tuscany,"('tuscany', 'JJ')",tuscani,tuscany,introduction,Tuscany,B,ORG,"Companies, agencies, institutions, etc."
+provincial,provincial,"('provincial', 'JJ')",provinci,provincial,introduction,provincial,O,,
+capitals,capitals,"('capitals', 'NNS')",capit,capital,introduction,capitals,O,,
+encircled,encircled,"('encircled', 'VBN')",encircl,encircle,introduction,encircled,O,,
+imposing,imposing,"('imposing', 'VBG')",impos,impose,introduction,imposing,O,,
+ring,ring,"('ring', 'NN')",ring,ring,introduction,ring,O,,
+Renaissance,renaissance,"('renaissance', 'NN')",renaiss,renaissance,introduction,Renaissance,B,ORG,"Companies, agencies, institutions, etc."
+walls,walls,"('walls', 'NNS')",wall,wall,introduction,walls,O,,
+fronted,fronted,"('fronted', 'VBN')",front,front,introduction,fronted,O,,
+gardens,gardens,"('gardens', 'NNS')",garden,garden,introduction,gardens,O,,
+huge,huge,"('huge', 'JJ')",huge,huge,introduction,huge,O,,
+bastions,bastions,"('bastions', 'NNS')",bastion,bastion,introduction,bastions,O,,
+Lucca,lucca,"('lucca', 'VBP')",lucca,lucca,introduction,Lucca,B,GPE,"Countries, cities, states"
+stands,stands,"('stands', 'VBZ')",stand,stand,introduction,stands,O,,
+km,km,"('km', 'JJ')",km,km,introduction,km,O,,
+northeast,northeast,"('northeast', 'NN')",northeast,northeast,introduction,northeast,O,,
+Pisa,pisa,"('pisa', 'NN')",pisa,pisa,introduction,Pisa,B,ORG,"Companies, agencies, institutions, etc."
+Charming,charming,"('charming', 'NN')",charm,charming,introduction,Charming,I,ORG,"Companies, agencies, institutions, etc."
+quiet,quiet,"('quiet', 'JJ')",quiet,quiet,introduction,quiet,O,,
+season,season,"('season', 'NN')",season,season,introduction,season,O,,
+Lucca,lucca,"('lucca', 'NN')",lucca,lucca,introduction,Lucca,B,GPE,"Countries, cities, states"
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,introduction,narrow,O,,
+streets,streets,"('streets', 'VBZ')",street,streets,introduction,streets,O,,
+become,become,"('become', 'VBN')",becom,become,introduction,become,O,,
+busier,busier,"('busier', 'NN')",busier,busier,introduction,busier,O,,
+summer,summer,"('summer', 'NN')",summer,summer,introduction,summer,B,DATE,Absolute or relative dates or periods
+without,without,"('without', 'IN')",without,without,introduction,without,O,,
+ever,ever,"('ever', 'RB')",ever,ever,introduction,ever,O,,
+thronged,thronged,"('thronged', 'VBN')",throng,throng,introduction,thronged,O,,
+Florence,florence,"('florence', 'NN')",florenc,florence,introduction,Florence,B,PERSON,"People, including fictional"
+Dropdown,dropdown,"('dropdown', 'JJ')",dropdown,dropdown,introduction,Dropdown,I,PERSON,"People, including fictional"
+content,content,"('content', 'NN')",content,content,introduction,content,O,,
+Siena,siena,"('siena', 'VB')",siena,siena,introduction,Siena,B,ORG,"Companies, agencies, institutions, etc."
+Dropdown,dropdown,"('dropdown', 'JJ')",dropdown,dropdown,introduction,Dropdown,I,ORG,"Companies, agencies, institutions, etc."
+content,content,"('content', 'NN')",content,content,introduction,content,O,,
+Set,set,"('set', 'VBN')",set,set,description,Set,O,,
+heart,heart,"('heart', 'NN')",heart,heart,description,heart,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+Italy,italy,"('italy', 'NN')",itali,italy,description,Italy,B,GPE,"Countries, cities, states"
+richest,richest,"('richest', 'JJS')",richest,rich,description,richest,O,,
+agricultural,agricultural,"('agricultural', 'JJ')",agricultur,agricultural,description,agricultural,O,,
+regions,regions,"('regions', 'NNS')",region,region,description,regions,O,,
+Lucca,lucca,"('lucca', 'NN')",lucca,lucca,description,Lucca,B,GPE,"Countries, cities, states"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+prospered,prospered,"('prospered', 'VBN')",prosper,prosper,description,prospered,O,,
+since,since,"('since', 'IN')",sinc,since,description,since,O,,
+Roman,roman,"('roman', 'NN')",roman,roman,description,Roman,B,PERSON,"People, including fictional"
+times,times,"('times', 'VBZ')",time,time,description,times,O,,
+heyday,heyday,"('heyday', 'NN')",heyday,heyday,description,heyday,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+eleventh,eleventh,"('eleventh', 'NN')",eleventh,eleventh,description,eleventh,O,,
+fourteenth,fourteenth,"('fourteenth', 'VB')",fourteenth,fourteenth,description,fourteenth,O,,
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,O,,
+silk,silk,"('silk', 'NN')",silk,silk,description,silk,O,,
+trade,trade,"('trade', 'NN')",trade,trade,description,trade,O,,
+brought,brought,"('brought', 'VBD')",brought,bring,description,brought,O,,
+wealth,wealth,"('wealth', 'NN')",wealth,wealth,description,wealth,O,,
+political,political,"('political', 'JJ')",polit,political,description,political,O,,
+power,power,"('power', 'NN')",power,power,description,power,O,,
+Lucca,lucca,"('lucca', 'NN')",lucca,lucca,description,Lucca,B,PERSON,"People, including fictional"
+first,first,"('first', 'RB')",first,first,description,first,O,,
+lost,lost,"('lost', 'VBD')",lost,lose,description,lost,O,,
+independence,independence,"('independence', 'NN')",independ,independence,description,independence,O,,
+Pisa,pisa,"('pisa', 'VB')",pisa,pisa,description,Pisa,B,PERSON,"People, including fictional"
+Castruccio,castruccio,"('castruccio', 'NN')",castruccio,castruccio,description,Castruccio,I,PERSON,"People, including fictional"
+Castracani,castracani,"('castracani', 'NN')",castracani,castracani,description,Castracani,I,PERSON,"People, including fictional"
+forged,forged,"('forged', 'VBD')",forg,forge,description,forged,O,,
+empire,empire,"('empire', 'NN')",empir,empire,description,empire,O,,
+west,west,"('west', 'NN')",west,west,description,west,O,,
+Tuscany,tuscany,"('tuscany', 'JJ')",tuscani,tuscany,description,Tuscany,B,ORG,"Companies, agencies, institutions, etc."
+Pisa,pisa,"('pisa', 'NN')",pisa,pisa,description,Pisa,I,ORG,"Companies, agencies, institutions, etc."
+Pistoia,pistoia,"('pistoia', 'VB')",pistoia,pistoia,description,Pistoia,I,ORG,"Companies, agencies, institutions, etc."
+fell,fell,"('fell', 'VBD')",fell,fell,description,fell,O,,
+Castracani,castracani,"('castracani', 'JJ')",castracani,castracani,description,Castracani,B,NORP,Nationalities or religious or political groups
+untimely,untimely,"('untimely', 'RB')",untim,untimely,description,untimely,O,,
+death,death,"('death', 'NN')",death,death,description,death,O,,
+Lucca,lucca,"('lucca', 'NN')",lucca,lucca,description,Lucca,B,PERSON,"People, including fictional"
+might,might,"('might', 'MD')",might,might,description,might,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+taken,taken,"('taken', 'VBN')",taken,take,description,taken,O,,
+Florence,florence,"('florence', 'NN')",florenc,florence,description,Florence,B,ORG,"Companies, agencies, institutions, etc."
+subsequent,subsequent,"('subsequent', 'JJ')",subsequ,subsequent,description,subsequent,O,,
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,B,DATE,Absolute or relative dates or periods
+remained,remained,"('remained', 'VBD')",remain,remain,description,remained,O,,
+largely,largely,"('largely', 'RB')",larg,largely,description,largely,O,,
+independent,independent,"('independent', 'JJ')",independ,independent,description,independent,O,,
+falling,falling,"('falling', 'VBG')",fall,fall,description,falling,O,,
+hands,hands,"('hands', 'NNS')",hand,hand,description,hands,O,,
+Napoleon,napoleon,"('napoleon', 'NN')",napoleon,napoleon,description,Napoleon,B,PERSON,"People, including fictional"
+Bourbons,bourbons,"('bourbons', 'NNS')",bourbon,bourbon,description,Bourbons,I,PERSON,"People, including fictional"
+Composer,composer,"('composer', 'VBP')",compos,composer,description,Composer,I,PERSON,"People, including fictional"
+Giacomo,giacomo,"('giacomo', 'NN')",giacomo,giacomo,description,Giacomo,I,PERSON,"People, including fictional"
+Puccini,puccini,"('puccini', 'NN')",puccini,puccini,description,Puccini,I,PERSON,"People, including fictional"
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+born,born,"('born', 'VBN')",born,bear,description,born,O,,
+Today,today,"('today', 'NN')",today,today,description,Today,O,,
+Lucca,lucca,"('lucca', 'NN')",lucca,lucca,description,Lucca,O,,
+among,among,"('among', 'IN')",among,among,description,among,O,,
+wealthiest,wealthiest,"('wealthiest', 'JJS')",wealthiest,wealthy,description,wealthiest,O,,
+conservative,conservative,"('conservative', 'JJ')",conserv,conservative,description,conservative,O,,
+cities,cities,"('cities', 'NNS')",citi,city,description,cities,O,,
+Tuscany,tuscany,"('tuscany', 'NN')",tuscani,tuscany,description,Tuscany,B,NORP,Nationalities or religious or political groups
+prosperity,prosperity,"('prosperity', 'NN')",prosper,prosperity,description,prosperity,O,,
+gained,gained,"('gained', 'VBN')",gain,gain,description,gained,O,,
+largely,largely,"('largely', 'RB')",larg,largely,description,largely,O,,
+silk,silk,"('silk', 'NN')",silk,silk,description,silk,O,,
+olive,olive,"('olive', 'JJ')",oliv,olive,description,olive,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+delightful,delightful,"('delightful', 'JJ')",delight,delightful,description,delightful,O,,
+place,place,"('place', 'NN')",place,place,description,place,O,,
+wander,wander,"('wander', 'VB')",wander,wander,description,wander,O,,
+random,random,"('random', 'NN')",random,random,description,random,O,,
+workaday,workaday,"('workaday', 'NN')",workaday,workaday,description,workaday,O,,
+even,even,"('even', 'RB')",even,even,description,even,O,,
+scruffy,scruffy,"('scruffy', 'VB')",scruffi,scruffy,description,scruffy,O,,
+parts,parts,"('parts', 'NNS')",part,part,description,parts,O,,
+consistently,consistently,"('consistently', 'RB')",consist,consistently,description,consistently,O,,
+lovely,lovely,"('lovely', 'RB')",love,lovely,description,lovely,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+life,life,"('life', 'NN')",life,life,description,life,O,,
+Much,much,"('much', 'JJ')",much,much,description,Much,O,,
+centre,centre,"('centre', 'NN')",centr,centre,description,centre,O,,
+free,free,"('free', 'JJ')",free,free,description,free,O,,
+traffic,traffic,"('traffic', 'NN')",traffic,traffic,description,traffic,O,,
+although,although,"('although', 'IN')",although,although,description,although,O,,
+keep,keep,"('keep', 'VB')",keep,keep,description,keep,O,,
+eye,eye,"('eye', 'NN')",eye,eye,description,eye,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+cyclists,cyclists,"('cyclists', 'NNS')",cyclist,cyclist,description,cyclists,O,,
+weaving,weaving,"('weaving', 'VBG')",weav,weave,description,weaving,O,,
+crowds,crowds,"('crowds', 'JJ')",crowd,crowds,description,crowds,O,,
+plenty,plenty,"('plenty', 'NN')",plenti,plenty,description,plenty,O,,
+outlets,outlets,"('outlets', 'NNS')",outlet,outlet,description,outlets,O,,
+rent,rent,"('rent', 'JJ')",rent,rent,description,rent,O,,
+bikes,bikes,"('bikes', 'NNS')",bike,bike,description,bikes,O,,
+wish,wish,"('wish', 'VBP')",wish,wish,description,wish,O,,
+join,join,"('join', 'VB')",join,join,description,join,O,,
+focus,focus,"('focus', 'NN')",focu,focus,description,focus,B,ORG,"Companies, agencies, institutions, etc."
+Lucca,lucca,"('lucca', 'JJ')",lucca,lucca,description,Lucca,I,ORG,"Companies, agencies, institutions, etc."
+compact,compact,"('compact', 'JJ')",compact,compact,description,compact,O,,
+centro,centro,"('centro', 'NN')",centro,centro,description,centro,O,,
+storico,storico,"('storico', 'NN')",storico,storico,description,storico,O,,
+vast,vast,"('vast', 'JJ')",vast,vast,description,vast,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,B,PERSON,"People, including fictional"
+Napoleone,napoleone,"('napoleone', 'NN')",napoleon,napoleone,description,Napoleone,I,PERSON,"People, including fictional"
+social,social,"('social', 'JJ')",social,social,description,social,O,,
+heart,heart,"('heart', 'NN')",heart,heart,description,heart,O,,
+Piazza,piazza,"('piazza', 'JJ')",piazza,piazza,description,Piazza,B,ORG,"Companies, agencies, institutions, etc."
+San,san,"('san', 'JJ')",san,san,description,San,I,ORG,"Companies, agencies, institutions, etc."
+Michele,michele,"('michele', 'NN')",michel,michele,description,Michele,I,ORG,"Companies, agencies, institutions, etc."
+north,north,"('north', 'JJ')",north,north,description,north,O,,
+Once,once,"('once', 'RB')",onc,once,description,Once,O,,
+site,site,"('site', 'NN')",site,site,description,site,O,,
+Roman,roman,"('roman', 'NN')",roman,roman,description,Roman,O,,
+forum,forum,"('forum', 'VBZ')",forum,forum,description,forum,O,,
+days,days,"('days', 'NNS')",day,day,description,days,B,DATE,Absolute or relative dates or periods
+this,this,"('this', 'DT')",thi,this,description,this,O,,
+lively,lively,"('lively', 'JJ')",live,lively,description,lively,O,,
+square,square,"('square', 'NN')",squar,square,description,square,O,,
+fringed,fringed,"('fringed', 'VBN')",fring,fringe,description,fringed,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+cafés,cafés,"('cafés', 'VB')",café,cafés,description,cafés,O,,
+daily,daily,"('daily', 'JJ')",daili,daily,description,daily,O,,
+market,market,"('market', 'NN')",market,market,description,market,O,,
+sells,sells,"('sells', 'VBZ')",sell,sell,description,sells,O,,
+clothes,clothes,"('clothes', 'NNS')",cloth,clothes,description,clothes,O,,
+bags,bags,"('bags', 'JJ')",bag,bags,description,bags,O,,
+sweets,sweets,"('sweets', 'NNS')",sweet,sweet,description,sweets,O,,
+tourist,tourist,"('tourist', 'NN')",tourist,tourist,description,tourist,O,,
+long,long,"('long', 'RB')",long,long,description,long,O,,
+thread,thread,"('thread', 'JJ')",thread,thread,description,thread,O,,
+Via,via,"('via', 'IN')",via,via,description,Via,B,PERSON,"People, including fictional"
+Fillungo,fillungo,"('fillungo', 'JJ')",fillungo,fillungo,description,Fillungo,I,PERSON,"People, including fictional"
+heads,heads,"('heads', 'NNS')",head,head,description,heads,O,,
+northeast,northeast,"('northeast', 'RB')",northeast,northeast,description,northeast,O,,
+cutting,cutting,"('cutting', 'VBG')",cut,cut,description,cutting,O,,
+Lucca,lucca,"('lucca', 'JJ')",lucca,lucca,description,Lucca,B,GPE,"Countries, cities, states"
+shopping,shopping,"('shopping', 'NN')",shop,shopping,description,shopping,O,,
+district,district,"('district', 'NN')",district,district,description,district,O,,
+reach,reach,"('reach', 'VB')",reach,reach,description,reach,O,,
+extraordinary,extraordinary,"('extraordinary', 'JJ')",extraordinari,extraordinary,description,extraordinary,O,,
+circular,circular,"('circular', 'JJ')",circular,circular,description,circular,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,B,GPE,"Countries, cities, states"
+Anfiteatro,anfiteatro,"('anfiteatro', 'NN')",anfiteatro,anfiteatro,description,Anfiteatro,I,GPE,"Countries, cities, states"
+east,east,"('east', 'JJ')",east,east,description,east,O,,
+beyond,beyond,"('beyond', 'IN')",beyond,beyond,description,beyond,O,,
+Fosso,fosso,"('fosso', 'JJ')",fosso,fosso,description,Fosso,O,,
+ditch,ditch,"('ditch', 'NN')",ditch,ditch,description,ditch,O,,
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+San,san,"('san', 'JJ')",san,san,description,San,B,GPE,"Countries, cities, states"
+Francesco,francesco,"('francesco', 'NN')",francesco,francesco,description,Francesco,I,GPE,"Countries, cities, states"
+Lucca,lucca,"('lucca', 'NN')",lucca,lucca,description,Lucca,I,GPE,"Countries, cities, states"
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+art,art,"('art', 'NN')",art,art,description,art,O,,
+museum,museum,"('museum', 'NN')",museum,museum,description,museum,O,,
+housed,housed,"('housed', 'VBN')",hous,house,description,housed,O,,
+Villa,villa,"('villa', 'NN')",villa,villa,description,Villa,B,ORG,"Companies, agencies, institutions, etc."
+Guinigi,guinigi,"('guinigi', 'NN')",guinigi,guinigi,description,Guinigi,I,ORG,"Companies, agencies, institutions, etc."
+Whatever,whatever,"('whatever', 'WDT')",whatev,whatever,description,Whatever,O,,
+else,else,"('else', 'RB')",els,else,description,else,O,,
+sure,sure,"('sure', 'JJ')",sure,sure,description,sure,O,,
+walk,walk,"('walk', 'VB')",walk,walk,description,walk,O,,
+cycle,cycle,"('cycle', 'NN')",cycl,cycle,description,cycle,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+walls,walls,"('walls', 'NNS')",wall,wall,description,walls,O,,
+crested,crested,"('crested', 'VBN')",crest,crest,description,crested,O,,
+broad,broad,"('broad', 'JJ')",broad,broad,description,broad,O,,
+monumental,monumental,"('monumental', 'JJ')",monument,monumental,description,monumental,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+walls,walls,"('walls', 'NNS')",wall,wall,description,walls,O,,
+make,make,"('make', 'VBP')",make,make,description,make,O,,
+striking,striking,"('striking', 'NN')",strike,striking,description,striking,O,,
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+impression,impression,"('impression', 'NN')",impress,impression,description,impression,O,,
+entirely,entirely,"('entirely', 'RB')",entir,entirely,description,entirely,O,,
+enclosing,enclosing,"('enclosing', 'VBG')",enclos,enclose,description,enclosing,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+impressive,impressive,"('impressive', 'JJ')",impress,impressive,description,impressive,O,,
+reminder,reminder,"('reminder', 'NN')",remind,reminder,description,reminder,O,,
+Lucca,lucca,"('lucca', 'JJ')",lucca,lucca,description,Lucca,B,PERSON,"People, including fictional"
+history,history,"('history', 'NN')",histori,history,description,history,O,,
+independent,independent,"('independent', 'JJ')",independ,independent,description,independent,O,,
+structure,structure,"('structure', 'NN')",structur,structure,description,structure,O,,
+actually,actually,"('actually', 'RB')",actual,actually,description,actually,O,,
+fourth,fourth,"('fourth', 'JJ')",fourth,fourth,description,fourth,B,ORDINAL,"""first"", ""second"", etc."
+Roman,roman,"('roman', 'NN')",roman,roman,description,Roman,O,,
+medieval,medieval,"('medieval', 'NN')",mediev,medieval,description,medieval,O,,
+efforts,efforts,"('efforts', 'NNS')",effort,effort,description,efforts,O,,
+constructed,constructed,"('constructed', 'VBD')",construct,construct,description,constructed,O,,
+centuries,centuries,"('centuries', 'NNS')",centuri,century,description,centuries,B,DATE,Absolute or relative dates or periods
+extending,extending,"('extending', 'VBG')",extend,extend,description,extending,O,,
+previous,previous,"('previous', 'JJ')",previou,previous,description,previous,O,,
+walls,walls,"('walls', 'NNS')",wall,wall,description,walls,O,,
+topped,topped,"('topped', 'VBN')",top,top,description,topped,O,,
+road,road,"('road', 'NN')",road,road,description,road,O,,
+walk,walk,"('walk', 'VB')",walk,walk,description,walk,O,,
+cycle,cycle,"('cycle', 'NN')",cycl,cycle,description,cycle,O,,
+loop,loop,"('loop', 'NN')",loop,loop,description,loop,O,,
+taking,taking,"('taking', 'VBG')",take,take,description,taking,O,,
+lovely,lovely,"('lovely', 'JJ')",love,lovely,description,lovely,O,,
+views,views,"('views', 'NNS')",view,view,description,views,O,,
+city,city,"('city', 'NN')",citi,city,description,city,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+side,side,"('side', 'NN')",side,side,description,side,O,,
+walls,walls,"('walls', 'NNS')",wall,wall,description,walls,O,,
+grassy,grassy,"('grassy', 'JJ')",grassi,grassy,description,grassy,O,,
+flanks,flanks,"('flanks', 'NNS')",flank,flank,description,flanks,O,,
+surrounding,surrounding,"('surrounding', 'VBG')",surround,surround,description,surrounding,O,,
+countryside,countryside,"('countryside', 'NN')",countrysid,countryside,description,countryside,O,,
+Piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,Piazza,B,PERSON,"People, including fictional"
+Santa,santa,"('santa', 'NN')",santa,santa,description,Santa,I,PERSON,"People, including fictional"
+Maria,maria,"('maria', 'NN')",maria,maria,description,Maria,I,PERSON,"People, including fictional"
+has,has,"('has', 'VBZ')",ha,have,description,has,O,,
+bike,bike,"('bike', 'VBN')",bike,bike,description,bike,O,,
+rental,rental,"('rental', 'JJ')",rental,rental,description,rental,O,,
+outlets,outlets,"('outlets', 'NNS')",outlet,outlet,description,outlets,O,,
+well,well,"('well', 'RB')",well,well,description,well,O,,
+direct,direct,"('direct', 'JJ')",direct,direct,description,direct,O,,
+access,access,"('access', 'NN')",access,access,description,access,O,,
+ramparts,ramparts,"('ramparts', 'NNS')",rampart,rampart,description,ramparts,O,,
+pick,pick,"('pick', 'VB')",pick,pick,description,pick,O,,
+picnic,picnic,"('picnic', 'NN')",picnic,picnic,description,picnic,O,,
+one,one,"('one', 'CD')",one,one,description,one,O,,
+several,several,"('several', 'JJ')",sever,several,description,several,O,,
+food,food,"('food', 'NN')",food,food,description,food,O,,
+shops,shops,"('shops', 'NNS')",shop,shop,description,shops,O,,
+piazza,piazza,"('piazza', 'NN')",piazza,piazza,description,piazza,O,,
+Allow,allow,"('allow', 'VB')",allow,allow,description,Allow,O,,
+minutes,minutes,"('minutes', 'NNS')",minut,minute,description,minutes,O,,
+cycle,cycle,"('cycle', 'NN')",cycl,cycle,description,cycle,O,,
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+circuit,circuit,"('circuit', 'NN')",circuit,circuit,description,circuit,O,,

@@ -1,0 +1,240 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+city,city,"('city', 'NN')",citi,city,introduction,city,O,,
+Washington,washington,"('washington', 'NN')",washington,washington,introduction,Washington,B,GPE,"Countries, cities, states"
+District,district,"('district', 'NN')",district,district,introduction,District,B,GPE,"Countries, cities, states"
+Columbia,columbia,"('columbia', 'NN')",columbia,columbia,introduction,Columbia,I,GPE,"Countries, cities, states"
+four,four,"('four', 'CD')",four,four,introduction,four,B,CARDINAL,Numerals that do not fall under another type
+surrounding,surrounding,"('surrounding', 'VBG')",surround,surround,introduction,surrounding,O,,
+states,states,"('states', 'NNS')",state,state,introduction,states,O,,
+Virginia,virginia,"('virginia', 'NN')",virginia,virginia,introduction,Virginia,B,GPE,"Countries, cities, states"
+West,west,"('west', 'JJS')",west,west,introduction,West,O,,
+Virginia,virginia,"('virginia', 'NN')",virginia,virginia,introduction,Virginia,B,GPE,"Countries, cities, states"
+Maryland,maryland,"('maryland', 'NN')",maryland,maryland,introduction,Maryland,B,GPE,"Countries, cities, states"
+Delaware,delaware,"('delaware', 'NN')",delawar,delaware,introduction,Delaware,B,GPE,"Countries, cities, states"
+collectively,collectively,"('collectively', 'RB')",collect,collectively,introduction,collectively,O,,
+known,known,"('known', 'VBN')",known,know,introduction,known,O,,
+Capital,capital,"('capital', 'NN')",capit,capital,introduction,Capital,O,,
+Region,region,"('region', 'NN')",region,region,introduction,Region,O,,
+Since,since,"('since', 'IN')",sinc,since,introduction,Since,O,,
+days,days,"('days', 'NNS')",day,day,introduction,days,O,,
+first,first,"('first', 'JJ')",first,first,introduction,first,B,ORDINAL,"""first"", ""second"", etc."
+American,american,"('american', 'JJ')",american,american,introduction,American,B,NORP,Nationalities or religious or political groups
+colonies,colonies,"('colonies', 'NNS')",coloni,colony,introduction,colonies,O,,
+US,us,"('us', 'PRP')",us,u,introduction,US,B,GPE,"Countries, cities, states"
+history,history,"('history', 'NN')",histori,history,introduction,history,O,,
+has,has,"('has', 'VBZ')",ha,have,introduction,has,O,,
+shaped,shaped,"('shaped', 'VBN')",shape,shape,introduction,shaped,O,,
+Jamestown,jamestown,"('jamestown', 'JJ')",jamestown,jamestown,introduction,Jamestown,B,PERSON,"People, including fictional"
+landings,landings,"('landings', 'NNS')",land,landing,introduction,landings,O,,
+agitation,agitation,"('agitation', 'NN')",agit,agitation,introduction,agitation,O,,
+Independence,independence,"('independence', 'NN')",independ,independence,introduction,Independence,B,GPE,"Countries, cities, states"
+battles,battles,"('battles', 'NNS')",battl,battle,introduction,battles,O,,
+Revolutionary,revolutionary,"('revolutionary', 'JJ')",revolutionari,revolutionary,introduction,Revolutionary,O,,
+Civil,civil,"('civil', 'JJ')",civil,civil,introduction,Civil,O,,
+wars,wars,"('wars', 'NNS')",war,war,introduction,wars,O,,
+Civil,civil,"('civil', 'JJ')",civil,civil,introduction,Civil,O,,
+Rights,rights,"('rights', 'NNS')",right,right,introduction,Rights,O,,
+milestones,milestones,"('milestones', 'NNS')",mileston,milestone,introduction,milestones,O,,
+protest,protest,"('protest', 'JJS')",protest,protest,introduction,protest,O,,
+movements,movements,"('movements', 'NNS')",movement,movement,introduction,movements,O,,
+issues,issues,"('issues', 'NNS')",issu,issue,introduction,issues,O,,
+including,including,"('including', 'VBG')",includ,include,introduction,including,O,,
+war,war,"('war', 'NN')",war,war,introduction,war,O,,
+abortion,abortion,"('abortion', 'NN')",abort,abortion,introduction,abortion,O,,
+gay,gay,"('gay', 'NN')",gay,gay,introduction,gay,O,,
+rights,rights,"('rights', 'NNS')",right,right,introduction,rights,O,,
+Early,early,"('early', 'RB')",earli,early,description,Early,B,DATE,Absolute or relative dates or periods
+seventeenth,seventeenth,"('seventeenth', 'JJ')",seventeenth,seventeenth,description,seventeenth,I,DATE,Absolute or relative dates or periods
+century,century,"('century', 'NN')",centuri,century,description,century,I,DATE,Absolute or relative dates or periods
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+British,british,"('british', 'JJ')",british,british,description,British,B,NORP,Nationalities or religious or political groups
+settlements,settlements,"('settlements', 'NNS')",settlement,settlement,description,settlements,O,,
+began,began,"('began', 'VBD')",began,begin,description,began,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+root,root,"('root', 'NN')",root,root,description,root,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+rich,rich,"('rich', 'JJ')",rich,rich,description,rich,O,,
+estuary,estuary,"('estuary', 'NN')",estuari,estuary,description,estuary,O,,
+Chesapeake,chesapeake,"('chesapeake', 'NN')",chesapeak,chesapeake,description,Chesapeake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Bay,bay,"('bay', 'VBD')",bay,bay,description,Bay,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+colonists,colonists,"('colonists', 'NNS')",colonist,colonist,description,colonists,O,,
+hoped,hoped,"('hoped', 'VBD')",hope,hop,description,hoped,O,,
+gold,gold,"('gold', 'NN')",gold,gold,description,gold,O,,
+found,found,"('found', 'VBD')",found,find,description,found,O,,
+fortunes,fortunes,"('fortunes', 'NNS')",fortun,fortune,description,fortunes,O,,
+instead,instead,"('instead', 'RB')",instead,instead,description,instead,O,,
+tobacco,tobacco,"('tobacco', 'NN')",tobacco,tobacco,description,tobacco,O,,
+Virginia,virginia,"('virginia', 'IN')",virginia,virginia,description,Virginia,B,GPE,"Countries, cities, states"
+first,first,"('first', 'JJ')",first,first,description,first,B,ORDINAL,"""first"", ""second"", etc."
+settlement,settlement,"('settlement', 'NN')",settlement,settlement,description,settlement,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+largest,largest,"('largest', 'JJS')",largest,large,description,largest,O,,
+populous,populous,"('populous', 'JJ')",popul,populous,description,populous,O,,
+Half,half,"('half', 'NN')",half,half,description,Half,B,CARDINAL,Numerals that do not fall under another type
+people,people,"('people', 'NNS')",peopl,people,description,people,O,,
+slaves,slaves,"('slaves', 'NNS')",slave,slave,description,slaves,O,,
+brought,brought,"('brought', 'VBN')",brought,bring,description,brought,O,,
+Africa,africa,"('africa', 'NN')",africa,africa,description,Africa,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+backbreaking,backbreaking,"('backbreaking', 'NN')",backbreak,backbreaking,description,backbreaking,O,,
+work,work,"('work', 'NN')",work,work,description,work,O,,
+harvesting,harvesting,"('harvesting', 'VBG')",harvest,harvest,description,harvesting,O,,
+noxious,noxious,"('noxious', 'JJ')",noxiou,noxious,description,noxious,O,,
+weed,weed,"('weed', 'NN')",weed,weed,description,weed,O,,
+tobacco,tobacco,"('tobacco', 'NN')",tobacco,tobacco,description,tobacco,O,,
+Despite,despite,"('despite', 'IN')",despit,despite,description,Despite,O,,
+central,central,"('central', 'JJ')",central,central,description,central,O,,
+position,position,"('position', 'NN')",posit,position,description,position,O,,
+East,east,"('east', 'NN')",east,east,description,East,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Coast,coast,"('coast', 'NN')",coast,coast,description,Coast,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+almost,almost,"('almost', 'RB')",almost,almost,description,almost,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+lies,lies,"('lies', 'VBZ')",lie,lie,description,lies,O,,
+Line,line,"('line', 'NN')",line,line,description,Line,B,GPE,"Countries, cities, states"
+imaginary,imaginary,"('imaginary', 'JJ')",imaginari,imaginary,description,imaginary,O,,
+line,line,"('line', 'NN')",line,line,description,line,O,,
+North,north,"('north', 'JJ')",north,north,description,North,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+South,south,"('south', 'JJ')",south,south,description,South,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+drawn,drawn,"('drawn', 'NN')",drawn,drawn,description,drawn,O,,
+resolve,resolve,"('resolve', 'VB')",resolv,resolve,description,resolve,O,,
+border,border,"('border', 'NN')",border,border,description,border,O,,
+dispute,dispute,"('dispute', 'NN')",disput,dispute,description,dispute,O,,
+became,became,"('became', 'VBD')",becam,become,description,became,O,,
+symbolic,symbolic,"('symbolic', 'JJ')",symbol,symbolic,description,symbolic,O,,
+boundary,boundary,"('boundary', 'NN')",boundari,boundary,description,boundary,O,,
+free,free,"('free', 'JJ')",free,free,description,free,O,,
+unfree,unfree,"('unfree', 'JJ')",unfre,unfree,description,unfree,O,,
+states,states,"('states', 'NNS')",state,state,description,states,O,,
+Slaves,slaves,"('slaves', 'NNS')",slave,slave,description,Slaves,O,,
+helped,helped,"('helped', 'VBD')",help,help,description,helped,O,,
+build,build,"('build', 'VB')",build,build,description,build,O,,
+Capitol,capitol,"('capitol', 'NN')",capitol,capitol,description,Capitol,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+Civil,civil,"('civil', 'JJ')",civil,civil,description,Civil,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+one,one,"('one', 'CD')",one,one,description,one,B,CARDINAL,Numerals that do not fall under another type
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+busiest,busiest,"('busiest', 'JJS')",busiest,busy,description,busiest,O,,
+slave,slave,"('slave', 'NN')",slave,slave,description,slave,O,,
+markets,markets,"('markets', 'NNS')",market,market,description,markets,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+two,two,"('two', 'CD')",two,two,description,two,B,CARDINAL,Numerals that do not fall under another type
+blocks,blocks,"('blocks', 'NNS')",block,block,description,blocks,O,,
+White,white,"('white', 'JJ')",white,white,description,White,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+North,north,"('north', 'JJ')",north,north,description,North,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+South,south,"('south', 'JJ')",south,south,description,South,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+finally,finally,"('finally', 'RB')",final,finally,description,finally,O,,
+erupted,erupted,"('erupted', 'VBN')",erupt,erupt,description,erupted,O,,
+Civil,civil,"('civil', 'JJ')",civil,civil,description,Civil,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+traces,traces,"('traces', 'NNS')",trace,trace,description,traces,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+visible,visible,"('visible', 'JJ')",visibl,visible,description,visible,O,,
+everywhere,everywhere,"('everywhere', 'RB')",everywher,everywhere,description,everywhere,O,,
+hundred,hundred,"('hundred', 'JJ')",hundr,hundred,description,hundred,B,QUANTITY,"Measurements, as of weight or distance"
+miles,miles,"('miles', 'NNS')",mile,mile,description,miles,I,QUANTITY,"Measurements, as of weight or distance"
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,O,,
+Union,union,"('union', 'NN')",union,union,description,Union,B,ORG,"Companies, agencies, institutions, etc."
+Washington,washington,"('washington', 'NN')",washington,washington,description,Washington,I,ORG,"Companies, agencies, institutions, etc."
+DC,dc,"('dc', 'NN')",dc,dc,description,DC,I,ORG,"Companies, agencies, institutions, etc."
+Confederacy,confederacy,"('confederacy', 'NN')",confederaci,confederacy,description,Confederacy,O,,
+Richmond,richmond,"('richmond', 'NN')",richmond,richmond,description,Richmond,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Virginia,virginia,"('virginia', 'NN')",virginia,virginia,description,Virginia,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+constant,constant,"('constant', 'JJ')",constant,constant,description,constant,O,,
+bloody,bloody,"('bloody', 'JJ')",bloodi,bloody,description,bloody,O,,
+battleground,battleground,"('battleground', 'NN')",battleground,battleground,description,battleground,O,,
+four,four,"('four', 'CD')",four,four,description,four,B,DATE,Absolute or relative dates or periods
+long,long,"('long', 'JJ')",long,long,description,long,I,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+DC,dc,"('dc', 'VB')",dc,dc,description,DC,B,GPE,"Countries, cities, states"
+magnificent,magnificent,"('magnificent', 'NN')",magnific,magnificent,description,magnificent,O,,
+monuments,monuments,"('monuments', 'NNS')",monument,monument,description,monuments,O,,
+terrific,terrific,"('terrific', 'NN')",terrif,terrific,description,terrific,O,,
+museums,museums,"('museums', 'NNS')",museum,museum,description,museums,O,,
+essential,essential,"('essential', 'JJ')",essenti,essential,description,essential,O,,
+stop,stop,"('stop', 'NN')",stop,stop,description,stop,O,,
+any,any,"('any', 'DT')",ani,any,description,any,O,,
+tour,tour,"('tour', 'NN')",tour,tour,description,tour,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+country,country,"('country', 'NN')",countri,country,description,country,O,,
+Virginia,virginia,"('virginia', 'NN')",virginia,virginia,description,Virginia,B,GPE,"Countries, cities, states"
+south,south,"('south', 'NN')",south,south,description,south,O,,
+home,home,"('home', 'VBN')",home,home,description,home,O,,
+hundreds,hundreds,"('hundreds', 'NNS')",hundr,hundred,description,hundreds,B,CARDINAL,Numerals that do not fall under another type
+historic,historic,"('historic', 'JJ')",histor,historic,description,historic,O,,
+sites,sites,"('sites', 'NNS')",site,site,description,sites,O,,
+estates,estates,"('estates', 'NNS')",estat,estate,description,estates,O,,
+revolutionary,revolutionary,"('revolutionary', 'JJ')",revolutionari,revolutionary,description,revolutionary,O,,
+leaders,leaders,"('leaders', 'NNS')",leader,leader,description,leaders,O,,
+early,early,"('early', 'RB')",earli,early,description,early,O,,
+politicians,politicians,"('politicians', 'NNS')",politician,politician,description,politicians,O,,
+Colonial,colonial,"('colonial', 'JJ')",coloni,colonial,description,Colonial,B,ORG,"Companies, agencies, institutions, etc."
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,I,ORG,"Companies, agencies, institutions, etc."
+Williamsburg,williamsburg,"('williamsburg', 'NN')",williamsburg,williamsburg,description,Williamsburg,I,ORG,"Companies, agencies, institutions, etc."
+well,well,"('well', 'RB')",well,well,description,well,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,description,narrow,O,,
+forested,forested,"('forested', 'JJ')",forest,forested,description,forested,O,,
+heights,heights,"('heights', 'NNS')",height,height,description,heights,O,,
+Shenandoah,shenandoah,"('shenandoah', 'JJ')",shenandoah,shenandoah,description,Shenandoah,B,FAC,"Buildings, airports, highways, bridges, etc."
+National,national,"('national', 'JJ')",nation,national,description,National,I,FAC,"Buildings, airports, highways, bridges, etc."
+Park,park,"('park', 'NN')",park,park,description,Park,I,FAC,"Buildings, airports, highways, bridges, etc."
+along,along,"('along', 'IN')",along,along,description,along,O,,
+crest,crest,"('crest', 'NN')",crest,crest,description,crest,O,,
+Blue,blue,"('blue', 'NN')",blue,blue,description,Blue,B,ORG,"Companies, agencies, institutions, etc."
+Ridge,ridge,"('ridge', 'NN')",ridg,ridge,description,Ridge,I,ORG,"Companies, agencies, institutions, etc."
+Mountains,mountains,"('mountains', 'NNS')",mountain,mountain,description,Mountains,O,,
+Much,much,"('much', 'RB')",much,much,description,Much,O,,
+greater,greater,"('greater', 'JJR')",greater,great,description,greater,O,,
+expanses,expanses,"('expanses', 'NNS')",expans,expanse,description,expanses,O,,
+wilderness,wilderness,"('wilderness', 'NN')",wilder,wilderness,description,wilderness,O,,
+crashing,crashing,"('crashing', 'VBG')",crash,crash,description,crashing,O,,
+whitewater,whitewater,"('whitewater', 'NN')",whitewat,whitewater,description,whitewater,O,,
+rivers,rivers,"('rivers', 'NNS')",river,river,description,rivers,O,,
+innumerable,innumerable,"('innumerable', 'JJ')",innumer,innumerable,description,innumerable,O,,
+backwoods,backwoods,"('backwoods', 'NNS')",backwood,backwoods,description,backwoods,O,,
+villages,villages,"('villages', 'NNS')",villag,village,description,villages,O,,
+await,await,"('await', 'VBP')",await,await,description,await,O,,
+far,far,"('far', 'RB')",far,far,description,far,O,,
+West,west,"('west', 'JJS')",west,west,description,West,B,GPE,"Countries, cities, states"
+Virginia,virginia,"('virginia', 'JJ')",virginia,virginia,description,Virginia,I,GPE,"Countries, cities, states"
+tourists,tourists,"('tourists', 'NNS')",tourist,tourist,description,tourists,O,,
+come,come,"('come', 'VBP')",come,come,description,come,O,,
+Maryland,maryland,"('maryland', 'VB')",maryland,maryland,description,Maryland,B,GPE,"Countries, cities, states"
+maritime,maritime,"('maritime', 'JJ')",maritim,maritime,description,maritime,O,,
+traditions,traditions,"('traditions', 'NNS')",tradit,tradition,description,traditions,O,,
+Chesapeake,chesapeake,"('chesapeake', 'NN')",chesapeak,chesapeake,description,Chesapeake,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Bay,bay,"('bay', 'NN')",bay,bay,description,Bay,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+though,though,"('though', 'IN')",though,though,description,though,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+quaint,quaint,"('quaint', 'NN')",quaint,quaint,description,quaint,O,,
+old,old,"('old', 'JJ')",old,old,description,old,O,,
+villages,villages,"('villages', 'NNS')",villag,village,description,villages,O,,
+gentrified,gentrified,"('gentrified', 'VBN')",gentrifi,gentrified,description,gentrified,O,,
+weekend,weekend,"('weekend', 'NN')",weekend,weekend,description,weekend,O,,
+Baltimore,baltimore,"('baltimore', 'NN')",baltimor,baltimore,description,Baltimore,B,PERSON,"People, including fictional"
+full,full,"('full', 'JJ')",full,full,description,full,O,,
+character,character,"('character', 'NN')",charact,character,description,character,O,,
+enjoyably,enjoyably,"('enjoyably', 'RB')",enjoy,enjoyably,description,enjoyably,O,,
+unpretentious,unpretentious,"('unpretentious', 'JJ')",unpretenti,unpretentious,description,unpretentious,O,,
+bit,bit,"('bit', 'NN')",bit,bit,description,bit,O,,
+ramshackle,ramshackle,"('ramshackle', 'JJ')",ramshackl,ramshackle,description,ramshackle,O,,
+Annapolis,annapolis,"('annapolis', 'VBG')",annapoli,annapolis,description,Annapolis,B,ORG,"Companies, agencies, institutions, etc."
+pleasant,pleasant,"('pleasant', 'JJ')",pleasant,pleasant,description,pleasant,O,,
+state,state,"('state', 'NN')",state,state,description,state,O,,
+capital,capital,"('capital', 'NN')",capit,capital,description,capital,O,,
+linked,linked,"('linked', 'VBN')",link,link,description,linked,O,,
+bridge,bridge,"('bridge', 'NN')",bridg,bridge,description,bridge,O,,
+ferry,ferry,"('ferry', 'NN')",ferri,ferry,description,ferry,O,,
+Eastern,eastern,"('eastern', 'JJ')",eastern,eastern,description,Eastern,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Shore,shore,"('shore', 'NN')",shore,shore,description,Shore,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+New,new,"('new', 'JJ')",new,new,description,New,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Castle,castle,"('castle', 'NN')",castl,castle,description,Castle,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+across,across,"('across', 'IN')",across,across,description,across,O,,
+border,border,"('border', 'NN')",border,border,description,border,O,,
+Delaware,delaware,"('delaware', 'NN')",delawar,delaware,description,Delaware,B,GPE,"Countries, cities, states"
+town,town,"('town', 'NN')",town,town,description,town,O,,
+nearby,nearby,"('nearby', 'RB')",nearbi,nearby,description,nearby,O,,
+East,east,"('east', 'JJ')",east,east,description,East,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Coast,coast,"('coast', 'NN')",coast,coast,description,Coast,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+best,best,"('best', 'JJS')",best,best,description,best,O,,
+least,least,"('least', 'JJS')",least,least,description,least,O,,
+crowded,crowded,"('crowded', 'JJ')",crowd,crowded,description,crowded,O,,
+beaches,beaches,"('beaches', 'NNS')",beach,beach,description,beaches,O,,
