@@ -7,80 +7,57 @@ class FilterComponentBuilder:
     def __init__(self, main_file):
         self.main_file = main_file
 
-    def build_continent_filter(self):
-        continents = set()
-        for continent in self.main_file['continent']:
-            if continent not in continents:
-                continents.add(continent)
-        radio = dbc.Checklist(
-            options=[{'label': i, 'value': i} for i in sorted(continents)],
-            id='continent_selection',
+    def build__filter(self, column_name: int, headline: str):
+        """
+        Build a new filter composite
+        :param column_name: name of column -> will also be prefix of ids
+        :param headline: Headline of this filter component
+        :return: A div with headline and options
+        """
+        elements = set(self.main_file[column_name].tolist())
+        radio_buttons = dbc.Checklist(
+            options=[{'label': i, 'value': i} for i in sorted(elements)],
+            id=column_name + '_selection',
             switch=True,
             style={
                 'overflowY': 'scroll',
                 'max-height': '120px'
             }
         )
-        return html.Div([
-            html.H3('Continent filter'),
-            radio,
-        ],
-            id='continent_filter')
+        html_filter = html.Div([html.H3(headline), radio_buttons], id=column_name + '_filter')
+        return html_filter
 
-    def build_country_filter(self):
-        countries = set()
-        for country in self.main_file['country']:
-            if country not in countries:
-                countries.add(country)
-        radio = dbc.Checklist(
-            options=[{'label': i, 'value': i} for i in sorted(countries)],
-            id='country_selection',
-            switch=True,
-            style={
-                'overflowY': 'scroll',
-                'max-height': '120px'
-            }
-        )
-        return html.Div([
-            html.H3('Country filter'),
-            radio,
-        ],
-            id='country_filter')
+    def update_options(self, continent_filter, country_filter):
+        """
+        Update all options and content of site
+        :param continent_filter: List of continents to show, empty if show all
+        :param country_filter: List of countries to show, empty if show all
+        :return: Needed options and content to overwrite current site content
+        """
+        filtered_countries = self.__extract_filtered_elements(continent_filter, 'continent', 'country')
+        if not country_filter:
+            country_filter = filtered_countries
+        elif filtered_countries:
+            matched_filtered_countries = list(set(country_filter).intersection(filtered_countries))
+            if matched_filtered_countries:
+                country_filter = matched_filtered_countries
+            else:
+                country_filter = filtered_countries
+        filtered_places = self.__extract_filtered_elements(country_filter, 'country', 'place')
+        countries = [{'label': i, 'value': i} for i in sorted(set(filtered_countries))]
+        places = [{'label': i, 'value': i} for i in sorted(filtered_places)]
+        return countries, places
 
-    def build_place_filter(self):
-        places_to_show = self.main_file['place'].tolist()
-        check_list = dbc.Checklist(
-            options=[{'label': i, 'value': i} for i in sorted(places_to_show)],
-            id='place_selection',
-            switch=True,
-            style={
-                'overflowY': 'scroll',
-                'max-height': '120px'
-            }
-        )
-        return html.Div([
-            html.H3('Location filter'),
-            check_list
-        ],
-            id='place_filter')
-
-    def update_country_options(self, values):
-        if values:
-            countries_to_show = self.main_file.loc[self.main_file['continent'].isin(values), 'country'].tolist()
+    def __extract_filtered_elements(self, elements, source_column, target_column):
+        """
+        Filter column elements by condition filter-elements of source column
+        :param elements: Values to filter for
+        :param source_column: Column to filter elements
+        :param target_column: Column to get elements filtered by source column
+        :return: Filtered target elements
+        """
+        if elements:
+            return set(self.main_file.loc[
+                           self.main_file[source_column].isin(elements), target_column].tolist())
         else:
-            countries_to_show = self.main_file['country'].tolist()
-        return [{'label': i, 'value': i} for i in sorted(set(countries_to_show))]
-
-    def update_place_options(self, values):
-        if values:
-            places_to_show = self.main_file.loc[self.main_file['country'].isin(values), 'place'].tolist()
-        else:
-            places_to_show = self.main_file['place'].tolist()
-        return [{'label': i, 'value': i} for i in sorted(places_to_show)]
-
-    def update_place_options_by_continent(self, values):
-        if values:
-            places_to_show = self.main_file.loc[self.main_file['continent'].isin(values), 'place'].tolist()
-        else:
-            places_to_show = self.main_file['place'].tolist()
-        return [{'label': i, 'value': i} for i in sorted(places_to_show)]
+            return set(self.main_file[target_column].tolist())

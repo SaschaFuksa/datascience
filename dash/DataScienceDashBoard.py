@@ -27,9 +27,10 @@ activity_word_cloud = ComponentBuilder.build_word_cloud_box('Activity Word Cloud
                                                             'image_activity_word_cloud')
 
 filter_component_builder = FilterComponentBuilder(main_file)
-continent_filter = filter_component_builder.build_continent_filter()
-country_filter = filter_component_builder.build_country_filter()
-place_filter = filter_component_builder.build_place_filter()
+continent_filter = filter_component_builder.build__filter('continent', 'Continent filter')
+country_filter = filter_component_builder.build__filter('country', 'Country filter')
+place_filter = filter_component_builder.build__filter('place', 'Place filter')
+attraction_filter = filter_component_builder.build__filter('important_places', 'Attraction filter')
 
 image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
@@ -40,7 +41,7 @@ app.layout = html.Div(children=[
         dbc.Col([named_entity_word_cloud]), dbc.Col([activity_word_cloud])
     ]),
     dbc.Row([
-        dbc.Col([]),
+        dbc.Col([attraction_filter]),
         dbc.Col(html.H2('Top 10 tourist attraction combinations')), dbc.Col(html.H2('Own idea'))
     ]),
 ])
@@ -66,17 +67,10 @@ def make_image(b):
     dd.Output('country_selection', 'options'),
     dd.Output('place_selection', 'options'),
     dd.Input('continent_selection', 'value'),
-)
-def change_filter(value):
-    return filter_component_builder.update_country_options(value), filter_component_builder.update_place_options_by_continent(value)
-
-
-@app.callback(
-    dd.Output('place_selection', 'options'),
     dd.Input('country_selection', 'value'),
 )
-def change_filter(value):
-    return filter_component_builder.update_place_options(value)
+def change_filter(continent_filter, country_filter):
+    return filter_component_builder.update_options(continent_filter, country_filter)
 
 
 if __name__ == '__main__':
