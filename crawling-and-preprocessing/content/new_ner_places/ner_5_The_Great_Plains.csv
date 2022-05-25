@@ -1,0 +1,255 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+rolling,rolling,"('rolling', 'NN')",roll,rolling,introduction,rolling,O,,
+hills,hills,"('hills', 'NNS')",hill,hill,introduction,hills,O,,
+vast,vast,"('vast', 'JJ')",vast,vast,introduction,vast,O,,
+grasslands,grasslands,"('grasslands', 'NNS')",grassland,grassland,introduction,grasslands,O,,
+Great,great,"('great', 'JJ')",great,great,introduction,Great,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Plains,plains,"('plains', 'NNS')",plain,plain,introduction,Plains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+home,home,"('home', 'VBN')",home,home,introduction,home,O,,
+adventurers,adventurers,"('adventurers', 'NNS')",adventur,adventurer,introduction,adventurers,O,,
+artists,artists,"('artists', 'NNS')",artist,artist,introduction,artists,O,,
+outlaws,outlaws,"('outlaws', 'NNS')",outlaw,outlaw,introduction,outlaws,O,,
+centuries,centuries,"('centuries', 'NNS')",centuri,century,introduction,centuries,O,,
+great,great,"('great', 'JJ')",great,great,introduction,great,O,,
+Sioux,sioux,"('sioux', 'JJ')",sioux,sioux,introduction,Sioux,B,NORP,Nationalities or religious or political groups
+warriors,warriors,"('warriors', 'NNS')",warrior,warrior,introduction,warriors,O,,
+Crazy,crazy,"('crazy', 'JJ')",crazi,crazy,introduction,Crazy,O,,
+Horse,horse,"('horse', 'NN')",hors,horse,introduction,Horse,O,,
+Sitting,sitting,"('sitting', 'VBG')",sit,sit,introduction,Sitting,O,,
+Bull,bull,"('bull', 'NN')",bull,bull,introduction,Bull,O,,
+Jesse,jesse,"('jesse', 'VB')",jess,jesse,introduction,Jesse,B,PERSON,"People, including fictional"
+James,james,"('james', 'NNS')",jame,james,introduction,James,I,PERSON,"People, including fictional"
+Mark,mark,"('mark', 'NN')",mark,mark,introduction,Mark,B,PERSON,"People, including fictional"
+Twain,twain,"('twain', 'NN')",twain,twain,introduction,Twain,I,PERSON,"People, including fictional"
+Stretching,stretching,"('stretching', 'VBG')",stretch,stretch,introduction,Stretching,O,,
+west,west,"('west', 'JJS')",west,west,introduction,west,O,,
+Missouri,missouri,"('missouri', 'JJ')",missouri,missouri,introduction,Missouri,B,GPE,"Countries, cities, states"
+Oklahoma,oklahoma,"('oklahoma', 'JJ')",oklahoma,oklahoma,introduction,Oklahoma,B,GPE,"Countries, cities, states"
+Kansas,kansas,"('kansas', 'NN')",kansa,kansa,introduction,Kansas,B,GPE,"Countries, cities, states"
+Nebraska,nebraska,"('nebraska', 'NN')",nebraska,nebraska,introduction,Nebraska,B,GPE,"Countries, cities, states"
+Iowa,iowa,"('iowa', 'NN')",iowa,iowa,introduction,Iowa,B,GPE,"Countries, cities, states"
+South,south,"('south', 'JJ')",south,south,introduction,South,B,GPE,"Countries, cities, states"
+Dakota,dakota,"('dakota', 'NN')",dakota,dakota,introduction,Dakota,I,GPE,"Countries, cities, states"
+North,north,"('north', 'JJ')",north,north,introduction,North,B,GPE,"Countries, cities, states"
+Dakota,dakota,"('dakota', 'NN')",dakota,dakota,introduction,Dakota,I,GPE,"Countries, cities, states"
+Great,great,"('great', 'JJ')",great,great,introduction,Great,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Plains,plains,"('plains', 'NNS')",plain,plain,introduction,Plains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+often,often,"('often', 'RB')",often,often,introduction,often,O,,
+stereotyped,stereotyped,"('stereotyped', 'VBN')",stereotyp,stereotype,introduction,stereotyped,O,,
+expanse,expanse,"('expanse', 'NN')",expans,expanse,introduction,expanse,O,,
+unvaryingly,unvaryingly,"('unvaryingly', 'RB')",unvaryingli,unvaryingly,introduction,unvaryingly,O,,
+flat,flat,"('flat', 'JJ')",flat,flat,introduction,flat,O,,
+corn,corn,"('corn', 'NN')",corn,corn,introduction,corn,O,,
+fields,fields,"('fields', 'NNS')",field,field,introduction,fields,O,,
+flyover,flyover,"('flyover', 'NN')",flyover,flyover,introduction,flyover,O,,
+states,states,"('states', 'NNS')",state,state,introduction,states,O,,
+conservative,conservative,"('conservative', 'JJ')",conserv,conservative,introduction,conservative,O,,
+Middle,middle,"('middle', 'JJ')",middl,middle,introduction,Middle,B,NORP,Nationalities or religious or political groups
+American,american,"('american', 'JJ')",american,american,introduction,American,I,NORP,Nationalities or religious or political groups
+values,values,"('values', 'NNS')",valu,value,introduction,values,O,,
+contrary,contrary,"('contrary', 'JJ')",contrari,contrary,introduction,contrary,O,,
+region,region,"('region', 'NN')",region,region,introduction,region,O,,
+loaded,loaded,"('loaded', 'VBN')",load,load,introduction,loaded,O,,
+attractions,attractions,"('attractions', 'NNS')",attract,attraction,introduction,attractions,O,,
+quirky,quirky,"('quirky', 'JJ')",quirki,quirky,introduction,quirky,O,,
+Americana,americana,"('americana', 'NN')",americana,americana,introduction,Americana,O,,
+Route,route,"('route', 'NN')",rout,route,introduction,Route,O,,
+dynamic,dynamic,"('dynamic', 'VB')",dynam,dynamic,introduction,dynamic,O,,
+art,art,"('art', 'NN')",art,art,introduction,art,O,,
+culinary,culinary,"('culinary', 'JJ')",culinari,culinary,introduction,culinary,O,,
+scenes,scenes,"('scenes', 'NNS')",scene,scene,introduction,scenes,O,,
+Omaha,omaha,"('omaha', 'JJ')",omaha,omaha,introduction,Omaha,B,GPE,"Countries, cities, states"
+Tulsa,tulsa,"('tulsa', 'NN')",tulsa,tulsa,introduction,Tulsa,B,GPE,"Countries, cities, states"
+St,st,"('st', 'NN')",st,st,introduction,St,B,GPE,"Countries, cities, states"
+Louis,louis,"('louis', 'NN')",loui,louis,introduction,Louis,I,GPE,"Countries, cities, states"
+often,often,"('often', 'RB')",often,often,introduction,often,O,,
+flat,flat,"('flat', 'JJ')",flat,flat,introduction,flat,O,,
+canyons,canyons,"('canyons', 'NNS')",canyon,canyon,introduction,canyons,O,,
+forests,forests,"('forests', 'NNS')",forest,forest,introduction,forests,O,,
+hills,hills,"('hills', 'NNS')",hill,hill,introduction,hills,O,,
+splashes,splashes,"('splashes', 'NNS')",splash,splash,introduction,splashes,O,,
+unexpected,unexpected,"('unexpected', 'JJ')",unexpect,unexpected,introduction,unexpected,O,,
+colour,colour,"('colour', 'NN')",colour,colour,introduction,colour,O,,
+well,well,"('well', 'RB')",well,well,introduction,well,O,,
+two,two,"('two', 'CD')",two,two,introduction,two,B,CARDINAL,Numerals that do not fall under another type
+nation,nation,"('nation', 'NN')",nation,nation,introduction,nation,O,,
+mightiest,mightiest,"('mightiest', 'JJS')",mightiest,mighty,introduction,mightiest,O,,
+rivers,rivers,"('rivers', 'VBZ')",river,rivers,introduction,rivers,O,,
+Missouri,missouri,"('missouri', 'NN')",missouri,missouri,introduction,Missouri,B,GPE,"Countries, cities, states"
+Mississippi,mississippi,"('mississippi', 'NN')",mississippi,mississippi,introduction,Mississippi,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Plains,plains,"('plains', 'NNS')",plain,plain,description,Plains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+also,also,"('also', 'RB')",also,also,description,also,O,,
+share,share,"('share', 'NN')",share,share,description,share,O,,
+complex,complex,"('complex', 'JJ')",complex,complex,description,complex,O,,
+fascinating,fascinating,"('fascinating', 'NN')",fascin,fascinating,description,fascinating,O,,
+history,history,"('history', 'NN')",histori,history,description,history,O,,
+Once,once,"('once', 'RB')",onc,once,description,Once,O,,
+home,home,"('home', 'NN')",home,home,description,home,O,,
+nomadic,nomadic,"('nomadic', 'JJ')",nomad,nomadic,description,nomadic,O,,
+tribes,tribes,"('tribes', 'NNS')",tribe,tribe,description,tribes,O,,
+Sioux,sioux,"('sioux', 'NN')",sioux,sioux,description,Sioux,B,NORP,Nationalities or religious or political groups
+handful,handful,"('handful', 'NN')",hand,handful,description,handful,O,,
+hardy,hardy,"('hardy', 'JJ')",hardi,hardy,description,hardy,O,,
+French,french,"('french', 'JJ')",french,french,description,French,B,NORP,Nationalities or religious or political groups
+traders,traders,"('traders', 'NNS')",trader,trader,description,traders,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+only,only,"('only', 'RB')",onli,only,description,only,O,,
+saw,saw,"('saw', 'VBD')",saw,saw,description,saw,O,,
+US,us,"('us', 'PRP')",us,u,description,US,O,,
+colonization,colonization,"('colonization', 'NN')",colon,colonization,description,colonization,O,,
+really,really,"('really', 'RB')",realli,really,description,really,O,,
+ramped,ramped,"('ramped', 'VBD')",ramp,ramp,description,ramped,O,,
+Civil,civil,"('civil', 'JJ')",civil,civil,description,Civil,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+systematic,systematic,"('systematic', 'JJ')",systemat,systematic,description,systematic,O,,
+destruction,destruction,"('destruction', 'NN')",destruct,destruction,description,destruction,O,,
+white,white,"('white', 'JJ')",white,white,description,white,O,,
+settlers,settlers,"('settlers', 'NNS')",settler,settler,description,settlers,O,,
+awesome,awesome,"('awesome', 'JJ')",awesom,awesome,description,awesome,O,,
+herds,herds,"('herds', 'NNS')",herd,herd,description,herds,O,,
+bison,bison,"('bison', 'NN')",bison,bison,description,bison,O,,
+presaged,presaged,"('presaged', 'VBD')",presag,presage,description,presaged,O,,
+virtual,virtual,"('virtual', 'JJ')",virtual,virtual,description,virtual,O,,
+eradication,eradication,"('eradication', 'NN')",erad,eradication,description,eradication,O,,
+Plains,plains,"('plains', 'NNS')",plain,plain,description,Plains,B,NORP,Nationalities or religious or political groups
+Indians,indians,"('indians', 'NNS')",indian,indian,description,Indians,I,NORP,Nationalities or religious or political groups
+though,though,"('though', 'IN')",though,though,description,though,O,,
+ancestors,ancestors,"('ancestors', 'NNS')",ancestor,ancestor,description,ancestors,O,,
+retain,retain,"('retain', 'VBP')",retain,retain,description,retain,O,,
+significant,significant,"('significant', 'JJ')",signific,significant,description,significant,O,,
+presence,presence,"('presence', 'NN')",presenc,presence,description,presence,O,,
+South,south,"('south', 'JJ')",south,south,description,South,B,GPE,"Countries, cities, states"
+Dakota,dakota,"('dakota', 'NN')",dakota,dakota,description,Dakota,I,GPE,"Countries, cities, states"
+Oklahoma,oklahoma,"('oklahoma', 'VB')",oklahoma,oklahoma,description,Oklahoma,B,GPE,"Countries, cities, states"
+latter,latter,"('latter', 'NN')",latter,latter,description,latter,O,,
+was,was,"('was', 'VBD')",wa,be,description,was,O,,
+settled,settled,"('settled', 'VBN')",settl,settle,description,settled,O,,
+primarily,primarily,"('primarily', 'RB')",primarili,primarily,description,primarily,O,,
+tribes,tribes,"('tribes', 'NNS')",tribe,tribe,description,tribes,O,,
+removed,removed,"('removed', 'VBN')",remov,remove,description,removed,O,,
+east,east,"('east', 'JJ')",east,east,description,east,O,,
+Despite,despite,"('despite', 'IN')",despit,despite,description,Despite,O,,
+harsh,harsh,"('harsh', 'JJ')",harsh,harsh,description,harsh,O,,
+conditions,conditions,"('conditions', 'NNS')",condit,condition,description,conditions,O,,
+series,series,"('series', 'NN')",seri,series,description,series,O,,
+droughts,droughts,"('droughts', 'NNS')",drought,drought,description,droughts,O,,
+emigrants,emigrants,"('emigrants', 'NNS')",emigr,emigrant,description,emigrants,O,,
+poured,poured,"('poured', 'VBD')",pour,pour,description,poured,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+World,world,"('world', 'NN')",world,world,description,World,B,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+War,war,"('war', 'NN')",war,war,description,War,I,EVENT,"Named hurricanes, battles, wars, sports events, etc."
+wheat,wheat,"('wheat', 'NN')",wheat,wheat,description,wheat,O,,
+production,production,"('production', 'NN')",product,production,description,production,O,,
+doubled,doubled,"('doubled', 'VBD')",doubl,double,description,doubled,O,,
+US,us,"('us', 'PRP')",us,u,description,US,B,GPE,"Countries, cities, states"
+creating,creating,"('creating', 'VBG')",creat,create,description,creating,O,,
+boom,boom,"('boom', 'NN')",boom,boom,description,boom,O,,
+across,across,"('across', 'IN')",across,across,description,across,O,,
+Great,great,"('great', 'JJ')",great,great,description,Great,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Plains,plains,"('plains', 'NNS')",plain,plain,description,Plains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+ended,ended,"('ended', 'VBD')",end,end,description,ended,O,,
+another,another,"('another', 'DT')",anoth,another,description,another,O,,
+drought,drought,"('drought', 'NN')",drought,drought,description,drought,O,,
+dust,dust,"('dust', 'VB')",dust,dust,description,dust,O,,
+storms,storms,"('storms', 'NNS')",storm,storm,description,storms,O,,
+lasted,lasted,"('lasted', 'VBD')",last,last,description,lasted,O,,
+three,three,"('three', 'CD')",three,three,description,three,B,DATE,Absolute or relative dates or periods
+years,years,"('years', 'NNS')",year,year,description,years,I,DATE,Absolute or relative dates or periods
+images,images,"('images', 'NNS')",imag,image,description,images,O,,
+devastating,devastating,"('devastating', 'VBG')",devast,devastate,description,devastating,O,,
+Dustbowl,dustbowl,"('dustbowl', 'NN')",dustbowl,dustbowl,description,Dustbowl,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+remain,remain,"('remain', 'NN')",remain,remain,description,remain,O,,
+potent,potent,"('potent', 'JJ')",potent,potent,description,potent,O,,
+fantasy,fantasy,"('fantasy', 'NN')",fantasi,fantasy,description,fantasy,O,,
+Dorothy,dorothy,"('dorothy', 'NN')",dorothi,dorothy,description,Dorothy,B,PERSON,"People, including fictional"
+Toto,toto,"('toto', 'NN')",toto,toto,description,Toto,I,PERSON,"People, including fictional"
+swept,swept,"('swept', 'VBN')",swept,sweep,description,swept,O,,
+Kansas,kansas,"('kansas', 'VBN')",kansa,kansas,description,Kansas,B,GPE,"Countries, cities, states"
+tornado,tornado,"('tornado', 'NN')",tornado,tornado,description,tornado,O,,
+land,land,"('land', 'NN')",land,land,description,land,O,,
+Oz,oz,"('oz', 'JJ')",oz,oz,description,Oz,O,,
+Indeed,indeed,"('indeed', 'RB')",inde,indeed,description,Indeed,O,,
+drama,drama,"('drama', 'NN')",drama,drama,description,drama,O,,
+comes,comes,"('comes', 'VBZ')",come,come,description,comes,O,,
+form,form,"('form', 'NN')",form,form,description,form,O,,
+unpredictable,unpredictable,"('unpredictable', 'JJ')",unpredict,unpredictable,description,unpredictable,O,,
+weather,weather,"('weather', 'NN')",weather,weather,description,weather,O,,
+freak,freak,"('freak', 'JJ')",freak,freak,description,freak,O,,
+blizzards,blizzards,"('blizzards', 'NNS')",blizzard,blizzard,description,blizzards,O,,
+dust,dust,"('dust', 'NN')",dust,dust,description,dust,O,,
+devils,devils,"('devils', 'NNS')",devil,devil,description,devils,O,,
+lightning,lightning,"('lightning', 'VBG')",lightn,lightning,description,lightning,O,,
+storms,storms,"('storms', 'NNS')",storm,storm,description,storms,O,,
+notoriously,notoriously,"('notoriously', 'RB')",notori,notoriously,description,notoriously,O,,
+twister,twister,"('twister', 'NN')",twister,twister,description,twister,O,,
+tornadoes,tornadoes,"('tornadoes', 'NNS')",tornado,tornado,description,tornadoes,O,,
+Today,today,"('today', 'NN')",today,today,description,Today,O,,
+farming,farming,"('farming', 'VBG')",farm,farm,description,farming,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+still,still,"('still', 'RB')",still,still,description,still,O,,
+major,major,"('major', 'JJ')",major,major,description,major,O,,
+activity,activity,"('activity', 'NN')",activ,activity,description,activity,O,,
+Plains,plains,"('plains', 'NNS')",plain,plain,description,Plains,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+only,only,"('only', 'JJ')",onli,only,description,only,O,,
+game,game,"('game', 'NN')",game,game,description,game,O,,
+town,town,"('town', 'NN')",town,town,description,town,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+economy,economy,"('economy', 'NN')",economi,economy,description,economy,O,,
+booming,booming,"('booming', 'VBG')",boom,boom,description,booming,O,,
+thanks,thanks,"('thanks', 'NNS')",thank,thanks,description,thanks,O,,
+oil,oil,"('oil', 'NN')",oil,oil,description,oil,O,,
+natural,natural,"('natural', 'JJ')",natur,natural,description,natural,O,,
+gas,gas,"('gas', 'NN')",ga,gas,description,gas,O,,
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+Oklahoma,oklahoma,"('oklahoma', 'NN')",oklahoma,oklahoma,description,Oklahoma,B,GPE,"Countries, cities, states"
+recently,recently,"('recently', 'RB')",recent,recently,description,recently,O,,
+North,north,"('north', 'JJ')",north,north,description,North,B,GPE,"Countries, cities, states"
+Dakota,dakota,"('dakota', 'NN')",dakota,dakota,description,Dakota,I,GPE,"Countries, cities, states"
+Though,though,"('though', 'IN')",though,though,description,Though,O,,
+lunar,lunar,"('lunar', 'JJ')",lunar,lunar,description,lunar,O,,
+landscapes,landscapes,"('landscapes', 'NNS')",landscap,landscape,description,landscapes,O,,
+South,south,"('south', 'JJ')",south,south,description,South,B,GPE,"Countries, cities, states"
+Dakota,dakota,"('dakota', 'JJ')",dakota,dakota,description,Dakota,I,GPE,"Countries, cities, states"
+Badlands,badlands,"('badlands', 'NNS')",badland,badlands,description,Badlands,O,,
+stately,stately,"('stately', 'RB')",state,stately,description,stately,O,,
+Mount,mount,"('mount', 'VB')",mount,mount,description,Mount,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Rushmore,rushmore,"('rushmore', 'NN')",rushmor,rushmore,description,Rushmore,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Black,black,"('black', 'JJ')",black,black,description,Black,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Hills,hills,"('hills', 'NNS')",hill,hill,description,Hills,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+easily,easily,"('easily', 'RB')",easili,easily,description,easily,O,,
+region,region,"('region', 'NN')",region,region,description,region,O,,
+visited,visited,"('visited', 'JJ')",visit,visited,description,visited,O,,
+areas,areas,"('areas', 'NNS')",area,area,description,areas,O,,
+plenty,plenty,"('plenty', 'NN')",plenti,plenty,description,plenty,O,,
+entertainment,entertainment,"('entertainment', 'NN')",entertain,entertainment,description,entertainment,O,,
+elsewhere,elsewhere,"('elsewhere', 'RB')",elsewher,elsewhere,description,elsewhere,O,,
+Kansas,kansas,"('kansas', 'JJ')",kansa,kansas,description,Kansas,B,GPE,"Countries, cities, states"
+City,city,"('city', 'NN')",citi,city,description,City,I,GPE,"Countries, cities, states"
+barbecue,barbecue,"('barbecue', 'NN')",barbecu,barbecue,description,barbecue,O,,
+birthplace,birthplace,"('birthplace', 'NN')",birthplac,birthplace,description,birthplace,O,,
+Mark,mark,"('mark', 'NN')",mark,mark,description,Mark,B,PERSON,"People, including fictional"
+Twain,twain,"('twain', 'NN')",twain,twain,description,Twain,I,PERSON,"People, including fictional"
+wicked,wicked,"('wicked', 'VB')",wick,wicked,description,wicked,O,,
+old,old,"('old', 'JJ')",old,old,description,old,O,,
+cowboy,cowboy,"('cowboy', 'NN')",cowboy,cowboy,description,cowboy,O,,
+towns,towns,"('towns', 'NNS')",town,town,description,towns,O,,
+like,like,"('like', 'IN')",like,like,description,like,O,,
+Deadwood,deadwood,"('deadwood', 'NN')",deadwood,deadwood,description,Deadwood,B,GPE,"Countries, cities, states"
+South,south,"('south', 'JJ')",south,south,description,South,B,GPE,"Countries, cities, states"
+Dakota,dakota,"('dakota', 'NN')",dakota,dakota,description,Dakota,I,GPE,"Countries, cities, states"
+Dodge,dodge,"('dodge', 'NN')",dodg,dodge,description,Dodge,B,GPE,"Countries, cities, states"
+City,city,"('city', 'NN')",citi,city,description,City,I,GPE,"Countries, cities, states"
+car,car,"('car', 'NN')",car,car,description,car,O,,
+practically,practically,"('practically', 'RB')",practic,practically,description,practically,O,,
+imperative,imperative,"('imperative', 'JJ')",imper,imperative,description,imperative,O,,
+make,make,"('make', 'VB')",make,make,description,make,O,,
+Great,great,"('great', 'JJ')",great,great,description,Great,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Plains,plains,"('plains', 'NNS')",plain,plain,description,Plains,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+distances,distances,"('distances', 'NNS')",distanc,distance,description,distances,O,,
+long,long,"('long', 'JJ')",long,long,description,long,O,,
+roads,roads,"('roads', 'NNS')",road,road,description,roads,O,,
+straight,straight,"('straight', 'RB')",straight,straight,description,straight,O,,
+seemingly,seemingly,"('seemingly', 'RB')",seemingli,seemingly,description,seemingly,O,,
+endless,endless,"('endless', 'JJ')",endless,endless,description,endless,O,,
+population,population,"('population', 'NN')",popul,population,description,population,O,,
+sparse,sparse,"('sparse', 'NN')",spars,sparse,description,sparse,O,,

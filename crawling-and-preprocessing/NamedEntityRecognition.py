@@ -4,12 +4,13 @@ from xml.dom.expatbuilder import DOCUMENT_NODE
 import nltk
 import pandas as pd
 import spacy 
-import en_core_web_sm
-nlp = en_core_web_sm.load()
+import en_core_web_trf
+import xx_sent_ud_sm
+import de_dep_news_trf
 from spacy import displacy
 from pathlib import Path
 
-#%%
+
 #function to display basic entity info:
 def show_ents(doc): 
     if doc.ents: 
@@ -19,45 +20,49 @@ def show_ents(doc):
         print('No named entities found.')
 
 
+
+def recognize_entities(import_directory, nlp):
+    for file in Path(import_directory).glob('*.csv'):
+        df_location = pd.read_csv(file)
+        doc = " ".join(df_location['token'])
+        doc = nlp(doc)
+
+        #build lists to append
+        ent_text = []       #token/wort
+        ent_iob = []        #iob-label -> O = kein NE ; B = Anfang einer NE ; I = NE-Wort das zum vorherigen B gehört -> Zusammengesetzte NE's B+I       
+        ent_type = []       #NE Kategorie-Label
+        ent_desc = []       #Beschreibung des NE Kategorie-Label
+
+        i = 0
+        for token in doc:
+            ent_text.append(doc[i].text)
+            ent_iob.append(doc[i].ent_iob_)
+            ent_type.append(doc[i].ent_type_)
+            ent_desc.append(spacy.explain(doc[i].ent_type_))
+            i = i + 1
+
+        df_NER =pd.DataFrame({'ent_text':ent_text, 'ent_iob':ent_iob, 'ent_type':ent_type, 'ent_desc':ent_desc})
+        df_exp = pd.concat([df_location, df_NER], axis=1)
+        
+        fileName = 'ner_' + file.name
+        df_exp.to_csv(export_dir + fileName, index=False)
+        print('Exported csv: ',fileName)
+
+
 #%%
 #load location token csvs
 #spacy nlp to get NEs
 #concat new data into imported df
 #export to new csv
 
-import_directory = 'content/processed_places'
-export_directory = 'content/ner_places/'
-for file in Path(import_directory).glob('*.csv'):
-    df_location = pd.read_csv(file)
-    doc = " ".join(df_location['token'])
-    doc = nlp(doc)
+nlp_module = en_core_web_trf.load()
+#nlp_module = xx_sent_ud_sm.load()
+#nlp_module = de_dep_news_trf.load()
 
-    #build lists to append
-    ent_text = []
-    ent_iob = []
-    ent_type = []
-    ent_desc = []
+import_dir = 'content/processed_places'
+export_dir = 'content/new_ner_places/'
 
-    i = 0
-    for token in doc:
-        ent_text.append(doc[i].text)
-        ent_iob.append(doc[i].ent_iob_)
-        ent_type.append(doc[i].ent_type_)
-        ent_desc.append(spacy.explain(doc[i].ent_type_))
-        i = i + 1
-
-        #test print
-        #output = [doc[i].text, doc[i].ent_type_, doc[i].ent_iob_, spacy.explain(doc[i].ent_type_)]
-        #print(output)
-
-    df_NER = df=pd.DataFrame({'ent_text':ent_text, 'ent_iob':ent_iob, 'ent_type':ent_type, 'ent_desc':ent_desc})
-    df_export = pd.concat([df_location, df_NER], axis=1)#ignore_index=True)
-    df_export
-
-    #export filename
-    fileName = 'ner_' + file.name
-    df_export.to_csv(export_directory + fileName, index=False)
-
+df_places_ner = recognize_entities(import_directory=import_dir, nlp=nlp_module)
 
 # %%
 #various testlines

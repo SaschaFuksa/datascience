@@ -1,0 +1,124 @@
+token,normed_token,pos_tags,stemmed_token,lemma_token,class,ent_text,ent_iob,ent_type,ent_desc
+soaring,soaring,"('soaring', 'VBG')",soar,soar,introduction,soaring,O,,
+cliffs,cliffs,"('cliffs', 'NNS')",cliff,cliff,introduction,cliffs,O,,
+riverine,riverine,"('riverine', 'JJ')",riverin,riverine,introduction,riverine,O,,
+forests,forests,"('forests', 'NNS')",forest,forest,introduction,forests,O,,
+cascading,cascading,"('cascading', 'VBG')",cascad,cascade,introduction,cascading,O,,
+waterfalls,waterfalls,"('waterfalls', 'NNS')",waterfal,waterfall,introduction,waterfalls,O,,
+ZION,zion,"('zion', 'NNP')",zion,zion,introduction,ZION,O,,
+NATIONAL,national,"('national', 'JJ')",nation,national,introduction,NATIONAL,O,,
+PARK,park,"('park', 'NN')",park,park,introduction,PARK,O,,
+conventionally,conventionally,"('conventionally', 'RB')",convent,conventionally,introduction,conventionally,O,,
+beautiful,beautiful,"('beautiful', 'JJ')",beauti,beautiful,introduction,beautiful,O,,
+Utah,utah,"('utah', 'JJ')",utah,utah,introduction,Utah,B,GPE,"Countries, cities, states"
+parks,parks,"('parks', 'NNS')",park,park,introduction,parks,O,,
+divided,divided,"('divided', 'VBN')",divid,divide,introduction,divided,O,,
+two,two,"('two', 'CD')",two,two,introduction,two,B,CARDINAL,Numerals that do not fall under another type
+main,main,"('main', 'JJ')",main,main,introduction,main,O,,
+sections,sections,"('sections', 'NNS')",section,section,introduction,sections,O,,
+Zion,zion,"('zion', 'NN')",zion,zion,introduction,Zion,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Canyon,canyon,"('canyon', 'NN')",canyon,canyon,introduction,Canyon,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+thirty,thirty,"('thirty', 'NN')",thirti,thirty,introduction,thirty,B,QUANTITY,"Measurements, as of weight or distance"
+miles,miles,"('miles', 'NNS')",mile,mile,introduction,miles,I,QUANTITY,"Measurements, as of weight or distance"
+east,east,"('east', 'RB')",east,east,introduction,east,O,,
+miles,miles,"('miles', 'NNS')",mile,mile,introduction,miles,O,,
+northeast,northeast,"('northeast', 'RB')",northeast,northeast,introduction,northeast,O,,
+Las,las,"('las', 'NNS')",la,la,introduction,Las,B,GPE,"Countries, cities, states"
+Vegas,vegas,"('vegas', 'NNS')",vega,vega,introduction,Vegas,I,GPE,"Countries, cities, states"
+Kolob,kolob,"('kolob', 'JJ')",kolob,kolob,introduction,Kolob,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Canyons,canyons,"('canyons', 'NNS')",canyon,canyon,introduction,Canyons,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+northeast,northeast,"('northeast', 'NN')",northeast,northeast,introduction,northeast,O,,
+centrepiece,centrepiece,"('centrepiece', 'NN')",centrepiec,centrepiece,description,centrepiece,O,,
+park,park,"('park', 'NN')",park,park,description,park,O,,
+lush,lush,"('lush', 'JJ')",lush,lush,description,lush,O,,
+oasis,oasis,"('oasis', 'NN')",oasi,oasis,description,oasis,O,,
+Zion,zion,"('zion', 'NN')",zion,zion,description,Zion,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Canyon,canyon,"('canyon', 'NN')",canyon,canyon,description,Canyon,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+feels,feels,"('feels', 'NNS')",feel,feel,description,feels,O,,
+far,far,"('far', 'RB')",far,far,description,far,O,,
+removed,removed,"('removed', 'VBN')",remov,remove,description,removed,O,,
+otherworldly,otherworldly,"('otherworldly', 'JJ')",otherworldli,otherworldly,description,otherworldly,O,,
+desolation,desolation,"('desolation', 'NN')",desol,desolation,description,desolation,O,,
+Canyonlands,canyonlands,"('canyonlands', 'NNS')",canyonland,canyonlands,description,Canyonlands,O,,
+weirdness,weirdness,"('weirdness', 'NN')",weird,weirdness,description,weirdness,O,,
+Bryce,bryce,"('bryce', 'NN')",bryce,bryce,description,Bryce,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Like,like,"('like', 'IN')",like,like,description,Like,O,,
+California,california,"('california', 'NN')",california,california,description,California,O,,
+Yosemite,yosemite,"('yosemite', 'RB')",yosemit,yosemite,description,Yosemite,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Canyon,canyon,"('canyon', 'VBP')",canyon,canyon,description,Canyon,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+spectacular,spectacular,"('spectacular', 'JJ')",spectacular,spectacular,description,spectacular,O,,
+narrow,narrow,"('narrow', 'JJ')",narrow,narrow,description,narrow,O,,
+gorge,gorge,"('gorge', 'NN')",gorg,gorge,description,gorge,O,,
+echoing,echoing,"('echoing', 'VBG')",echo,echo,description,echoing,O,,
+sound,sound,"('sound', 'NN')",sound,sound,description,sound,O,,
+running,running,"('running', 'VBG')",run,run,description,running,O,,
+water,water,"('water', 'NN')",water,water,description,water,O,,
+also,also,"('also', 'RB')",also,also,description,also,O,,
+like,like,"('like', 'IN')",like,like,description,like,O,,
+Yosemite,yosemite,"('yosemite', 'NNS')",yosemit,yosemite,description,Yosemite,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+get,get,"('get', 'VB')",get,get,description,get,O,,
+claustrophobic,claustrophobic,"('claustrophobic', 'JJ')",claustrophob,claustrophobic,description,claustrophobic,O,,
+summer,summer,"('summer', 'NN')",summer,summer,description,summer,B,DATE,Absolute or relative dates or periods
+clogged,clogged,"('clogged', 'VBN')",clog,clog,description,clogged,O,,
+traffic,traffic,"('traffic', 'NN')",traffic,traffic,description,traffic,O,,
+crammed,crammed,"('crammed', 'VBN')",cram,cram,description,crammed,O,,
+sweltering,sweltering,"('sweltering', 'VBG')",swelter,swelter,description,sweltering,O,,
+many,many,"('many', 'JJ')",mani,many,description,many,O,,
+visitors,visitors,"('visitors', 'NNS')",visitor,visitor,description,visitors,O,,
+see,see,"('see', 'VBP')",see,see,description,see,O,,
+Zion,zion,"('zion', 'NN')",zion,zion,description,Zion,B,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+Canyon,canyon,"('canyon', 'NN')",canyon,canyon,description,Canyon,I,LOC,"Non-GPE locations, mountain ranges, bodies of water"
+quick,quick,"('quick', 'JJ')",quick,quick,description,quick,O,,
+detour,detour,"('detour', 'NN')",detour,detour,description,detour,O,,
+interstate,interstate,"('interstate', 'NN')",interst,interstate,description,interstate,O,,
+race,race,"('race', 'NN')",race,race,description,race,O,,
+Las,las,"('las', 'NNS')",la,la,description,Las,B,GPE,"Countries, cities, states"
+Vegas,vegas,"('vegas', 'NNS')",vega,vega,description,Vegas,I,GPE,"Countries, cities, states"
+Salt,salt,"('salt', 'JJ')",salt,salt,description,Salt,B,GPE,"Countries, cities, states"
+Lake,lake,"('lake', 'JJ')",lake,lake,description,Lake,I,GPE,"Countries, cities, states"
+City,city,"('city', 'NN')",citi,city,description,City,I,GPE,"Countries, cities, states"
+Magnificent,magnificent,"('magnificent', 'NN')",magnific,magnificent,description,Magnificent,O,,
+though,though,"('though', 'IN')",though,though,description,though,O,,
+canyon,canyon,"('canyon', 'NN')",canyon,canyon,description,canyon,O,,
+Scenic,scenic,"('scenic', 'JJ')",scenic,scenic,description,Scenic,O,,
+Drive,drive,"('drive', 'NN')",drive,drive,description,Drive,O,,
+may,may,"('may', 'MD')",may,may,description,may,O,,
+Zion,zion,"('zion', 'NN')",zion,zion,description,Zion,O,,
+deserves,deserves,"('deserves', 'VBZ')",deserv,deserve,description,deserves,O,,
+much,much,"('much', 'RB')",much,much,description,much,O,,
+time,time,"('time', 'NN')",time,time,description,time,O,,
+Even,even,"('even', 'RB')",even,even,description,Even,O,,
+shortest,shortest,"('shortest', 'JJS')",shortest,short,description,shortest,O,,
+hiking,hiking,"('hiking', 'NN')",hike,hiking,description,hiking,O,,
+trail,trail,"('trail', 'NN')",trail,trail,description,trail,O,,
+escape,escape,"('escape', 'VB')",escap,escape,description,escape,O,,
+crowds,crowds,"('crowds', 'NN')",crowd,crowd,description,crowds,O,,
+take,take,"('take', 'VB')",take,take,description,take,O,,
+away,away,"('away', 'RB')",away,away,description,away,O,,
+deceptive,deceptive,"('deceptive', 'JJ')",decept,deceptive,description,deceptive,O,,
+verdure,verdure,"('verdure', 'NN')",verdur,verdure,description,verdure,O,,
+valley,valley,"('valley', 'NN')",valley,valley,description,valley,O,,
+onto,onto,"('onto', 'IN')",onto,onto,description,onto,O,,
+tablelands,tablelands,"('tablelands', 'NNS')",tableland,tableland,description,tablelands,O,,
+far,far,"('far', 'RB')",far,far,description,far,O,,
+busiest,busiest,"('busiest', 'JJS')",busiest,busy,description,busiest,O,,
+season,season,"('season', 'NN')",season,season,description,season,O,,
+despite,despite,"('despite', 'IN')",despit,despite,description,despite,O,,
+temperatures,temperatures,"('temperatures', 'NNS')",temperatur,temperature,description,temperatures,O,,
+excess,excess,"('excess', 'NN')",excess,excess,description,excess,O,,
+violent,violent,"('violent', 'JJ')",violent,violent,description,violent,O,,
+thunderstorms,thunderstorms,"('thunderstorms', 'NNS')",thunderstorm,thunderstorm,description,thunderstorms,O,,
+concentrated,concentrated,"('concentrated', 'VBD')",concentr,concentrate,description,concentrated,O,,
+especially,especially,"('especially', 'RB')",especi,especially,description,especially,O,,
+August,august,"('august', 'JJ')",august,august,description,August,B,DATE,Absolute or relative dates or periods
+Ideally,ideally,"('ideally', 'RB')",ideal,ideally,description,Ideally,O,,
+come,come,"('come', 'VBN')",come,come,description,come,O,,
+spring,spring,"('spring', 'NN')",spring,spring,description,spring,O,,
+see,see,"('see', 'VB')",see,see,description,see,O,,
+flowers,flowers,"('flowers', 'NNS')",flower,flower,description,flowers,O,,
+bloom,bloom,"('bloom', 'NN')",bloom,bloom,description,bloom,O,,
+autumn,autumn,"('autumn', 'NN')",autumn,autumn,description,autumn,O,,
+enjoy,enjoy,"('enjoy', 'VB')",enjoy,enjoy,description,enjoy,O,,
+colours,colours,"('colours', 'NNS')",colour,colour,description,colours,O,,
+along,along,"('along', 'IN')",along,along,description,along,O,,
+river,river,"('river', 'NN')",river,river,description,river,O,,
