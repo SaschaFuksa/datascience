@@ -58,7 +58,12 @@ def make_image(b):
 
 
 @app.callback(dd.Output('traviny_logo', 'src'), [dd.Input('traviny_logo', 'id')])
-def make_image(b):
+def make_logo_image(id):
+    """
+    Insert Logo on page
+    :param id: To recognize img area
+    :return: Decoded image
+    """
     encoded = base64.b64encode(open('traviny_logo.png', 'rb').read())
     return 'data:image/png;base64,{}'.format(encoded.decode())
 
