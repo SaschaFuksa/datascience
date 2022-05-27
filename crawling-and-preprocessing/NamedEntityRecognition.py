@@ -10,7 +10,40 @@ import de_dep_news_trf
 from spacy import displacy
 from pathlib import Path
 
+#%%
+df_prep_jenny = pd.read_csv('content/results_df_prep.csv')
+df_prep_jenny
 
+
+#%%
+#create full text column (introduction + description)
+df_locations = pd.read_csv('content/crawled_rough_guides.csv')
+df_locations['full_text'] = df_locations.introduction.str.cat(df_locations.description, sep=' ')
+df_locations.drop('important_places', axis=1, inplace=True)
+df_locations
+
+all_NE = []
+
+nlp = en_core_web_trf.load()
+
+for row in df_locations.itertuples():
+    doc = nlp(row.full_text)
+    found_NE = []
+    if doc.ents:
+        for ent in doc.ents:
+            #print(ent.text + ',' + ent.label_)
+            found_NE.append((ent.text,ent.label_))
+    else:
+        print('No named entities found.')
+
+    all_NE.append(found_NE)
+
+df_NE = pd.DataFrame({'found_NE':all_NE})
+df_locations = pd.concat([df_locations, df_NE], axis=1)
+df_locations.to_csv('content/all_places_ne.csv')
+df_locations
+
+#%%
 #function to display basic entity info:
 def show_ents(doc):
     if doc.ents:
@@ -18,8 +51,6 @@ def show_ents(doc):
             print(ent.text+' - ' +str(ent.start_char) +' - '+ str(ent.end_char) +' - '+ent.label_+ ' - '+str(spacy.explain(ent.label_)))
     else:
         print('No named entities found.')
-
-
 
 def recognize_entities(import_directory, nlp):
     for file in Path(import_directory).glob('*.csv'):
