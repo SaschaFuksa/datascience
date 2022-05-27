@@ -18,8 +18,12 @@ main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/cr
 app = Dash(__name__)
 app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
-example_fruits = pd.DataFrame({'word': ['apple', 'pear', 'orange'], 'freq': [1, 3, 9]})
-example_vegetables = pd.DataFrame({'word': ['broccoli', 'onion', 'garlic'], 'freq': [4, 8, 20]})
+example_ne = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
+                           'word': [['The Brandenburg Gate', 'Alexanderplatz'], ['Waikiki Beach', 'Waikiki Volcano'],
+                                    ['Fernsehturm', 'Schlossplatz']], 'freq': [[4, 2], [1, 2], [3, 4]]})
+example_attractions = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
+                                    'word': [['bar', 'club'], ['beach', 'club'],
+                                             ['bar', 'restaurant']], 'freq': [[4, 2], [1, 2], [3, 4]]})
 
 named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Word Cloud',
                                                                 'image_named_entity_word_cloud')
@@ -47,16 +51,6 @@ app.layout = html.Div(children=[
 ])
 
 
-@app.callback(dd.Output('image_named_entity_word_cloud', 'src'), [dd.Input('image_named_entity_word_cloud', 'id')])
-def make_image(b):
-    return WordCloudBuilder().create_word_cloud(example_fruits)
-
-
-@app.callback(dd.Output('image_activity_word_cloud', 'src'), [dd.Input('image_activity_word_cloud', 'id')])
-def make_image(b):
-    return WordCloudBuilder().create_word_cloud(example_vegetables)
-
-
 @app.callback(dd.Output('traviny_logo', 'src'), [dd.Input('traviny_logo', 'id')])
 def make_logo_image(id):
     """
@@ -71,11 +65,21 @@ def make_logo_image(id):
 @app.callback(
     dd.Output('country_selection', 'options'),
     dd.Output('place_selection', 'options'),
+    dd.Output('image_named_entity_word_cloud', 'src'),
+    dd.Output('image_activity_word_cloud', 'src'),
     dd.Input('continent_selection', 'value'),
     dd.Input('country_selection', 'value'),
+    dd.Input('image_named_entity_word_cloud', 'id'),
+    dd.Input('image_activity_word_cloud', 'id'),
+    dd.Input('place_selection', 'value')
 )
-def change_filter(continent_filter, country_filter):
-    return filter_component_builder.update_options(continent_filter, country_filter)
+def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter):
+    countries, places, places_list = filter_component_builder.update_options(continent_filter, country_filter)
+    if place_filter:
+        places_list = places_list.intersection(place_filter)
+    wc_ne = WordCloudBuilder().create_word_cloud(places_list, example_ne)
+    wc_att = WordCloudBuilder().create_word_cloud(places_list, example_attractions)
+    return countries, places, wc_ne, wc_att
 
 
 if __name__ == '__main__':

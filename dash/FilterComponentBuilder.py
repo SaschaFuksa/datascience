@@ -46,7 +46,7 @@ class FilterComponentBuilder:
         filtered_places = self.__extract_filtered_elements(country_filter, 'country', 'place')
         countries = [{'label': i, 'value': i} for i in sorted(set(filtered_countries))]
         places = [{'label': i, 'value': i} for i in sorted(filtered_places)]
-        return countries, places
+        return countries, places, filtered_places
 
     def __extract_filtered_elements(self, elements, source_column, target_column):
         """

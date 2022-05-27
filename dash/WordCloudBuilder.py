@@ -1,6 +1,7 @@
 import base64
 from io import BytesIO
 
+import pandas as pd
 from wordcloud import WordCloud
 
 
@@ -10,14 +11,22 @@ class WordCloudBuilder:
         pass
 
     @staticmethod
-    def create_word_cloud(data: str):
+    def create_word_cloud(places_list, data):
         """
         Create a word cloud by creating a image and decode it for dash
         :param data: Data/text to extract words
         :return: Formated base64 decoded image for word clouds
         """
+        nes_frame = data.loc[data['place'].isin(places_list), ['word', 'freq']]
+        nes_list = []
+        freq_list = []
+        for nes in nes_frame['word'].tolist():
+            nes_list.extend(nes)
+        for freq in nes_frame['freq'].tolist():
+            freq_list.extend(freq)
+        nes_wc_df = pd.DataFrame({'word': nes_list, 'freq': freq_list})
         image = BytesIO()
-        WordCloudBuilder.generate_word_cloud_image(data).save(image, format='PNG')
+        WordCloudBuilder.generate_word_cloud_image(nes_wc_df).save(image, format='PNG')
         return 'data:image/png;base64,{}'.format(base64.b64encode(image.getvalue()).decode())
 
     @staticmethod
