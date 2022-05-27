@@ -9,6 +9,7 @@ import xx_sent_ud_sm
 import de_dep_news_trf
 from spacy import displacy
 from pathlib import Path
+from collections import Counter
 
 #%%
 df_prep_jenny = pd.read_csv('content/results_df_prep.csv')
@@ -23,25 +24,55 @@ df_locations.drop('important_places', axis=1, inplace=True)
 df_locations
 
 all_NE = []
+all_NE_count = []
 
 nlp = en_core_web_trf.load()
 
 for row in df_locations.itertuples():
     doc = nlp(row.full_text)
     found_NE = []
+    count_NE = []
     if doc.ents:
         for ent in doc.ents:
             #print(ent.text + ',' + ent.label_)
             found_NE.append((ent.text,ent.label_))
+            counted_NE = row.full_text.count(ent.text)
+            count_NE.append((ent.text, counted_NE))
     else:
         print('No named entities found.')
-
+    
     all_NE.append(found_NE)
+    all_NE_count.append(count_NE)
 
-df_NE = pd.DataFrame({'found_NE':all_NE})
+df_NE = pd.DataFrame({'found_NE':all_NE, 'count_NE':all_NE_count})
 df_locations = pd.concat([df_locations, df_NE], axis=1)
 df_locations.to_csv('content/all_places_ne.csv')
 df_locations
+
+#%%
+df_locations = pd.read_csv('content/all_places_ne.csv', index_col=0)
+df_locations['found_NE']=df_locations['found_NE'].apply(ast.literal_eval)
+for row in df_locations.itertuples():
+    df_NES = pd.DataFrame(row.found_NE, columns=['text', 'tag'])
+    doc = nlp(row.full_text)
+    words = [token.text for token in doc if token.is_stop != True and token.is_punct != True]
+    word_freq = Counter(words)
+    common_words = word_freq.most_common(5)
+    print (common_words)
+    break
+
+#%%
+import ast
+#create list of non NE
+df_import = pd.read_csv('content/all_places_ne.csv', index_col=0)
+df_test = pd.DataFrame()
+#df_import['found_NE'] = df_import['found_NE'].str.strip('[]').str.split(',')
+df_import['found_NE']=df_import['found_NE'].apply(ast.literal_eval)
+for row in df_import.itertuples():
+    df_NES = pd.DataFrame(row.found_NE, columns=['text', 'tag'])
+    df_NES
+    break
+df_NES
 
 #%%
 #function to display basic entity info:
@@ -177,3 +208,54 @@ print(ent_test)
 #visualize NER spacy
 displacy.render(doc1, style="ent", jupyter=True)
 displacy.render(doc_description, style="ent", jupyter=True)
+
+#%%
+#create full text column (introduction + description)
+from nltk.tokenize import word_tokenize
+
+df_locations = pd.read_csv('content/crawled_rough_guides.csv')
+df_locations['full_text'] = df_locations.introduction.str.cat(df_locations.description, sep=' ')
+df_locations.drop('important_places', axis=1, inplace=True)
+df_locations
+
+all_NE = []
+nlp = en_core_web_trf.load()
+
+for row in df_locations.itertuples():
+    all_stopwords = nlp.Defaults.stop_words
+
+    text = row.full_text
+    text_tokens = word_tokenize(text)
+    tokens_without_sw= [word for word in text_tokens if not word in all_stopwords]
+    print(tokens_without_sw)
+    
+    #doc = nlp(tokens_without_sw)
+    #found_NE = []
+    #for token in doc:
+    #    print(token)
+    
+    break
+
+
+#%%
+
+df_example = pd.read_csv('content/processed_places/11_Mexico_City.csv')
+word_freq = Counter(df_example['normed_token'])
+common_words = word_freq.most_common(5)
+print (common_words)
+#%%
+freq = []
+for file in Path('content/processed_places').glob('*.csv'):
+    df_place = pd.read_csv(file)
+    word_freq = Counter(df_place['normed_token'])
+    name = file.name.split('_')
+    freq.append((name[0], word_freq))
+
+df_freq = pd.DataFrame(freq, columns=['number', 'token_freq'])
+df_freq
+
+df_locations = pd.read_csv('content/all_places_ne.csv', index_col=0)
+df_locations
+
+df_locations_new = pd.merge(df_locations, df_freq, on=df_locations.number)
+df_locations_new.to_csv('content/all_places_ne.csv')
