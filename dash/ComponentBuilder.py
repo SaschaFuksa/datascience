@@ -1,3 +1,5 @@
+import re
+
 import pandas as pd
 import plotly.express as px
 from dash import html, dcc
@@ -33,6 +35,9 @@ class ComponentBuilder:
     @staticmethod
     def update_top_ten(combinations, attractions, attraction_filter):
         filtered_str = "|".join(attractions)
+        for row in combinations.itertuples():
+            combination = row.combination
+            print(combination)
         pre_filtered_combinations = combinations[combinations['combination'].str.contains(filtered_str)]
         filtered_combinations = pd.DataFrame(columns=['combination', 'freq'])
         for row in pre_filtered_combinations.itertuples():
