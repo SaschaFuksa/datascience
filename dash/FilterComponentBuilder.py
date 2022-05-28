@@ -60,7 +60,7 @@ class FilterComponentBuilder:
         countries = [{'label': i, 'value': i} for i in sorted(set(filtered_countries))]
         places = [{'label': i, 'value': i} for i in sorted(filtered_places)]
         filtered_attractions = [{'label': i, 'value': i} for i in sorted(attractions)]
-        return countries, places, filtered_places, filtered_attractions
+        return countries, places, filtered_places, filtered_attractions, attractions
 
     def extract_filtered_elements(df, elements, source_column, target_column):
         """
@@ -82,4 +82,5 @@ class FilterComponentBuilder:
         attractions_list = []
         for attractions in relevant_attractions:
             attractions_list.extend(attractions)
+
         return set(attractions_list)

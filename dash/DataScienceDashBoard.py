@@ -20,6 +20,8 @@ example_ne = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
 example_attractions = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
                                     'word': [['bar', 'club'], ['beach', 'club'],
                                              ['bar', 'restaurant']], 'freq': [[4, 2], [1, 2], [3, 4]]})
+example_combinations = pd.DataFrame({'combination': ['bar club','club restaurant', 'beach club', 'beach restaurant'],
+                                    'freq': [4, 5, 1, 2]})
 main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/crawled_rough_guides.csv')
 
 app = Dash(__name__)
@@ -29,6 +31,7 @@ named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Wo
                                                                 'image_named_entity_word_cloud')
 activity_word_cloud = ComponentBuilder.build_word_cloud_box('Activity Word Cloud',
                                                             'image_activity_word_cloud')
+top_10_attractions = ComponentBuilder.build_top_ten()
 continent_filter = FilterComponentBuilder.build__filter(main_file, 'continent', 'Continent filter')
 country_filter = FilterComponentBuilder.build__filter(main_file, 'country', 'Country filter')
 place_filter = FilterComponentBuilder.build__filter(main_file, 'place', 'Place filter')
@@ -44,7 +47,7 @@ app.layout = html.Div(children=[
     ]),
     dbc.Row([
         dbc.Col([attraction_filter]),
-        dbc.Col(html.H2('Top 10 tourist attraction combinations')), dbc.Col(html.H2('Own idea'))
+        dbc.Col(top_10_attractions), dbc.Col(html.H2('Own idea'))
     ]),
 ])
 
@@ -66,21 +69,24 @@ def make_logo_image(id):
     dd.Output('word_selection', 'options'),
     dd.Output('image_named_entity_word_cloud', 'src'),
     dd.Output('image_activity_word_cloud', 'src'),
+    dd.Output('top_ten', 'figure'),
     dd.Input('continent_selection', 'value'),
     dd.Input('country_selection', 'value'),
     dd.Input('image_named_entity_word_cloud', 'id'),
     dd.Input('image_activity_word_cloud', 'id'),
-    dd.Input('place_selection', 'value')
+    dd.Input('place_selection', 'value'),
+    dd.Input('word_selection', 'value')
 )
-def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter):
-    countries, places, places_list, attractions = FilterComponentBuilder.update_options(main_file, example_attractions,
+def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter, attraction_filter):
+    countries, places, places_list, attractions, attractions_list = FilterComponentBuilder.update_options(main_file, example_attractions,
                                                                                         continent_filter,
                                                                                         country_filter, place_filter)
     if place_filter:
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, example_ne)
     wc_att = WordCloudBuilder().create_word_cloud(places_list, example_attractions)
-    return countries, places, attractions, wc_ne, wc_att
+    fig = ComponentBuilder.update_top_ten(example_combinations, attractions_list, attraction_filter)
+    return countries, places, attractions, wc_ne, wc_att, fig
 
 
 if __name__ == '__main__':
