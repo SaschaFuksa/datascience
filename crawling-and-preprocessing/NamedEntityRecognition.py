@@ -63,10 +63,10 @@ for row in df_locations.itertuples():
         for Token in doc:
             #non NE token 
             if Token.text not in NE_no_tag:
-                print('found non-NE!')
+                #print('found non-NE!')
                 non_NE.append(Token.text)
                 if Token.pos_ in pos_tags:
-                    print('found non-NE noun!')
+                    #print('found non-NE noun!')
                     non_NE_nouns.append(Token.text)
                     counted_noun = row.full_text.count(Token.text)
                     non_NE_count.append((Token.text, counted_noun))
