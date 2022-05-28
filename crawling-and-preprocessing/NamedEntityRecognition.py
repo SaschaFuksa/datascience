@@ -23,30 +23,81 @@ df_locations['full_text'] = df_locations.introduction.str.cat(df_locations.descr
 df_locations.drop('important_places', axis=1, inplace=True)
 df_locations
 
+#arrays to turn into dataframe
 all_NE = []
 all_NE_count = []
+all_filtered_NE = []
+all_NE_no_tag = []
+all_non_NE = []
+all_non_NE_nouns = []
+all_non_NE_count = []
+
+ne_tags = ['EVENT', 'ORG', 'GPE', 'LOC', 'PERSON', 'PRODUCT', 'WORK_OF_ART', 'LANGUAGE', 'FAC']
+pos_tags = ['NOUN', 'PROPN']
 
 nlp = en_core_web_trf.load()
 
 for row in df_locations.itertuples():
+    print('Start loop for location:' + row.place)
     doc = nlp(row.full_text)
+    #temp arrays
     found_NE = []
     count_NE = []
+    filtered_NE = []
+    NE_no_tag = []
+    non_NE = []
+    non_NE_nouns = []
+    non_NE_count = []
+
     if doc.ents:
         for ent in doc.ents:
-            #print(ent.text + ',' + ent.label_)
             found_NE.append((ent.text,ent.label_))
-            counted_NE = row.full_text.count(ent.text)
-            count_NE.append((ent.text, counted_NE))
+            if ent.label_ in ne_tags:  
+                #count frequency of found NE
+                counted_NE = row.full_text.count(ent.text)
+                count_NE.append((ent.text, counted_NE))
+                #append found NE to filtered array
+                filtered_NE.append((ent.text, ent.label_))
+                #append only text of found ne
+                NE_no_tag.append(ent.text)
+        for Token in doc:
+            #non NE token 
+            if Token.text not in NE_no_tag:
+                print('found non-NE!')
+                non_NE.append(Token.text)
+                if Token.pos_ in pos_tags:
+                    print('found non-NE noun!')
+                    non_NE_nouns.append(Token.text)
+                    counted_noun = row.full_text.count(Token.text)
+                    non_NE_count.append((Token.text, counted_noun))
     else:
         print('No named entities found.')
     
+    #NE
     all_NE.append(found_NE)
     all_NE_count.append(count_NE)
+    all_filtered_NE.append(filtered_NE)
+    all_NE_no_tag.append(NE_no_tag)
 
-df_NE = pd.DataFrame({'found_NE':all_NE, 'count_NE':all_NE_count})
-df_locations = pd.concat([df_locations, df_NE], axis=1)
-df_locations.to_csv('content/all_places_ne.csv')
+    #non NE
+    all_non_NE.append(non_NE)
+    all_non_NE_nouns.append(non_NE_nouns)
+    all_non_NE_count.append(non_NE_count)
+
+    print('Finished location: ' + row.place)
+
+df_NER = pd.DataFrame({
+    'found_NE':all_NE, 
+    'freq_NE':all_NE_count, 
+    'filtered_NE':all_filtered_NE, 
+    'NE_no_tag':all_NE_no_tag,
+    'non_NE':all_non_NE,
+    'non_NE_nouns':all_non_NE_nouns,
+    'freq_nouns':all_non_NE_count
+    })
+
+df_locations = pd.concat([df_locations, df_NER], axis=1)
+df_locations.to_csv('content/all_places_ner_new.csv')
 df_locations
 
 #%%
