@@ -35,25 +35,18 @@ class ComponentBuilder:
     @staticmethod
     def update_top_ten(combinations, attractions, attraction_filter):
         filtered_str = "|".join(attractions)
-        for row in combinations.itertuples():
-            combination = row.combination
-            print(combination)
-        pre_filtered_combinations = combinations[combinations['combination'].str.contains(filtered_str)]
         filtered_combinations = pd.DataFrame(columns=['combination', 'freq'])
-        for row in pre_filtered_combinations.itertuples():
+        for row in combinations.itertuples():
             combination = row.combination
             first_attraction = combination.split()[0]
             second_attraction = combination.split()[1]
             if first_attraction in filtered_str and second_attraction in filtered_str:
                 if attraction_filter and ((first_attraction in attraction_filter) or (second_attraction in attraction_filter)):
                     filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
-                                                                     ignore_index=True)
+                                                                         ignore_index=True)
                 elif not attraction_filter:
                     filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
                                                                          ignore_index=True)
-        if attraction_filter:
-            # todo: Filter wenn einzelne ausgewählt sind
-            pass
         filtered_combinations = filtered_combinations.sort_values(by=['freq'])
         if len(filtered_combinations) > 10:
             filtered_combinations = filtered_combinations[:10]

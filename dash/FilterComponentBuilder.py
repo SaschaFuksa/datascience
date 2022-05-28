@@ -20,7 +20,7 @@ class FilterComponentBuilder:
             for element in colum_data:
                 elements.extend(element)
             elements = set(elements)
-        elif column_name is 'non_NE_nouns':
+        elif column_name == 'non_NE_nouns':
             attrs_lists = main_file[column_name].apply(literal_eval)
             for attrs_list in attrs_lists:
                 for attraction in attrs_list:

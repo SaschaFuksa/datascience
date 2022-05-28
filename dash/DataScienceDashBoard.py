@@ -20,11 +20,12 @@ directory = Path().resolve().parent
 example_attractions = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
                                     'word': [['bars', 'club'], ['beach', 'club'],
                                              ['bars', 'restaurant']], 'freq': [[4, 2], [1, 2], [3, 4]]})'''
-example_combinations = pd.DataFrame({'combination': ['bar club','club restaurant', 'beach club', 'beach restaurant'],
+example_combinations = pd.DataFrame({'combination': ['bars club','club restaurant', 'beach club', 'beach restaurant'],
                                     'freq': [4, 5, 1, 2]})
-main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805.csv')
+main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_2.csv')
 
 app = Dash(__name__)
+
 app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
 named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Word Cloud',
@@ -69,7 +70,7 @@ def make_logo_image(id):
     dd.Output('non_NE_nouns_selection', 'options'),
     dd.Output('image_named_entity_word_cloud', 'src'),
     dd.Output('image_activity_word_cloud', 'src'),
-#    dd.Output('top_ten', 'figure'),
+    dd.Output('top_ten', 'figure'),
     dd.Input('continent_selection', 'value'),
     dd.Input('country_selection', 'value'),
     dd.Input('image_named_entity_word_cloud', 'id'),
@@ -84,9 +85,8 @@ def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter,
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, main_file, 'NE_no_tag', 'freq_NE_int')
     wc_att = WordCloudBuilder().create_word_cloud(places_list, main_file, 'non_NE_nouns', 'freq_noun_int')
-    #fig = ComponentBuilder.update_top_ten(example_combinations, attractions_list, attraction_filter)
-    #return countries, places, attractions, wc_ne, wc_att, fig
-    return countries, places, attractions, wc_ne, wc_att
+    fig = ComponentBuilder.update_top_ten(example_combinations, attractions_list, attraction_filter)
+    return countries, places, attractions, wc_ne, wc_att, fig
 
 
 if __name__ == '__main__':
