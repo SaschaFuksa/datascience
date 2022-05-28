@@ -13,10 +13,6 @@ from FilterComponentBuilder import FilterComponentBuilder
 from WordCloudBuilder import WordCloudBuilder
 
 directory = Path().resolve().parent
-main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/crawled_rough_guides.csv')
-
-app = Dash(__name__)
-app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
 example_ne = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
                            'word': [['The Brandenburg Gate', 'Alexanderplatz'], ['Waikiki Beach', 'Waikiki Volcano'],
@@ -24,17 +20,19 @@ example_ne = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
 example_attractions = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
                                     'word': [['bar', 'club'], ['beach', 'club'],
                                              ['bar', 'restaurant']], 'freq': [[4, 2], [1, 2], [3, 4]]})
+main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/crawled_rough_guides.csv')
+
+app = Dash(__name__)
+app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
 named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Word Cloud',
                                                                 'image_named_entity_word_cloud')
 activity_word_cloud = ComponentBuilder.build_word_cloud_box('Activity Word Cloud',
                                                             'image_activity_word_cloud')
-
-filter_component_builder = FilterComponentBuilder(main_file)
-continent_filter = filter_component_builder.build__filter('continent', 'Continent filter')
-country_filter = filter_component_builder.build__filter('country', 'Country filter')
-place_filter = filter_component_builder.build__filter('place', 'Place filter')
-attraction_filter = filter_component_builder.build__filter('important_places', 'Attraction filter')
+continent_filter = FilterComponentBuilder.build__filter(main_file, 'continent', 'Continent filter')
+country_filter = FilterComponentBuilder.build__filter(main_file, 'country', 'Country filter')
+place_filter = FilterComponentBuilder.build__filter(main_file, 'place', 'Place filter')
+attraction_filter = FilterComponentBuilder.build__filter(example_attractions, 'word', 'Attraction filter')
 
 image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
@@ -65,6 +63,7 @@ def make_logo_image(id):
 @app.callback(
     dd.Output('country_selection', 'options'),
     dd.Output('place_selection', 'options'),
+    dd.Output('word_selection', 'options'),
     dd.Output('image_named_entity_word_cloud', 'src'),
     dd.Output('image_activity_word_cloud', 'src'),
     dd.Input('continent_selection', 'value'),
@@ -74,12 +73,14 @@ def make_logo_image(id):
     dd.Input('place_selection', 'value')
 )
 def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter):
-    countries, places, places_list = filter_component_builder.update_options(continent_filter, country_filter)
+    countries, places, places_list, attractions = FilterComponentBuilder.update_options(main_file, example_attractions,
+                                                                                        continent_filter,
+                                                                                        country_filter, place_filter)
     if place_filter:
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, example_ne)
     wc_att = WordCloudBuilder().create_word_cloud(places_list, example_attractions)
-    return countries, places, wc_ne, wc_att
+    return countries, places, attractions, wc_ne, wc_att
 
 
 if __name__ == '__main__':
