@@ -99,7 +99,6 @@ def preProcessing(label, text):
 
     return df_tokens
 
-@staticmethod
 def get_wordnet_pos(word_class_tag):
     if word_class_tag.startswith('J'):
         return wordnet.ADJ
@@ -114,25 +113,27 @@ def get_wordnet_pos(word_class_tag):
 
 
 #%%
-df_places = pd.read_csv('content/crawled_rough_guides.csv')
 
-for row in df_places.itertuples():
-    df_introduction = preProcessing('introduction', row.introduction)
-    df_description = preProcessing('description', row.description)
+def main():
+    df_places = pd.read_csv('content/crawled_rough_guides.csv')
 
-    file_name = str(row.number) + "_" + row.place.replace(" ", "_") + '.csv'
-    file_path = 'content/processed_places/'
+    for row in df_places.itertuples():
+        df_introduction = preProcessing('introduction', row.introduction)
+        df_description = preProcessing('description', row.description)
 
-    df_export = pd.concat([df_introduction, df_description], ignore_index=True)
-    df_export.to_csv(file_path+file_name, index=False)
+        file_name = str(row.number) + "_" + row.place.replace(" ", "_") + '.csv'
+        file_path = 'content/processed_places/'
 
-    print("created file: " + file_path + file_name)
+        df_export = pd.concat([df_introduction, df_description], ignore_index=True)
+        df_export.to_csv(file_path+file_name, index=False)
+
+        print("created file: " + file_path + file_name)
     
 # %%
 # Downloads needed to run this python-code
-nltk.download('punkt')
-nltk.download('averaged_perceptron_tagger')
-nltk.download('wordnet')
-nltk.download('omw-1.4')
-nltk.download('stopwords')
+    nltk.download('punkt')
+    nltk.download('averaged_perceptron_tagger')
+    nltk.download('wordnet')
+    nltk.download('omw-1.4')
+    nltk.download('stopwords')
 

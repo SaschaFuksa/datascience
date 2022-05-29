@@ -11,6 +11,7 @@ from collections import Counter
 from nltk.corpus import wordnet as wn
 from ast import literal_eval
 import re
+from pattern.text.en import singularize
 
 #%%
 #create full text column (introduction + description)
@@ -231,3 +232,53 @@ df_export = pd.concat([df_locations, df_cleaned_nouns], axis=1)
     
 df_export.to_csv('crawling-and-preprocessing/content/data_prep_2805_2.csv', index=False)
 df_export
+
+#%%
+def unique(sequence):
+    seen = set()
+    return [x for x in sequence if not (x in seen or seen.add(x))]
+
+
+def singular(text):
+
+    singles = [singularize(plural) for plural in text]
+    return singles
+
+#%%
+import TextPreprocessing as tp
+
+df_locations = pd.read_csv('content/data_prep_2805_2.csv')
+df_locations['nouns_cleaned'] = df_locations['nouns_cleaned'].apply(literal_eval)
+df_locations['non_NE_nouns'] = df_locations['non_NE_nouns'].apply(literal_eval)
+
+all_nouns = []
+for row in df_locations.itertuples():
+    #print(row.nouns_cleaned)
+    nouns = tp.normalization(row.non_NE_nouns)
+    #nouns = tp.stemming(nouns)
+    #nouns = nouns.map(pd.unique)
+    #print('Old : ', nouns)
+    #print(len(nouns))
+
+    nouns = singular(nouns)
+    for n in nouns:
+        n.title()
+
+    print(nouns)
+    #print(nouns)
+    #print(len(nouns))
+
+
+    #my_final_list = unique(nouns)
+    #print(my_final_list)
+    #print(len(my_final_list))
+    break
+
+    all_nouns.append(nouns)
+
+df_stem = pd.DataFrame({'singular_nouns':all_nouns})
+df_export = pd.concat([df_locations, df_stem], axis=1)
+df_export.to_csv('content/data_prep_2805_3.csv')
+df_export
+
+# %%
