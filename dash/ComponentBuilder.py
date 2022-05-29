@@ -1,5 +1,3 @@
-import re
-
 import pandas as pd
 import plotly.express as px
 from dash import html, dcc
@@ -27,6 +25,10 @@ class ComponentBuilder:
 
     @staticmethod
     def build_top_ten():
+        """
+        Build small div for top 10
+        :return: Div with headline and graph id
+        """
         return html.Div([
             html.H2('Top 10 tourist attraction combinations'),
             dcc.Graph(id='top_ten'),
@@ -34,14 +36,22 @@ class ComponentBuilder:
 
     @staticmethod
     def update_top_ten(combinations, attractions, attraction_filter):
+        """
+        Update top 10 combinations by attractions
+        :param combinations: Data of all combinations
+        :param attractions: Filtered Attractions by continent/country/place filters
+        :param attraction_filter: Single attraction filter
+        :return: Figure showing top 10 combinations
+        """
         filtered_str = "|".join(attractions)
         filtered_combinations = pd.DataFrame(columns=['combination', 'freq'])
         for row in combinations.itertuples():
             combination = row.combination
             first_attraction = combination.split()[0]
             second_attraction = combination.split()[1]
-            if first_attraction in filtered_str and second_attraction in filtered_str:
-                if attraction_filter and ((first_attraction in attraction_filter) or (second_attraction in attraction_filter)):
+            if (first_attraction in filtered_str) and (second_attraction in filtered_str):
+                if attraction_filter and (
+                        (first_attraction in attraction_filter) or (second_attraction in attraction_filter)):
                     filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
                                                                          ignore_index=True)
                 elif not attraction_filter:

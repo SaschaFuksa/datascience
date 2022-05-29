@@ -14,20 +14,17 @@ from WordCloudBuilder import WordCloudBuilder
 
 directory = Path().resolve().parent
 
-'''example_ne = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
-                           'word': [['The Brandenburg Gate', 'Alexanderplatz'], ['Waikiki Beach', 'Waikiki Volcano'],
-                                    ['Fernsehturm', 'Schlossplatz']], 'freq': [[4, 2], [1, 2], [3, 4]]})
-example_attractions = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
-                                    'word': [['bars', 'club'], ['beach', 'club'],
-                                             ['bars', 'restaurant']], 'freq': [[4, 2], [1, 2], [3, 4]]})'''
-example_combinations = pd.DataFrame({'combination': ['bars club','club restaurant', 'beach club', 'beach restaurant'],
-                                    'freq': [4, 5, 1, 2]})
+# Load data
+example_combinations = pd.DataFrame({'combination': ['bars club', 'club restaurant', 'beach club', 'beach restaurant'],
+                                     'freq': [4, 5, 1, 2]})
 main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_2.csv')
+image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
+# Load stylesheet
 app = Dash(__name__)
-
 app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
+# Create initial components
 named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Word Cloud',
                                                                 'image_named_entity_word_cloud')
 activity_word_cloud = ComponentBuilder.build_word_cloud_box('Activity Word Cloud',
@@ -38,8 +35,7 @@ country_filter = FilterComponentBuilder.build_filter(main_file, 'country', 'Coun
 place_filter = FilterComponentBuilder.build_filter(main_file, 'place', 'Place filter')
 attraction_filter = FilterComponentBuilder.build_filter(main_file, 'non_NE_nouns', 'Attraction filter')
 
-image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
-
+# Create Layout of site and refer to ids
 app.layout = html.Div(children=[
     html.Img(id='traviny_logo'),
     dbc.Row([
@@ -79,8 +75,20 @@ def make_logo_image(id):
     dd.Input('non_NE_nouns_selection', 'value')
 )
 def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter, attraction_filter):
-    countries, places, places_list, attractions, attractions_list = FilterComponentBuilder.update_options(main_file,                                                                                         continent_filter,
-                                                                                        country_filter, place_filter)
+    """
+    Handle callback for all filter actions
+    :param continent_filter: List of filtered continents, empty if none selected
+    :param country_filter: List of filtered counties, empty if none selected
+    :param ne_id: id of ne wc
+    :param att_id: id of attraction wc
+    :param place_filter: List of filtered places, empty if none selected
+    :param attraction_filter: List of filtered attractions, empty if none selected
+    :return: All needed updated options and contents (wordcloud images and figures)
+    """
+    countries, places, places_list, attractions, attractions_list = FilterComponentBuilder.update_options(main_file,
+                                                                                                          continent_filter,
+                                                                                                          country_filter,
+                                                                                                          place_filter)
     if place_filter:
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, main_file, 'NE_no_tag', 'freq_NE_int')
@@ -89,5 +97,6 @@ def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter,
     return countries, places, attractions, wc_ne, wc_att, fig
 
 
+# Start app
 if __name__ == '__main__':
     app.run_server(debug=True)
