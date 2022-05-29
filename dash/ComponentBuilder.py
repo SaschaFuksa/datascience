@@ -35,10 +35,27 @@ class ComponentBuilder:
         ])
 
     @staticmethod
-    def build_world_map():
+    def build_world_map(main_file):
+        """
+        Create static world map and show sum of country ne
+        :param main_file: File to extract data
+        :return: Div with headline and world map graph
+        """
+        world_map_df = main_file[['country', 'freq_NE_int']]
+        world_map_df['count_ne'] = ' '
+        for freq, row in zip(world_map_df['freq_NE_int'].apply(literal_eval), world_map_df.itertuples()):
+            len_freq = len(freq)
+            world_map_df['count_ne'].iloc[row.Index] = len_freq
+        world_map_df['country'] = world_map_df['country'].replace(
+            ['Canada', 'Brazil', 'Mexico', 'Peru', 'Deutschland', 'Frankreich', 'Spanien', 'Schweden', 'Italien'],
+            ['CAN', 'BRA', 'MEX', 'PER', 'DEU', 'FRA', 'ESP', 'SWE', 'ITA'])
+        world_map_df = world_map_df.groupby(['country']).sum()
+        world_map_df = world_map_df.reset_index(level=0)
+        fig = px.choropleth(world_map_df, locations='country',
+                            color='count_ne', color_continuous_scale=px.colors.sequential.PuRd)
         return html.Div([
             html.H2('World Map - sum of named entities'),
-            dcc.Graph(id='world_map'),
+            dcc.Graph(id='world_map', figure=fig),
         ])
 
     @staticmethod
@@ -67,20 +84,4 @@ class ComponentBuilder:
         if len(filtered_combinations) > 10:
             filtered_combinations = filtered_combinations[:10]
         fig = px.bar(filtered_combinations, x='itemsets', y='support', barmode='group')
-        return fig
-
-    @staticmethod
-    def update_world_map(main_file):
-        world_map_df = main_file[['country', 'freq_NE_int']]
-        world_map_df['count_ne'] = ' '
-        for freq, row in zip(world_map_df['freq_NE_int'].apply(literal_eval), world_map_df.itertuples()):
-            len_freq = len(freq)
-            world_map_df['count_ne'].iloc[row.Index] = len_freq
-        world_map_df['country'] = world_map_df['country'].replace(
-            ['Canada', 'Brazil', 'Mexico', 'Peru', 'Deutschland', 'Frankreich', 'Spanien', 'Schweden', 'Italien'],
-            ['CAN', 'BRA', 'MEX', 'PER', 'DEU', 'FRA', 'ESP', 'SWE', 'ITA'])
-        world_map_df = world_map_df.groupby(['country']).sum()
-        world_map_df = world_map_df.reset_index(level=0)
-        fig = px.choropleth(world_map_df, locations='country',
-                            color='count_ne', color_continuous_scale=px.colors.sequential.PuRd)
         return fig

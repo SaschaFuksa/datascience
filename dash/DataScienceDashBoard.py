@@ -29,7 +29,7 @@ named_entity_word_cloud = ComponentBuilder.build_word_cloud_box('Named Entity Wo
 activity_word_cloud = ComponentBuilder.build_word_cloud_box('Activity Word Cloud',
                                                             'image_activity_word_cloud')
 top_10_attractions = ComponentBuilder.build_top_ten()
-world_map = ComponentBuilder.build_world_map()
+world_map = ComponentBuilder.build_world_map(main_file)
 continent_filter = FilterComponentBuilder.build_filter(main_file, 'continent', 'Continent filter')
 country_filter = FilterComponentBuilder.build_filter(main_file, 'country', 'Country filter')
 place_filter = FilterComponentBuilder.build_filter(main_file, 'place', 'Place filter')
@@ -67,16 +67,14 @@ def make_logo_image(id):
     dd.Output('image_named_entity_word_cloud', 'src'),
     dd.Output('image_activity_word_cloud', 'src'),
     dd.Output('top_ten', 'figure'),
-    dd.Output('world_map', 'figure'),
     dd.Input('continent_selection', 'value'),
     dd.Input('country_selection', 'value'),
     dd.Input('image_named_entity_word_cloud', 'id'),
     dd.Input('image_activity_word_cloud', 'id'),
-    dd.Input('world_map', 'id'),
     dd.Input('place_selection', 'value'),
     dd.Input('singular_cleaned_nound_selection', 'value')
 )
-def change_filter(continent_filter, country_filter, ne_id, att_id, wm_id, place_filter, attraction_filter):
+def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter, attraction_filter):
     """
     Handle callback for all filter actions
     :param continent_filter: List of filtered continents, empty if none selected
@@ -96,8 +94,7 @@ def change_filter(continent_filter, country_filter, ne_id, att_id, wm_id, place_
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, main_file, 'NE_no_tag', 'freq_NE_int')
     wc_att = WordCloudBuilder().create_word_cloud(places_list, main_file, 'singular_cleaned_nound', 'freq_noun_int')
     fig_top_10 = ComponentBuilder.update_top_ten(combinations_file, places_list, attraction_filter)
-    fig_world_map = ComponentBuilder.update_world_map(main_file)
-    return countries, places, attractions, wc_ne, wc_att, fig_top_10, fig_world_map
+    return countries, places, attractions, wc_ne, wc_att, fig_top_10
 
 
 # Start app
