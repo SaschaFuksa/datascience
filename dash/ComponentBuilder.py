@@ -4,6 +4,7 @@ import pandas as pd
 import plotly.express as px
 from dash import html, dcc
 
+
 class ComponentBuilder:
 
     def __init__(self):
@@ -11,12 +12,12 @@ class ComponentBuilder:
 
     @staticmethod
     def build_word_cloud_box(headline: str, image_id: str):
-        """
+        '''
         Creates a html div with headline and image
         :param headline: Headline text
         :param image_id: Image id to load
         :return: html div
-        """
+        '''
         return html.Div([
             html.H2(headline),
             html.Img(id=image_id)
@@ -24,39 +25,59 @@ class ComponentBuilder:
 
     @staticmethod
     def build_top_ten():
-        """
+        '''
         Build small div for top 10
         :return: Div with headline and graph id
-        """
+        '''
         return html.Div([
             html.H2('Top 10 tourist attraction combinations'),
             dcc.Graph(id='top_ten'),
         ])
 
     @staticmethod
-    def update_top_ten(combinations, attractions, attraction_filter):
-        """
+    def build_world_map():
+        return html.Div([
+            html.H2('World Map'),
+            dcc.Graph(id='world_map'),
+        ])
+
+    @staticmethod
+    def update_top_ten(combinations, places_list, attraction_filter):
+        '''
         Update top 10 combinations by attractions
         :param combinations: Data of all combinations
-        :param attractions: Filtered Attractions by continent/country/place filters
+        :param places_list: Filtered Places
         :param attraction_filter: Single attraction filter
         :return: Figure showing top 10 combinations
-        """
-        filtered_str = "|".join(attractions)
-        filtered_combinations = pd.DataFrame(columns=['itemsets', 'support'])
-        for row in combinations.itertuples():
-            combination = eval(row.itemsets)
-            first_attraction, second_attraction = combination
-            if (first_attraction in filtered_str) and (second_attraction in filtered_str):
-                if attraction_filter and (
-                        (first_attraction in attraction_filter) or (second_attraction in attraction_filter)):
-                    filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
-                                                                         ignore_index=True)
-                elif not attraction_filter:
-                    filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
-                                                                         ignore_index=True)
-        filtered_combinations = filtered_combinations.sort_values(by=['support'])
+        '''
+        valid_places_combination_df = pd.DataFrame(columns=['support', 'itemsets', 'place'])
+        for place in places_list:
+            valid_places_combination_df = valid_places_combination_df.append(
+                combinations.loc[combinations['place'] == place])
+        if attraction_filter:
+            places_combination_df = pd.DataFrame(columns=['support', 'itemsets', 'place'])
+            for row in valid_places_combination_df.itertuples():
+                if any(word_item in row.itemsets.split(' ') for word_item in attraction_filter):
+                    places_combination_df = places_combination_df.append(
+                        {'support': row.support, 'itemsets': row.itemsets, 'place': row.place},
+                        ignore_index=True)
+        else:
+            places_combination_df = valid_places_combination_df
+        filtered_combinations = places_combination_df.sort_values(by=['support'], ascending=False)
         if len(filtered_combinations) > 10:
             filtered_combinations = filtered_combinations[:10]
         fig = px.bar(filtered_combinations, x='itemsets', y='support', barmode='group')
+        return fig
+
+    @staticmethod
+    def update_world_map(main_file):
+        world_map_df = main_file['country', 'freq_NE_int']
+        world_map_df['count_ne'] = None
+        for row in world_map_df.iterruples():
+            freq = row.freq_NE_int.apply(literal_eval).tolist()
+            world_map_df['count_ne'].iloc[row.Index] = freq
+
+        fig = px.choropleth(world_map_df, locations='country',
+                            color='count_ne',
+                            title='Covid Cases plotted using Plotly', color_continuous_scale=px.colors.sequential.PuRd)
         return fig

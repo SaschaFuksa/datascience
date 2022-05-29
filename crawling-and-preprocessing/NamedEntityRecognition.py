@@ -5,14 +5,13 @@ import nltk
 import pandas as pd
 import spacy
 import en_core_web_trf
-import xx_sent_ud_sm
-import de_dep_news_trf
 from spacy import displacy
 from pathlib import Path
 from collections import Counter
 from nltk.corpus import wordnet as wn
 from ast import literal_eval
 import re
+from pattern.text.en import singularize
 
 #%%
 #create full text column (introduction + description)
@@ -36,7 +35,7 @@ ne_tags = ['EVENT', 'ORG', 'GPE', 'LOC', 'PERSON', 'PRODUCT', 'WORK_OF_ART', 'LA
 pos_tags = ['NOUN', 'PROPN']
 
 #ladem des englischen spacy models
-nlp = en_core_web_trf.load()
+
 
 #Abarbeiten der Locations mit hilfe der Schleife
 #Für jede Location werden alle Arrays mit Werten befüllt
@@ -48,9 +47,12 @@ nlp = en_core_web_trf.load()
 #   Alle Token, die zu keiner NE gehören
 #   Alle Nomen-Token, die zu keiner NE gehören
 #   Bestimmen der Frequency der Nomen-Token (Nomen-Text, Anzahl)
+
+nlp = en_core_web_trf.load()
 for row in df_locations.itertuples():
-    print('Start loop for location:' + row.place)
+    print('location:' + row.place)
     doc = nlp(row.full_text)
+    
     #temp arrays
     found_NE = []
     count_NE = []
@@ -131,9 +133,9 @@ def show_ents(doc):
         print('No named entities found.')
 
 #%%
-#Hypernym von nicht NE-Nomen suchen und hinzufügen
-#Der Gedanke hierbei ist, dass anhand der Hypernyme eine Gruppierung von nicht NEs stattfinden kann
-#Die Hypernymen stellen anschließend die gemeinsamen Attractions einer Kategorie da z.B. Lake und Sea sind beides "Body of Water"
+#Hyperonym von nicht NE-Nomen suchen und hinzufügen
+#Der Gedanke hierbei ist, dass anhand der Hyperonyme eine Gruppierung von nicht NEs stattfinden kann
+#Die Hyperonymen stellen anschließend die gemeinsamen Attractions einer Kategorie da z.B. Lake und Sea sind beides "Body of Water"
 
 #laden des datensatz
 df_locations = pd.read_csv('crawling-and-preprocessing/content/all_places_ner_new.csv', index_col=0)
@@ -141,11 +143,11 @@ df_locations['non_NE_nouns'] = df_locations['non_NE_nouns'].apply(literal_eval)
 
 non_NE_tags = []   
 
-#für jede location werden die nomen durchgegangen und das enstprechende Hypernym gesucht
-#Nomen ohne Hypernym bekommen ein '-'
+#für jede location werden die nomen durchgegangen und das enstprechende Hyperonym gesucht
+#Nomen ohne Hyperonym bekommen ein '-'
 #Zum schluß wird eine neue Spalte angehängt und als neuer Datensatz exportiert
 for row in df_locations.itertuples():
-    print('Start loop Location: ' + row.place)
+    print('Location: ' + row.place)
     #temp array
     noun_hypernym = []
     for noun in row.non_NE_nouns:
@@ -230,3 +232,59 @@ df_export = pd.concat([df_locations, df_cleaned_nouns], axis=1)
     
 df_export.to_csv('crawling-and-preprocessing/content/data_prep_2805_2.csv', index=False)
 df_export
+
+#%%
+def unique(sequence):
+    seen = set()
+    return [x for x in sequence if not (x in seen or seen.add(x))]
+
+
+def singular(text):
+
+    singles = [singularize(plural) for plural in text]
+    return singles
+
+#%%
+import TextPreprocessing as tp
+
+df_locations = pd.read_csv('content/data_prep_2805_2.csv')
+df_locations['nouns_cleaned'] = df_locations['nouns_cleaned'].apply(literal_eval)
+df_locations['non_NE_nouns'] = df_locations['non_NE_nouns'].apply(literal_eval)
+
+all_nouns = []
+all_cleaned_nouns = []
+for row in df_locations.itertuples():
+    #print(row.nouns_cleaned)
+    nouns = tp.normalization(row.non_NE_nouns)
+    cleaned_nouns = tp.normalization(row.nouns_cleaned)
+    #nouns = tp.stemming(nouns)
+    #nouns = nouns.map(pd.unique)
+    #print('Old : ', nouns)
+    #print(len(nouns))
+
+    nouns = singular(nouns)
+    cleaned_nouns = singular(cleaned_nouns)
+    for i, n in enumerate(nouns):
+        nouns[i] = n.title()
+
+    for i, n in enumerate(cleaned_nouns):
+        cleaned_nouns[i] = n.title()
+
+    #print(nouns)
+    #print(nouns)
+    #print(len(nouns))
+
+
+    #my_final_list = unique(nouns)
+    #print(my_final_list)
+    #print(len(my_final_list))
+
+    all_nouns.append(nouns)
+    all_cleaned_nouns.append(cleaned_nouns)
+
+df_stem = pd.DataFrame({'singular_nouns':all_nouns, 'singular_cleaned_nound':all_cleaned_nouns})
+df_export = pd.concat([df_locations, df_stem], axis=1)
+df_export.to_csv('content/data_prep_2805_3.csv')
+df_export
+
+# %%
