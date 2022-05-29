@@ -94,7 +94,7 @@ def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter,
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, main_file, 'NE_no_tag', 'freq_NE_int')
     wc_att = WordCloudBuilder().create_word_cloud(places_list, main_file, 'non_NE_nouns', 'freq_noun_int')
-    fig = ComponentBuilder.update_top_ten(combinations_file, attractions_list, attraction_filter)
+    fig = ComponentBuilder.update_top_ten(combinations_file, places_list, attraction_filter)
     return countries, places, attractions, wc_ne, wc_att, fig
 
 

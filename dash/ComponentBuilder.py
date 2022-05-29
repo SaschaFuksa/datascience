@@ -1,8 +1,7 @@
-from ast import literal_eval
-
 import pandas as pd
 import plotly.express as px
 from dash import html, dcc
+
 
 class ComponentBuilder:
 
@@ -34,28 +33,28 @@ class ComponentBuilder:
         ])
 
     @staticmethod
-    def update_top_ten(combinations, attractions, attraction_filter):
+    def update_top_ten(combinations, places_list, attraction_filter):
         """
         Update top 10 combinations by attractions
         :param combinations: Data of all combinations
-        :param attractions: Filtered Attractions by continent/country/place filters
+        :param places_list: Filtered Places
         :param attraction_filter: Single attraction filter
         :return: Figure showing top 10 combinations
         """
-        filtered_str = "|".join(attractions)
-        filtered_combinations = pd.DataFrame(columns=['itemsets', 'support'])
-        for row in combinations.itertuples():
-            combination = eval(row.itemsets)
-            first_attraction, second_attraction = combination
-            if (first_attraction in filtered_str) and (second_attraction in filtered_str):
-                if attraction_filter and (
-                        (first_attraction in attraction_filter) or (second_attraction in attraction_filter)):
-                    filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
-                                                                         ignore_index=True)
-                elif not attraction_filter:
-                    filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
-                                                                         ignore_index=True)
-        filtered_combinations = filtered_combinations.sort_values(by=['support'])
+        valid_places_combination_df = pd.DataFrame(columns=['support', 'itemsets', 'place'])
+        for place in places_list:
+            valid_places_combination_df = valid_places_combination_df.append(
+                combinations.loc[combinations['place'] == place])
+        if attraction_filter:
+            places_combination_df = pd.DataFrame(columns=['support', 'itemsets', 'place'])
+            for row in valid_places_combination_df.itertuples():
+                if any(word_item in row.itemsets.split(' ') for word_item in attraction_filter):
+                    places_combination_df = places_combination_df.append(
+                        {'support': row.support, 'itemsets': row.itemsets, 'place': row.place},
+                        ignore_index=True)
+        else:
+            places_combination_df = valid_places_combination_df
+        filtered_combinations = places_combination_df.sort_values(by=['support'], ascending=False)
         if len(filtered_combinations) > 10:
             filtered_combinations = filtered_combinations[:10]
         fig = px.bar(filtered_combinations, x='itemsets', y='support', barmode='group')
