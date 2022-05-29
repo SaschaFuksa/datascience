@@ -1,9 +1,8 @@
+from ast import literal_eval
+
 import pandas as pd
 import plotly.express as px
 from dash import html, dcc
-
-''
-
 
 class ComponentBuilder:
 
@@ -44,11 +43,10 @@ class ComponentBuilder:
         :return: Figure showing top 10 combinations
         """
         filtered_str = "|".join(attractions)
-        filtered_combinations = pd.DataFrame(columns=['combination', 'freq'])
+        filtered_combinations = pd.DataFrame(columns=['itemsets', 'support'])
         for row in combinations.itertuples():
-            combination = row.combination
-            first_attraction = combination.split()[0]
-            second_attraction = combination.split()[1]
+            combination = eval(row.itemsets)
+            first_attraction, second_attraction = combination
             if (first_attraction in filtered_str) and (second_attraction in filtered_str):
                 if attraction_filter and (
                         (first_attraction in attraction_filter) or (second_attraction in attraction_filter)):
@@ -57,8 +55,8 @@ class ComponentBuilder:
                 elif not attraction_filter:
                     filtered_combinations = filtered_combinations.append(pd.DataFrame([row], columns=row._fields),
                                                                          ignore_index=True)
-        filtered_combinations = filtered_combinations.sort_values(by=['freq'])
+        filtered_combinations = filtered_combinations.sort_values(by=['support'])
         if len(filtered_combinations) > 10:
             filtered_combinations = filtered_combinations[:10]
-        fig = px.bar(filtered_combinations, x='combination', y='freq', barmode='group')
+        fig = px.bar(filtered_combinations, x='itemsets', y='support', barmode='group')
         return fig

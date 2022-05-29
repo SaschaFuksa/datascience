@@ -15,9 +15,10 @@ from WordCloudBuilder import WordCloudBuilder
 directory = Path().resolve().parent
 
 # Load data
-example_combinations = pd.DataFrame({'combination': ['bars club', 'club restaurant', 'beach club', 'beach restaurant'],
-                                     'freq': [4, 5, 1, 2]})
+'''example_combinations = pd.DataFrame({'combination': ['bars club', 'club restaurant', 'beach club', 'beach restaurant'],
+                                     'freq': [4, 5, 1, 2]})'''
 main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_2.csv')
+combinations_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/combinations.csv')
 image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
 # Load stylesheet
@@ -93,7 +94,7 @@ def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter,
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, main_file, 'NE_no_tag', 'freq_NE_int')
     wc_att = WordCloudBuilder().create_word_cloud(places_list, main_file, 'non_NE_nouns', 'freq_noun_int')
-    fig = ComponentBuilder.update_top_ten(example_combinations, attractions_list, attraction_filter)
+    fig = ComponentBuilder.update_top_ten(combinations_file, attractions_list, attraction_filter)
     return countries, places, attractions, wc_ne, wc_att, fig
 
 
