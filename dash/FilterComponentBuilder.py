@@ -6,10 +6,14 @@ from dash import html
 
 class FilterComponentBuilder:
 
+    def __init__(self):
+        pass
+
     @staticmethod
     def build_filter(main_file, column_name: str, headline: str):
         """
         Build a new filter composite
+        :param main_file: File to use for initial data
         :param column_name: name of column -> will also be prefix of ids
         :param headline: Headline of this filter component
         :return: A div with headline and options
@@ -44,8 +48,10 @@ class FilterComponentBuilder:
     def update_options(main_file, continent_filter, country_filter, place_filter):
         """
         Update all options and content of site
+        :param main_file: File to get content of filters
         :param continent_filter: List of continents to show, empty if show all
         :param country_filter: List of countries to show, empty if show all
+        :param place_filter: List of places to show, empty if show all
         :return: Needed options and content to overwrite current site content
         """
         filtered_countries = FilterComponentBuilder.extract_filtered_elements(main_file, continent_filter, 'continent',
@@ -74,6 +80,7 @@ class FilterComponentBuilder:
     def extract_filtered_elements(main_file, elements, source_column, target_column):
         """
         Filter column elements by condition filter-elements of source column
+        :param main_file: File to get data
         :param elements: Values to filter for
         :param source_column: Column to filter elements
         :param target_column: Column to get elements filtered by source column
@@ -86,6 +93,12 @@ class FilterComponentBuilder:
 
     @staticmethod
     def extract_attractions(main_file, matched_filtered_places):
+        """
+        Method for attractions because of nested string-lists in data to be casted with literal_eval
+        :param main_file: File to get data
+        :param matched_filtered_places: Places to consider
+        :return: Set of all attractions to show
+        """
         relevant_attractions = \
             (main_file.loc[main_file['place'].isin(matched_filtered_places), ['non_NE_nouns']])[
                 'non_NE_nouns'].apply(literal_eval).tolist()

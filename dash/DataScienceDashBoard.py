@@ -14,12 +14,6 @@ from WordCloudBuilder import WordCloudBuilder
 
 directory = Path().resolve().parent
 
-'''example_ne = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
-                           'word': [['The Brandenburg Gate', 'Alexanderplatz'], ['Waikiki Beach', 'Waikiki Volcano'],
-                                    ['Fernsehturm', 'Schlossplatz']], 'freq': [[4, 2], [1, 2], [3, 4]]})
-example_attractions = pd.DataFrame({'place': ['Berlin', 'Waikiki', 'Stuttgart'],
-                                    'word': [['bars', 'club'], ['beach', 'club'],
-                                             ['bars', 'restaurant']], 'freq': [[4, 2], [1, 2], [3, 4]]})'''
 example_combinations = pd.DataFrame({'combination': ['bars club','club restaurant', 'beach club', 'beach restaurant'],
                                     'freq': [4, 5, 1, 2]})
 main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_2.csv')
