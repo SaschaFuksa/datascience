@@ -8,23 +8,19 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from nltk.corpus import wordnet
 from nltk.corpus import stopwords
 
-#preprocessing steps:
+#Preprocessing Ablauf:
 # Tokenization
 # Normalization
 # POS Tagging
 # Stemming or Lemmatization
 # Stop word removal
 
-#How to save:
-# Into crawled csv as new columns?
-# Create new CSV with ID and new preprocessed data? -> Arrays into Columns
-# Create new CSV for each Location? -> location id as filename and each word gets a new row
+def sentence_tokenization(text):
+    sentence_token=sent_tokenize(text)
+    #print("\nSentence Tokens: ",sentence_tokens)
+    return sentence_token
 
 def tokenization(text):
-    #sentence tokenization - not sure if needed
-    #sentence_tokens=sent_tokenize(text)
-    #print("\nSentence Tokens: ",sentence_tokens)
-
     #word tokenization
     word_tokens=word_tokenize(text)
     #print("\nWord Tokens: ",word_tokens)
@@ -132,7 +128,6 @@ for row in df_places.itertuples():
 
     print("created file: " + file_path + file_name)
     
-
 # %%
 # Downloads needed to run this python-code
 nltk.download('punkt')
