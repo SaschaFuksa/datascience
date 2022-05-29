@@ -5,8 +5,6 @@ import nltk
 import pandas as pd
 import spacy
 import en_core_web_trf
-import xx_sent_ud_sm
-import de_dep_news_trf
 from spacy import displacy
 from pathlib import Path
 from collections import Counter
@@ -36,7 +34,7 @@ ne_tags = ['EVENT', 'ORG', 'GPE', 'LOC', 'PERSON', 'PRODUCT', 'WORK_OF_ART', 'LA
 pos_tags = ['NOUN', 'PROPN']
 
 #ladem des englischen spacy models
-nlp = en_core_web_trf.load()
+
 
 #Abarbeiten der Locations mit hilfe der Schleife
 #Für jede Location werden alle Arrays mit Werten befüllt
@@ -48,9 +46,12 @@ nlp = en_core_web_trf.load()
 #   Alle Token, die zu keiner NE gehören
 #   Alle Nomen-Token, die zu keiner NE gehören
 #   Bestimmen der Frequency der Nomen-Token (Nomen-Text, Anzahl)
+
+nlp = en_core_web_trf.load()
 for row in df_locations.itertuples():
-    print('Start loop for location:' + row.place)
+    print('location:' + row.place)
     doc = nlp(row.full_text)
+    
     #temp arrays
     found_NE = []
     count_NE = []
@@ -145,7 +146,7 @@ non_NE_tags = []
 #Nomen ohne Hypernym bekommen ein '-'
 #Zum schluß wird eine neue Spalte angehängt und als neuer Datensatz exportiert
 for row in df_locations.itertuples():
-    print('Start loop Location: ' + row.place)
+    print('Location: ' + row.place)
     #temp array
     noun_hypernym = []
     for noun in row.non_NE_nouns:
