@@ -24,7 +24,7 @@ class FilterComponentBuilder:
             for element in colum_data:
                 elements.extend(element)
             elements = set(elements)
-        elif column_name == 'non_NE_nouns':
+        elif column_name == 'singular_cleaned_nound':
             attrs_lists = main_file[column_name].apply(literal_eval)
             for attrs_list in attrs_lists:
                 for attraction in attrs_list:
@@ -100,8 +100,8 @@ class FilterComponentBuilder:
         :return: Set of all attractions to show
         """
         relevant_attractions = \
-            (main_file.loc[main_file['place'].isin(matched_filtered_places), ['non_NE_nouns']])[
-                'non_NE_nouns'].apply(literal_eval).tolist()
+            (main_file.loc[main_file['place'].isin(matched_filtered_places), ['singular_cleaned_nound']])[
+                'singular_cleaned_nound'].apply(literal_eval).tolist()
         attractions_list = []
         for attractions in relevant_attractions:
             attractions_list.extend(attractions)

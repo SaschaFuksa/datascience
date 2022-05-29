@@ -8,9 +8,9 @@ from mlxtend.preprocessing import TransactionEncoder
 # Create a dataframe (combination_df) to add the place from which the attractions originate.
 # We used ast.literal_eval() to evaluate the literal and convert it into a list
 
-main_file = pd.read_csv('content/data_prep_2805_2.csv')
-main_file['nouns_cleaned'] = main_file['nouns_cleaned'].apply(literal_eval)
-all_attractions = main_file['nouns_cleaned']
+main_file = pd.read_csv('content/data_prep_2805_3.csv')
+main_file['singular_cleaned_nound'] = main_file['singular_cleaned_nound'].apply(literal_eval)
+all_attractions = main_file['singular_cleaned_nound']
 full_texts = main_file['full_text']
 combination_df = pd.DataFrame(columns=['support', 'itemsets', 'length', 'place'])
 
@@ -25,7 +25,7 @@ for text, attractions, row in zip(full_texts, all_attractions, main_file.itertup
     for sentence in sentences:
         founded_sent_words = []
         for attraction in attractions:
-            if attraction in sentence:
+            if attraction.lower() in sentence:
                 founded_sent_words.append(attraction)
         if founded_sent_words:
             contained_word.append(founded_sent_words)
@@ -53,4 +53,4 @@ for row in combination_df.itertuples():
         {'support': row.support, 'itemsets': combination, 'place': row.place},
         ignore_index=True)
 
-combination_df_without_frozensets.to_csv('content/combinations.csv', index=False)
+combination_df_without_frozensets.to_csv('content/combinations_2.csv', index=False)

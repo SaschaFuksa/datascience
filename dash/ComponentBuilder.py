@@ -1,3 +1,5 @@
+from ast import literal_eval
+
 import pandas as pd
 import plotly.express as px
 from dash import html, dcc
@@ -10,12 +12,12 @@ class ComponentBuilder:
 
     @staticmethod
     def build_word_cloud_box(headline: str, image_id: str):
-        """
+        '''
         Creates a html div with headline and image
         :param headline: Headline text
         :param image_id: Image id to load
         :return: html div
-        """
+        '''
         return html.Div([
             html.H2(headline),
             html.Img(id=image_id)
@@ -23,24 +25,31 @@ class ComponentBuilder:
 
     @staticmethod
     def build_top_ten():
-        """
+        '''
         Build small div for top 10
         :return: Div with headline and graph id
-        """
+        '''
         return html.Div([
             html.H2('Top 10 tourist attraction combinations'),
             dcc.Graph(id='top_ten'),
         ])
 
     @staticmethod
+    def build_world_map():
+        return html.Div([
+            html.H2('World Map'),
+            dcc.Graph(id='world_map'),
+        ])
+
+    @staticmethod
     def update_top_ten(combinations, places_list, attraction_filter):
-        """
+        '''
         Update top 10 combinations by attractions
         :param combinations: Data of all combinations
         :param places_list: Filtered Places
         :param attraction_filter: Single attraction filter
         :return: Figure showing top 10 combinations
-        """
+        '''
         valid_places_combination_df = pd.DataFrame(columns=['support', 'itemsets', 'place'])
         for place in places_list:
             valid_places_combination_df = valid_places_combination_df.append(
@@ -58,4 +67,17 @@ class ComponentBuilder:
         if len(filtered_combinations) > 10:
             filtered_combinations = filtered_combinations[:10]
         fig = px.bar(filtered_combinations, x='itemsets', y='support', barmode='group')
+        return fig
+
+    @staticmethod
+    def update_world_map(main_file):
+        world_map_df = main_file['country', 'freq_NE_int']
+        world_map_df['count_ne'] = None
+        for row in world_map_df.iterruples():
+            freq = row.freq_NE_int.apply(literal_eval).tolist()
+            world_map_df['count_ne'].iloc[row.Index] = freq
+
+        fig = px.choropleth(world_map_df, locations='country',
+                            color='count_ne',
+                            title='Covid Cases plotted using Plotly', color_continuous_scale=px.colors.sequential.PuRd)
         return fig
