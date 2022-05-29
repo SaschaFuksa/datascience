@@ -37,7 +37,7 @@ class ComponentBuilder:
     @staticmethod
     def build_world_map():
         return html.Div([
-            html.H2('World Map'),
+            html.H2('World Map - sum of named entities'),
             dcc.Graph(id='world_map'),
         ])
 
@@ -71,13 +71,16 @@ class ComponentBuilder:
 
     @staticmethod
     def update_world_map(main_file):
-        world_map_df = main_file['country', 'freq_NE_int']
-        world_map_df['count_ne'] = None
-        for row in world_map_df.iterruples():
-            freq = row.freq_NE_int.apply(literal_eval).tolist()
-            world_map_df['count_ne'].iloc[row.Index] = freq
-
+        world_map_df = main_file[['country', 'freq_NE_int']]
+        world_map_df['count_ne'] = ' '
+        for freq, row in zip(world_map_df['freq_NE_int'].apply(literal_eval), world_map_df.itertuples()):
+            len_freq = len(freq)
+            world_map_df['count_ne'].iloc[row.Index] = len_freq
+        world_map_df['country'] = world_map_df['country'].replace(
+            ['Canada', 'Brazil', 'Mexico', 'Peru', 'Deutschland', 'Frankreich', 'Spanien', 'Schweden', 'Italien'],
+            ['CAN', 'BRA', 'MEX', 'PER', 'DEU', 'FRA', 'ESP', 'SWE', 'ITA'])
+        world_map_df = world_map_df.groupby(['country']).sum()
+        world_map_df = world_map_df.reset_index(level=0)
         fig = px.choropleth(world_map_df, locations='country',
-                            color='count_ne',
-                            title='Covid Cases plotted using Plotly', color_continuous_scale=px.colors.sequential.PuRd)
+                            color='count_ne', color_continuous_scale=px.colors.sequential.PuRd)
         return fig
