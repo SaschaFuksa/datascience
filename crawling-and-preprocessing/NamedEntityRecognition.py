@@ -252,19 +252,25 @@ df_locations['nouns_cleaned'] = df_locations['nouns_cleaned'].apply(literal_eval
 df_locations['non_NE_nouns'] = df_locations['non_NE_nouns'].apply(literal_eval)
 
 all_nouns = []
+all_cleaned_nouns = []
 for row in df_locations.itertuples():
     #print(row.nouns_cleaned)
     nouns = tp.normalization(row.non_NE_nouns)
+    cleaned_nouns = tp.normalization(row.nouns_cleaned)
     #nouns = tp.stemming(nouns)
     #nouns = nouns.map(pd.unique)
     #print('Old : ', nouns)
     #print(len(nouns))
 
     nouns = singular(nouns)
-    for n in nouns:
-        n.title()
+    cleaned_nouns = singular(cleaned_nouns)
+    for i, n in enumerate(nouns):
+        nouns[i] = n.title()
 
-    print(nouns)
+    for i, n in enumerate(cleaned_nouns):
+        cleaned_nouns[i] = n.title()
+
+    #print(nouns)
     #print(nouns)
     #print(len(nouns))
 
@@ -272,11 +278,11 @@ for row in df_locations.itertuples():
     #my_final_list = unique(nouns)
     #print(my_final_list)
     #print(len(my_final_list))
-    break
 
     all_nouns.append(nouns)
+    all_cleaned_nouns.append(cleaned_nouns)
 
-df_stem = pd.DataFrame({'singular_nouns':all_nouns})
+df_stem = pd.DataFrame({'singular_nouns':all_nouns, 'singular_cleaned_nound':all_cleaned_nouns})
 df_export = pd.concat([df_locations, df_stem], axis=1)
 df_export.to_csv('content/data_prep_2805_3.csv')
 df_export
