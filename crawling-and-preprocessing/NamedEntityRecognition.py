@@ -132,9 +132,9 @@ def show_ents(doc):
         print('No named entities found.')
 
 #%%
-#Hypernym von nicht NE-Nomen suchen und hinzufügen
-#Der Gedanke hierbei ist, dass anhand der Hypernyme eine Gruppierung von nicht NEs stattfinden kann
-#Die Hypernymen stellen anschließend die gemeinsamen Attractions einer Kategorie da z.B. Lake und Sea sind beides "Body of Water"
+#Hyperonym von nicht NE-Nomen suchen und hinzufügen
+#Der Gedanke hierbei ist, dass anhand der Hyperonyme eine Gruppierung von nicht NEs stattfinden kann
+#Die Hyperonymen stellen anschließend die gemeinsamen Attractions einer Kategorie da z.B. Lake und Sea sind beides "Body of Water"
 
 #laden des datensatz
 df_locations = pd.read_csv('crawling-and-preprocessing/content/all_places_ner_new.csv', index_col=0)
@@ -142,8 +142,8 @@ df_locations['non_NE_nouns'] = df_locations['non_NE_nouns'].apply(literal_eval)
 
 non_NE_tags = []   
 
-#für jede location werden die nomen durchgegangen und das enstprechende Hypernym gesucht
-#Nomen ohne Hypernym bekommen ein '-'
+#für jede location werden die nomen durchgegangen und das enstprechende Hyperonym gesucht
+#Nomen ohne Hyperonym bekommen ein '-'
 #Zum schluß wird eine neue Spalte angehängt und als neuer Datensatz exportiert
 for row in df_locations.itertuples():
     print('Location: ' + row.place)
