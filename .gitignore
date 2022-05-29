@@ -1,3 +1,4 @@
 test_sascha.py
 crawling-and-preprocessing/content/results_df_prep.csv
 test.csv
+*/__pycache__
