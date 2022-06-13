@@ -1,6 +1,6 @@
 #%%
 import pandas as pd
-import umap.umap_ as umap
+import umap
 import umap.plot
 from ast import literal_eval
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
@@ -22,6 +22,7 @@ vectorizer = CountVectorizer()
 word_doc_matrix = vectorizer.fit_transform(df_places['nouns_string'])
 
 #%%
-embedding = umap(n_components=2, metric='cosine').fit(word_doc_matrix)
+reducer = umap.UMAP(n_components=2, metric='cosine')
+embedding = reducer.fit(word_doc_matrix)
 
 #%%
