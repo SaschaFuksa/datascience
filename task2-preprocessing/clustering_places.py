@@ -26,3 +26,9 @@ reducer = umap.UMAP(n_components=2, metric='cosine')
 embedding = reducer.fit(word_doc_matrix)
 
 #%%
+f = umap.plot.points(embedding, labels=df_places['place'])
+# %%
+tfid_vectorizer = TfidfVectorizer(stop_words='english')
+tfid_word_doc_matrix = tfid_vectorizer.fit_transform(df_places['nouns_string'])
+
+#%%
