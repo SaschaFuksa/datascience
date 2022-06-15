@@ -5,6 +5,7 @@ import umap.plot
 from ast import literal_eval
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 
+
 df_places = pd.read_csv('../crawling-and-preprocessing/content/data_prep_2805_3.csv', usecols=['place', 'singular_cleaned_nouns'])
 df_places['singular_cleaned_nouns'] = df_places['singular_cleaned_nouns'].apply(literal_eval)
 #df_places['nouns_string'] = df_places['singular_cleaned_nouns'].apply(literal_eval)
@@ -31,6 +32,27 @@ tfid_vectorizer.get_feature_names_out()
 #%%
 tfid_word_doc_matrix.shape
 
+#%%
+true_k = 48
+model = KMeans(n_clusters=true_k, init='k-means++', max_iter=200, n_init=10)
+model.fit(tfid_word_doc_matrix)
+labels=model.labels_
+df_places['label'] = labels
+
+#%%
+from sklearn.decomposition import PCA
+
+# initialize PCA with 2 components
+pca = PCA(n_components=2, random_state=42)
+# pass our X to the pca and store the reduced vectors into pca_vecs
+pca_vecs = pca.fit_transform(tfid_word_doc_matrix.toarray())
+# save our two dimensions into x0 and x1
+x0 = pca_vecs[:, 0]
+x1 = pca_vecs[:, 1]
+df_places['x0'] = x0
+df_places['x1'] = x1
+
+
 
 #%%
 import matplotlib.pyplot as plt
@@ -49,14 +71,9 @@ plt.ylabel('Sum_of_squared_distances')
 plt.title('Elbow Method For Optimal k')
 plt.show()
 
+
 #%%
-true_k = 48
-model = KMeans(n_clusters=true_k, init='k-means++', max_iter=200, n_init=10)
-model.fit(tfid_word_doc_matrix)
-labels=model.labels_
-df_places['label'] = labels
-#wiki_cl=pd.DataFrame(list(zip(title,labels)),columns=['title','cluster'])
-print(df_places.sort_values(by=['label']))
+df_places.sort_values(by=['label'])
 
 
 
