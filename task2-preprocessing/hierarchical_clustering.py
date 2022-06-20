@@ -117,7 +117,119 @@ plt.xlabel("Cluster number")
 plt.ylabel("Number of points")
 plt.show()
 
+# Average Word to Vector
+#%%
+i=0
+list_of_sent=[]
+for sent in df_places['cleaned_text'].values:
+    list_of_sent.append(sent.split())
+print(df_places['cleaned_text'].values[0])
+print("*****************************************************************")
+print(list_of_sent[0])
 
+#%%
+# removing html tags and apostrophes if present.
+import re
+def cleanhtml(sentence): #function to clean the word of any html-tags
+    cleanr = re.compile('<.*?>')
+    cleantext = re.sub(cleanr, ' ', sentence)
+    return cleantext
+def cleanpunc(sentence): #function to clean the word of any punctuation or special characters
+    cleaned = re.sub(r'[?|!|\'|"|#]',r'',sentence)
+    cleaned = re.sub(r'[.|,|)|(|\|/]',r' ',cleaned)
+    return  cleaned
+
+#%%
+i=0
+list_of_sent_train=[]
+for sent in df_places['cleaned_text'].values:
+    filtered_sentence=[]
+    sent=cleanhtml(sent)
+    for w in sent.split():
+        for cleaned_words in cleanpunc(w).split():
+            if(cleaned_words.isalpha()):    
+                filtered_sentence.append(cleaned_words.lower())
+            else:
+                continue 
+    list_of_sent_train.append(filtered_sentence)
+
+#%%
+import gensim
+# Training the wor2vec model using train dataset
+w2v_model=gensim.models.Word2Vec(list_of_sent_train, workers=4)
+
+#%%
+import numpy as np
+sent_vectors = []; # the avg-w2v for each sentence/review is stored in this train
+for sent in list_of_sent_train: # for each review/sentence
+    sent_vec = np.zeros(100) # as word vectors are of zero length
+    cnt_words =0; # num of words with a valid vector in the sentence/review
+    for word in sent: # for each word in a review/sentence
+        try:
+            vec = w2v_model.wv[word]
+            sent_vec += vec
+            cnt_words += 1
+        except:
+            pass
+    sent_vec /= cnt_words
+    sent_vectors.append(sent_vec)
+sent_vectors = np.array(sent_vectors)
+sent_vectors = np.nan_to_num(sent_vectors)
+sent_vectors.shape
+
+#%%
+# Number of clusters to check.
+num_clus = [x for x in range(3,11)]
+num_clus
+
+#%%
+# Choosing the best cluster using Elbow Method.
+# source credit,few parts of min squred loss info is taken from different parts of the stakoverflow answers.
+# this is used to understand to find the optimal clusters in differen way rather than used in BOW, TFIDF
+squared_errors = []
+for cluster in num_clus:
+    kmeans = KMeans(n_clusters = cluster).fit(sent_vectors) # Train Cluster
+    squared_errors.append(kmeans.inertia_) # Appending the squared loss obtained in the list
+    
+optimal_clusters = np.argmin(squared_errors) + 2 # As argmin return the index of minimum loss. 
+plt.plot(num_clus, squared_errors)
+plt.title("Elbow Curve to find the no. of clusters.")
+plt.xlabel("Number of clusters.")
+plt.ylabel("Squared Loss.")
+xy = (optimal_clusters, min(squared_errors))
+plt.annotate('(%s, %s)' % xy, xy = xy, textcoords='data')
+plt.show()
+
+print ("The optimal number of clusters obtained is - ", optimal_clusters)
+print ("The loss for optimal cluster is - ", min(squared_errors))
+
+#%%
+# Training the best model --
+from sklearn.cluster import KMeans
+model2 = KMeans(n_clusters = optimal_clusters)
+model2.fit(sent_vectors)
+
+#%%
+word_cluster_pred=model2.predict(sent_vectors)
+word_cluster_pred_2=model2.labels_
+word_cluster_center=model2.cluster_centers_
+word_cluster_center[1:2]
+
+#%%
+# Giving Labels/assigning a cluster to each point/text 
+df_places['avg_label'] = model2.labels_
+df_places.head(2)
+
+#%%
+df_places.groupby(['avg_label'])['cleaned_text'].count()
+
+#%%
+# visually how points or reviews are distributed across 10 clusters 
+plt.bar([x for x in range(9)], df_places.groupby(['avg_label'])['cleaned_text'].count(), alpha = 0.4)
+plt.title('KMeans cluster points')
+plt.xlabel("Cluster number")
+plt.ylabel("Number of points")
+plt.show()
 
 
 
