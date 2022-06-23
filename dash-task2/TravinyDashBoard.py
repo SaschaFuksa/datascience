@@ -16,6 +16,7 @@ directory = Path().resolve().parent
 # Load data
 main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_3.csv')
 combinations_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/combinations_2.csv')
+topic_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/topic_model.csv')
 image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
 # Load stylesheet
@@ -26,7 +27,7 @@ app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 filter_builder = FilterComponentBuilder(main_file)
 attraction_filter = filter_builder.build_attraction_filter()
 scatter_diagram_clustering = ComponentBuilder.build_scatter()
-topic_wordcloud = ComponentBuilder.build_word_cloud()
+topic_charts = ComponentBuilder.build_topic_charts(topic_file)
 
 first_ddf_filter = filter_builder.build_dff_filter('-1')
 second_ddf_filter = filter_builder.build_dff_filter('-2')
@@ -42,7 +43,7 @@ app.layout = html.Div(children=[
     html.Img(id='traviny_logo'),
     dbc.Row([
         dbc.Col([attraction_filter]),
-        dbc.Col([scatter_diagram_clustering]), dbc.Col([topic_wordcloud])
+        dbc.Col([scatter_diagram_clustering]), dbc.Col([topic_charts])
     ]),
     dbc.Row([
         dbc.Col([first_ddf_filter, second_ddf_filter, third_ddf_filter, fourth_ddf_filter]),
@@ -60,6 +61,8 @@ def make_logo_image(id):
     """
     encoded = base64.b64encode(open('traviny_logo.png', 'rb').read())
     return 'data:image/png;base64,{}'.format(encoded.decode())
+
+
 
 
 @app.callback(

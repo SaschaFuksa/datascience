@@ -8,7 +8,7 @@ class FilterComponentBuilder:
 
     def __init__(self, main_file):
         elements = []
-        attrs_lists = main_file['singular_cleaned_nound'].apply(literal_eval)
+        attrs_lists = main_file['singular_cleaned_nouns'].apply(literal_eval)
         for attrs_list in attrs_lists:
             for attraction in attrs_list:
                 elements.append(attraction)
