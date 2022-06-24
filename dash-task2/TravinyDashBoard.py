@@ -47,7 +47,7 @@ app.layout = html.Div(children=[
     ]),
     dbc.Row([
         dbc.Col([first_ddf_filter, second_ddf_filter, third_ddf_filter, fourth_ddf_filter]),
-        dbc.Col(dbc.Row([dbc.Col(top_3_places), dbc.Col(top_3_countries)])), dbc.Col(own_idea)
+        dbc.Col(dbc.Col(top_3_places)), dbc.Col(own_idea)
     ]),
 ])
 
@@ -63,30 +63,17 @@ def make_logo_image(id):
     return 'data:image/png;base64,{}'.format(encoded.decode())
 
 
-
-
 @app.callback(
-    dd.Output('dropdown-1', 'options'),
-    dd.Output('dropdown-2', 'options'),
-    dd.Output('dropdown-3', 'options'),
-    dd.Output('dropdown-4', 'options'),
+    dd.Output('top_three_places', 'figure'),
     dd.Input('dropdown-1', 'value'),
     dd.Input('dropdown-2', 'value'),
     dd.Input('dropdown-3', 'value'),
     dd.Input('dropdown-4', 'value'),
 )
-def change_filter(drop_one_filter, drop_two_filter, drop_three_filter, drop_four_filter):
-    ['blub', None, None, 'blab']
+def update_charts(drop_one_filter, drop_two_filter, drop_three_filter, drop_four_filter):
     filters = [drop_one_filter, drop_two_filter, drop_three_filter, drop_four_filter]
-    elements = list(filter_builder.elements)
-    for filter in filters:
-        if filter:
-            elements = elements.remove(filter)
-    options = [elements, elements, elements, elements]
-    for filter, option in zip(filters, options):
-        if filter:
-            option.append(filter)
-    return options
+    fig = ComponentBuilder.update_top3_places(main_file, filters)
+    return fig
 
 
 # Start app

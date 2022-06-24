@@ -92,7 +92,7 @@ def change_filter(continent_filter, country_filter, ne_id, att_id, place_filter,
     if place_filter:
         places_list = places_list.intersection(place_filter)
     wc_ne = WordCloudBuilder().create_word_cloud(places_list, main_file, 'NE_no_tag', 'freq_NE_int')
-    wc_att = WordCloudBuilder().create_word_cloud(places_list, main_file, 'singular_cleaned_nound', 'freq_noun_int')
+    wc_att = WordCloudBuilder().create_word_cloud(places_list, main_file, 'singular_cleaned_nouns', 'freq_noun_int')
     fig_top_10 = ComponentBuilder.update_top_ten(combinations_file, places_list, attraction_filter)
     return countries, places, attractions, wc_ne, wc_att, fig_top_10
 
