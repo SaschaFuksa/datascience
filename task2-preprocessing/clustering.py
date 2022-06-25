@@ -14,9 +14,9 @@ clusterNum = 10
 
 #%%
 #load data from task1
-df_places = pd.read_csv('../crawling-and-preprocessing/content/data_prep_2805_3.csv', usecols=['place', 'singular_nouns'])
+df_places = pd.read_csv('../crawling-and-preprocessing/content/data_prep_2805_3.csv', usecols=['place', 'country', 'continent', 'singular_nouns'])
 df_places['singular_nouns'] = df_places['singular_nouns'].apply(literal_eval)
-df_places['singular_nouns']
+df_places
 
 #%%
 #cleaning string-array and create new column
@@ -71,6 +71,8 @@ plt.xlabel("Cluster number")
 plt.ylabel("Number of points")
 plt.show()
 
+#%%
+df_places
 
 ####################################################
 #   K-Means with TFIDF                             #
@@ -115,6 +117,8 @@ plt.xlabel("Cluster number")
 plt.ylabel("Number of points")
 plt.show()
 
+#%%
+df_places
 ####################################################
 #   K-Means with Average word to vector            #
 ####################################################
@@ -195,6 +199,9 @@ plt.show()
 df_places.groupby(['w2v_label'])['cleaned_text'].count()
 #df_places.sort_values(by='w2v_label', ascending=False)
 
+#%%
+df_places
+
 ####################################################
 #   Clustering with DBSCAN                         #
 ####################################################
@@ -242,7 +249,7 @@ df_places['dbscan_label'] = dbscan_cluster.labels_
 df_places.groupby(['dbscan_label'])['cleaned_text'].count()
 
 #%%
-df_places['dbscan_label']
+df_places
 
 #%%
 plt.bar([x for x in range(2)], df_places.groupby(['dbscan_label'])['cleaned_text'].count(), alpha = 0.4)
@@ -269,11 +276,13 @@ df_places['h_label'] = cluster.labels_
 df_places.groupby(['h_label'])['cleaned_text'].count()
 # %%
 #%%
-plt.bar([x for x in range(10)], df_places.groupby(['h_label'])['cleaned_text'].count(), alpha = 0.4)
+plt.bar([x for x in range(19)], df_places.groupby(['h_label'])['cleaned_text'].count(), alpha = 0.4)
 plt.title('KMeans cluster points')
 plt.xlabel("Cluster number")
 plt.ylabel("Number of points")
 plt.show()
 # %%
 df_places
+# %%
+df_places.to_csv('../crawling-and-preprocessing/content/location_cluster.csv', index=False)
 # %%
