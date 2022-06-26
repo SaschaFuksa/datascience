@@ -14,7 +14,7 @@ class FilterComponentBuilder:
                 elements.append(attraction)
         self.elements = set(elements)
 
-    def build_attraction_filter(self):
+    def build_cluster_filter(self):
         """
         Build a new filter composite
         :param main_file: File to use for initial data
@@ -22,16 +22,15 @@ class FilterComponentBuilder:
         :param headline: Headline of this filter component
         :return: A div with headline and options
         """
-        radio_buttons = dbc.Checklist(
-            options=[{'label': i, 'value': i} for i in sorted(self.elements)],
-            id='attractions_selection',
-            switch=True,
+        radio_buttons = dbc.RadioItems(
+            options=[{'label': i, 'value': i} for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]],
+            id='cluster_selection',
+            value=0,
             style={
-                'overflowY': 'scroll',
-                'max-height': '120px'
+                'overflowY': 'scroll'
             }
         )
-        html_filter = html.Div([html.H3('Attraction filter'), radio_buttons], id='attractions_filter')
+        html_filter = html.Div([html.H3('Cluster filter'), radio_buttons], id='cluster_filter')
         return html_filter
 
     def build_dff_filter(self, number: str):

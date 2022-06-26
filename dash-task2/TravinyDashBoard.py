@@ -17,6 +17,7 @@ directory = Path().resolve().parent
 main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_3.csv')
 combinations_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/combinations_2.csv')
 topic_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/topic_model.csv')
+cluster_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/location_cluster.csv')
 image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
 # Load stylesheet
@@ -25,8 +26,8 @@ app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
 # Create initial components
 filter_builder = FilterComponentBuilder(main_file)
-attraction_filter = filter_builder.build_attraction_filter()
-scatter_diagram_clustering = ComponentBuilder.build_scatter()
+cluster_filter = filter_builder.build_cluster_filter()
+diagram_clustering = ComponentBuilder.build_clustering()
 topic_charts = ComponentBuilder.build_topic_charts(topic_file)
 
 first_ddf_filter = filter_builder.build_dff_filter('-1')
@@ -42,8 +43,8 @@ own_idea = ComponentBuilder.build_own_idea()
 app.layout = html.Div(children=[
     html.Img(id='traviny_logo'),
     dbc.Row([
-        dbc.Col([attraction_filter]),
-        dbc.Col([scatter_diagram_clustering]), dbc.Col([topic_charts])
+        dbc.Col([cluster_filter]),
+        dbc.Col([diagram_clustering]), dbc.Col([topic_charts])
     ]),
     dbc.Row([
         dbc.Col([first_ddf_filter, second_ddf_filter, third_ddf_filter, fourth_ddf_filter]),
@@ -73,6 +74,15 @@ def make_logo_image(id):
 def update_charts(drop_one_filter, drop_two_filter, drop_three_filter, drop_four_filter):
     filters = [drop_one_filter, drop_two_filter, drop_three_filter, drop_four_filter]
     fig = ComponentBuilder.update_top3_places(main_file, filters)
+    return fig
+
+
+@app.callback(
+    dd.Output('cluster_dia', 'figure'),
+    dd.Input('cluster_selection', 'value'),
+)
+def update_cluster(cluster_filter):
+    fig = ComponentBuilder.update_cluser(cluster_file, cluster_filter)
     return fig
 
 
