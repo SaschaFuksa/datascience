@@ -133,7 +133,7 @@ class ComponentBuilder:
 
         return html.Div([
             html.H2('Own idea'),
-            dcc.Graph(id='own_dia', figure=fig, style={'colspan': '2'}, config={
+            dcc.Graph(id='own_dia', figure=fig, style={'colspan': 2}, config={
                 'displayModeBar': False
             })
         ])
