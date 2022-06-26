@@ -124,9 +124,8 @@ class ComponentBuilder:
             path = [px.Constant('All'), 'continent','country', 'place'], 
             values = 'Cluster',
             color = 'Cluster',
-            color_continuous_scale = 'GnBu'
-            )
-            #width = 1200,
+            color_continuous_scale = 'GnBu',
+            width = 950)
             #height = 450)
 
 
