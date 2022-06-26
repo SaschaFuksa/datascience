@@ -28,12 +28,12 @@ class ComponentBuilder:
     def build_topic_charts(topic_file):
         graph_1 = ComponentBuilder.create_topic_graph(topic_file.loc[topic_file.topic_id == 0, :], 0, 'indianred',
                                                       'lightsalmon')
-        graph_2 = ComponentBuilder.create_topic_graph(topic_file.loc[topic_file.topic_id == 1, :], 1, 'aqua',
+        graph_2 = ComponentBuilder.create_topic_graph(topic_file.loc[topic_file.topic_id == 1, :], 1, 'rgb(102,205,170)',
                                                       'aquamarine')
         graph_3 = ComponentBuilder.create_topic_graph(topic_file.loc[topic_file.topic_id == 2, :], 2, 'darkkhaki',
                                                       'darkseagreen')
-        graph_4 = ComponentBuilder.create_topic_graph(topic_file.loc[topic_file.topic_id == 3, :], 3, 'gold',
-                                                      'goldenrod')
+        graph_4 = ComponentBuilder.create_topic_graph(topic_file.loc[topic_file.topic_id == 3, :], 3, 'rgb(0,191,255)', 
+                                                    'rgb(0,154,205)')
 
         return html.Div([
             html.H2('Topic charts'),
@@ -116,7 +116,7 @@ class ComponentBuilder:
             filters = new_filter
             data = ComponentBuilder.search_in_filter(top3_places_df, filters)
 
-        colours = ['246, 78, 139', '58, 71, 80', '71, 58, 131', '164, 163, 204']
+        colours = ['102,205,170', '58, 71, 80', '71, 58, 131', '60, 163, 204']
         max_len = len(filters)
         colours = colours[:max_len]
         fig = go.Figure()
@@ -128,8 +128,8 @@ class ComponentBuilder:
                 orientation='h',
                 marker=dict(
                     color='rgba(' + colour + ', 0.6)',
-                    line=dict(color='rgba(' + colour + ', 1.0)', width=3)
-                )
+                    line=dict(color='rgba(' + colour + ', 1.0)', width=1.5)
+                ),
             ))
         fig.update_layout(barmode='stack', xaxis_tickangle=-45, margin=dict(l=0, r=0, t=0, b=0), height=200,
                           legend=dict(
@@ -189,7 +189,13 @@ class ComponentBuilder:
 
     @staticmethod
     def update_cluser(cluster_file, cluster_filter):
-        df = cluster_file.loc[cluster_file['w2v_label'] == cluster_filter]
-        df['count'] = 1
-        fig = px.pie(df, values='count', names='place', title='Places of cluster')
+
+        cluster_file['w2v_label'] = cluster_file['w2v_label'].astype(str)
+        cluster_file.rename(columns = {'w2v_label':'Cluster'}, inplace = True)
+
+        fig = px.scatter(cluster_file, x='x', y='y', color="Cluster", hover_data=['place'], template="ggplot2",
+            category_orders={'Cluster': ['0','1','2','3','4','5','6','7','8','9']}
+
+        )
+
         return fig

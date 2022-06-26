@@ -30,7 +30,7 @@ class FilterComponentBuilder:
                 'overflowY': 'scroll'
             }
         )
-        html_filter = html.Div([html.H3('Cluster filter'), radio_buttons], id='cluster_filter')
+        html_filter = html.Div([html.H3('Cluster filter'), radio_buttons], style={'display': 'none'}, id='cluster_filter')
         return html_filter
 
     def build_dff_filter(self, number: str):

@@ -72,6 +72,19 @@ plt.ylabel("Number of points")
 plt.show()
 
 #%%
+# reduce the features to 2D
+from sklearn.decomposition import PCA
+from sklearn.decomposition import TruncatedSVD
+pca = TruncatedSVD(n_components=2, random_state=42)
+reduced_features = pca.fit_transform(count_matrix)
+
+# reduce the cluster centers to 2D
+reduced_cluster_centers = pca.transform(model.cluster_centers_)
+
+plt.scatter(reduced_features[:,0], reduced_features[:,1], model.predict(count_matrix))
+plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
+
+#%%
 df_places
 
 ####################################################
@@ -116,6 +129,19 @@ plt.title('KMeans cluster points')
 plt.xlabel("Cluster number")
 plt.ylabel("Number of points")
 plt.show()
+
+#%%
+# reduce the features to 2D
+from sklearn.decomposition import PCA
+
+pca = TruncatedSVD(n_components=2, random_state=42)
+reduced_features = pca.fit_transform(tfidf_matrix)
+
+# reduce the cluster centers to 2D
+reduced_cluster_centers = pca.transform(model_tf.cluster_centers_)
+
+plt.scatter(reduced_features[:,0], reduced_features[:,1], model_tf.predict(tfidf_matrix))
+plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
 
 #%%
 df_places
@@ -196,11 +222,29 @@ plt.ylabel("Number of points")
 plt.show()
 
 #%%
+# reduce the features to 2D
+from sklearn.decomposition import PCA
+pca = PCA(n_components=2, random_state=42)
+reduced_features = pca.fit_transform(sent_vectors)
+
+# reduce the cluster centers to 2D
+reduced_cluster_centers = pca.transform(model_w2v.cluster_centers_)
+
+plt.scatter(reduced_features[:,0], reduced_features[:,1], model_w2v.predict(sent_vectors))
+plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
+
+
+#%%
 df_places.groupby(['w2v_label'])['cleaned_text'].count()
 #df_places.sort_values(by='w2v_label', ascending=False)
 
 #%%
+df_places['x'] = reduced_features[:,0]
+df_places['y'] = reduced_features[:,1]
 df_places
+
+#%%
+reduced_features.shape
 
 ####################################################
 #   Clustering with DBSCAN                         #
@@ -281,8 +325,36 @@ plt.title('KMeans cluster points')
 plt.xlabel("Cluster number")
 plt.ylabel("Number of points")
 plt.show()
+
+#%%
+#%%
+# reduce the features to 2D
+from sklearn.decomposition import PCA
+from sklearn.decomposition import TruncatedSVD
+pca = PCA(n_components=2, random_state=42)
+reduced_features = pca.fit_transform(sent_vectors)
+
+# reduce the cluster centers to 2D
+#reduced_cluster_centers = pca.transform(cluster.cluster_centers_)
+
+plt.scatter(reduced_features[:,0], reduced_features[:,1], cluster.fit_predict(sent_vectors))
+#plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
+
+
 # %%
 df_places
 # %%
 df_places.to_csv('../crawling-and-preprocessing/content/location_cluster.csv', index=False)
+# %%
+df_places = pd.read_csv('../crawling-and-preprocessing/content/location_cluster.csv')
+df_places
+
+
+#%%
+df_places['x'] = reduced_features[:,0]
+df_places['y'] = reduced_features[:,1]
+df_places
+# %%
+df_places.to_csv('../crawling-and-preprocessing/content/location_cluster.csv', index=False)
+
 # %%
