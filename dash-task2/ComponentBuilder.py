@@ -6,6 +6,7 @@ from dash import html, dcc
 nltk.download('stopwords')
 from plotly.subplots import make_subplots
 import dash_bootstrap_components as dbc
+import plotly.express as px
 from ast import literal_eval
 
 
@@ -15,9 +16,12 @@ class ComponentBuilder:
         pass
 
     @staticmethod
-    def build_scatter():
+    def build_clustering():
         return html.Div([
-            html.H2('Attraction clusters'),
+            html.H2('Clusters'),
+            dcc.Graph(id='cluster_dia', config={
+                'displayModeBar': False
+            }),
         ])
 
     @staticmethod
@@ -182,3 +186,10 @@ class ComponentBuilder:
         df = df.sort_values(by=['sum'], ascending=False)
         df = df[:3]
         return df
+
+    @staticmethod
+    def update_cluser(cluster_file, cluster_filter):
+        df = cluster_file.loc[cluster_file['w2v_label'] == cluster_filter]
+        df['count'] = 1
+        fig = px.pie(df, values='count', names='place', title='Places of cluster')
+        return fig
