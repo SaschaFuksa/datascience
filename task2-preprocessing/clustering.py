@@ -65,11 +65,11 @@ for i in range(10):
 
 #%%
 #visualization of distribution
-plt.bar([x for x in range(10)], df_places.groupby(['count_label'])['cleaned_text'].count(), alpha = 0.4)
-plt.title('KMeans cluster points')
-plt.xlabel("Cluster number")
-plt.ylabel("Number of points")
-plt.show()
+# plt.bar([x for x in range(10)], df_places.groupby(['count_label'])['cleaned_text'].count(), alpha = 0.4)
+# plt.title('KMeans cluster points')
+# plt.xlabel("Cluster number")
+# plt.ylabel("Number of points")
+# plt.show()
 
 #%%
 # reduce the features to 2D
@@ -124,11 +124,11 @@ for i in range(10):
         print()
 
 #%%
-plt.bar([x for x in range(10)], df_places.groupby(['tfidf_label'])['cleaned_text'].count(), alpha = 0.4)
-plt.title('KMeans cluster points')
-plt.xlabel("Cluster number")
-plt.ylabel("Number of points")
-plt.show()
+# plt.bar([x for x in range(10)], df_places.groupby(['tfidf_label'])['cleaned_text'].count(), alpha = 0.4)
+# plt.title('KMeans cluster points')
+# plt.xlabel("Cluster number")
+# plt.ylabel("Number of points")
+# plt.show()
 
 #%%
 # reduce the features to 2D
@@ -192,13 +192,13 @@ for cluster in num_clus:
     squared_errors.append(kmeans.inertia_) # Appending the squared loss obtained in the list
 
 optimal_clusters = np.argmin(squared_errors) + 2 # As argmin return the index of minimum loss.
-plt.plot(num_clus, squared_errors)
-plt.title("Elbow Curve to find the no. of clusters.")
-plt.xlabel("Number of clusters.")
-plt.ylabel("Squared Loss.")
-xy = (optimal_clusters, min(squared_errors))
-plt.annotate('(%s, %s)' % xy, xy = xy, textcoords='data')
-plt.show()
+# plt.plot(num_clus, squared_errors)
+# plt.title("Elbow Curve to find the no. of clusters.")
+# plt.xlabel("Number of clusters.")
+# plt.ylabel("Squared Loss.")
+# xy = (optimal_clusters, min(squared_errors))
+# plt.annotate('(%s, %s)' % xy, xy = xy, textcoords='data')
+# plt.show()
 
 
 #%%
@@ -215,11 +215,11 @@ word_cluster_center=model_w2v.cluster_centers_
 df_places['w2v_label'] = model_w2v.labels_
 df_places.groupby(['w2v_label'])['cleaned_text'].count()
 
-plt.bar([x for x in range(temp_cluster)], df_places.groupby(['w2v_label'])['cleaned_text'].count(), alpha = 0.4)
-plt.title('KMeans cluster points')
-plt.xlabel("Cluster number")
-plt.ylabel("Number of points")
-plt.show()
+# plt.bar([x for x in range(temp_cluster)], df_places.groupby(['w2v_label'])['cleaned_text'].count(), alpha = 0.4)
+# plt.title('KMeans cluster points')
+# plt.xlabel("Cluster number")
+# plt.ylabel("Number of points")
+# plt.show()
 
 #%%
 # reduce the features to 2D
@@ -256,10 +256,10 @@ neighbors = nearest_neighbors.fit(sent_vectors)
 distances, indices = neighbors.kneighbors(sent_vectors)
 distances = np.sort(distances[:,9], axis=0)
 
-fig = plt.figure(figsize=(5, 5))
-plt.plot(distances)
-plt.xlabel("Points")
-plt.ylabel("Distance")
+# fig = plt.figure(figsize=(5, 5))
+# plt.plot(distances)
+# plt.xlabel("Points")
+# plt.ylabel("Distance")
 
 #%%
 i = np.arange(len(distances))
@@ -296,11 +296,11 @@ df_places.groupby(['dbscan_label'])['cleaned_text'].count()
 df_places
 
 #%%
-plt.bar([x for x in range(2)], df_places.groupby(['dbscan_label'])['cleaned_text'].count(), alpha = 0.4)
-plt.title('KMeans cluster points')
-plt.xlabel("Cluster number")
-plt.ylabel("Number of points")
-plt.show()
+# plt.bar([x for x in range(2)], df_places.groupby(['dbscan_label'])['cleaned_text'].count(), alpha = 0.4)
+# plt.title('KMeans cluster points')
+# plt.xlabel("Cluster number")
+# plt.ylabel("Number of points")
+# plt.show()
 
 ####################################################
 #   Clustering hierarchical                        #
@@ -313,18 +313,18 @@ plt.axhline(y=35)# cut at 30 to get 5 clusters
 # %%
 from sklearn.cluster import AgglomerativeClustering
 
-cluster = AgglomerativeClustering(n_clusters=cluster, affinity='euclidean', linkage='ward')  #took n=5 from dendrogram curve 
+cluster = AgglomerativeClustering(n_clusters=cluster, affinity='euclidean', linkage='ward')  #took n=5 from dendrogram curve
 Agg=cluster.fit_predict(sent_vectors)
 # %%
 df_places['h_label'] = cluster.labels_
 df_places.groupby(['h_label'])['cleaned_text'].count()
 # %%
 #%%
-plt.bar([x for x in range(19)], df_places.groupby(['h_label'])['cleaned_text'].count(), alpha = 0.4)
-plt.title('KMeans cluster points')
-plt.xlabel("Cluster number")
-plt.ylabel("Number of points")
-plt.show()
+# plt.bar([x for x in range(19)], df_places.groupby(['h_label'])['cleaned_text'].count(), alpha = 0.4)
+# plt.title('KMeans cluster points')
+# plt.xlabel("Cluster number")
+# plt.ylabel("Number of points")
+# plt.show()
 
 #%%
 #%%
@@ -340,21 +340,3 @@ reduced_features = pca.fit_transform(sent_vectors)
 plt.scatter(reduced_features[:,0], reduced_features[:,1], cluster.fit_predict(sent_vectors))
 #plt.scatter(reduced_cluster_centers[:, 0], reduced_cluster_centers[:,1], marker='x', s=150, c='b')
 
-
-# %%
-df_places
-# %%
-df_places.to_csv('../crawling-and-preprocessing/content/location_cluster.csv', index=False)
-# %%
-df_places = pd.read_csv('../crawling-and-preprocessing/content/location_cluster.csv')
-df_places
-
-
-#%%
-df_places['x'] = reduced_features[:,0]
-df_places['y'] = reduced_features[:,1]
-df_places
-# %%
-df_places.to_csv('../crawling-and-preprocessing/content/location_cluster.csv', index=False)
-
-# %%
