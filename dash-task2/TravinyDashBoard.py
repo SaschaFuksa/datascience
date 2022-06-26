@@ -14,10 +14,10 @@ from FilterComponentBuilder import FilterComponentBuilder
 directory = Path().resolve().parent
 
 # Load data
-main_file = pd.read_csv(str(directory) + '/datascience/crawling-and-preprocessing/content/data_prep_2805_3.csv')
-combinations_file = pd.read_csv(str(directory) + '/datascience/crawling-and-preprocessing/content/combinations_2.csv')
-topic_file = pd.read_csv(str(directory) + '/datascience/crawling-and-preprocessing/content/topic_model.csv')
-cluster_file = pd.read_csv(str(directory) + '/datascience/crawling-and-preprocessing/content/location_cluster.csv')
+main_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/data_prep_2805_3.csv')
+combinations_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/combinations_2.csv')
+topic_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/topic_model.csv')
+cluster_file = pd.read_csv(str(directory) + '/crawling-and-preprocessing/content/location_cluster.csv')
 image_filename = os.path.join(os.getcwd(), 'traviny_logo.png')
 
 
