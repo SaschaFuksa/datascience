@@ -49,7 +49,7 @@ app.layout = html.Div(children=[
     ]),
     dbc.Row([
         #dbc.Col([cluster_filter]),
-        dbc.Col(dbc.Col(top_3_places)), dbc.Col(own_idea), dbc.Col()
+        dbc.Col(dbc.Col(top_3_places)), dbc.Col(own_idea)
     ]),
 ])
 

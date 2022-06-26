@@ -99,7 +99,7 @@ class ComponentBuilder:
     def build_top3_places():
         return html.Div([
             html.H2('Top 3 places'),
-            dcc.Graph(id='top_three_places', config={
+            dcc.Graph(id='top_three_places', style={'width':400}, config={
                 'displayModeBar': False
             }),
         ])
@@ -124,15 +124,16 @@ class ComponentBuilder:
             path = [px.Constant('All'), 'continent','country', 'place'], 
             values = 'Cluster',
             color = 'Cluster',
-            color_continuous_scale = 'GnBu',
-            width = 900,
-            height = 450)
+            color_continuous_scale = 'GnBu'
+            )
+            #width = 1200,
+            #height = 450)
 
 
 
         return html.Div([
             html.H2('Own idea'),
-            dcc.Graph(id='own_dia', figure=fig, config={
+            dcc.Graph(id='own_dia', figure=fig, style={'colspan': '2'}, config={
                 'displayModeBar': False
             })
         ])
