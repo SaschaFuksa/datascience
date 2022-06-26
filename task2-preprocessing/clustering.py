@@ -41,7 +41,8 @@ count_terms[1:10]
 
 #%%
 #cluster with K-Means based on word count
-model = KMeans(n_clusters = clusterNum,init='k-means++',random_state=99)
+
+model = KMeans(n_clusters = clusterNum)
 model.fit(count_matrix)
 
 #%%
@@ -105,7 +106,8 @@ tfid_terms[1:10]
 
 #%%
 #cluster with k-means based on word count
-model_tf = KMeans(n_clusters = clusterNum,random_state=99)
+
+model_tf = KMeans(n_clusters = clusterNum)
 model_tf.fit(tfidf_matrix)
 
 #%%
@@ -170,6 +172,8 @@ for sent in df_places['cleaned_text'].values:
 #%%
 #train model with token/words
 w2v_model=gensim.models.Word2Vec(list_of_w2v, workers=4)
+
+
 
 #%%
 sent_vectors = []; # the avg-w2v for each sentence/review is stored in this train
@@ -334,3 +338,14 @@ plt.show()
 pca = PCA(n_components=2, random_state=42)
 reduced_features = pca.fit_transform(sent_vectors)
 plt.scatter(reduced_features[:,0], reduced_features[:,1], cluster.fit_predict(sent_vectors))
+
+#%%
+df_places.to_csv('location_cluster.csv', index=False)
+
+
+#%%
+
+df_temp = pd.read_csv('../crawling-and-preprocessing/content/location_cluster.csv')
+df_temp
+
+# %%
