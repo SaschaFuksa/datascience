@@ -136,7 +136,7 @@ class ComponentBuilder:
                 'displayModeBar': False
             })
         ])
-
+# Update Dream Destination Finder Filter
     @staticmethod
     def update_top3_places(main_file, filters):
         top3_places_df = main_file[['place', 'singular_cleaned_nouns', 'freq_noun_int']]
@@ -177,6 +177,7 @@ class ComponentBuilder:
 
         return fig
 
+# Search attraction with highest frequency for filter default
     @staticmethod
     def search_in_all(top3_places_df):
         attr_list = []
@@ -195,6 +196,7 @@ class ComponentBuilder:
         filter_list = list(most_distributed_attributes['singular_cleaned_nouns'])
         return ComponentBuilder.search_in_filter(top3_places_df, filter_list), filter_list
 
+# Search for places which contain attractions from filters
     @staticmethod
     def search_in_filter(top3_places_df, filter_list):
         list_cols = ['place']
