@@ -35,6 +35,6 @@ class FilterComponentBuilder:
 
     def build_dff_filter(self, number: str):
         return html.Div([
-            html.H2('DDF ' + number + ' filter'),
+            html.H2('Dream Destination' + number),
             dcc.Dropdown(options=list(self.elements), id='dropdown' + number),
-        ])
+        ], style={'width':400})

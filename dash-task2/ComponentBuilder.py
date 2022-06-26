@@ -2,6 +2,7 @@ import nltk
 import pandas as pd
 import plotly.graph_objects as go
 from dash import html, dcc
+from sklearn import cluster
 
 nltk.download('stopwords')
 from plotly.subplots import make_subplots
@@ -16,10 +17,23 @@ class ComponentBuilder:
         pass
 
     @staticmethod
-    def build_clustering():
+    def build_clustering(cluster_file):
+
+        df_own = cluster_file.copy()
+        #df_own['w2v_label'] = df_own['w2v_label'].astype(str)
+        #df_own.rename(columns = {'w2v_label':'Cluster'}, inplace = True)
+        df_own['Cluster'] = df_own['w2v_label']
+        df_own['Cluster'] = df_own['Cluster'] + 1
+        df_own['Cluster'] = df_own['Cluster'].astype(str)
+
+        fig = px.scatter(df_own, x='x', y='y', color="Cluster", hover_data=['place', 'country', 'continent'], template="ggplot2",
+            category_orders={'Cluster': ['0','1','2','3','4','5','6','7','8','9']}
+
+        )
+
         return html.Div([
             html.H2('Clusters'),
-            dcc.Graph(id='cluster_dia', config={
+            dcc.Graph(id='cluster_dia', figure=fig, config={
                 'displayModeBar': False
             }),
         ])
@@ -97,9 +111,30 @@ class ComponentBuilder:
         ])
 
     @staticmethod
-    def build_own_idea():
+    def build_own_idea(cluster_file):
+
+        df_own = cluster_file.copy()
+        #df_own['w2v_label'] = df_own['w2v_label'].astype(str)
+        #df_own.rename(columns = {'w2v_label':'Cluster'}, inplace = True)
+        df_own['Cluster'] = df_own['w2v_label']
+        df_own['Cluster'] = df_own['Cluster'] + 1
+        df_own['Cluster'] = df_own['Cluster'].astype(str)
+
+        fig = px.treemap(df_own, 
+            path = [px.Constant('All'), 'continent','country', 'place'], 
+            values = 'Cluster',
+            color = 'Cluster',
+            color_continuous_scale = 'GnBu',
+            width = 900,
+            height = 450)
+
+
+
         return html.Div([
             html.H2('Own idea'),
+            dcc.Graph(id='own_dia', figure=fig, config={
+                'displayModeBar': False
+            })
         ])
 
     @staticmethod
@@ -191,9 +226,10 @@ class ComponentBuilder:
     def update_cluser(cluster_file, cluster_filter):
 
         cluster_file['w2v_label'] = cluster_file['w2v_label'].astype(str)
-        cluster_file.rename(columns = {'w2v_label':'Cluster'}, inplace = True)
+        #cluster_file.rename(columns = {'w2v_label':'Cluster'}, inplace = True)
+        cluster_file['Cluster'] = cluster_file['w2v_label']
 
-        fig = px.scatter(cluster_file, x='x', y='y', color="Cluster", hover_data=['place'], template="ggplot2",
+        fig = px.scatter(cluster_file, x='x', y='y', color="Cluster", hover_data=['place', 'country', 'continent'], template="ggplot2",
             category_orders={'Cluster': ['0','1','2','3','4','5','6','7','8','9']}
 
         )

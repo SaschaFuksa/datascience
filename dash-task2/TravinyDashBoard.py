@@ -27,8 +27,8 @@ app = dash.Dash(external_stylesheets=[dbc.themes.MINTY])
 
 # Create initial components
 filter_builder = FilterComponentBuilder(main_file)
-cluster_filter = filter_builder.build_cluster_filter()
-diagram_clustering = ComponentBuilder.build_clustering()
+#cluster_filter = filter_builder.build_cluster_filter()
+diagram_clustering = ComponentBuilder.build_clustering(cluster_file)
 topic_charts = ComponentBuilder.build_topic_charts(topic_file)
 
 first_ddf_filter = filter_builder.build_dff_filter('-1')
@@ -38,7 +38,7 @@ fourth_ddf_filter = filter_builder.build_dff_filter('-4')
 
 top_3_places = ComponentBuilder.build_top3_places()
 top_3_countries = ComponentBuilder.build_top3_countries()
-own_idea = ComponentBuilder.build_own_idea()
+own_idea = ComponentBuilder.build_own_idea(cluster_file)
 
 # Create Layout of site and refer to ids
 app.layout = html.Div(children=[
@@ -48,7 +48,7 @@ app.layout = html.Div(children=[
         dbc.Col([diagram_clustering]), dbc.Col([topic_charts])
     ]),
     dbc.Row([
-        dbc.Col([cluster_filter]),
+        #dbc.Col([cluster_filter]),
         dbc.Col(dbc.Col(top_3_places)), dbc.Col(own_idea)
     ]),
 ])
@@ -78,13 +78,13 @@ def update_charts(drop_one_filter, drop_two_filter, drop_three_filter, drop_four
     return fig
 
 
-@app.callback(
-    dd.Output('cluster_dia', 'figure'),
-    dd.Input('cluster_selection', 'value'),
-)
-def update_cluster(cluster_filter):
-    fig = ComponentBuilder.update_cluser(cluster_file, cluster_filter)
-    return fig
+# @app.callback(
+#     dd.Output('cluster_dia', 'figure'),
+#     dd.Input('cluster_selection', 'value'),
+# )
+# def update_cluster(cluster_filter):
+#     fig = ComponentBuilder.update_cluser(cluster_file, cluster_filter)
+#     return fig
 
 
 # Start app
